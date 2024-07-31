@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "haku-data"
+version = "0.1.0"
+description = "data mining directory for haku"
+authors = ["Mariano J Correa <marianocn98@gmail.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.9,<4.0"
+pandas = "^2.2.2"
+tabula-py = "^2.9.3"
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

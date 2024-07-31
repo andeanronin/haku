@@ -1,0 +1,64 @@
+/* Styles for the landing page container div */
+.landingcontainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Styles for landing page's content div */
+.landingPageContent {
+  text-align: center;
+  z-index: 1;
+  position: absolute; /* Add this */
+}
+
+.landingPageContent p {
+  color: white;
+  font-size: 2em;
+  margin: 10px 0;
+  opacity: 0;
+  animation: fadeIn 2s forwards; /* */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.exploreButton {
+  background-color: rgb(55, 84, 143);
+  color: rgb(255, 255, 255);
+  font-family: "Montserrat";
+  border: none;
+  padding: 15px 25px;
+  font-size: 1.5em;
+  margin: 10px;
+  margin-top: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.3s;
+  opacity: 0;
+  animation: fadeIn 1s forwards;
+  border-radius: 10px;
+}
+
+.exploreButton:hover {
+  background-color: rgb(79, 126, 196);
+  transform: scale(1.05);
+}
+
+.particlesContainer {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+}

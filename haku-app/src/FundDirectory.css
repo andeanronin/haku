@@ -1,0 +1,79 @@
+/* Entire Container */
+.fundDirectoryContainer {
+  text-align: center;
+  background-color: rgba(18, 24, 38);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.fundDirectoryContainer h2 {
+  color: white;
+  margin-top: 5%;
+}
+
+.filtrosContainer {
+  display: flex;
+}
+
+.filtrosContainer p {
+  color: rgb(255, 255, 255);
+  margin: 10px;
+}
+
+/* Div for the fund square elements */
+.fundExploreContainer {
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Styles for Each Square Element */
+.fundSquare {
+  background-color: rgba(30, 36, 50);
+  width: 25%;
+  border: 10px;
+  margin: 10px;
+  padding: 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.fundSquare:hover {
+  background-color: rgb(41, 49, 67);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(20, 165, 255, 0.3);
+}
+
+.fundSquare h3 {
+  font-size: 13px;
+  color: white;
+}
+.fundSquare p {
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  margin: 1%;
+}
+
+/* Styles for the info section */
+.fundSquare-data-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fundSquare-data-div {
+  padding: 1%;
+  display: flex;
+}
+
+.fundSquare-data-div .positive {
+  color: green;
+}
+
+.fundSquare-data-div .negative {
+  color: rgb(179, 4, 4);
+}

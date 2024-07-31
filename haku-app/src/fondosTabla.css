@@ -1,0 +1,253 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+/* TablaFondos.css */
+
+/* Table Page Container */
+.fondos-mutuos-table-page-container {
+  height: 100vh;
+}
+/* Table Heading Styles */
+.fondos-mutuos-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.fondos-mutuos-header-main {
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  margin: 15px;
+  margin-top: 30px;
+}
+
+.fondos-mutuos-heading {
+  color: white;
+  font-size: 1.2em;
+}
+
+/* Styles for the container of the filters */
+.tableFilters-container {
+  display: flex;
+  width: 100%;
+  margin-left: 60px;
+}
+
+/* Styles for the Main Table */
+.table-container {
+  height: 75vh; /* or any height that's less than your viewport */
+  max-height: 90vh;
+  overflow-y: auto;
+  overflow-x: auto; /* Add horizontal scrolling */
+  border-radius: 8px;
+  width: 98%; /* Set the width to 95% of the parent container */
+  margin: 0 auto; /* Center the table container */
+  /*background-color: red;*/
+  margin-bottom: 2%;
+}
+
+.table-container table {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-family: "Inter", "Segoe UI", "Roboto", sans-serif; /* FONT TYPE OF THE TABLE */
+  min-width: 400px;
+  background-color: #1a2b3c;
+  color: #e0e0e0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.table-container thead {
+  background: linear-gradient(to bottom, #2c4b7c, #243b61);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+/* Styles for the Table Titles */
+.fondosMutuosTable thead th {
+  padding: 16px 20px;
+  text-align: left;
+  font-size: 0.9em;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  border-bottom: 2px solid #3a5680;
+  text-align: center;
+  white-space: nowrap; /* Prevent header text from wrapping */
+}
+
+.fondosMutuosTable thead th:hover {
+  background-color: #3a5680;
+}
+
+.fondosMutuosTable tbody tr {
+  transition: background-color 0.3s ease;
+}
+
+/* ads different background color to every other row */
+.fondosMutuosTable tbody tr:nth-of-type(even) {
+  background-color: #1e3048;
+}
+
+/* Hover effect for table rows */
+.fondosMutuosTable tbody tr:hover {
+  background-color: #2a4366;
+}
+
+.fondosMutuosTable tbody td {
+  padding: 14px 20px;
+  font-size: 0.95em;
+  border-bottom: 1px solid #2a3f5f;
+  text-align: center;
+}
+
+.positive {
+  color: #4caf50;
+  font-weight: 500;
+}
+
+.negative {
+  color: #f44336;
+  font-weight: 500;
+}
+
+/* Style for sort indicators */
+th[aria-sort] {
+  cursor: pointer;
+}
+
+th[aria-sort]::after {
+  content: " ▼";
+  font-size: 0.8em;
+  margin-left: 5px;
+  opacity: 0.5;
+}
+
+th[aria-sort="ascending"]::after {
+  content: " ▲";
+  opacity: 1;
+}
+
+th[aria-sort="descending"]::after {
+  content: " ▼";
+  opacity: 1;
+}
+
+/* Add smooth transition for sorting */
+tbody {
+  transition: opacity 0.3s ease;
+}
+
+tbody.sorting {
+  opacity: 0.5;
+}
+
+/* Admin PopUp Styles */
+.admin-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.admin-popup-content {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 35%;
+  max-height: 80%;
+  overflow-y: auto;
+  background-color: #24436c;
+  opacity: 95%;
+}
+
+.admin-popup-content h3 {
+  text-align: center;
+  color: white;
+}
+.admin-popup-content button {
+  cursor: pointer;
+  height: 40px;
+  width: 100%;
+  border-radius: 5px;
+  border: none;
+  color: #1a2b3c;
+  font-size: 1.2em;
+}
+
+.admin-popup-content button:hover {
+  background-color: rgb(217, 213, 213);
+}
+
+.admin-popup-content ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.admin-popup-content li {
+  cursor: pointer;
+  padding: 5px 0;
+  text-align: center;
+  color: white;
+}
+
+.admin-popup-content li:hover {
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  color: #1a2b3c;
+}
+
+/* Filtered Heading Styles */
+.filtered-funds-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.filtered-funds-heading p {
+  margin: 10px;
+  color: white;
+}
+
+.filtered-funds-heading button {
+  height: 100%;
+  background-color: #3a5680;
+  border-radius: 8px;
+  color: white;
+  border: 1px solid #2c405d;
+  padding: 8px;
+  cursor: pointer;
+}
+
+.filtered-funds-heading button:hover {
+  background-color: aliceblue;
+  color: #324b71;
+}
+
+/* Currency DropDown Styles */
+.currency-dropdown {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  width: 100%;
+}
+
+.currency-option {
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: #324b71;
+}
+
+.currency-option:hover {
+  background-color: rgb(89, 119, 193);
+}

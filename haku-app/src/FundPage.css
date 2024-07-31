@@ -1,0 +1,177 @@
+/* Container Styles */
+.fund-page {
+  max-width: 98%;
+  margin: 0 auto;
+  padding: 2rem;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+  background-color: rgba(18, 24, 38);
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Fund Header Styles */
+.fund-header {
+  background: RGB(18, 24, 38);
+  color: white;
+  padding: 2.5rem;
+  border-radius: 12px;
+}
+
+.fund-header__title {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.fund-header__type {
+  font-size: 1.2rem;
+  opacity: 0.9;
+  margin-top: 0.75rem;
+}
+
+/* Fund Info Section */
+.fund-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  width: 80%;
+}
+
+.info-item {
+  background-color: rgba(30, 36, 50);
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.info-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(22, 156, 239, 0.1);
+}
+
+.info-item__title {
+  margin-top: 0;
+  color: #4a69bd;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.info-item__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  color: white;
+}
+
+/* Yearly Returns Table */
+.fund-performance {
+  background-color: RGB(30, 36, 50);
+  padding: 2.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  margin-bottom: 2.5rem;
+  width: 74.5%;
+}
+
+.fund-performance__title {
+  margin-top: 0;
+  color: #4a69bd;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+}
+
+.fund-yearly-returns {
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 0 8px;
+  font-family: "Roboto", sans-serif;
+}
+
+.fund-yearly-returns__header {
+  background-color: #2e437c;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.fund-yearly-returns__cell {
+  padding: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.fund-yearly-returns__row {
+  background-color: rgb(70, 78, 96);
+  transition: transform 0.2s ease;
+}
+
+.fund-yearly-returns__row:hover {
+  transform: scale(1.02);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Stats Section*/
+.fund-stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 25px;
+  width: 80%;
+}
+
+.stat-item {
+  background-color: RGB(30, 36, 50);
+  padding: 1.75rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.stat-item__title {
+  margin-top: 0;
+  color: #4a69bd;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.stat-item__value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 0.5rem;
+  color: white;
+}
+
+.buyButtonContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2%;
+}
+
+.buyFundButton {
+  background-color: #2499c3;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 20px;
+  height: 80px;
+  width: 250px;
+  cursor: pointer;
+  font-size: 1.8em;
+  font-family: Menlo, monospace;
+}
+
+.buyFundButton:hover {
+  background-color: #1d81a6;
+}

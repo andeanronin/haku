@@ -1,0 +1,1101 @@
+<style> .pinta {background-color:#BDBDBD; text-align:right; }</style><b><h3> Reporte Valor Cuota</h3>Fecha y Hora de generación: 04/07/2024 02:29:24 p.m.<div>Fondo: FONDO OPERATIVO </div><div>Fecha Inicio: 1 de Enero del 2014 </div></b><br /><form method="post" action="./ReporteValorCuota.aspx" id="ctl00">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="" />
+</div>
+<span style="font-weight:bold;"></span><div>
+	<table cellspacing="0" align="Right" rules="all" id="grdEVC" style="border-color:#337AB6;border-width:1px;border-style:Solid;border-collapse:collapse;">
+		<tr style="color:White;background-color:#337AB6;font-family:Calibri;font-size:8pt;">
+			<th valign="middle" scope="col">Tipo Fondo</th><th scope="col">Fondo Mutuo</th><th scope="col">Administradora</th><th scope="col">Fec. Inicio Operaci&#243;n</th><th scope="col">Moneda Cuota</th><th scope="col">Valor Cuota</th><th scope="col">
+                        <span style="display:inline-block;height:100px;width:100px;">Variacion desde el Inicio del 2014</span>
+                    </th><th scope="col">
+                        <span style="display:inline-block;height:100px;width:100px;">Rentabilidad(A) 2013</span>
+                    </th><th scope="col">
+                        <span style="display:inline-block;height:100px;width:100px;">Rentabilidad(A) 2012</span>
+                    </th><th scope="col">
+                        <span style="display:inline-block;height:100px;width:100px;">Rentabilidad(A) 2011</span>
+                    </th><th scope="col">
+                        <span style="display:inline-block;height:100px;width:100px;">Rentabilidad(A) 2010</span>
+                    </th><th scope="col">
+                        <span style="display:inline-block;height:100px;width:100px;">Rentabilidad(A) 2009</span>
+                    </th><th scope="col">Patrimonio S/.</th><th scope="col">Patrimonio %</th><th scope="col">Part&#237;cipes N</th><th scope="col">Part&#237;cipes %</th><th scope="col">Inf. Atrasada</th>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>01 - Renta Variable</td><td class="grid_contenido_texto2" style="width:18%;">CREDICORP ACCIONES GLOBAL CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">25/03/2013</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">108.14110301</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>7.83 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">22,520,912.96</td><td class="grid_contenido_numero2" style="width:5%;">0.14 %</td><td class="grid_contenido_numero2" style="width:5%;">125.00</td><td class="grid_contenido_numero2" style="width:5%;">0.04 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>01 - Renta Variable</td><td class="grid_contenido_texto2" style="width:18%;">CREDICORP CAPITAL ACCIONES CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">17/01/2007</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">142.10871082</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-22.01 %</span>  
+                    </td><td>
+                        <span>16.03 %</span>  
+                    </td><td>
+                        <span>-25.70 %</span>    
+                    </td><td>
+                        <span>68.24 %</span>  
+                    </td><td>
+                        <span>72.10 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">139,032,608.22</td><td class="grid_contenido_numero2" style="width:5%;">0.84 %</td><td class="grid_contenido_numero2" style="width:5%;">1,928.00</td><td class="grid_contenido_numero2" style="width:5%;">0.62 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>01 - Renta Variable</td><td class="grid_contenido_texto2" style="width:18%;">DIVISO ACCIONES DIVISO FONDOS SAF S.A.</td><td class="grid_contenido_texto2" style="width:11%;">DIVISO FONDOS SAF S.A.</td><td class="grid_contenido_numero2" style="width:5%;">09/07/2012</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">85.372594</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-15.06 %</span>  
+                    </td><td>
+                        <span>1.70 %</span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">861,061.32</td><td class="grid_contenido_numero2" style="width:5%;">0.01 %</td><td class="grid_contenido_numero2" style="width:5%;">66.00</td><td class="grid_contenido_numero2" style="width:5%;">0.02 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>01 - Renta Variable</td><td class="grid_contenido_texto2" style="width:18%;">IF ACCIONES INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">19/01/2007</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">84.6920</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-18.53 %</span>  
+                    </td><td>
+                        <span>-1.45 %</span>  
+                    </td><td>
+                        <span>-25.75 %</span>    
+                    </td><td>
+                        <span>39.09 %</span>  
+                    </td><td>
+                        <span>35.02 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">32,005,523.34</td><td class="grid_contenido_numero2" style="width:5%;">0.19 %</td><td class="grid_contenido_numero2" style="width:5%;">2,273.00</td><td class="grid_contenido_numero2" style="width:5%;">0.73 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>01 - Renta Variable</td><td class="grid_contenido_texto2" style="width:18%;">Promoinvest Fondo Selectivo PROMOINVEST SAF</td><td class="grid_contenido_texto2" style="width:11%;">PROMOINVEST SAF</td><td class="grid_contenido_numero2" style="width:5%;">14/01/1999</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">4.80129970</td><td>
+                        <span>-0.02 %</span>  
+                    </td><td>
+                        <span>-30.26 %</span>  
+                    </td><td>
+                        <span>9.06 %</span>  
+                    </td><td>
+                        <span>-19.90 %</span>    
+                    </td><td>
+                        <span>43.76 %</span>  
+                    </td><td>
+                        <span>75.81 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">12,693,989.69</td><td class="grid_contenido_numero2" style="width:5%;">0.08 %</td><td class="grid_contenido_numero2" style="width:5%;">698.00</td><td class="grid_contenido_numero2" style="width:5%;">0.22 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>01 - Renta Variable</td><td class="grid_contenido_texto2" style="width:18%;">PROMOINVEST INCASOL PROMOINVEST SAF</td><td class="grid_contenido_texto2" style="width:11%;">PROMOINVEST SAF</td><td class="grid_contenido_numero2" style="width:5%;">11/08/2008</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">0.87154198</td><td>
+                        <span>-0.02 %</span>  
+                    </td><td>
+                        <span>-20.75 %</span>  
+                    </td><td>
+                        <span>-2.64 %</span>  
+                    </td><td>
+                        <span>-20.65 %</span>    
+                    </td><td>
+                        <span>38.68 %</span>  
+                    </td><td>
+                        <span>44.60 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">1,876,992.67</td><td class="grid_contenido_numero2" style="width:5%;">0.01 %</td><td class="grid_contenido_numero2" style="width:5%;">199.00</td><td class="grid_contenido_numero2" style="width:5%;">0.06 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>01 - Renta Variable</td><td class="grid_contenido_texto2" style="width:18%;">SCOTIA FONDO ACCIONES SCOTIA FONDOS</td><td class="grid_contenido_texto2" style="width:11%;">SCOTIA FONDOS</td><td class="grid_contenido_numero2" style="width:5%;">02/04/2008</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">10.97078584</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-12.56 %</span>  
+                    </td><td>
+                        <span>8.95 %</span>  
+                    </td><td>
+                        <span>-21.42 %</span>    
+                    </td><td>
+                        <span>45.69 %</span>  
+                    </td><td>
+                        <span>49.63 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">30,092,869.16</td><td class="grid_contenido_numero2" style="width:5%;">0.18 %</td><td class="grid_contenido_numero2" style="width:5%;">1,010.00</td><td class="grid_contenido_numero2" style="width:5%;">0.32 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>01 - Renta Variable</td><td class="grid_contenido_texto2" style="width:18%;">SURA ACCIONES FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">22/01/2007</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">10.30744370</td><td>
+                        <span>-0.02 %</span>  
+                    </td><td>
+                        <span>-22.04 %</span>  
+                    </td><td>
+                        <span>4.00 %</span>  
+                    </td><td>
+                        <span>-24.22 %</span>    
+                    </td><td>
+                        <span>57.92 %</span>  
+                    </td><td>
+                        <span>54.58 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">94,904,645.81</td><td class="grid_contenido_numero2" style="width:5%;">0.57 %</td><td class="grid_contenido_numero2" style="width:5%;">2,574.00</td><td class="grid_contenido_numero2" style="width:5%;">0.82 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>01 - Renta Variable</td><td class="grid_contenido_texto2" style="width:18%;">SURA MERCADOS INTEGRADOS FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">01/06/2011</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">6.77512380</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-25.05 %</span>  
+                    </td><td>
+                        <span>8.94 %</span>  
+                    </td><td>
+                        <span>-16.80 %</span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">4,627,362.42</td><td class="grid_contenido_numero2" style="width:5%;">0.03 %</td><td class="grid_contenido_numero2" style="width:5%;">158.00</td><td class="grid_contenido_numero2" style="width:5%;">0.05 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>08 - Internacional</td><td class="grid_contenido_texto2" style="width:18%;">IF INTERNACIONAL INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">19/02/2004</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">123.8090</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-0.40 %</span>  
+                    </td><td>
+                        <span>3.08 %</span>  
+                    </td><td>
+                        <span>-20.86 %</span>    
+                    </td><td>
+                        <span>2.60 %</span>  
+                    </td><td>
+                        <span>18.32 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">2,237,413.29</td><td class="grid_contenido_numero2" style="width:5%;">0.01 %</td><td class="grid_contenido_numero2" style="width:5%;">98.00</td><td class="grid_contenido_numero2" style="width:5%;">0.03 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>14 - Renta Mixta Crecimiento Soles</td><td class="grid_contenido_texto2" style="width:18%;">BBVA CRECIMIENTO SOLES CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">27/03/2007</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">122.61840474</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-10.98 %</span>  
+                    </td><td>
+                        <span>6.42 %</span>  
+                    </td><td>
+                        <span>-15.73 %</span>    
+                    </td><td>
+                        <span>34.79 %</span>  
+                    </td><td>
+                        <span>14.52 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">9,258,335.37</td><td class="grid_contenido_numero2" style="width:5%;">0.06 %</td><td class="grid_contenido_numero2" style="width:5%;">367.00</td><td class="grid_contenido_numero2" style="width:5%;">0.12 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>14 - Renta Mixta Crecimiento Soles</td><td class="grid_contenido_texto2" style="width:18%;">CRED. CRECIMIENTO VCS CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">19/06/2008</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">105.80050283</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-11.93 %</span>  
+                    </td><td>
+                        <span>8.67 %</span>  
+                    </td><td>
+                        <span>-20.94 %</span>    
+                    </td><td>
+                        <span>44.63 %</span>  
+                    </td><td>
+                        <span>42.97 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">76,549,685.93</td><td class="grid_contenido_numero2" style="width:5%;">0.46 %</td><td class="grid_contenido_numero2" style="width:5%;">1,773.00</td><td class="grid_contenido_numero2" style="width:5%;">0.57 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>15 - Renta Mixta Crecimiento Dolars</td><td class="grid_contenido_texto2" style="width:18%;">BBVA CRECIMIENTO CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">30/09/2010</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">90.00128718</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-17.40 %</span>  
+                    </td><td>
+                        <span>10.11 %</span>  
+                    </td><td>
+                        <span>-14.56 %</span>    
+                    </td><td>
+                        <span>15.87 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">2,734,014.73</td><td class="grid_contenido_numero2" style="width:5%;">0.02 %</td><td class="grid_contenido_numero2" style="width:5%;">67.00</td><td class="grid_contenido_numero2" style="width:5%;">0.02 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>16 - Renta Mixta Balanceado Soles</td><td class="grid_contenido_texto2" style="width:18%;">IF MIXTO BALANCEADO SOLES INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">30/10/2007</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">85.3938</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-4.59 %</span>  
+                    </td><td>
+                        <span>7.35 %</span>  
+                    </td><td>
+                        <span>-15.20 %</span>    
+                    </td><td>
+                        <span>23.86 %</span>  
+                    </td><td>
+                        <span>17.84 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">12,782,121.94</td><td class="grid_contenido_numero2" style="width:5%;">0.08 %</td><td class="grid_contenido_numero2" style="width:5%;">457.00</td><td class="grid_contenido_numero2" style="width:5%;">0.15 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>16 - Renta Mixta Balanceado Soles</td><td class="grid_contenido_texto2" style="width:18%;">SCOTIA FONDO MIXTO BALAN. S/. SCOTIA FONDOS</td><td class="grid_contenido_texto2" style="width:11%;">SCOTIA FONDOS</td><td class="grid_contenido_numero2" style="width:5%;">08/08/2012</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">9.71607429</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-6.98 %</span>  
+                    </td><td>
+                        <span>4.28 %</span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">4,205,352.84</td><td class="grid_contenido_numero2" style="width:5%;">0.03 %</td><td class="grid_contenido_numero2" style="width:5%;">193.00</td><td class="grid_contenido_numero2" style="width:5%;">0.06 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>17 - Renta Mixta Balanceado D&#243;lares</td><td class="grid_contenido_texto2" style="width:18%;">CRED. EQUILIBRADO CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">09/03/2007</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">124.64529206</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-13.70 %</span>  
+                    </td><td>
+                        <span>10.01 %</span>  
+                    </td><td>
+                        <span>-11.63 %</span>    
+                    </td><td>
+                        <span>30.66 %</span>  
+                    </td><td>
+                        <span>37.44 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">110,853,900.23</td><td class="grid_contenido_numero2" style="width:5%;">0.67 %</td><td class="grid_contenido_numero2" style="width:5%;">1,821.00</td><td class="grid_contenido_numero2" style="width:5%;">0.58 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>17 - Renta Mixta Balanceado D&#243;lares</td><td class="grid_contenido_texto2" style="width:18%;">IF MIXTO BALANCEADO INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">31/12/1995</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">60.9874</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-13.64 %</span>  
+                    </td><td>
+                        <span>6.06 %</span>  
+                    </td><td>
+                        <span>-13.24 %</span>    
+                    </td><td>
+                        <span>25.82 %</span>  
+                    </td><td>
+                        <span>33.32 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">48,673,807.49</td><td class="grid_contenido_numero2" style="width:5%;">0.29 %</td><td class="grid_contenido_numero2" style="width:5%;">1,620.00</td><td class="grid_contenido_numero2" style="width:5%;">0.52 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>17 - Renta Mixta Balanceado D&#243;lares</td><td class="grid_contenido_texto2" style="width:18%;">SCOTIA FONDO MIXTO BALANCEADO SCOTIA FONDOS</td><td class="grid_contenido_texto2" style="width:11%;">SCOTIA FONDOS</td><td class="grid_contenido_numero2" style="width:5%;">17/04/2007</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">11.33490304</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-14.64 %</span>  
+                    </td><td>
+                        <span>10.35 %</span>  
+                    </td><td>
+                        <span>-8.45 %</span>    
+                    </td><td>
+                        <span>26.90 %</span>  
+                    </td><td>
+                        <span>42.19 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">54,887,835.61</td><td class="grid_contenido_numero2" style="width:5%;">0.33 %</td><td class="grid_contenido_numero2" style="width:5%;">1,142.00</td><td class="grid_contenido_numero2" style="width:5%;">0.36 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>18 - Renta Mixta Moderado Soles</td><td class="grid_contenido_texto2" style="width:18%;">CRED. MODERADO VCS CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">16/06/2008</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">114.81468963</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-5.26 %</span>  
+                    </td><td>
+                        <span>7.59 %</span>  
+                    </td><td>
+                        <span>-5.23 %</span>    
+                    </td><td>
+                        <span>13.81 %</span>  
+                    </td><td>
+                        <span>19.82 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">120,159,052.22</td><td class="grid_contenido_numero2" style="width:5%;">0.73 %</td><td class="grid_contenido_numero2" style="width:5%;">1,849.00</td><td class="grid_contenido_numero2" style="width:5%;">0.59 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>18 - Renta Mixta Moderado Soles</td><td class="grid_contenido_texto2" style="width:18%;">IF INVERSION FLEXIBLE INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">30/10/2007</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">107.1036</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>-0.82 %</span>  
+                    </td><td>
+                        <span>9.90 %</span>  
+                    </td><td>
+                        <span>-7.37 %</span>    
+                    </td><td>
+                        <span>12.09 %</span>  
+                    </td><td>
+                        <span>15.50 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">12,234,039.56</td><td class="grid_contenido_numero2" style="width:5%;">0.07 %</td><td class="grid_contenido_numero2" style="width:5%;">403.00</td><td class="grid_contenido_numero2" style="width:5%;">0.13 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>19 - Renta Mixta Moderado D&#243;lares</td><td class="grid_contenido_texto2" style="width:18%;">CRED. MODERADO CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">14/09/2002</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">51.55124677</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-8.79 %</span>  
+                    </td><td>
+                        <span>7.13 %</span>  
+                    </td><td>
+                        <span>-3.99 %</span>    
+                    </td><td>
+                        <span>14.87 %</span>  
+                    </td><td>
+                        <span>20.63 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">226,401,579.45</td><td class="grid_contenido_numero2" style="width:5%;">1.37 %</td><td class="grid_contenido_numero2" style="width:5%;">2,550.00</td><td class="grid_contenido_numero2" style="width:5%;">0.81 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>22 - Inst. Deuda Mediano Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">BBVA RENTA MED. PLAZO S/. CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">17/10/1997</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">252.67000144</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>-1.15 %</span>  
+                    </td><td>
+                        <span>7.05 %</span>  
+                    </td><td>
+                        <span>3.54 %</span>    
+                    </td><td>
+                        <span>1.47 %</span>  
+                    </td><td>
+                        <span>11.37 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">454,140,922.25</td><td class="grid_contenido_numero2" style="width:5%;">2.75 %</td><td class="grid_contenido_numero2" style="width:5%;">8,994.00</td><td class="grid_contenido_numero2" style="width:5%;">2.87 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>22 - Inst. Deuda Mediano Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">CC CONSERV. MED. PLAZO S/. CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">09/03/2007</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">131.92521039</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>-0.67 %</span>  
+                    </td><td>
+                        <span>7.49 %</span>  
+                    </td><td>
+                        <span>5.08 %</span>    
+                    </td><td>
+                        <span>2.45 %</span>  
+                    </td><td>
+                        <span>9.52 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">812,375,647.16</td><td class="grid_contenido_numero2" style="width:5%;">4.92 %</td><td class="grid_contenido_numero2" style="width:5%;">11,054.00</td><td class="grid_contenido_numero2" style="width:5%;">3.53 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>22 - Inst. Deuda Mediano Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">IF MEDIANO PLAZO SOLES INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">14/03/2002</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">160.8998</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>-0.95 %</span>  
+                    </td><td>
+                        <span>7.35 %</span>  
+                    </td><td>
+                        <span>4.81 %</span>    
+                    </td><td>
+                        <span>2.14 %</span>  
+                    </td><td>
+                        <span>9.27 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">434,580,124.73</td><td class="grid_contenido_numero2" style="width:5%;">2.63 %</td><td class="grid_contenido_numero2" style="width:5%;">11,917.00</td><td class="grid_contenido_numero2" style="width:5%;">3.80 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>22 - Inst. Deuda Mediano Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">SURA RENTA SOLES FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">19/05/2006</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">145.52156070</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>-0.77 %</span>  
+                    </td><td>
+                        <span>8.25 %</span>  
+                    </td><td>
+                        <span>5.93 %</span>    
+                    </td><td>
+                        <span>2.48 %</span>  
+                    </td><td>
+                        <span>11.68 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">155,281,443.52</td><td class="grid_contenido_numero2" style="width:5%;">0.94 %</td><td class="grid_contenido_numero2" style="width:5%;">1,112.00</td><td class="grid_contenido_numero2" style="width:5%;">0.35 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>23 - Inst. Deuda Mediano Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">BBVA RENTA MED. PLAZO $ CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">21/10/1997</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">176.87731471</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-1.28 %</span>  
+                    </td><td>
+                        <span>4.16 %</span>  
+                    </td><td>
+                        <span>2.40 %</span>    
+                    </td><td>
+                        <span>3.25 %</span>  
+                    </td><td>
+                        <span>5.08 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">358,367,303.80</td><td class="grid_contenido_numero2" style="width:5%;">2.17 %</td><td class="grid_contenido_numero2" style="width:5%;">6,406.00</td><td class="grid_contenido_numero2" style="width:5%;">2.04 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>23 - Inst. Deuda Mediano Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">CREDICORP CONSER. MED. PLA. $ CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">26/03/1996</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">215.11071218</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-2.14 %</span>  
+                    </td><td>
+                        <span>5.30 %</span>  
+                    </td><td>
+                        <span>4.75 %</span>    
+                    </td><td>
+                        <span>2.18 %</span>  
+                    </td><td>
+                        <span>5.70 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">1,429,361,296.13</td><td class="grid_contenido_numero2" style="width:5%;">8.66 %</td><td class="grid_contenido_numero2" style="width:5%;">17,123.00</td><td class="grid_contenido_numero2" style="width:5%;">5.46 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>23 - Inst. Deuda Mediano Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">IF MEDIANO PLAZO INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">01/09/1997</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">99.9248</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-1.59 %</span>  
+                    </td><td>
+                        <span>4.86 %</span>  
+                    </td><td>
+                        <span>4.78 %</span>    
+                    </td><td>
+                        <span>3.54 %</span>  
+                    </td><td>
+                        <span>4.43 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">421,193,250.34</td><td class="grid_contenido_numero2" style="width:5%;">2.55 %</td><td class="grid_contenido_numero2" style="width:5%;">8,720.00</td><td class="grid_contenido_numero2" style="width:5%;">2.78 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>23 - Inst. Deuda Mediano Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">IF PLUS INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">11/11/2002</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">77.7677</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-0.84 %</span>  
+                    </td><td>
+                        <span>5.13 %</span>  
+                    </td><td>
+                        <span>4.38 %</span>    
+                    </td><td>
+                        <span>3.72 %</span>  
+                    </td><td>
+                        <span>5.21 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">127,269,181.52</td><td class="grid_contenido_numero2" style="width:5%;">0.77 %</td><td class="grid_contenido_numero2" style="width:5%;">1,564.00</td><td class="grid_contenido_numero2" style="width:5%;">0.50 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>24 - Inst. Deuda Corto Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">BBVA CASH SOLES CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">02/12/2008</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">115.56168615</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>2.63 %</span>  
+                    </td><td>
+                        <span>2.98 %</span>  
+                    </td><td>
+                        <span>2.95 %</span>    
+                    </td><td>
+                        <span>1.23 %</span>  
+                    </td><td>
+                        <span>3.42 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">1,399,128,681.92</td><td class="grid_contenido_numero2" style="width:5%;">8.47 %</td><td class="grid_contenido_numero2" style="width:5%;">56,080.00</td><td class="grid_contenido_numero2" style="width:5%;">17.89 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>24 - Inst. Deuda Corto Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">BBVA PERU SOLES CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">23/03/2011</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">110.93653072</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>3.03 %</span>  
+                    </td><td>
+                        <span>3.26 %</span>  
+                    </td><td>
+                        <span>2.61 %</span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">175,740,945.74</td><td class="grid_contenido_numero2" style="width:5%;">1.06 %</td><td class="grid_contenido_numero2" style="width:5%;">223.00</td><td class="grid_contenido_numero2" style="width:5%;">0.07 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>24 - Inst. Deuda Corto Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">BBVA RENTA CORTO PLAZO S/. CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">27/12/2005</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">136.32442731</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>1.44 %</span>  
+                    </td><td>
+                        <span>4.43 %</span>  
+                    </td><td>
+                        <span>3.50 %</span>    
+                    </td><td>
+                        <span>1.14 %</span>  
+                    </td><td>
+                        <span>7.61 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">293,483,153.56</td><td class="grid_contenido_numero2" style="width:5%;">1.78 %</td><td class="grid_contenido_numero2" style="width:5%;">5,406.00</td><td class="grid_contenido_numero2" style="width:5%;">1.72 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>24 - Inst. Deuda Corto Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">CRED. CONSERVAD. LIQUIDEZ S/ CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">06/04/2000</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">226.90949748</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>3.01 %</span>  
+                    </td><td>
+                        <span>3.47 %</span>  
+                    </td><td>
+                        <span>3.25 %</span>    
+                    </td><td>
+                        <span>1.36 %</span>  
+                    </td><td>
+                        <span>3.76 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">1,737,046,356.08</td><td class="grid_contenido_numero2" style="width:5%;">10.52 %</td><td class="grid_contenido_numero2" style="width:5%;">27,717.00</td><td class="grid_contenido_numero2" style="width:5%;">8.84 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>24 - Inst. Deuda Corto Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">DIVISO CONSERVADOR SOLES DIVISO FONDOS SAF S.A.</td><td class="grid_contenido_texto2" style="width:11%;">DIVISO FONDOS SAF S.A.</td><td class="grid_contenido_numero2" style="width:5%;">31/07/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">102.797850</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>1.44 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">11,447,695.11</td><td class="grid_contenido_numero2" style="width:5%;">0.07 %</td><td class="grid_contenido_numero2" style="width:5%;">76.00</td><td class="grid_contenido_numero2" style="width:5%;">0.02 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>24 - Inst. Deuda Corto Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">IF CASH SOLES INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">20/06/2008</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">123.2243</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>1.95 %</span>  
+                    </td><td>
+                        <span>4.49 %</span>  
+                    </td><td>
+                        <span>3.56 %</span>    
+                    </td><td>
+                        <span>1.79 %</span>  
+                    </td><td>
+                        <span>5.70 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">211,479,510.09</td><td class="grid_contenido_numero2" style="width:5%;">1.28 %</td><td class="grid_contenido_numero2" style="width:5%;">7,510.00</td><td class="grid_contenido_numero2" style="width:5%;">2.40 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>24 - Inst. Deuda Corto Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">SURA CORTO PLAZO SOLES FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">25/03/2009</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">122.06527510</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>2.93 %</span>  
+                    </td><td>
+                        <span>4.62 %</span>  
+                    </td><td>
+                        <span>4.03 %</span>    
+                    </td><td>
+                        <span>2.47 %</span>  
+                    </td><td>
+                        <span>4.12 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">145,231,717.67</td><td class="grid_contenido_numero2" style="width:5%;">0.88 %</td><td class="grid_contenido_numero2" style="width:5%;">689.00</td><td class="grid_contenido_numero2" style="width:5%;">0.22 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>24 - Inst. Deuda Corto Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">SURA ULTRA CASH SOLES FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">09/05/2012</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">106.79881230</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>3.28 %</span>  
+                    </td><td>
+                        <span>2.19 %</span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">93,705,386.46</td><td class="grid_contenido_numero2" style="width:5%;">0.57 %</td><td class="grid_contenido_numero2" style="width:5%;">507.00</td><td class="grid_contenido_numero2" style="width:5%;">0.16 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>25 - Inst. Deuda Corto Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">BBVA CASH DOLARES CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">02/12/2008</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">104.39399364</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>0.65 %</span>  
+                    </td><td>
+                        <span>0.81 %</span>  
+                    </td><td>
+                        <span>0.56 %</span>    
+                    </td><td>
+                        <span>0.98 %</span>  
+                    </td><td>
+                        <span>0.94 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">888,739,367.17</td><td class="grid_contenido_numero2" style="width:5%;">5.38 %</td><td class="grid_contenido_numero2" style="width:5%;">12,812.00</td><td class="grid_contenido_numero2" style="width:5%;">4.09 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>25 - Inst. Deuda Corto Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">BBVA RENTA CORTO PLAZO $ CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">16/06/2000</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">151.07825763</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-0.13 %</span>  
+                    </td><td>
+                        <span>1.68 %</span>  
+                    </td><td>
+                        <span>0.51 %</span>    
+                    </td><td>
+                        <span>1.60 %</span>  
+                    </td><td>
+                        <span>4.08 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">272,582,873.73</td><td class="grid_contenido_numero2" style="width:5%;">1.65 %</td><td class="grid_contenido_numero2" style="width:5%;">3,894.00</td><td class="grid_contenido_numero2" style="width:5%;">1.24 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>25 - Inst. Deuda Corto Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">CRED. CONSERVADOR LIQUIDEZ $ CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">06/05/1999</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">156.98774692</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>0.78 %</span>  
+                    </td><td>
+                        <span>1.01 %</span>  
+                    </td><td>
+                        <span>0.78 %</span>    
+                    </td><td>
+                        <span>0.74 %</span>  
+                    </td><td>
+                        <span>0.61 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">1,876,238,037.32</td><td class="grid_contenido_numero2" style="width:5%;">11.36 %</td><td class="grid_contenido_numero2" style="width:5%;">14,229.00</td><td class="grid_contenido_numero2" style="width:5%;">4.54 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>25 - Inst. Deuda Corto Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">IF CASH INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">27/11/2001</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">71.6451</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-0.37 %</span>  
+                    </td><td>
+                        <span>2.07 %</span>  
+                    </td><td>
+                        <span>1.95 %</span>    
+                    </td><td>
+                        <span>2.07 %</span>  
+                    </td><td>
+                        <span>3.18 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">202,430,993.61</td><td class="grid_contenido_numero2" style="width:5%;">1.23 %</td><td class="grid_contenido_numero2" style="width:5%;">4,868.00</td><td class="grid_contenido_numero2" style="width:5%;">1.55 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>25 - Inst. Deuda Corto Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">SURA CORTO PLAZO DOLARES FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">31/08/2009</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">109.84746160</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>0.90 %</span>  
+                    </td><td>
+                        <span>2.57 %</span>  
+                    </td><td>
+                        <span>2.96 %</span>    
+                    </td><td>
+                        <span>1.76 %</span>  
+                    </td><td>
+                        <span>0.53 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">65,264,471.38</td><td class="grid_contenido_numero2" style="width:5%;">0.40 %</td><td class="grid_contenido_numero2" style="width:5%;">192.00</td><td class="grid_contenido_numero2" style="width:5%;">0.06 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>25 - Inst. Deuda Corto Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">SURA ULTRA CASH DOLARES FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">19/07/2012</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">102.23741580</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>0.85 %</span>  
+                    </td><td>
+                        <span>0.58 %</span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">22,633,465.59</td><td class="grid_contenido_numero2" style="width:5%;">0.14 %</td><td class="grid_contenido_numero2" style="width:5%;">178.00</td><td class="grid_contenido_numero2" style="width:5%;">0.06 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>26 - Inst.Deuda Muy Corto Plazo S/</td><td class="grid_contenido_texto2" style="width:18%;">IF EXTRA CONSERVADOR SOLES INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">15/11/2008</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">116.4841</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>2.82 %</span>  
+                    </td><td>
+                        <span>3.17 %</span>  
+                    </td><td>
+                        <span>3.29 %</span>    
+                    </td><td>
+                        <span>1.06 %</span>  
+                    </td><td>
+                        <span>4.19 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">294,921,238.71</td><td class="grid_contenido_numero2" style="width:5%;">1.79 %</td><td class="grid_contenido_numero2" style="width:5%;">12,665.00</td><td class="grid_contenido_numero2" style="width:5%;">4.04 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>27 - Inst Deuda Muy Corto Plazo $</td><td class="grid_contenido_texto2" style="width:18%;">IF EXTRA CONSERVADOR INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">14/11/2008</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">105.4582</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>0.81 %</span>  
+                    </td><td>
+                        <span>1.02 %</span>  
+                    </td><td>
+                        <span>0.88 %</span>    
+                    </td><td>
+                        <span>1.55 %</span>  
+                    </td><td>
+                        <span>0.90 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">399,599,704.92</td><td class="grid_contenido_numero2" style="width:5%;">2.42 %</td><td class="grid_contenido_numero2" style="width:5%;">4,348.00</td><td class="grid_contenido_numero2" style="width:5%;">1.39 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>29 - Flexible</td><td class="grid_contenido_texto2" style="width:18%;">CRED. MULTIESTRATEGIA CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">26/10/2012</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">90.00439278</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-13.46 %</span>  
+                    </td><td>
+                        <span>3.84 %</span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">21,194,506.36</td><td class="grid_contenido_numero2" style="width:5%;">0.13 %</td><td class="grid_contenido_numero2" style="width:5%;">345.00</td><td class="grid_contenido_numero2" style="width:5%;">0.11 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>29 - Flexible</td><td class="grid_contenido_texto2" style="width:18%;">DIVISO FLEXIBLE SOLES DIVISO FONDOS SAF S.A.</td><td class="grid_contenido_texto2" style="width:11%;">DIVISO FONDOS SAF S.A.</td><td class="grid_contenido_numero2" style="width:5%;">18/04/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">95.380475</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>-5.09 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">4,048,033.61</td><td class="grid_contenido_numero2" style="width:5%;">0.02 %</td><td class="grid_contenido_numero2" style="width:5%;">60.00</td><td class="grid_contenido_numero2" style="width:5%;">0.02 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>29 - Flexible</td><td class="grid_contenido_texto2" style="width:18%;">IF OPORTUNIDAD INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">06/12/2013</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">50.0428</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>0.09 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">36,636,178.49</td><td class="grid_contenido_numero2" style="width:5%;">0.22 %</td><td class="grid_contenido_numero2" style="width:5%;">327.00</td><td class="grid_contenido_numero2" style="width:5%;">0.10 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>29 - Flexible</td><td class="grid_contenido_texto2" style="width:18%;">IF OPORTUNIDAD SOLES INTERFONDO</td><td class="grid_contenido_texto2" style="width:11%;">INTERFONDO</td><td class="grid_contenido_numero2" style="width:5%;">16/11/2012</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">103.9545</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>3.29 %</span>  
+                    </td><td>
+                        <span>0.57 %</span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">208,606,615.43</td><td class="grid_contenido_numero2" style="width:5%;">1.26 %</td><td class="grid_contenido_numero2" style="width:5%;">4,815.00</td><td class="grid_contenido_numero2" style="width:5%;">1.54 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>29 - Flexible</td><td class="grid_contenido_texto2" style="width:18%;">SCOTIA DEP&#211;SITO DISPONIBLE S/. SCOTIA FONDOS</td><td class="grid_contenido_texto2" style="width:11%;">SCOTIA FONDOS</td><td class="grid_contenido_numero2" style="width:5%;">16/08/2011</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">10.74081660</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>2.74 %</span>  
+                    </td><td>
+                        <span>3.14 %</span>  
+                    </td><td>
+                        <span>1.24 %</span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">348,782,447.48</td><td class="grid_contenido_numero2" style="width:5%;">2.11 %</td><td class="grid_contenido_numero2" style="width:5%;">12,486.00</td><td class="grid_contenido_numero2" style="width:5%;">3.98 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>29 - Flexible</td><td class="grid_contenido_texto2" style="width:18%;">SCOTIA FONDO CASH $ SCOTIA FONDOS</td><td class="grid_contenido_texto2" style="width:11%;">SCOTIA FONDOS</td><td class="grid_contenido_numero2" style="width:5%;">07/03/2001</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">15.02969988</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-0.47 %</span>  
+                    </td><td>
+                        <span>2.47 %</span>  
+                    </td><td>
+                        <span>1.22 %</span>    
+                    </td><td>
+                        <span>2.17 %</span>  
+                    </td><td>
+                        <span>2.96 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">297,333,779.68</td><td class="grid_contenido_numero2" style="width:5%;">1.80 %</td><td class="grid_contenido_numero2" style="width:5%;">6,450.00</td><td class="grid_contenido_numero2" style="width:5%;">2.06 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>29 - Flexible</td><td class="grid_contenido_texto2" style="width:18%;">SCOTIA FONDO CASH S/. SCOTIA FONDOS</td><td class="grid_contenido_texto2" style="width:11%;">SCOTIA FONDOS</td><td class="grid_contenido_numero2" style="width:5%;">21/06/2001</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">16.94485872</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>2.28 %</span>  
+                    </td><td>
+                        <span>4.56 %</span>  
+                    </td><td>
+                        <span>3.57 %</span>    
+                    </td><td>
+                        <span>1.42 %</span>  
+                    </td><td>
+                        <span>6.40 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">387,250,468.28</td><td class="grid_contenido_numero2" style="width:5%;">2.35 %</td><td class="grid_contenido_numero2" style="width:5%;">14,382.00</td><td class="grid_contenido_numero2" style="width:5%;">4.59 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>29 - Flexible</td><td class="grid_contenido_texto2" style="width:18%;">SCOTIA FONDO PREMIUM $ SCOTIA FONDOS</td><td class="grid_contenido_texto2" style="width:11%;">SCOTIA FONDOS</td><td class="grid_contenido_numero2" style="width:5%;">02/07/1996</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">22.40991439</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-2.75 %</span>  
+                    </td><td>
+                        <span>6.40 %</span>  
+                    </td><td>
+                        <span>4.44 %</span>    
+                    </td><td>
+                        <span>2.77 %</span>  
+                    </td><td>
+                        <span>4.73 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">585,041,458.91</td><td class="grid_contenido_numero2" style="width:5%;">3.54 %</td><td class="grid_contenido_numero2" style="width:5%;">9,832.00</td><td class="grid_contenido_numero2" style="width:5%;">3.14 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>29 - Flexible</td><td class="grid_contenido_texto2" style="width:18%;">SCOTIA FONDO PREMIUM S/. SCOTIA FONDOS</td><td class="grid_contenido_texto2" style="width:11%;">SCOTIA FONDOS</td><td class="grid_contenido_numero2" style="width:5%;">17/04/2007</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">13.00345168</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>-0.72 %</span>  
+                    </td><td>
+                        <span>8.38 %</span>  
+                    </td><td>
+                        <span>5.24 %</span>    
+                    </td><td>
+                        <span>1.46 %</span>  
+                    </td><td>
+                        <span>9.11 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">442,866,286.35</td><td class="grid_contenido_numero2" style="width:5%;">2.68 %</td><td class="grid_contenido_numero2" style="width:5%;">11,091.00</td><td class="grid_contenido_numero2" style="width:5%;">3.54 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">CRED. DEUDA GLOBAL CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">25/03/2013</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">96.86176547</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-3.42 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">26,816,800.04</td><td class="grid_contenido_numero2" style="width:5%;">0.16 %</td><td class="grid_contenido_numero2" style="width:5%;">128.00</td><td class="grid_contenido_numero2" style="width:5%;">0.04 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">CRED. EQUILIBRADO VCS CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">16/06/2008</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">108.09277334</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-8.56 %</span>  
+                    </td><td>
+                        <span>8.58 %</span>  
+                    </td><td>
+                        <span>-13.27 %</span>    
+                    </td><td>
+                        <span>28.55 %</span>  
+                    </td><td>
+                        <span>30.96 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">66,767,746.77</td><td class="grid_contenido_numero2" style="width:5%;">0.40 %</td><td class="grid_contenido_numero2" style="width:5%;">1,353.00</td><td class="grid_contenido_numero2" style="width:5%;">0.43 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">CREDI. ACC. LATAM-PACIFICO CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">14/08/2012</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">87.05842020</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-15.12 %</span>  
+                    </td><td>
+                        <span>2.68 %</span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">6,030,613.82</td><td class="grid_contenido_numero2" style="width:5%;">0.04 %</td><td class="grid_contenido_numero2" style="width:5%;">87.00</td><td class="grid_contenido_numero2" style="width:5%;">0.03 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FdeF BBVA Generacion de Flujo CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">01/03/2010</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">111.25223726</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-11.41 %</span>  
+                    </td><td>
+                        <span>8.37 %</span>  
+                    </td><td>
+                        <span>-7.40 %</span>    
+                    </td><td>
+                        <span>25.29 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">13,589,924.83</td><td class="grid_contenido_numero2" style="width:5%;">0.08 %</td><td class="grid_contenido_numero2" style="width:5%;">236.00</td><td class="grid_contenido_numero2" style="width:5%;">0.08 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FdeF BBVA Preservacion Capital CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">23/02/2010</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">106.83778603</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-6.50 %</span>  
+                    </td><td>
+                        <span>4.54 %</span>  
+                    </td><td>
+                        <span>-3.02 %</span>    
+                    </td><td>
+                        <span>12.75 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">11,236,409.28</td><td class="grid_contenido_numero2" style="width:5%;">0.07 %</td><td class="grid_contenido_numero2" style="width:5%;">219.00</td><td class="grid_contenido_numero2" style="width:5%;">0.07 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FdF SURA RENTA DOLARES FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">14/06/2005</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">134.05736920</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-3.92 %</span>  
+                    </td><td>
+                        <span>5.92 %</span>  
+                    </td><td>
+                        <span>3.84 %</span>    
+                    </td><td>
+                        <span>2.70 %</span>  
+                    </td><td>
+                        <span>4.29 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">63,079,937.18</td><td class="grid_contenido_numero2" style="width:5%;">0.38 %</td><td class="grid_contenido_numero2" style="width:5%;">473.00</td><td class="grid_contenido_numero2" style="width:5%;">0.15 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FF BBVA ACC TENDENC GLOB CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">15/04/2010</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">103.87889059</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-21.61 %</span>  
+                    </td><td>
+                        <span>13.35 %</span>  
+                    </td><td>
+                        <span>-18.96 %</span>    
+                    </td><td>
+                        <span>44.77 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">11,128,135.92</td><td class="grid_contenido_numero2" style="width:5%;">0.07 %</td><td class="grid_contenido_numero2" style="width:5%;">241.00</td><td class="grid_contenido_numero2" style="width:5%;">0.08 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FF BBVA ESTRATE CONSERV $ CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">06/06/2002</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">143.80869381</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-0.97 %</span>  
+                    </td><td>
+                        <span>5.38 %</span>  
+                    </td><td>
+                        <span>1.61 %</span>    
+                    </td><td>
+                        <span>3.69 %</span>  
+                    </td><td>
+                        <span>4.48 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">83,760,413.58</td><td class="grid_contenido_numero2" style="width:5%;">0.51 %</td><td class="grid_contenido_numero2" style="width:5%;">252.00</td><td class="grid_contenido_numero2" style="width:5%;">0.08 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FF BBVA ESTRATE CONSERV S/ CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">21/04/1998</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">210.79015014</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-5.45 %</span>  
+                    </td><td>
+                        <span>5.30 %</span>  
+                    </td><td>
+                        <span>-3.00 %</span>    
+                    </td><td>
+                        <span>13.86 %</span>  
+                    </td><td>
+                        <span>24.71 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">42,790,580.97</td><td class="grid_contenido_numero2" style="width:5%;">0.26 %</td><td class="grid_contenido_numero2" style="width:5%;">915.00</td><td class="grid_contenido_numero2" style="width:5%;">0.29 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FF BBVA ESTRATE DINAMICO $ CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">06/10/2011</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">93.26337196</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-19.62 %</span>  
+                    </td><td>
+                        <span>11.50 %</span>  
+                    </td><td>
+                        <span>4.20 %</span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">23,212,942.08</td><td class="grid_contenido_numero2" style="width:5%;">0.14 %</td><td class="grid_contenido_numero2" style="width:5%;">330.00</td><td class="grid_contenido_numero2" style="width:5%;">0.11 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FF BBVA ESTRATE DINAMICO S/ CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">16/03/2007</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">105.59919252</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>-14.68 %</span>  
+                    </td><td>
+                        <span>8.50 %</span>  
+                    </td><td>
+                        <span>-22.19 %</span>    
+                    </td><td>
+                        <span>62.94 %</span>  
+                    </td><td>
+                        <span>56.22 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">64,712,651.56</td><td class="grid_contenido_numero2" style="width:5%;">0.39 %</td><td class="grid_contenido_numero2" style="width:5%;">2,008.00</td><td class="grid_contenido_numero2" style="width:5%;">0.64 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FF BBVA ESTRATE EQUILIBRA S/ CONTINENTAL FM</td><td class="grid_contenido_texto2" style="width:11%;">CONTINENTAL FM</td><td class="grid_contenido_numero2" style="width:5%;">19/03/2007</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">113.71863422</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>-7.93 %</span>  
+                    </td><td>
+                        <span>6.46 %</span>  
+                    </td><td>
+                        <span>-9.28 %</span>    
+                    </td><td>
+                        <span>28.14 %</span>  
+                    </td><td>
+                        <span>40.72 %</span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">31,672,120.09</td><td class="grid_contenido_numero2" style="width:5%;">0.19 %</td><td class="grid_contenido_numero2" style="width:5%;">917.00</td><td class="grid_contenido_numero2" style="width:5%;">0.29 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FONDO D FONDOS DEUDA LATAM CREDIFONDO SAF</td><td class="grid_contenido_texto2" style="width:11%;">CREDIFONDO SAF</td><td class="grid_contenido_numero2" style="width:5%;">07/08/2012</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">99.22480548</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>-2.25 %</span>  
+                    </td><td>
+                        <span>1.43 %</span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">14,602,304.56</td><td class="grid_contenido_numero2" style="width:5%;">0.09 %</td><td class="grid_contenido_numero2" style="width:5%;">135.00</td><td class="grid_contenido_numero2" style="width:5%;">0.04 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">SURA CAPITAL ESTRATEGICO I FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">02/10/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">0</td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">1,798,567.80</td><td class="grid_contenido_numero2" style="width:5%;">0.01 %</td><td class="grid_contenido_numero2" style="width:5%;">159.00</td><td class="grid_contenido_numero2" style="width:5%;">0.05 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FONDOS SURA SAF-SURA CAPITAL ESTRATEGICO I  SERIE A</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">02/10/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">101.43940470</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>1.07 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">55.00</td><td class="grid_contenido_numero2" style="width:5%;">0.02 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FONDOS SURA SAF-SURA CAPITAL ESTRATEGICO I  SERIE B</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">02/10/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">101.50086540</td><td>
+                        <span>0.01 %</span>  
+                    </td><td>
+                        <span>1.13 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">105.00</td><td class="grid_contenido_numero2" style="width:5%;">0.03 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">SURA CAPITAL ESTRATEGICO II FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">02/10/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">0</td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">16,765,557.27</td><td class="grid_contenido_numero2" style="width:5%;">0.10 %</td><td class="grid_contenido_numero2" style="width:5%;">584.00</td><td class="grid_contenido_numero2" style="width:5%;">0.19 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FONDOS SURA SAF-SURA CAPITAL ESTRATEGICO II  SERIE A</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">02/10/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">101.83507510</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>1.38 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">446.00</td><td class="grid_contenido_numero2" style="width:5%;">0.14 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FONDOS SURA SAF-SURA CAPITAL ESTRATEGICO II  SERIE B</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">02/10/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">101.89578930</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>1.44 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">149.00</td><td class="grid_contenido_numero2" style="width:5%;">0.05 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">SURA CAPITAL ESTRATEGICO III FONDOS SURA SAF</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">02/10/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">0</td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">2,222,391.09</td><td class="grid_contenido_numero2" style="width:5%;">0.01 %</td><td class="grid_contenido_numero2" style="width:5%;">167.00</td><td class="grid_contenido_numero2" style="width:5%;">0.05 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FONDOS SURA SAF-SURA CAPITAL ESTRATEGICO III  SERIE A</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">02/10/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">101.58123640</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>1.56 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">50.00</td><td class="grid_contenido_numero2" style="width:5%;">0.02 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="color:#000000;background-color:#FFFFFF;border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>30 - Fondo de Fondos</td><td class="grid_contenido_texto2" style="width:18%;">FONDOS SURA SAF-SURA CAPITAL ESTRATEGICO III  SERIE B</td><td class="grid_contenido_texto2" style="width:11%;">FONDOS SURA SAF</td><td class="grid_contenido_numero2" style="width:5%;">02/10/2013</td><td class="grid_contenido_numero2" style="width:5%;">S/.</td><td class="grid_contenido_numero2" style="width:8%;">101.64263390</td><td>
+                        <span>-0.01 %</span>  
+                    </td><td>
+                        <span>1.62 %</span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">&nbsp;</td><td class="grid_contenido_numero2" style="width:5%;">119.00</td><td class="grid_contenido_numero2" style="width:5%;">0.04 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr><tr style="border-color:#337AB6;border-width:1pt;border-style:Solid;font-size:8pt;">
+			<td>33 - Flexible D&#243;lares</td><td class="grid_contenido_texto2" style="width:18%;">SCOTIA DEP&#211;SITO DISPONIBLE $ SCOTIA FONDOS</td><td class="grid_contenido_texto2" style="width:11%;">SCOTIA FONDOS</td><td class="grid_contenido_numero2" style="width:5%;">17/08/2011</td><td class="grid_contenido_numero2" style="width:5%;">$</td><td class="grid_contenido_numero2" style="width:8%;">10.22568386</td><td>
+                        <span>0.00 %</span>  
+                    </td><td>
+                        <span>0.72 %</span>  
+                    </td><td>
+                        <span>1.14 %</span>  
+                    </td><td>
+                        <span>0.35 %</span>    
+                    </td><td>
+                        <span></span>  
+                    </td><td>
+                        <span></span>  
+                    </td><td class="grid_contenido_numero2" style="width:8%;">395,937,308.63</td><td class="grid_contenido_numero2" style="width:5%;">2.40 %</td><td class="grid_contenido_numero2" style="width:5%;">4,905.00</td><td class="grid_contenido_numero2" style="width:5%;">1.56 %</td><td class="grid_contenido_numero2" style="width:8%;">01/01/2014</td>
+		</tr>
+	</table>
+</div></form><div>IGBVL: 15,753.65 </div><div>ISBVL: 22,877.82 </div><div>TIPOCAMBIO: 2.7962 </div>
