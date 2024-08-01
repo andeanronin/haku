@@ -1,3 +1,8 @@
+/* 
+This component creates an interactive table containing fund data 
+Each fund corresponds to a row in the table.
+The table has additional features, like filtering by fund type, administrator, currency, return and fund size.
+*/
 import importedData from "./assets/fondos-mutuos-whole.json";
 import { useState, useEffect, useMemo } from "react";
 import "./fondosTabla.css";
@@ -207,7 +212,7 @@ function TablaFondos() {
                   onClick={() => setShowAdminPopup(true)}
                   style={{ cursor: "pointer" }}
                 >
-                  Administradora {selectedAdmin ? "▼" : "▲"}
+                  Gestor {selectedAdmin ? "▼" : "▲"}
                 </th>
                 <th>Inicio Operación</th>
                 <th
@@ -308,7 +313,7 @@ function TablaFondos() {
         </div>
       </div>
 
-      <FundList showHeader={false} />
+      <FundList showHeader={false} showFooter={false} />
 
       {showAdminPopup && (
         <AdminPopup

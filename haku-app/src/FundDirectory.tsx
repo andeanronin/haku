@@ -1,9 +1,15 @@
+/* 
+This component renders all of the mutual fund data in visually appealing boxes for each Fund.
+The user can scroll this page to explore mutual funds. 
+*/
+
 import fundData from "./assets/fondos-mutuos-whole.json";
 import "./FundDirectory.css";
 import { useNavigate } from "react-router-dom";
 import Header from "./Header";
+import FooterComponent from "./footerComp";
 
-function FundList({ showHeader = true }) {
+function FundList({ showHeader = true, showFooter = true }) {
   const navigate = useNavigate();
 
   const getColor = (value: number | null) => {
@@ -65,6 +71,7 @@ function FundList({ showHeader = true }) {
           })}
         </div>
       </div>
+      <FooterComponent show={showFooter} />
     </>
   );
 }

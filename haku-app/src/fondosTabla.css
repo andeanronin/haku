@@ -172,6 +172,7 @@ tbody.sorting {
   text-align: center;
   color: white;
 }
+
 .admin-popup-content button {
   cursor: pointer;
   height: 40px;
@@ -180,6 +181,13 @@ tbody.sorting {
   border: none;
   color: #1a2b3c;
   font-size: 1.2em;
+}
+
+.admin-popup-content .close-button {
+  width: 2.8%;
+  border-radius: 150px;
+  position: absolute;
+  font-weight: bold;
 }
 
 .admin-popup-content button:hover {

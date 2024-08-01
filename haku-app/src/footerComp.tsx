@@ -1,6 +1,8 @@
 import "./footerComp.css";
 
-function FooterComponent() {
+function FooterComponent({ show = true }) {
+  if (!show) return null;
+
   return (
     <footer className="footer">
       <p className="footerText">Desarrollado x Andean Rōnin</p>

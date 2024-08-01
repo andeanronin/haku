@@ -10,7 +10,7 @@ function Header({ show = true }) {
       <div className="mainHeader-container">
         <p onClick={() => navigate("/")}>Haku</p>
         <div className="mainHeader-subcontainer">
-          <p onClick={() => navigate("/explora-fondos")}>Explora</p>
+          <p onClick={() => navigate("/explora-fondos")}>Explora Fondos</p>
           <p>Asesórate</p>
         </div>
       </div>
