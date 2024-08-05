@@ -18,6 +18,7 @@
   color: white;
   padding: 2.5rem;
   border-radius: 12px;
+  margin-top: 2.5rem;
 }
 
 .fund-header__title {
@@ -160,7 +161,7 @@
 }
 
 .buyFundButton {
-  background-color: #2499c3;
+  background-color: #2e437c;
   color: white;
   border: none;
   font-size: 20px;
@@ -173,5 +174,5 @@
 }
 
 .buyFundButton:hover {
-  background-color: #1d81a6;
+  background-color: #394e8a;
 }

@@ -1,5 +1,5 @@
 .mainHeader {
-  position: absolute;
+  position: fixed;
   width: 100%;
   z-index: 100;
 }
@@ -11,21 +11,22 @@
   background-color: transparent;
   cursor: pointer;
   padding-right: 40px;
-  padding-left: 30px;
-}
-
-.mainHeader-container:hover {
-  background-color: rgb(52, 66, 97, 0.7);
+  padding-left: 100px;
+  border-bottom: 2px solid rgb(40, 45, 73);
 }
 
 .mainHeader-container p {
   color: white;
-  padding: 5px;
   margin: 10px;
+  border-radius: 10px;
+  padding: 10px;
+  margin-bottom: 6px;
+  margin-top: 6px;
 }
 
 .mainHeader-container p:hover {
   color: rgb(157, 177, 223);
+  background-color: rgb(31, 40, 61);
 }
 
 .mainHeader-subcontainer {

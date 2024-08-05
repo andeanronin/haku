@@ -11,7 +11,7 @@ import AdminPopup from "./adminPopup";
 import FooterComponent from "./footerComp";
 import { useNavigate } from "react-router-dom";
 import FundList from "./FundDirectory";
-import Header from "./Header";
+import Navbar from "./Navbar";
 
 interface FondoMutuo {
   "Tipo Fondo": string;
@@ -166,7 +166,7 @@ function TablaFondos() {
 
   return (
     <>
-      <Header />
+      <Navbar />
       <div className="fondos-mutuos-table-page-container">
         <div className="fondos-mutuos-header">
           <div className="fondos-mutuos-header-main">
@@ -178,20 +178,20 @@ function TablaFondos() {
           <div className="tableFilters-container">
             {selectedAdmin && (
               <div className="filtered-funds-heading">
-                <p>Fondos de: {selectedAdmin}</p>
                 <button onClick={resetAdminFilter}>Clear</button>
+                <p>Fondos de: {selectedAdmin}</p>
               </div>
             )}
             {selectedCurrency && (
               <div className="filtered-funds-heading">
-                <p>Currency: {selectedCurrency}</p>
                 <button onClick={resetCurrencyFilter}>Clear</button>
+                <p>Currency: {selectedCurrency}</p>
               </div>
             )}
             {selectedFundType && (
               <div className="filtered-funds-heading">
-                <p>Fund Type: {selectedFundType}</p>
                 <button onClick={resetFundTypeFilter}>Clear</button>
+                <p>Fund Type: {selectedFundType}</p>
               </div>
             )}
           </div>
@@ -207,7 +207,9 @@ function TablaFondos() {
                 >
                   Tipo de Fondo
                 </th>
-                <th>Fondo-Mutuo</th>
+                <th>
+                  <div id="fondoMutuoColumn">Fondo Mutuo</div>
+                </th>
                 <th
                   onClick={() => setShowAdminPopup(true)}
                   style={{ cursor: "pointer" }}

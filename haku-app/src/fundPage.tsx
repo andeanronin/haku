@@ -2,7 +2,7 @@
 
 import "./FundPage.css";
 import FooterComponent from "./footerComp";
-import Header from "./Header";
+import Navbar from "./Navbar";
 
 interface FundData {
   "Tipo Fondo": string;
@@ -90,7 +90,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
 
   return (
     <>
-      <Header />
+      <Navbar />
       <div className="fund-page">
         <header className="fund-header">
           <h1 className="fund-header__title">{fundData["Fondo Mutuo"]}</h1>

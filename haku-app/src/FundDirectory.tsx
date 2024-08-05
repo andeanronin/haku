@@ -6,7 +6,7 @@ The user can scroll this page to explore mutual funds.
 import fundData from "./assets/fondos-mutuos-whole.json";
 import "./FundDirectory.css";
 import { useNavigate } from "react-router-dom";
-import Header from "./Header";
+import Navbar from "./Navbar";
 import FooterComponent from "./footerComp";
 
 function FundList({ showHeader = true, showFooter = true }) {
@@ -25,7 +25,7 @@ function FundList({ showHeader = true, showFooter = true }) {
 
   return (
     <>
-      <Header show={showHeader} />
+      <Navbar show={showHeader} />
       <div className="fundDirectoryContainer">
         <h2>Explora Fondos</h2>
 

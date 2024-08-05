@@ -75,13 +75,13 @@
   right: 0;
   z-index: 2;
   color: #ffffff;
-  background-color: #1874b1;
+  background-color: transparent;
   pointer-events: painted;
   transition: all 0.3s ease;
 }
 
 .btnSearch:hover {
-  background-color: #2798cd;
+  background-color: rgb(31, 40, 61);
 }
 
 /* Hide the icon when the button is expanded */

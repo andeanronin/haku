@@ -21,6 +21,7 @@
   font-weight: bold;
   margin: 30px;
   position: relative;
+  color: rgba(18, 24, 38);
 }
 
 /* Add this new rule for the cross-out line */
@@ -30,7 +31,7 @@
   left: 0px;
   right: 0;
   top: 120%;
-  border-top: 2px solid rgb(227, 227, 227); /* This creates the thin white line */
+  border-top: 2px solid rgba(18, 24, 38); /* This creates the thin white line */
   transform: rotate(0deg); /* This tilts the line slightly */
 }
 

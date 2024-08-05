@@ -3,7 +3,7 @@ import landingStyles from "./landingPage.module.css";
 import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import FooterComponent from "./footerComp";
-import Header from "./Header";
+import Navbar from "./Navbar";
 
 // script tag in HTML loads particlesJS to the global window object
 declare global {
@@ -75,7 +75,7 @@ function LandingPage() {
 
   return (
     <>
-      <Header />
+      <Navbar />
       <div className={landingStyles.landingcontainer}>
         <div className={landingStyles.landingPageContent}>
           <p className="fade-in">Bienvenido a Haku</p>

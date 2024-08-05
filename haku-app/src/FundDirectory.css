@@ -10,11 +10,12 @@
 
 .fundDirectoryContainer h2 {
   color: white;
-  margin-top: 5%;
+  margin-top: 7%;
 }
 
 .filtrosContainer {
   display: flex;
+  margin-top: -5px;
 }
 
 .filtrosContainer p {
@@ -50,7 +51,7 @@
 
 .fundSquare h3 {
   font-size: 13px;
-  color: white;
+  color: #4a69bd;
 }
 .fundSquare p {
   color: rgb(255, 255, 255);

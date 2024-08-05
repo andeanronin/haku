@@ -18,7 +18,8 @@
   flex-direction: row;
   align-items: start;
   margin: 15px;
-  margin-top: 30px;
+  margin-top: 60px;
+  margin-bottom: 5px;
 }
 
 .fondos-mutuos-heading {
@@ -30,34 +31,33 @@
 .tableFilters-container {
   display: flex;
   width: 100%;
-  margin-left: 60px;
+  margin-left: 120px;
 }
 
 /* Styles for the Main Table */
 .table-container {
-  height: 75vh; /* or any height that's less than your viewport */
-  max-height: 90vh;
+  height: 72vh; /* or any height that's less than your viewport */
   overflow-y: auto;
   overflow-x: auto; /* Add horizontal scrolling */
   border-radius: 8px;
-  width: 98%; /* Set the width to 95% of the parent container */
+  width: 92%; /* Set the width to 95% of the parent container */
   margin: 0 auto; /* Center the table container */
   /*background-color: red;*/
   margin-bottom: 2%;
+  margin-top: -10px;
 }
 
-.table-container table {
+.fondosMutuosTable {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
   font-family: "Inter", "Segoe UI", "Roboto", sans-serif; /* FONT TYPE OF THE TABLE */
   min-width: 400px;
   background-color: #1a2b3c;
-  color: #e0e0e0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  color: #e0e0e0; /* sets the color of the table's text */
 }
 
-.table-container thead {
+.fondosMutuosTable thead {
   background: linear-gradient(to bottom, #2c4b7c, #243b61);
   position: sticky;
   top: 0;
@@ -85,6 +85,11 @@
   transition: background-color 0.3s ease;
 }
 
+/* hard setting the width of the fondo mutuo column */
+#fondoMutuoColumn {
+  width: 200px;
+}
+
 /* ads different background color to every other row */
 .fondosMutuosTable tbody tr:nth-of-type(even) {
   background-color: #1e3048;
@@ -97,7 +102,7 @@
 
 .fondosMutuosTable tbody td {
   padding: 14px 20px;
-  font-size: 0.95em;
+  font-size: 0.8em;
   border-bottom: 1px solid #2a3f5f;
   text-align: center;
 }
@@ -217,6 +222,8 @@ tbody.sorting {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  margin-top: -8px;
+  margin-right: 30px;
 }
 
 .filtered-funds-heading p {
@@ -225,8 +232,8 @@ tbody.sorting {
 }
 
 .filtered-funds-heading button {
-  height: 100%;
-  background-color: #3a5680;
+  height: 80%;
+  background-color: transparent;
   border-radius: 8px;
   color: white;
   border: 1px solid #2c405d;
@@ -235,8 +242,7 @@ tbody.sorting {
 }
 
 .filtered-funds-heading button:hover {
-  background-color: aliceblue;
-  color: #324b71;
+  background-color: rgb(31, 40, 61);
 }
 
 /* Currency DropDown Styles */
