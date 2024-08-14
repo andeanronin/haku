@@ -23,6 +23,11 @@
   animation: fadeIn 2s forwards; /* */
 }
 
+/* Styles for the Bienvenido a Haku Intro Text */
+#introText {
+  margin-bottom: 50px;
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -34,6 +39,12 @@
   }
 }
 
+/* styles for the button's div*/
+.buttonsContainer {
+  margin-top: 40px;
+}
+
+/* Styles for the landing page's buttons */
 .exploreButton {
   background-color: rgba(18, 24, 38);
   color: rgb(255, 255, 255);

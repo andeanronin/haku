@@ -201,14 +201,14 @@ function TablaFondos() {
           <table className="fondosMutuosTable">
             <thead>
               <tr>
+                <th>
+                  <div id="fondoMutuoColumn">Fondo Mutuo</div>
+                </th>
                 <th
                   onClick={() => setShowFundTypeMenu(true)}
                   style={{ cursor: "pointer" }}
                 >
                   Tipo de Fondo
-                </th>
-                <th>
-                  <div id="fondoMutuoColumn">Fondo Mutuo</div>
                 </th>
                 <th
                   onClick={() => setShowAdminPopup(true)}
@@ -286,8 +286,8 @@ function TablaFondos() {
                     onClick={() => navigate(path)}
                     style={{ cursor: "pointer" }}
                   >
-                    <td>{item["Tipo Fondo"]}</td>
                     <td>{item["Fondo Mutuo"]}</td>
+                    <td>{item["Tipo Fondo"]}</td>
                     <td>{item["Administradora"]}</td>
                     <td>{item["Fec. Inicio Operación"]}</td>
                     <td>{item["Moneda Cuota"]}</td>

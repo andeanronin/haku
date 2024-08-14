@@ -78,25 +78,33 @@ function LandingPage() {
       <Navbar />
       <div className={landingStyles.landingcontainer}>
         <div className={landingStyles.landingPageContent}>
-          <p className="fade-in">Bienvenido a Haku</p>
+          <p
+            className="fade-in"
+            style={{ fontSize: "3.5em" }}
+            id={landingStyles.introText}
+          >
+            Bienvenido a Haku
+          </p>
           <p className="fade-in">No somos una plataforma de inversion.</p>
-          <p className="fade-in">Somos un buscador de fondos avanzado.</p>
+          <p className="fade-in">Somos un buscador de fondos.</p>
           <p className="fade-in">Para que encuentres a donde invertir.</p>
-          <button
-            className={`${landingStyles.exploreButton} fade-in`}
-            onClick={handleFondosMutuosClick}
-          >
-            Explora Fondos Mutuos
-          </button>
-          <button className={`${landingStyles.exploreButton} fade-in`}>
-            Explora ETF's
-          </button>
-          <button
-            className={`${landingStyles.exploreButton} fade-in`}
-            onClick={handleExploraFondosClick}
-          >
-            Explora Fondos
-          </button>
+          <div className={landingStyles.buttonsContainer}>
+            <button
+              className={`${landingStyles.exploreButton} fade-in`}
+              onClick={handleFondosMutuosClick}
+            >
+              Explora Fondos Mutuos
+            </button>
+            <button className={`${landingStyles.exploreButton} fade-in`}>
+              Explora ETF's
+            </button>
+            <button
+              className={`${landingStyles.exploreButton} fade-in`}
+              onClick={handleExploraFondosClick}
+            >
+              Explora Fondos
+            </button>
+          </div>
         </div>
         <div
           id="particles-js"

@@ -39,8 +39,7 @@
   height: 72vh; /* or any height that's less than your viewport */
   overflow-y: auto;
   overflow-x: auto; /* Add horizontal scrolling */
-  border-radius: 8px;
-  width: 92%; /* Set the width to 95% of the parent container */
+  width: 100%; /* Set the width to 95% of the parent container */
   margin: 0 auto; /* Center the table container */
   /*background-color: red;*/
   margin-bottom: 2%;
