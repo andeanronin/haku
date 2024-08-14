@@ -13,6 +13,7 @@ tabula-py = "^2.9.3"
 
 [tool.poetry.group.dev.dependencies]
 ipykernel = "^6.29.5"
+nbstripout = "^0.7.1"
 
 [build-system]
 requires = ["poetry-core"]
