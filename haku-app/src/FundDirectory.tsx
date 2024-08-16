@@ -3,7 +3,7 @@ This component renders all of the mutual fund data in visually appealing boxes f
 The user can scroll this page to explore mutual funds. 
 */
 
-import fundData from "./assets/fondos-mutuos-whole.json";
+import fundData2 from "./assets/fondos-mutuos-data-3.json";
 import "./FundDirectory.css";
 import { useNavigate } from "react-router-dom";
 import Navbar from "./Navbar";
@@ -12,7 +12,7 @@ import FooterComponent from "./footerComp";
 function FundList({ showHeader = true, showFooter = true }) {
   const navigate = useNavigate();
 
-  const getColor = (value: number | null) => {
+  const getReturnColor = (value: number | null) => {
     /*
     Input: the value of a fund's annual return data point 
     Output: a string - 'positive' or 'negative', to set the class of the <td> element. 
@@ -21,6 +21,22 @@ function FundList({ showHeader = true, showFooter = true }) {
       return undefined;
     }
     return value >= 0 ? "positive" : "negative";
+  };
+
+  const getRiskColor = (value: string | null) => {
+    if (value === null) {
+      return undefined;
+    } else if (value === "Low") {
+      return "green";
+    } else if (value === "Medium Low") {
+      return "green-orange";
+    } else if (value === "Medium") {
+      return "orange";
+    } else if (value === "Medium High") {
+      return "orange-red";
+    } else {
+      return "red";
+    }
   };
 
   return (
@@ -34,11 +50,13 @@ function FundList({ showHeader = true, showFooter = true }) {
           <p>Gestor</p>
           <p>Tipo de Fondo</p>
           <p>Moneda</p>
+          <p>Riesgo</p>
+          <p>Retorno</p>
         </div>
 
         <div className="fundExploreContainer">
-          {fundData.map((fund) => {
-            const path = `/fund/${fund["Fondo Mutuo"].replace(/\s+/g, "-")}`;
+          {fundData2.map((fund) => {
+            const path = `/fund/${fund["Fund id"]}`;
             return (
               <div
                 className="fundSquare"
@@ -47,23 +65,43 @@ function FundList({ showHeader = true, showFooter = true }) {
               >
                 <h3>{fund["Fondo Mutuo"]}</h3>
                 <div className="fundSquare-data-container">
+                  {/* Gestor */}
                   <div className="fundSquare-data-div">
                     <p style={{ fontWeight: "bold" }}>Gestor</p>
                     <p>{fund["Administradora"]}</p>
                   </div>
+
+                  {/* Tipo de Fondo */}
                   <div className="fundSquare-data-div">
-                    <p style={{ fontWeight: "bold" }}>Tipo </p>
-                    <p>{fund["Tipo Fondo"]}</p>
+                    <p style={{ fontWeight: "bold" }}>Tipo De Fondo</p>
+                    <p>{fund["Categoria"]}</p>
                   </div>
+
+                  {/* Retorno  (CAGR) */}
                   <div className="fundSquare-data-div">
-                    <p style={{ fontWeight: "bold" }}>Retorno</p>{" "}
-                    <p className={getColor(fund["Rentabilidad 2023"])}>
-                      {fund["Rentabilidad 2023"]}%
+                    <p style={{ fontWeight: "bold" }}>Retorno Histórico</p>{" "}
+                    <p className={getReturnColor(fund["CAGR"])}>
+                      {" "}
+                      {fund["CAGR"] === null
+                        ? "N/A"
+                        : `${(fund["CAGR"] * 100).toFixed(2)} %`}
                     </p>
                   </div>
+
+                  {/* Valor Cuota */}
                   <div className="fundSquare-data-div">
                     <p style={{ fontWeight: "bold" }}>Valor Cuota</p>{" "}
-                    <p>{fund["Valor Cuota"]}</p>
+                    <p>
+                      {fund["Valor Cuota"] === 0 ? "N/A" : fund["Valor Cuota"]}
+                    </p>
+                  </div>
+
+                  {/* Riesgo */}
+                  <div className="fundSquare-data-div">
+                    <p style={{ fontWeight: "bold" }}>Riesgo</p>{" "}
+                    <p className={getRiskColor(fund["Risk"])}>
+                      {fund["Risk"] === null ? "N/A" : fund["Risk"]}
+                    </p>
                   </div>
                 </div>
               </div>

@@ -11,7 +11,7 @@ interface FundData {
   "Fec. Inicio Operación": string;
   "Moneda Cuota": string;
   "Valor Cuota": number | null;
-  "Rentabilidad al 2024": number | null;
+  "Rentabilidad 2024": number | null;
   "Rentabilidad 2023": number | null;
   "Rentabilidad 2022": number | null;
   "Rentabilidad 2021": number | null;
@@ -24,6 +24,19 @@ interface FundData {
   "Rentabilidad 2014": number | null;
   "Patrimonio S/.": number | null;
   "Partícipes N": number | null;
+  "A\u00f1os": number | null;
+  Categoria: string;
+  "Fund id": number;
+  "Highest Return": number | null;
+  "Lowest Return": number | null;
+  "Avg Return (Arithmetic)": number | null;
+  "Standard Deviation of Returns": number | null;
+  "Total Cumulative Return": number | null;
+  "Cumulative Return Period": number | null;
+  "Annualized Cumulative Return": number | null;
+  CAGR: number | null;
+  "Sharpe Ratio": number | null;
+  Risk: string | null;
   [key: string]: string | number | null; // Index signature for dynamic access
 }
 
@@ -92,13 +105,20 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
     <>
       <Navbar />
       <div className="fund-page">
+        {/* Fund Page Header */}
         <header className="fund-header">
           <h1 className="fund-header__title">{fundData["Fondo Mutuo"]}</h1>
           <p className="fund-header__type">
-            Tipo de Fondo: {fundData["Tipo Fondo"]}
+            Tipo de Fondo: {fundData["Tipo Fondo"]}{" "}
+            {fundData["Tipo Fondo"] === fundData["Categoria"]
+              ? ""
+              : ` - ${fundData["Categoria"]}`}
           </p>
         </header>
 
+        <h2 className="fund-page__subheading">Datos Generales</h2>
+
+        {/* General Fund Info */}
         <section className="fund-info">
           <div className="info-item">
             <h3 className="info-item__title">Gestor</h3>
@@ -129,6 +149,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
           </div>
         </section>
 
+        {/* General Stats */}
         <section className="fund-stats">
           <div className="stat-item">
             <h3 className="stat-item__title ">Assets Under Management</h3>
@@ -148,6 +169,54 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
           </div>
         </section>
 
+        {/* Findo Info Section */}
+        <h2 className="fund-page__subheading">Indicadores de Retorno</h2>
+        <section className="fund-indicators">
+          <div className="info-item">
+            <h3 className="info-item__title">Retorno Historico</h3>
+            <p className="info-item__subtitle">CAGR</p>
+            <p className="info-item__value">
+              {fundData["CAGR"] === null
+                ? "N/A"
+                : `${(fundData.CAGR * 100).toFixed(2)} %`}
+            </p>
+          </div>
+
+          <div className="info-item">
+            <h3 className="info-item__title">Retorno x Riesgo</h3>
+            <p className="info-item__subtitle">Sharpe</p>
+            <p className="info-item__value">
+              {fundData["Sharpe Ratio"] === null
+                ? "N/A"
+                : fundData["Sharpe Ratio"].toFixed(2)}
+            </p>
+          </div>
+
+          <div className="info-item">
+            <h3 className="info-item__title">Riesgo</h3>
+            <p className="info-item__value">
+              {fundData["Risk"] === null ? "N/A" : fundData["Risk"]}
+            </p>
+          </div>
+
+          <div className="info-item">
+            <h3 className="info-item__title">Retorno Acumulado</h3>
+            <p className="info-item__subtitle">
+              {fundData["Cumulative Return Period"] === null
+                ? ""
+                : `${fundData["Cumulative Return Period"]} años`}
+            </p>
+            <p className="info-item__value">
+              {fundData["Total Cumulative Return"] === null
+                ? "N/A"
+                : ` ${(fundData["Total Cumulative Return"] * 100).toFixed(
+                    2
+                  )} %`}
+            </p>
+          </div>
+        </section>
+
+        {/* Fund Performance Chart */}
         <section className="fund-performance">
           <h2 className="fund-performance__title">
             Retornos Anuales Historicos
@@ -172,9 +241,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
                   <td className="fund-yearly-returns__cell">{year}</td>
                   <td className="fund-yearly-returns__cell">
                     {formatPercentage(
-                      fundData[
-                        `Rentabilidad ${year === 2024 ? "al 2024" : year}`
-                      ] as number | null
+                      fundData[`Rentabilidad ${year}`] as number | null
                     )}
                   </td>
                 </tr>

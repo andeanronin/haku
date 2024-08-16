@@ -1,8 +1,11 @@
 import pandas as pd
 
+import os
+print("Current working directory:", os.getcwd())   # note: this script runs 
+
 # PATH - READ csv data
-fondos_mutuos_24 = pd.read_csv('smv-cuadros/fondos-mutuos-resumen-06-24.csv', skiprows=6, skipfooter=3, engine='python')
-fondos_mutuos_19 = pd.read_csv('smv-cuadros/fondos-mutuos-resumen-01-19.csv', skiprows=6, skipfooter=3, engine='python')
+fondos_mutuos_24 = pd.read_csv('haku-data/smv-cuadros/fondos-mutuos-resumen-06-24.csv', skiprows=6, skipfooter=3, engine='python')
+fondos_mutuos_19 = pd.read_csv('haku-data/smv-cuadros/fondos-mutuos-resumen-01-19.csv', skiprows=6, skipfooter=3, engine='python')
 
 # Remove any trailing or leading whitespace in the column names. 
 fondos_mutuos_19.columns = fondos_mutuos_19.columns.str.strip()
@@ -66,6 +69,33 @@ fondos_mutuos['Patrimonio S/.'] = fondos_mutuos['Patrimonio S/.'].round(2)
 # Remove the number codes for "Tipo de Fondo Column"
 fondos_mutuos["Tipo Fondo"] = fondos_mutuos["Tipo Fondo"].str[5:]
 
+# Change Rentabilidad 2024 --> -100 values to zero or null
+for i in range(len(fondos_mutuos)):
+    if fondos_mutuos.loc[i, 'Rentabilidad 2024'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2024'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2023'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2023'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2022'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2022'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2021'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2021'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2020'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2020'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2019'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2019'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2018'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2018'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2017'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2017'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2016'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2016'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2015'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 20 15'] = None
+    elif fondos_mutuos.loc[i, 'Rentabilidad 2014'] == -1.0:
+        fondos_mutuos.loc[i, 'Rentabilidad 2014'] = None
+
+
+
 # Make a df copy with whole numbers (as opposed to decimals) for the annualized return columns
 fondos_mutuos_whole = fondos_mutuos.copy()
 for col in percent_columns:
@@ -75,12 +105,14 @@ for col in percent_columns:
 #fondos_mutuos_whole["Tipo Fondo"] = fondos_mutuos_whole["Tipo Fondo"].str[5:]
 
 # Display the first few rows of the updated DataFrame
-print(fondos_mutuos.head())
+print(fondos_mutuos["Fondo Mutuo"][24])
+print(fondos_mutuos["Rentabilidad 2024"][24])
+
 
 # Save dataframe to a csv file.
-fondos_mutuos.to_csv('fondos-mutuos-table.csv', index=False)
+fondos_mutuos.to_csv('haku-data/fondos-mutuos-table.csv', index=False)
 
 # Save dataframe to JSON files 
-fondos_mutuos.to_json('fondos-mutuos-consolidado.json', orient='columns', indent=4)
-fondos_mutuos.to_json('fondos-mutuos-data.json', orient='records', indent=4)
-fondos_mutuos_whole.to_json('fondos-mutuos-whole.json', orient='records', indent=4)
+fondos_mutuos.to_json('haku-data/fondos-mutuos-consolidado.json', orient='columns', indent=4)
+fondos_mutuos.to_json('haku-data/fondos-mutuos-data.json', orient='records', indent=4)
+fondos_mutuos_whole.to_json('haku-data/fondos-mutuos-whole.json', orient='records', indent=4)

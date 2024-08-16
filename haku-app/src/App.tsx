@@ -4,7 +4,7 @@ import "./App.css";
 import TablaFondos from "./fondosTabla";
 import LandingPage from "./landingPage";
 import FundPage from "./fundPage";
-import fundData from "./assets/fondos-mutuos-data.json";
+import fundData from "./assets/fondos-mutuos-data-3.json";
 import FundList from "./FundDirectory";
 
 function App() {
@@ -15,7 +15,7 @@ function App() {
           <Route path="/" element={<LandingPage />} />
           <Route path="/fondos-mutuos" element={<TablaFondos />} />
           {fundData.map((fund) => {
-            const path = `/fund/${fund["Fondo Mutuo"].replace(/\s+/g, "-")}`;
+            const path = `/fund/${fund["Fund id"]}`;
             return (
               <Route
                 key={path}

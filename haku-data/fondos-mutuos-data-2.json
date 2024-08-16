@@ -17,14 +17,11 @@
         "Rentabilidad 2016":0.0315,
         "Rentabilidad 2015":-0.0556,
         "Rentabilidad 2014":-0.0042,
-        "Standard Dev":0.1384303816,
-        "Return Lowest":-0.2041,
-        "Return Highest":0.2313,
-        "Avg Return Arithmetic":0.0561,
         "Patrimonio S\/.":23652842.5100000016,
-        "Part\u00edcipes N":894,
+        "Part\u00edcipes N":894.0,
         "A\u00f1os":11,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":1
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -44,14 +41,11 @@
         "Rentabilidad 2016":0.5416,
         "Rentabilidad 2015":-0.4038,
         "Rentabilidad 2014":-0.116,
-        "Standard Dev":0.2480265609,
-        "Return Lowest":-0.4038,
-        "Return Highest":0.5416,
-        "Avg Return Arithmetic":0.0416,
         "Patrimonio S\/.":43751750.3800000027,
-        "Part\u00edcipes N":564,
+        "Part\u00edcipes N":564.0,
         "A\u00f1os":17,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":2
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -71,14 +65,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":18290288.2300000004,
-        "Part\u00edcipes N":30,
+        "Part\u00edcipes N":30.0,
         "A\u00f1os":4,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":3
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -98,14 +89,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.2439280973,
-        "Return Lowest":-0.3026,
-        "Return Highest":0.2314,
-        "Avg Return Arithmetic":-0.0499,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":4,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":4
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -125,14 +113,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.2233440004,
-        "Return Lowest":-0.3043,
-        "Return Highest":0.2285,
-        "Avg Return Arithmetic":-0.0084,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":4,
+        "Part\u00edcipes N":4.0,
         "A\u00f1os":4,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":5
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -152,14 +137,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.2743668293,
-        "Return Lowest":-0.3059,
-        "Return Highest":0.4255,
-        "Avg Return Arithmetic":0.0768,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":25,
+        "Part\u00edcipes N":25.0,
         "A\u00f1os":4,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":6
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -179,14 +161,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":71182192.0300000012,
-        "Part\u00edcipes N":55,
+        "Part\u00edcipes N":55.0,
         "A\u00f1os":6,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":7
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -206,14 +185,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1643012723,
-        "Return Lowest":-0.206,
-        "Return Highest":0.2443,
-        "Avg Return Arithmetic":0.0683,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":3,
+        "Part\u00edcipes N":3.0,
         "A\u00f1os":6,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":8
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -233,14 +209,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1638623551,
-        "Return Lowest":-0.208,
-        "Return Highest":0.2414,
-        "Avg Return Arithmetic":0.0656,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":8,
+        "Part\u00edcipes N":8.0,
         "A\u00f1os":6,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":9
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -260,14 +233,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1628268888,
-        "Return Lowest":-0.2117,
-        "Return Highest":0.2356,
-        "Avg Return Arithmetic":0.0612,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":44,
+        "Part\u00edcipes N":44.0,
         "A\u00f1os":6,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":10
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -287,14 +257,11 @@
         "Rentabilidad 2016":0.4764,
         "Rentabilidad 2015":-0.3053,
         "Rentabilidad 2014":-0.075,
-        "Standard Dev":0.2006227577,
-        "Return Lowest":-0.3053,
-        "Return Highest":0.4764,
-        "Avg Return Arithmetic":0.0393,
         "Patrimonio S\/.":11369090.2100000009,
-        "Part\u00edcipes N":1260,
+        "Part\u00edcipes N":1260.0,
         "A\u00f1os":17,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":11
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -314,14 +281,11 @@
         "Rentabilidad 2016":0.7177,
         "Rentabilidad 2015":-0.5004,
         "Rentabilidad 2014":-0.1759,
-        "Standard Dev":0.307717282,
-        "Return Lowest":-0.5004,
-        "Return Highest":0.7177,
-        "Avg Return Arithmetic":0.0052,
         "Patrimonio S\/.":5020514.1799999997,
-        "Part\u00edcipes N":465,
+        "Part\u00edcipes N":465.0,
         "A\u00f1os":25,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":12
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -341,14 +305,11 @@
         "Rentabilidad 2016":0.4648,
         "Rentabilidad 2015":-0.348,
         "Rentabilidad 2014":-0.0725,
-        "Standard Dev":0.2024711162,
-        "Return Lowest":-0.348,
-        "Return Highest":0.4648,
-        "Avg Return Arithmetic":0.0175,
         "Patrimonio S\/.":3608854.6899999999,
-        "Part\u00edcipes N":206,
+        "Part\u00edcipes N":206.0,
         "A\u00f1os":16,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":13
     },
     {
         "Tipo Fondo":"Renta Variable",
@@ -368,14 +329,11 @@
         "Rentabilidad 2016":0.5058,
         "Rentabilidad 2015":-0.3078,
         "Rentabilidad 2014":-0.0779,
-        "Standard Dev":0.2146964733,
-        "Return Lowest":-0.3078,
-        "Return Highest":0.5058,
-        "Avg Return Arithmetic":0.0589,
         "Patrimonio S\/.":16161926.1300000008,
-        "Part\u00edcipes N":670,
+        "Part\u00edcipes N":670.0,
         "A\u00f1os":17,
-        "Categoria":"Renta Variable"
+        "Categoria":"Renta Variable",
+        "Fund id":14
     },
     {
         "Tipo Fondo":"Corto Plazo Soles",
@@ -395,14 +353,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":15373472.6699999999,
-        "Part\u00edcipes N":106,
+        "Part\u00edcipes N":106.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":15
     },
     {
         "Tipo Fondo":"Corto Plazo Soles",
@@ -422,14 +377,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0125,
-        "Return Highest":0.0125,
-        "Avg Return Arithmetic":0.0125,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":102,
+        "Part\u00edcipes N":102.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":16
     },
     {
         "Tipo Fondo":"Corto Plazo Soles",
@@ -449,14 +401,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0125,
-        "Return Highest":0.0125,
-        "Avg Return Arithmetic":0.0125,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":4,
+        "Part\u00edcipes N":4.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":17
     },
     {
         "Tipo Fondo":"Corto Plazo D\u00f3lares",
@@ -476,14 +425,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":1161741.9299999999,
-        "Part\u00edcipes N":37,
+        "Part\u00edcipes N":37.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":18
     },
     {
         "Tipo Fondo":"Corto Plazo D\u00f3lares",
@@ -503,14 +449,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0097,
-        "Return Highest":0.0097,
-        "Avg Return Arithmetic":0.0097,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":35,
+        "Part\u00edcipes N":35.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":19
     },
     {
         "Tipo Fondo":"Corto Plazo D\u00f3lares",
@@ -530,14 +473,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0104,
-        "Return Highest":0.0104,
-        "Avg Return Arithmetic":0.0104,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":2,
+        "Part\u00edcipes N":2.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":20
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -557,14 +497,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0209303607,
-        "Return Lowest":-0.0019,
-        "Return Highest":0.0277,
-        "Avg Return Arithmetic":0.0129,
         "Patrimonio S\/.":1820826.3100000001,
-        "Part\u00edcipes N":17,
+        "Part\u00edcipes N":17.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":21
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -584,14 +521,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0529008822,
-        "Return Lowest":-0.0149,
-        "Return Highest":0.0846,
-        "Avg Return Arithmetic":0.0245,
         "Patrimonio S\/.":19894485.9200000018,
-        "Part\u00edcipes N":147,
+        "Part\u00edcipes N":147.0,
         "A\u00f1os":2,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":22
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -611,14 +545,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.02,
-        "Return Highest":0.02,
-        "Avg Return Arithmetic":0.02,
         "Patrimonio S\/.":55661076.9299999997,
-        "Part\u00edcipes N":214,
+        "Part\u00edcipes N":214.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":23
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -638,14 +569,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0346,
-        "Return Highest":0.0346,
-        "Avg Return Arithmetic":0.0346,
         "Patrimonio S\/.":88997312.2600000054,
-        "Part\u00edcipes N":273,
+        "Part\u00edcipes N":273.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":24
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -654,7 +582,7 @@
         "Fec. Inicio Operaci\u00f3n":"26\/02\/2024",
         "Moneda Cuota":"$",
         "Valor Cuota":101.55,
-        "Rentabilidad 2024":-1.0,
+        "Rentabilidad 2024":null,
         "Rentabilidad 2023":null,
         "Rentabilidad 2022":null,
         "Rentabilidad 2021":null,
@@ -665,14 +593,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":-1.0,
-        "Return Highest":-1.0,
-        "Avg Return Arithmetic":-1.0,
         "Patrimonio S\/.":1.08,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":25
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -692,14 +617,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0153,
-        "Return Highest":0.0153,
-        "Avg Return Arithmetic":0.0153,
         "Patrimonio S\/.":61849690.549999997,
-        "Part\u00edcipes N":189,
+        "Part\u00edcipes N":189.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":26
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -719,14 +641,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0073,
-        "Return Highest":0.0073,
-        "Avg Return Arithmetic":0.0073,
-        "Patrimonio S\/.":135212406.599999994,
-        "Part\u00edcipes N":364,
+        "Patrimonio S\/.":135212406.5500000119,
+        "Part\u00edcipes N":364.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":27
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -746,14 +665,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0132,
-        "Return Highest":0.0132,
-        "Avg Return Arithmetic":0.0132,
         "Patrimonio S\/.":74719464.9599999934,
-        "Part\u00edcipes N":245,
+        "Part\u00edcipes N":245.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":28
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -773,14 +689,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0112,
-        "Return Highest":0.0112,
-        "Avg Return Arithmetic":0.0112,
-        "Patrimonio S\/.":355881284.3000000119,
-        "Part\u00edcipes N":1130,
+        "Patrimonio S\/.":355881284.2900000215,
+        "Part\u00edcipes N":1130.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":29
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -800,14 +713,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0104,
-        "Return Highest":0.0104,
-        "Avg Return Arithmetic":0.0104,
         "Patrimonio S\/.":66742367.4799999967,
-        "Part\u00edcipes N":224,
+        "Part\u00edcipes N":224.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":30
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -827,14 +737,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0171,
-        "Return Highest":0.0171,
-        "Avg Return Arithmetic":0.0171,
         "Patrimonio S\/.":95406275.1299999952,
-        "Part\u00edcipes N":379,
+        "Part\u00edcipes N":379.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":31
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -854,14 +761,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0072,
-        "Return Highest":0.0072,
-        "Avg Return Arithmetic":0.0072,
         "Patrimonio S\/.":30587685.3299999982,
-        "Part\u00edcipes N":115,
+        "Part\u00edcipes N":115.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":32
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -881,14 +785,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.01,
-        "Return Highest":0.01,
-        "Avg Return Arithmetic":0.01,
         "Patrimonio S\/.":66128304.0,
-        "Part\u00edcipes N":207,
+        "Part\u00edcipes N":207.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":33
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -908,14 +809,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0019,
-        "Return Highest":0.0019,
-        "Avg Return Arithmetic":0.0019,
         "Patrimonio S\/.":129796442.5,
-        "Part\u00edcipes N":390,
+        "Part\u00edcipes N":390.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":34
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -935,14 +833,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0017,
-        "Return Highest":0.0017,
-        "Avg Return Arithmetic":0.0017,
         "Patrimonio S\/.":37038407.0900000036,
-        "Part\u00edcipes N":158,
+        "Part\u00edcipes N":158.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":35
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -962,14 +857,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0022,
-        "Return Highest":0.0022,
-        "Avg Return Arithmetic":0.0022,
         "Patrimonio S\/.":90101704.1700000018,
-        "Part\u00edcipes N":335,
+        "Part\u00edcipes N":335.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":36
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -989,14 +881,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0053033009,
-        "Return Lowest":0.0153,
-        "Return Highest":0.0228,
-        "Avg Return Arithmetic":0.0191,
         "Patrimonio S\/.":59736699.4200000018,
-        "Part\u00edcipes N":226,
+        "Part\u00edcipes N":226.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":37
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1016,14 +905,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0028284271,
-        "Return Lowest":0.0163,
-        "Return Highest":0.0203,
-        "Avg Return Arithmetic":0.0183,
         "Patrimonio S\/.":49513048.950000003,
-        "Part\u00edcipes N":176,
+        "Part\u00edcipes N":176.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":38
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1043,14 +929,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0154856385,
-        "Return Lowest":0.0006,
-        "Return Highest":0.0225,
-        "Avg Return Arithmetic":0.0116,
-        "Patrimonio S\/.":113085083.599999994,
-        "Part\u00edcipes N":399,
+        "Patrimonio S\/.":113085083.5699999928,
+        "Part\u00edcipes N":399.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":39
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1070,14 +953,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0100409163,
-        "Return Lowest":0.0086,
-        "Return Highest":0.0228,
-        "Avg Return Arithmetic":0.0157,
-        "Patrimonio S\/.":158262440.400000006,
-        "Part\u00edcipes N":523,
+        "Patrimonio S\/.":158262440.3799999952,
+        "Part\u00edcipes N":523.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":40
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1097,14 +977,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0159806132,
-        "Return Lowest":0.0001,
-        "Return Highest":0.0227,
-        "Avg Return Arithmetic":0.0114,
         "Patrimonio S\/.":54893114.8800000027,
-        "Part\u00edcipes N":210,
+        "Part\u00edcipes N":210.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":41
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1113,7 +990,7 @@
         "Fec. Inicio Operaci\u00f3n":"29\/05\/2023",
         "Moneda Cuota":"$",
         "Valor Cuota":105.12,
-        "Rentabilidad 2024":-1.0,
+        "Rentabilidad 2024":null,
         "Rentabilidad 2023":0.0272,
         "Rentabilidad 2022":null,
         "Rentabilidad 2021":null,
@@ -1124,14 +1001,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.7263400856,
-        "Return Lowest":-1.0,
-        "Return Highest":0.0272,
-        "Avg Return Arithmetic":-0.4864,
         "Patrimonio S\/.":-0.03,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":42
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1151,14 +1025,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0048083261,
-        "Return Lowest":0.0177,
-        "Return Highest":0.0245,
-        "Avg Return Arithmetic":0.0211,
         "Patrimonio S\/.":53988606.9200000018,
-        "Part\u00edcipes N":219,
+        "Part\u00edcipes N":219.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":43
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1167,7 +1038,7 @@
         "Fec. Inicio Operaci\u00f3n":"26\/06\/2023",
         "Moneda Cuota":"$",
         "Valor Cuota":52.56,
-        "Rentabilidad 2024":-1.0,
+        "Rentabilidad 2024":null,
         "Rentabilidad 2023":0.0234,
         "Rentabilidad 2022":null,
         "Rentabilidad 2021":null,
@@ -1178,14 +1049,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.7236530799,
-        "Return Lowest":-1.0,
-        "Return Highest":0.0234,
-        "Avg Return Arithmetic":-0.4883,
         "Patrimonio S\/.":-34.12,
-        "Part\u00edcipes N":356,
+        "Part\u00edcipes N":356.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":44
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1205,14 +1073,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0113137085,
-        "Return Lowest":0.0071,
-        "Return Highest":0.0231,
-        "Avg Return Arithmetic":0.0151,
         "Patrimonio S\/.":71394925.0600000024,
-        "Part\u00edcipes N":395,
+        "Part\u00edcipes N":395.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":45
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1232,14 +1097,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0135764502,
-        "Return Lowest":0.0028,
-        "Return Highest":0.022,
-        "Avg Return Arithmetic":0.0124,
         "Patrimonio S\/.":59557710.299999997,
-        "Part\u00edcipes N":320,
+        "Part\u00edcipes N":320.0,
         "A\u00f1os":1,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":46
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1259,14 +1121,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0172,
-        "Return Highest":0.0172,
-        "Avg Return Arithmetic":0.0172,
         "Patrimonio S\/.":49346705.5600000024,
-        "Part\u00edcipes N":382,
+        "Part\u00edcipes N":382.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":47
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1286,14 +1145,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.011,
-        "Return Highest":0.011,
-        "Avg Return Arithmetic":0.011,
         "Patrimonio S\/.":55363036.8200000003,
-        "Part\u00edcipes N":336,
+        "Part\u00edcipes N":336.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":48
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1313,14 +1169,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0002,
-        "Return Highest":0.0002,
-        "Avg Return Arithmetic":0.0002,
         "Patrimonio S\/.":70962943.9800000042,
-        "Part\u00edcipes N":418,
+        "Part\u00edcipes N":418.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":49
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1340,14 +1193,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0024,
-        "Return Highest":0.0024,
-        "Avg Return Arithmetic":0.0024,
         "Patrimonio S\/.":92858016.8400000036,
-        "Part\u00edcipes N":301,
+        "Part\u00edcipes N":301.0,
         "A\u00f1os":0,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":50
     },
     {
         "Tipo Fondo":"Estructurado",
@@ -1367,14 +1217,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.01742766,
-        "Return Lowest":-0.0052,
-        "Return Highest":0.0289,
-        "Avg Return Arithmetic":0.0139,
         "Patrimonio S\/.":66885621.2199999988,
-        "Part\u00edcipes N":238,
+        "Part\u00edcipes N":238.0,
         "A\u00f1os":2,
-        "Categoria":"Estructurado"
+        "Categoria":"Estructurado",
+        "Fund id":51
     },
     {
         "Tipo Fondo":"Renta Mixta Crecimiento Soles",
@@ -1394,14 +1241,11 @@
         "Rentabilidad 2016":0.3873,
         "Rentabilidad 2015":-0.2569,
         "Rentabilidad 2014":-0.0369,
-        "Standard Dev":0.1629421024,
-        "Return Lowest":-0.2569,
-        "Return Highest":0.3873,
-        "Avg Return Arithmetic":0.0502,
         "Patrimonio S\/.":28881277.7699999996,
-        "Part\u00edcipes N":543,
+        "Part\u00edcipes N":543.0,
         "A\u00f1os":16,
-        "Categoria":"Renta Mixta"
+        "Categoria":"Renta Mixta",
+        "Fund id":52
     },
     {
         "Tipo Fondo":"Renta Mixta Balanceado D\u00f3lares",
@@ -1421,14 +1265,11 @@
         "Rentabilidad 2016":0.2536,
         "Rentabilidad 2015":-0.2343,
         "Rentabilidad 2014":-0.0592,
-        "Standard Dev":0.1292765591,
-        "Return Lowest":-0.2343,
-        "Return Highest":0.2536,
-        "Avg Return Arithmetic":0.02,
         "Patrimonio S\/.":20440564.9899999984,
-        "Part\u00edcipes N":337,
+        "Part\u00edcipes N":337.0,
         "A\u00f1os":17,
-        "Categoria":"Renta Mixta"
+        "Categoria":"Renta Mixta",
+        "Fund id":53
     },
     {
         "Tipo Fondo":"Renta Mixta Balanceado D\u00f3lares",
@@ -1448,14 +1289,11 @@
         "Rentabilidad 2016":0.2485,
         "Rentabilidad 2015":-0.2057,
         "Rentabilidad 2014":-0.0538,
-        "Standard Dev":0.1216103472,
-        "Return Lowest":-0.2057,
-        "Return Highest":0.2485,
-        "Avg Return Arithmetic":0.0153,
         "Patrimonio S\/.":14932309.8699999992,
-        "Part\u00edcipes N":638,
+        "Part\u00edcipes N":638.0,
         "A\u00f1os":29,
-        "Categoria":"Renta Mixta"
+        "Categoria":"Renta Mixta",
+        "Fund id":54
     },
     {
         "Tipo Fondo":"Renta Mixta Balanceado D\u00f3lares",
@@ -1475,14 +1313,11 @@
         "Rentabilidad 2016":0.2688,
         "Rentabilidad 2015":-0.2327,
         "Rentabilidad 2014":-0.0668,
-        "Standard Dev":0.1263999295,
-        "Return Lowest":-0.2327,
-        "Return Highest":0.2688,
-        "Avg Return Arithmetic":0.0003,
         "Patrimonio S\/.":5167666.46,
-        "Part\u00edcipes N":235,
+        "Part\u00edcipes N":235.0,
         "A\u00f1os":17,
-        "Categoria":"Renta Mixta"
+        "Categoria":"Renta Mixta",
+        "Fund id":55
     },
     {
         "Tipo Fondo":"Renta Mixta Moderado Soles",
@@ -1502,14 +1337,11 @@
         "Rentabilidad 2016":0.1572,
         "Rentabilidad 2015":-0.0874,
         "Rentabilidad 2014":0.0066,
-        "Standard Dev":0.0666655097,
-        "Return Lowest":-0.0874,
-        "Return Highest":0.1572,
-        "Avg Return Arithmetic":0.0304,
         "Patrimonio S\/.":9813144.6099999994,
-        "Part\u00edcipes N":261,
+        "Part\u00edcipes N":261.0,
         "A\u00f1os":16,
-        "Categoria":"Renta Mixta"
+        "Categoria":"Renta Mixta",
+        "Fund id":56
     },
     {
         "Tipo Fondo":"Renta Mixta Moderado Soles",
@@ -1529,14 +1361,11 @@
         "Rentabilidad 2016":0.1824,
         "Rentabilidad 2015":-0.0636,
         "Rentabilidad 2014":0.0278,
-        "Standard Dev":0.0637135907,
-        "Return Lowest":-0.0636,
-        "Return Highest":0.1824,
-        "Avg Return Arithmetic":0.0361,
         "Patrimonio S\/.":10836845.7100000009,
-        "Part\u00edcipes N":326,
+        "Part\u00edcipes N":326.0,
         "A\u00f1os":17,
-        "Categoria":"Renta Mixta"
+        "Categoria":"Renta Mixta",
+        "Fund id":57
     },
     {
         "Tipo Fondo":"Renta Mixta Moderado D\u00f3lares",
@@ -1556,14 +1385,11 @@
         "Rentabilidad 2016":0.1267,
         "Rentabilidad 2015":-0.1292,
         "Rentabilidad 2014":-0.0304,
-        "Standard Dev":0.0716957574,
-        "Return Lowest":-0.1292,
-        "Return Highest":0.1267,
-        "Avg Return Arithmetic":0.0104,
         "Patrimonio S\/.":29547475.379999999,
-        "Part\u00edcipes N":425,
+        "Part\u00edcipes N":425.0,
         "A\u00f1os":22,
-        "Categoria":"Renta Mixta"
+        "Categoria":"Renta Mixta",
+        "Fund id":58
     },
     {
         "Tipo Fondo":"Inst. Deuda Mediano Plazo S\/",
@@ -1583,14 +1409,11 @@
         "Rentabilidad 2016":0.0522,
         "Rentabilidad 2015":0.0084,
         "Rentabilidad 2014":0.0361,
-        "Standard Dev":0.0396720832,
-        "Return Lowest":-0.0486,
-        "Return Highest":0.1032,
-        "Avg Return Arithmetic":0.0327,
-        "Patrimonio S\/.":156199815.3000000119,
-        "Part\u00edcipes N":5501,
+        "Patrimonio S\/.":156199815.3400000036,
+        "Part\u00edcipes N":5501.0,
         "A\u00f1os":27,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":59
     },
     {
         "Tipo Fondo":"Inst. Deuda Mediano Plazo S\/",
@@ -1610,14 +1433,11 @@
         "Rentabilidad 2016":0.0651,
         "Rentabilidad 2015":0.0262,
         "Rentabilidad 2014":0.0417,
-        "Standard Dev":0.0345542762,
-        "Return Lowest":-0.0343,
-        "Return Highest":0.0917,
-        "Avg Return Arithmetic":0.0387,
-        "Patrimonio S\/.":368903214.1999999881,
-        "Part\u00edcipes N":4704,
+        "Patrimonio S\/.":368903214.1499999762,
+        "Part\u00edcipes N":4704.0,
         "A\u00f1os":17,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":60
     },
     {
         "Tipo Fondo":"Inst. Deuda Mediano Plazo S\/",
@@ -1637,14 +1457,11 @@
         "Rentabilidad 2016":0.0465,
         "Rentabilidad 2015":0.0185,
         "Rentabilidad 2014":0.041,
-        "Standard Dev":0.044501479,
-        "Return Lowest":-0.0675,
-        "Return Highest":0.0926,
-        "Avg Return Arithmetic":0.0254,
         "Patrimonio S\/.":51557376.9399999976,
-        "Part\u00edcipes N":3229,
+        "Part\u00edcipes N":3229.0,
         "A\u00f1os":22,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":61
     },
     {
         "Tipo Fondo":"Inst. Deuda Mediano Plazo S\/",
@@ -1664,14 +1481,11 @@
         "Rentabilidad 2016":0.0566,
         "Rentabilidad 2015":-0.0016,
         "Rentabilidad 2014":0.0507,
-        "Standard Dev":0.0308497002,
-        "Return Lowest":-0.0256,
-        "Return Highest":0.0786,
-        "Avg Return Arithmetic":0.0371,
         "Patrimonio S\/.":81386921.3199999928,
-        "Part\u00edcipes N":706,
+        "Part\u00edcipes N":706.0,
         "A\u00f1os":18,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":62
     },
     {
         "Tipo Fondo":"Inst. Deuda Mediano Plazo $",
@@ -1691,14 +1505,11 @@
         "Rentabilidad 2016":0.0072,
         "Rentabilidad 2015":-0.0074,
         "Rentabilidad 2014":0.0085,
-        "Standard Dev":0.0305544908,
-        "Return Lowest":-0.0366,
-        "Return Highest":0.0607,
-        "Avg Return Arithmetic":0.0119,
         "Patrimonio S\/.":177449055.5,
-        "Part\u00edcipes N":2106,
+        "Part\u00edcipes N":2106.0,
         "A\u00f1os":27,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":63
     },
     {
         "Tipo Fondo":"Inst. Deuda Mediano Plazo $",
@@ -1718,14 +1529,11 @@
         "Rentabilidad 2016":0.0177,
         "Rentabilidad 2015":0.0013,
         "Rentabilidad 2014":0.011,
-        "Standard Dev":0.0298528147,
-        "Return Lowest":-0.036,
-        "Return Highest":0.0629,
-        "Avg Return Arithmetic":0.0183,
-        "Patrimonio S\/.":602541809.2000000477,
-        "Part\u00edcipes N":5984,
+        "Patrimonio S\/.":602541809.2400000095,
+        "Part\u00edcipes N":5984.0,
         "A\u00f1os":28,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":64
     },
     {
         "Tipo Fondo":"Inst. Deuda Mediano Plazo $",
@@ -1745,14 +1553,11 @@
         "Rentabilidad 2016":0.0146,
         "Rentabilidad 2015":-0.0033,
         "Rentabilidad 2014":0.0116,
-        "Standard Dev":0.024815937,
-        "Return Lowest":-0.0439,
-        "Return Highest":0.044,
-        "Avg Return Arithmetic":0.0098,
         "Patrimonio S\/.":82708932.4200000018,
-        "Part\u00edcipes N":3915,
+        "Part\u00edcipes N":3915.0,
         "A\u00f1os":27,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":65
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -1772,14 +1577,11 @@
         "Rentabilidad 2016":0.038,
         "Rentabilidad 2015":0.0324,
         "Rentabilidad 2014":0.0294,
-        "Standard Dev":0.01801955,
-        "Return Lowest":0.001,
-        "Return Highest":0.0713,
-        "Avg Return Arithmetic":0.0296,
-        "Patrimonio S\/.":2336045532.0,
-        "Part\u00edcipes N":70321,
+        "Patrimonio S\/.":2336045531.9899997711,
+        "Part\u00edcipes N":70321.0,
         "A\u00f1os":16,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":66
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -1799,14 +1601,11 @@
         "Rentabilidad 2016":0.0429,
         "Rentabilidad 2015":0.0233,
         "Rentabilidad 2014":0.0286,
-        "Standard Dev":0.0178625001,
-        "Return Lowest":-0.0109,
-        "Return Highest":0.0627,
-        "Avg Return Arithmetic":0.0277,
         "Patrimonio S\/.":6870448.6200000001,
-        "Part\u00edcipes N":315,
+        "Part\u00edcipes N":315.0,
         "A\u00f1os":13,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":67
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -1826,14 +1625,11 @@
         "Rentabilidad 2016":0.0443,
         "Rentabilidad 2015":0.0297,
         "Rentabilidad 2014":0.0326,
-        "Standard Dev":0.0228037756,
-        "Return Lowest":-0.0195,
-        "Return Highest":0.0768,
-        "Avg Return Arithmetic":0.0318,
-        "Patrimonio S\/.":276014134.6999999881,
-        "Part\u00edcipes N":4905,
+        "Patrimonio S\/.":276014134.6800000072,
+        "Part\u00edcipes N":4905.0,
         "A\u00f1os":19,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":68
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -1853,14 +1649,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0232128351,
-        "Return Lowest":0.0014,
-        "Return Highest":0.0708,
-        "Avg Return Arithmetic":0.0273,
-        "Patrimonio S\/.":201489307.599999994,
-        "Part\u00edcipes N":381,
+        "Patrimonio S\/.":201489307.5800000131,
+        "Part\u00edcipes N":381.0,
         "A\u00f1os":6,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":69
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -1880,14 +1673,11 @@
         "Rentabilidad 2016":0.0491,
         "Rentabilidad 2015":0.0479,
         "Rentabilidad 2014":0.0321,
-        "Standard Dev":0.019910171,
-        "Return Lowest":-0.0076,
-        "Return Highest":0.0754,
-        "Avg Return Arithmetic":0.0369,
-        "Patrimonio S\/.":579456773.8999999762,
-        "Part\u00edcipes N":10438,
+        "Patrimonio S\/.":579456773.9199999571,
+        "Part\u00edcipes N":10438.0,
         "A\u00f1os":10,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":70
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -1907,14 +1697,11 @@
         "Rentabilidad 2016":0.0424,
         "Rentabilidad 2015":0.035,
         "Rentabilidad 2014":0.0334,
-        "Standard Dev":0.0178643678,
-        "Return Lowest":0.002,
-        "Return Highest":0.0721,
-        "Avg Return Arithmetic":0.0337,
-        "Patrimonio S\/.":1882497471.0,
-        "Part\u00edcipes N":30929,
+        "Patrimonio S\/.":1882497470.8599998951,
+        "Part\u00edcipes N":30929.0,
         "A\u00f1os":24,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":71
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -1934,14 +1721,11 @@
         "Rentabilidad 2016":0.0588,
         "Rentabilidad 2015":0.0383,
         "Rentabilidad 2014":0.0352,
-        "Standard Dev":0.0370518384,
-        "Return Lowest":-0.0662,
-        "Return Highest":0.077,
-        "Avg Return Arithmetic":0.0327,
         "Patrimonio S\/.":9162875.2300000004,
-        "Part\u00edcipes N":200,
+        "Part\u00edcipes N":200.0,
         "A\u00f1os":11,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":72
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -1961,14 +1745,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0257386868,
-        "Return Lowest":0.0271,
-        "Return Highest":0.0635,
-        "Avg Return Arithmetic":0.0453,
-        "Patrimonio S\/.":1054430710.0,
-        "Part\u00edcipes N":12662,
+        "Patrimonio S\/.":1054430709.6799999475,
+        "Part\u00edcipes N":12662.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":73
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -1988,14 +1769,11 @@
         "Rentabilidad 2016":0.0526,
         "Rentabilidad 2015":0.0362,
         "Rentabilidad 2014":0.0438,
-        "Standard Dev":0.0184189823,
-        "Return Lowest":-0.0067,
-        "Return Highest":0.067,
-        "Avg Return Arithmetic":0.0383,
         "Patrimonio S\/.":104117637.700000003,
-        "Part\u00edcipes N":730,
+        "Part\u00edcipes N":730.0,
         "A\u00f1os":15,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":74
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo S\/",
@@ -2015,14 +1793,11 @@
         "Rentabilidad 2016":0.048,
         "Rentabilidad 2015":0.0419,
         "Rentabilidad 2014":0.0375,
-        "Standard Dev":0.0176978016,
-        "Return Lowest":0.0052,
-        "Return Highest":0.0732,
-        "Avg Return Arithmetic":0.0368,
         "Patrimonio S\/.":1406112805.0,
-        "Part\u00edcipes N":2694,
+        "Part\u00edcipes N":2694.0,
         "A\u00f1os":12,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":75
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2042,14 +1817,11 @@
         "Rentabilidad 2016":0.0035,
         "Rentabilidad 2015":0.0013,
         "Rentabilidad 2014":0.0009,
-        "Standard Dev":0.0131153553,
-        "Return Lowest":0.0009,
-        "Return Highest":0.0442,
-        "Avg Return Arithmetic":0.0124,
-        "Patrimonio S\/.":2959522214.0,
-        "Part\u00edcipes N":19699,
+        "Patrimonio S\/.":2959522214.0999999046,
+        "Part\u00edcipes N":19699.0,
         "A\u00f1os":16,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":76
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2069,14 +1841,11 @@
         "Rentabilidad 2016":0.0084,
         "Rentabilidad 2015":-0.0056,
         "Rentabilidad 2014":0.0012,
-        "Standard Dev":0.0145950178,
-        "Return Lowest":-0.0056,
-        "Return Highest":0.0465,
-        "Avg Return Arithmetic":0.0134,
-        "Patrimonio S\/.":648529609.0,
-        "Part\u00edcipes N":2663,
+        "Patrimonio S\/.":648529608.9600000381,
+        "Part\u00edcipes N":2663.0,
         "A\u00f1os":24,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":77
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2096,14 +1865,11 @@
         "Rentabilidad 2016":0.0114,
         "Rentabilidad 2015":0.0075,
         "Rentabilidad 2014":0.0038,
-        "Standard Dev":0.0140306872,
-        "Return Lowest":0.0034,
-        "Return Highest":0.0516,
-        "Avg Return Arithmetic":0.0184,
-        "Patrimonio S\/.":1352590299.0,
-        "Part\u00edcipes N":5345,
+        "Patrimonio S\/.":1352590298.8800001144,
+        "Part\u00edcipes N":5345.0,
         "A\u00f1os":10,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":78
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2123,14 +1889,11 @@
         "Rentabilidad 2016":0.0059,
         "Rentabilidad 2015":0.0043,
         "Rentabilidad 2014":0.0025,
-        "Standard Dev":0.0135320226,
-        "Return Lowest":0.0025,
-        "Return Highest":0.0483,
-        "Avg Return Arithmetic":0.0147,
-        "Patrimonio S\/.":2986046639.0,
-        "Part\u00edcipes N":14539,
+        "Patrimonio S\/.":2986046639.4699997902,
+        "Part\u00edcipes N":14539.0,
         "A\u00f1os":25,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":79
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2150,14 +1913,11 @@
         "Rentabilidad 2016":0.0264,
         "Rentabilidad 2015":-0.0098,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0416208134,
-        "Return Lowest":-0.0977,
-        "Return Highest":0.0536,
-        "Avg Return Arithmetic":0.0112,
         "Patrimonio S\/.":3993197.7000000002,
-        "Part\u00edcipes N":89,
+        "Part\u00edcipes N":89.0,
         "A\u00f1os":9,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":80
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2177,14 +1937,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":8236943.4900000002,
-        "Part\u00edcipes N":23,
+        "Part\u00edcipes N":23.0,
         "A\u00f1os":2,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":81
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2204,14 +1961,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0094429868,
-        "Return Lowest":0.0089,
-        "Return Highest":0.0255,
-        "Avg Return Arithmetic":0.0146,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":2,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":82
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2231,14 +1985,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0178452608,
-        "Return Lowest":0.0092,
-        "Return Highest":0.0448,
-        "Avg Return Arithmetic":0.0263,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":22,
+        "Part\u00edcipes N":22.0,
         "A\u00f1os":2,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":83
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2258,14 +2009,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0130107648,
-        "Return Lowest":0.0238,
-        "Return Highest":0.0422,
-        "Avg Return Arithmetic":0.033,
-        "Patrimonio S\/.":2713326598.0,
-        "Part\u00edcipes N":10060,
+        "Patrimonio S\/.":2713326597.7199997902,
+        "Part\u00edcipes N":10060.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":84
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2285,14 +2033,11 @@
         "Rentabilidad 2016":0.0124,
         "Rentabilidad 2015":0.0052,
         "Rentabilidad 2014":0.0057,
-        "Standard Dev":0.0128303121,
-        "Return Lowest":0.0052,
-        "Return Highest":0.0482,
-        "Avg Return Arithmetic":0.0185,
-        "Patrimonio S\/.":158920758.599999994,
-        "Part\u00edcipes N":697,
+        "Patrimonio S\/.":158920758.6399999857,
+        "Part\u00edcipes N":697.0,
         "A\u00f1os":15,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":85
     },
     {
         "Tipo Fondo":"Inst. Deuda Corto Plazo $",
@@ -2312,14 +2057,11 @@
         "Rentabilidad 2016":0.0069,
         "Rentabilidad 2015":0.0031,
         "Rentabilidad 2014":0.0014,
-        "Standard Dev":0.0135751846,
-        "Return Lowest":0.0014,
-        "Return Highest":0.0479,
-        "Avg Return Arithmetic":0.0156,
-        "Patrimonio S\/.":1106026103.0,
-        "Part\u00edcipes N":2370,
+        "Patrimonio S\/.":1106026102.7599999905,
+        "Part\u00edcipes N":2370.0,
         "A\u00f1os":12,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":86
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2339,14 +2081,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0091,
-        "Return Highest":0.0091,
-        "Avg Return Arithmetic":0.0091,
         "Patrimonio S\/.":56543864.0799999982,
-        "Part\u00edcipes N":15,
+        "Part\u00edcipes N":15.0,
         "A\u00f1os":0,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":87
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2366,14 +2105,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":9273273.8800000008,
-        "Part\u00edcipes N":166,
+        "Part\u00edcipes N":166.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":88
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2393,14 +2129,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0440436148,
-        "Return Lowest":0.0489,
-        "Return Highest":0.1345,
-        "Avg Return Arithmetic":0.0857,
         "Patrimonio S\/.":9273273.8800000008,
-        "Part\u00edcipes N":3,
+        "Part\u00edcipes N":3.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":89
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2420,14 +2153,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0432944569,
-        "Return Lowest":0.0484,
-        "Return Highest":0.1325,
-        "Avg Return Arithmetic":0.0845,
         "Patrimonio S\/.":9273273.8800000008,
-        "Part\u00edcipes N":162,
+        "Part\u00edcipes N":162.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":90
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2447,14 +2177,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0449455597,
-        "Return Lowest":0.0494,
-        "Return Highest":0.1368,
-        "Avg Return Arithmetic":0.087,
         "Patrimonio S\/.":9273273.8800000008,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":91
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2474,14 +2201,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0184136725,
-        "Return Lowest":0.0092,
-        "Return Highest":0.0459,
-        "Avg Return Arithmetic":0.0267,
         "Patrimonio S\/.":28684231.5599999987,
-        "Part\u00edcipes N":155,
+        "Part\u00edcipes N":155.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":92
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2501,14 +2225,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0169705628,
-        "Return Lowest":0.0039,
-        "Return Highest":0.0279,
-        "Avg Return Arithmetic":0.0159,
         "Patrimonio S\/.":2962710.3900000001,
-        "Part\u00edcipes N":363,
+        "Part\u00edcipes N":363.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":93
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2528,14 +2249,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0126572114,
-        "Return Lowest":0.0262,
-        "Return Highest":0.0441,
-        "Avg Return Arithmetic":0.0352,
         "Patrimonio S\/.":30344010.9800000004,
-        "Part\u00edcipes N":14,
+        "Part\u00edcipes N":14.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":94
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2555,14 +2273,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":6299126.7599999998,
-        "Part\u00edcipes N":120,
+        "Part\u00edcipes N":120.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":95
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2582,14 +2297,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.061337672,
-        "Return Lowest":-0.0571,
-        "Return Highest":0.0622,
-        "Avg Return Arithmetic":0.0108,
         "Patrimonio S\/.":6299126.7599999998,
-        "Part\u00edcipes N":8,
+        "Part\u00edcipes N":8.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":96
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2609,14 +2321,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0612529999,
-        "Return Lowest":-0.0584,
-        "Return Highest":0.0606,
-        "Avg Return Arithmetic":0.0095,
         "Patrimonio S\/.":6299126.7599999998,
-        "Part\u00edcipes N":112,
+        "Part\u00edcipes N":112.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":97
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2625,7 +2334,7 @@
         "Fec. Inicio Operaci\u00f3n":"16\/03\/2022",
         "Moneda Cuota":"$",
         "Valor Cuota":10.12,
-        "Rentabilidad 2024":-1.0,
+        "Rentabilidad 2024":null,
         "Rentabilidad 2023":0.0641,
         "Rentabilidad 2022":-0.0557,
         "Rentabilidad 2021":null,
@@ -2636,14 +2345,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.5828612385,
-        "Return Lowest":-1.0,
-        "Return Highest":0.0641,
-        "Avg Return Arithmetic":-0.3305,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":98
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2663,14 +2369,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0693161934,
-        "Return Lowest":-0.0539,
-        "Return Highest":0.1362,
-        "Avg Return Arithmetic":0.027,
         "Patrimonio S\/.":49666493.0099999979,
-        "Part\u00edcipes N":388,
+        "Part\u00edcipes N":388.0,
         "A\u00f1os":5,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":99
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2690,14 +2393,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0020506097,
-        "Return Lowest":0.0353,
-        "Return Highest":0.0382,
-        "Avg Return Arithmetic":0.0368,
-        "Patrimonio S\/.":347001866.8000000119,
-        "Part\u00edcipes N":847,
+        "Patrimonio S\/.":347001866.7799999714,
+        "Part\u00edcipes N":847.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":100
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2717,14 +2417,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0154444812,
-        "Return Lowest":0.0259,
-        "Return Highest":0.0676,
-        "Avg Return Arithmetic":0.046,
-        "Patrimonio S\/.":146550231.8000000119,
-        "Part\u00edcipes N":535,
+        "Patrimonio S\/.":146550231.8199999928,
+        "Part\u00edcipes N":535.0,
         "A\u00f1os":5,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":101
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2744,14 +2441,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0208169002,
-        "Return Lowest":0.0236,
-        "Return Highest":0.0625,
-        "Avg Return Arithmetic":0.0388,
         "Patrimonio S\/.":5336592.6100000003,
-        "Part\u00edcipes N":24,
+        "Part\u00edcipes N":24.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":102
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2771,14 +2465,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0298723116,
-        "Return Lowest":0.0048,
-        "Return Highest":0.0829,
-        "Avg Return Arithmetic":0.0472,
         "Patrimonio S\/.":67014639.5200000033,
-        "Part\u00edcipes N":277,
+        "Part\u00edcipes N":277.0,
         "A\u00f1os":4,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":103
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2798,14 +2489,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":66166014.7100000009,
-        "Part\u00edcipes N":49,
+        "Part\u00edcipes N":49.0,
         "A\u00f1os":6,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":104
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2825,14 +2513,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0634141865,
-        "Return Lowest":-0.1174,
-        "Return Highest":0.0656,
-        "Avg Return Arithmetic":0.005,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":4,
+        "Part\u00edcipes N":4.0,
         "A\u00f1os":6,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":105
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2852,14 +2537,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0631722701,
-        "Return Lowest":-0.1184,
-        "Return Highest":0.0635,
-        "Avg Return Arithmetic":0.0037,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":8,
+        "Part\u00edcipes N":8.0,
         "A\u00f1os":6,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":106
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2879,14 +2561,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0626982152,
-        "Return Lowest":-0.1194,
-        "Return Highest":0.0597,
-        "Avg Return Arithmetic":0.002,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":37,
+        "Part\u00edcipes N":37.0,
         "A\u00f1os":6,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":107
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2906,14 +2585,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0968829878,
-        "Return Lowest":-0.1385,
-        "Return Highest":0.0832,
-        "Avg Return Arithmetic":-0.0025,
         "Patrimonio S\/.":8421311.2100000009,
-        "Part\u00edcipes N":120,
+        "Part\u00edcipes N":120.0,
         "A\u00f1os":3,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":108
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2933,14 +2609,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0949924558,
-        "Return Lowest":-0.1201,
-        "Return Highest":0.1038,
-        "Avg Return Arithmetic":0.0072,
         "Patrimonio S\/.":3569611.0,
-        "Part\u00edcipes N":95,
+        "Part\u00edcipes N":95.0,
         "A\u00f1os":3,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":109
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2960,14 +2633,11 @@
         "Rentabilidad 2016":-0.0209,
         "Rentabilidad 2015":-0.0282,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1194728588,
-        "Return Lowest":-0.2028,
-        "Return Highest":0.1565,
-        "Avg Return Arithmetic":0.0381,
         "Patrimonio S\/.":28609026.8399999999,
-        "Part\u00edcipes N":646,
+        "Part\u00edcipes N":646.0,
         "A\u00f1os":9,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":110
     },
     {
         "Tipo Fondo":"Flexible",
@@ -2979,7 +2649,7 @@
         "Rentabilidad 2024":null,
         "Rentabilidad 2023":null,
         "Rentabilidad 2022":null,
-        "Rentabilidad 2021":-1.0,
+        "Rentabilidad 2021":null,
         "Rentabilidad 2020":0.0205,
         "Rentabilidad 2019":0.0269,
         "Rentabilidad 2018":0.01,
@@ -2987,14 +2657,11 @@
         "Rentabilidad 2016":0.0071,
         "Rentabilidad 2015":0.0061,
         "Rentabilidad 2014":0.0024,
-        "Standard Dev":0.3580428444,
-        "Return Lowest":-1.0,
-        "Return Highest":0.0269,
-        "Avg Return Arithmetic":-0.1141,
-        "Patrimonio S\/.":293054894.3999999762,
-        "Part\u00edcipes N":3848,
+        "Patrimonio S\/.":293054894.4200000167,
+        "Part\u00edcipes N":3848.0,
         "A\u00f1os":11,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":111
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3014,14 +2681,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0100081633,
-        "Return Lowest":0.0144,
-        "Return Highest":0.0336,
-        "Avg Return Arithmetic":0.0224,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":3749,
+        "Part\u00edcipes N":3749.0,
         "A\u00f1os":11,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":112
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3041,14 +2705,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0101483989,
-        "Return Lowest":0.0162,
-        "Return Highest":0.0354,
-        "Avg Return Arithmetic":0.0239,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":94,
+        "Part\u00edcipes N":94.0,
         "A\u00f1os":11,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":113
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3068,14 +2729,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":5,
+        "Part\u00edcipes N":5.0,
         "A\u00f1os":11,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":114
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3088,21 +2746,18 @@
         "Rentabilidad 2023":null,
         "Rentabilidad 2022":null,
         "Rentabilidad 2021":null,
-        "Rentabilidad 2020":-1.0,
+        "Rentabilidad 2020":null,
         "Rentabilidad 2019":0.0352,
         "Rentabilidad 2018":0.0219,
         "Rentabilidad 2017":0.0427,
         "Rentabilidad 2016":0.0404,
         "Rentabilidad 2015":0.0388,
         "Rentabilidad 2014":0.0329,
-        "Standard Dev":0.3913721904,
-        "Return Lowest":-1.0,
-        "Return Highest":0.0427,
-        "Avg Return Arithmetic":-0.1126,
-        "Patrimonio S\/.":419861239.6000000238,
-        "Part\u00edcipes N":6606,
+        "Patrimonio S\/.":419861239.5699999928,
+        "Part\u00edcipes N":6606.0,
         "A\u00f1os":12,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":115
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3122,14 +2777,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0389962712,
-        "Return Lowest":-0.0101,
-        "Return Highest":0.078,
-        "Avg Return Arithmetic":0.025,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":6493,
+        "Part\u00edcipes N":6493.0,
         "A\u00f1os":12,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":116
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3149,14 +2801,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0389747247,
-        "Return Lowest":-0.0089,
-        "Return Highest":0.0792,
-        "Avg Return Arithmetic":0.026,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":38,
+        "Part\u00edcipes N":38.0,
         "A\u00f1os":12,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":117
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3176,14 +2825,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":75,
+        "Part\u00edcipes N":75.0,
         "A\u00f1os":12,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":118
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3203,14 +2849,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0362417257,
-        "Return Lowest":0.0007,
-        "Return Highest":0.1158,
-        "Avg Return Arithmetic":0.0457,
         "Patrimonio S\/.":86104540.299999997,
-        "Part\u00edcipes N":488,
+        "Part\u00edcipes N":488.0,
         "A\u00f1os":7,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":119
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3220,7 +2863,7 @@
         "Moneda Cuota":"S\/.",
         "Valor Cuota":0.0,
         "Rentabilidad 2024":null,
-        "Rentabilidad 2023":-1.0,
+        "Rentabilidad 2023":null,
         "Rentabilidad 2022":0.1022,
         "Rentabilidad 2021":0.0998,
         "Rentabilidad 2020":null,
@@ -3230,14 +2873,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.6356637791,
-        "Return Lowest":-1.0,
-        "Return Highest":0.1022,
-        "Avg Return Arithmetic":-0.266,
-        "Patrimonio S\/.":428574973.5,
-        "Part\u00edcipes N":3533,
+        "Patrimonio S\/.":428574973.5299999714,
+        "Part\u00edcipes N":3533.0,
         "A\u00f1os":3,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":120
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3257,14 +2897,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0274,
-        "Return Highest":0.0274,
-        "Avg Return Arithmetic":0.0274,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":3479,
+        "Part\u00edcipes N":3479.0,
         "A\u00f1os":3,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":121
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3284,14 +2921,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0298,
-        "Return Highest":0.0298,
-        "Avg Return Arithmetic":0.0298,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":54,
+        "Part\u00edcipes N":54.0,
         "A\u00f1os":3,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":122
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3311,14 +2945,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0658724905,
-        "Return Lowest":-0.0881,
-        "Return Highest":0.0829,
-        "Avg Return Arithmetic":0.0164,
         "Patrimonio S\/.":52449627.4399999976,
-        "Part\u00edcipes N":955,
+        "Part\u00edcipes N":955.0,
         "A\u00f1os":4,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":123
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3338,14 +2969,11 @@
         "Rentabilidad 2016":0.042,
         "Rentabilidad 2015":0.0337,
         "Rentabilidad 2014":0.0304,
-        "Standard Dev":0.0486659859,
-        "Return Lowest":-0.1296,
-        "Return Highest":0.042,
-        "Avg Return Arithmetic":0.0135,
         "Patrimonio S\/.":61404110.3599999994,
-        "Part\u00edcipes N":8312,
+        "Part\u00edcipes N":8312.0,
         "A\u00f1os":13,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":124
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3365,14 +2993,11 @@
         "Rentabilidad 2016":0.0099,
         "Rentabilidad 2015":0.0048,
         "Rentabilidad 2014":0.0026,
-        "Standard Dev":0.017572882,
-        "Return Lowest":-0.031,
-        "Return Highest":0.0289,
-        "Avg Return Arithmetic":0.0067,
         "Patrimonio S\/.":66840621.7899999991,
-        "Part\u00edcipes N":2078,
+        "Part\u00edcipes N":2078.0,
         "A\u00f1os":23,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":125
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3392,14 +3017,11 @@
         "Rentabilidad 2016":0.0462,
         "Rentabilidad 2015":0.0351,
         "Rentabilidad 2014":0.0348,
-        "Standard Dev":0.0334063848,
-        "Return Lowest":-0.0619,
-        "Return Highest":0.0462,
-        "Avg Return Arithmetic":0.0184,
         "Patrimonio S\/.":61040534.3999999985,
-        "Part\u00edcipes N":5515,
+        "Part\u00edcipes N":5515.0,
         "A\u00f1os":23,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":126
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3419,14 +3041,11 @@
         "Rentabilidad 2016":0.017,
         "Rentabilidad 2015":-0.0066,
         "Rentabilidad 2014":0.0116,
-        "Standard Dev":0.082738807,
-        "Return Lowest":-0.2472,
-        "Return Highest":0.0528,
-        "Avg Return Arithmetic":-0.0048,
         "Patrimonio S\/.":40478822.1899999976,
-        "Part\u00edcipes N":1768,
+        "Part\u00edcipes N":1768.0,
         "A\u00f1os":28,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":127
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3446,14 +3065,11 @@
         "Rentabilidad 2016":0.0418,
         "Rentabilidad 2015":0.0265,
         "Rentabilidad 2014":0.0438,
-        "Standard Dev":0.1048678718,
-        "Return Lowest":-0.3065,
-        "Return Highest":0.0662,
-        "Avg Return Arithmetic":-0.0014,
         "Patrimonio S\/.":11720505.6400000006,
-        "Part\u00edcipes N":1757,
+        "Part\u00edcipes N":1757.0,
         "A\u00f1os":17,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":128
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3473,14 +3089,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0130814754,
-        "Return Lowest":0.0057,
-        "Return Highest":0.0242,
-        "Avg Return Arithmetic":0.015,
         "Patrimonio S\/.":486410149.3000000119,
-        "Part\u00edcipes N":1118,
+        "Part\u00edcipes N":1118.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":129
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3500,14 +3113,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0172,
-        "Return Highest":0.0172,
-        "Avg Return Arithmetic":0.0172,
         "Patrimonio S\/.":52518855.7700000033,
-        "Part\u00edcipes N":336,
+        "Part\u00edcipes N":336.0,
         "A\u00f1os":0,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":130
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3527,14 +3137,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0951058621,
-        "Return Lowest":0.0026,
-        "Return Highest":0.1371,
-        "Avg Return Arithmetic":0.0699,
         "Patrimonio S\/.":11393639.6699999999,
-        "Part\u00edcipes N":12,
+        "Part\u00edcipes N":12.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":131
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3554,14 +3161,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.129091802,
-        "Return Lowest":-0.0398,
-        "Return Highest":0.1926,
-        "Avg Return Arithmetic":0.0439,
         "Patrimonio S\/.":65933649.1400000006,
-        "Part\u00edcipes N":39,
+        "Part\u00edcipes N":39.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":132
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3581,14 +3185,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0942573339,
-        "Return Lowest":-0.0026,
-        "Return Highest":0.1307,
-        "Avg Return Arithmetic":0.0641,
         "Patrimonio S\/.":27403519.7399999984,
-        "Part\u00edcipes N":29,
+        "Part\u00edcipes N":29.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":133
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3608,14 +3209,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0049,
-        "Return Highest":0.0049,
-        "Avg Return Arithmetic":0.0049,
         "Patrimonio S\/.":72009791.650000006,
-        "Part\u00edcipes N":12,
+        "Part\u00edcipes N":12.0,
         "A\u00f1os":0,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":134
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3635,14 +3233,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0448305699,
-        "Return Lowest":-0.005,
-        "Return Highest":0.0584,
-        "Avg Return Arithmetic":0.0267,
         "Patrimonio S\/.":28252593.6999999993,
-        "Part\u00edcipes N":37,
+        "Part\u00edcipes N":37.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":135
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3662,14 +3257,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0558151413,
-        "Return Lowest":-0.0252,
-        "Return Highest":0.0841,
-        "Avg Return Arithmetic":0.036,
-        "Patrimonio S\/.":129050225.700000003,
-        "Part\u00edcipes N":93,
+        "Patrimonio S\/.":129050225.6800000072,
+        "Part\u00edcipes N":93.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":136
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3689,14 +3281,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0897391776,
-        "Return Lowest":-0.0248,
-        "Return Highest":0.1472,
-        "Avg Return Arithmetic":0.0464,
-        "Patrimonio S\/.":115563554.200000003,
-        "Part\u00edcipes N":59,
+        "Patrimonio S\/.":115563554.2399999946,
+        "Part\u00edcipes N":59.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":137
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3716,14 +3305,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0270944644,
-        "Return Lowest":-0.0132,
-        "Return Highest":0.0404,
-        "Avg Return Arithmetic":0.0159,
         "Patrimonio S\/.":36491467.8900000006,
-        "Part\u00edcipes N":46,
+        "Part\u00edcipes N":46.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":138
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3743,14 +3329,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0072831998,
-        "Return Lowest":0.0323,
-        "Return Highest":0.0426,
-        "Avg Return Arithmetic":0.0375,
         "Patrimonio S\/.":85205213.0199999958,
-        "Part\u00edcipes N":10,
+        "Part\u00edcipes N":10.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":139
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3770,14 +3353,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0328,
-        "Return Highest":0.0328,
-        "Avg Return Arithmetic":0.0328,
         "Patrimonio S\/.":22535466.5,
-        "Part\u00edcipes N":48,
+        "Part\u00edcipes N":48.0,
         "A\u00f1os":0,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":140
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3797,14 +3377,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0009899495,
-        "Return Lowest":0.0277,
-        "Return Highest":0.0291,
-        "Avg Return Arithmetic":0.0284,
-        "Patrimonio S\/.":111005824.400000006,
-        "Part\u00edcipes N":226,
+        "Patrimonio S\/.":111005824.4099999964,
+        "Part\u00edcipes N":226.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":141
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3824,14 +3401,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.018455487,
-        "Return Lowest":0.0033,
-        "Return Highest":0.0294,
-        "Avg Return Arithmetic":0.0164,
-        "Patrimonio S\/.":257684238.400000006,
-        "Part\u00edcipes N":481,
+        "Patrimonio S\/.":257684238.3600000143,
+        "Part\u00edcipes N":481.0,
         "A\u00f1os":1,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":142
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3851,14 +3425,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0133,
-        "Return Highest":0.0133,
-        "Avg Return Arithmetic":0.0133,
-        "Patrimonio S\/.":186694501.6999999881,
-        "Part\u00edcipes N":254,
+        "Patrimonio S\/.":186694501.7199999988,
+        "Part\u00edcipes N":254.0,
         "A\u00f1os":0,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":143
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3878,14 +3449,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0223,
-        "Return Highest":0.0223,
-        "Avg Return Arithmetic":0.0223,
-        "Patrimonio S\/.":274616552.8999999762,
-        "Part\u00edcipes N":549,
+        "Patrimonio S\/.":274616552.9100000262,
+        "Part\u00edcipes N":549.0,
         "A\u00f1os":0,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":144
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3905,14 +3473,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0137,
-        "Return Highest":0.0137,
-        "Avg Return Arithmetic":0.0137,
-        "Patrimonio S\/.":185898855.5,
-        "Part\u00edcipes N":471,
+        "Patrimonio S\/.":185898855.4799999893,
+        "Part\u00edcipes N":471.0,
         "A\u00f1os":0,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":145
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3932,14 +3497,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":-0.8997,
-        "Return Highest":-0.8997,
-        "Avg Return Arithmetic":-0.8997,
-        "Patrimonio S\/.":300219846.0,
-        "Part\u00edcipes N":802,
+        "Patrimonio S\/.":300219846.0099999905,
+        "Part\u00edcipes N":802.0,
         "A\u00f1os":0,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":146
     },
     {
         "Tipo Fondo":"Flexible",
@@ -3959,14 +3521,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0931323789,
-        "Return Lowest":-0.1222,
-        "Return Highest":0.046,
-        "Avg Return Arithmetic":-0.015,
         "Patrimonio S\/.":33859137.6499999985,
-        "Part\u00edcipes N":53,
+        "Part\u00edcipes N":53.0,
         "A\u00f1os":2,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":147
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -3986,14 +3545,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":8864774.4399999995,
-        "Part\u00edcipes N":31,
+        "Part\u00edcipes N":31.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":148
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4013,14 +3569,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0013,
-        "Return Highest":0.0013,
-        "Avg Return Arithmetic":0.0013,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":30,
+        "Part\u00edcipes N":30.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":149
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4040,14 +3593,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0013,
-        "Return Highest":0.0013,
-        "Avg Return Arithmetic":0.0013,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":150
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4067,14 +3617,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0768865367,
-        "Return Lowest":-0.1081,
-        "Return Highest":0.1227,
-        "Avg Return Arithmetic":0.0218,
-        "Patrimonio S\/.":156749435.5,
-        "Part\u00edcipes N":884,
+        "Patrimonio S\/.":156749435.4600000083,
+        "Part\u00edcipes N":884.0,
         "A\u00f1os":6,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":151
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4094,14 +3641,11 @@
         "Rentabilidad 2016":0.0624,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0740213783,
-        "Return Lowest":-0.1388,
-        "Return Highest":0.102,
-        "Avg Return Arithmetic":0.0199,
-        "Patrimonio S\/.":103351707.400000006,
-        "Part\u00edcipes N":697,
+        "Patrimonio S\/.":103351707.3599999994,
+        "Part\u00edcipes N":697.0,
         "A\u00f1os":8,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":152
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4121,14 +3665,11 @@
         "Rentabilidad 2016":0.0748,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1189880328,
-        "Return Lowest":-0.1779,
-        "Return Highest":0.1816,
-        "Avg Return Arithmetic":0.0539,
         "Patrimonio S\/.":40423385.4399999976,
-        "Part\u00edcipes N":721,
+        "Part\u00edcipes N":721.0,
         "A\u00f1os":8,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":153
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4148,14 +3689,11 @@
         "Rentabilidad 2016":0.0865,
         "Rentabilidad 2015":-0.0206,
         "Rentabilidad 2014":0.0221,
-        "Standard Dev":0.0731852444,
-        "Return Lowest":-0.1555,
-        "Return Highest":0.1042,
-        "Avg Return Arithmetic":0.015,
         "Patrimonio S\/.":19944546.1600000001,
-        "Part\u00edcipes N":596,
+        "Part\u00edcipes N":596.0,
         "A\u00f1os":11,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":154
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4175,14 +3713,11 @@
         "Rentabilidad 2016":0.273,
         "Rentabilidad 2015":-0.1771,
         "Rentabilidad 2014":-0.0156,
-        "Standard Dev":0.1351627692,
-        "Return Lowest":-0.2027,
-        "Return Highest":0.273,
-        "Avg Return Arithmetic":0.012,
         "Patrimonio S\/.":10237570.4000000004,
-        "Part\u00edcipes N":840,
+        "Part\u00edcipes N":840.0,
         "A\u00f1os":16,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":155
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4202,14 +3737,11 @@
         "Rentabilidad 2016":0.0593,
         "Rentabilidad 2015":-0.2855,
         "Rentabilidad 2014":-0.1583,
-        "Standard Dev":0.1621795201,
-        "Return Lowest":-0.2855,
-        "Return Highest":0.2669,
-        "Avg Return Arithmetic":-0.0323,
         "Patrimonio S\/.":9461290.7300000004,
-        "Part\u00edcipes N":185,
+        "Part\u00edcipes N":185.0,
         "A\u00f1os":12,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":156
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4229,14 +3761,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1611545304,
-        "Return Lowest":-0.1841,
-        "Return Highest":0.2473,
-        "Avg Return Arithmetic":0.0377,
         "Patrimonio S\/.":28871338.2800000012,
-        "Part\u00edcipes N":470,
+        "Part\u00edcipes N":470.0,
         "A\u00f1os":7,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":157
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4256,14 +3785,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.2113182907,
-        "Return Lowest":-0.3016,
-        "Return Highest":0.3441,
-        "Avg Return Arithmetic":0.1276,
-        "Patrimonio S\/.":166762599.1999999881,
-        "Part\u00edcipes N":2004,
+        "Patrimonio S\/.":166762599.1699999869,
+        "Part\u00edcipes N":2004.0,
         "A\u00f1os":7,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":158
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4283,14 +3809,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.2109183453,
-        "Return Lowest":-0.2655,
-        "Return Highest":0.364,
-        "Avg Return Arithmetic":0.0887,
         "Patrimonio S\/.":55238012.25,
-        "Part\u00edcipes N":898,
+        "Part\u00edcipes N":898.0,
         "A\u00f1os":7,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":159
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4310,14 +3833,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0784624205,
-        "Return Lowest":-0.1028,
-        "Return Highest":0.147,
-        "Avg Return Arithmetic":0.0246,
         "Patrimonio S\/.":64817785.5799999982,
-        "Part\u00edcipes N":444,
+        "Part\u00edcipes N":444.0,
         "A\u00f1os":6,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":160
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4337,14 +3857,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0453556344,
-        "Return Lowest":-0.0382,
-        "Return Highest":0.1029,
-        "Avg Return Arithmetic":0.0287,
         "Patrimonio S\/.":72568757.049999997,
-        "Part\u00edcipes N":696,
+        "Part\u00edcipes N":696.0,
         "A\u00f1os":7,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":161
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4364,14 +3881,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0661011225,
-        "Return Lowest":-0.0862,
-        "Return Highest":0.1245,
-        "Avg Return Arithmetic":0.0291,
-        "Patrimonio S\/.":120179522.099999994,
-        "Part\u00edcipes N":642,
+        "Patrimonio S\/.":120179522.0799999982,
+        "Part\u00edcipes N":642.0,
         "A\u00f1os":7,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":162
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4391,14 +3905,11 @@
         "Rentabilidad 2016":-0.0017,
         "Rentabilidad 2015":-0.0638,
         "Rentabilidad 2014":0.0193,
-        "Standard Dev":0.074305053,
-        "Return Lowest":-0.094,
-        "Return Highest":0.1372,
-        "Avg Return Arithmetic":0.0311,
         "Patrimonio S\/.":40995515.8200000003,
-        "Part\u00edcipes N":319,
+        "Part\u00edcipes N":319.0,
         "A\u00f1os":10,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":163
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4418,14 +3929,11 @@
         "Rentabilidad 2016":0.2272,
         "Rentabilidad 2015":-0.2186,
         "Rentabilidad 2014":-0.069,
-        "Standard Dev":0.1231289893,
-        "Return Lowest":-0.2186,
-        "Return Highest":0.2272,
-        "Avg Return Arithmetic":-0.0059,
         "Patrimonio S\/.":39803103.5600000024,
-        "Part\u00edcipes N":191,
+        "Part\u00edcipes N":191.0,
         "A\u00f1os":14,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":164
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4445,14 +3953,11 @@
         "Rentabilidad 2016":0.0972,
         "Rentabilidad 2015":-0.1198,
         "Rentabilidad 2014":-0.0425,
-        "Standard Dev":0.0573996246,
-        "Return Lowest":-0.1198,
-        "Return Highest":0.0972,
-        "Avg Return Arithmetic":-0.0011,
         "Patrimonio S\/.":25476542.620000001,
-        "Part\u00edcipes N":100,
+        "Part\u00edcipes N":100.0,
         "A\u00f1os":14,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":165
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4472,14 +3977,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":3760023.8900000001,
-        "Part\u00edcipes N":13,
+        "Part\u00edcipes N":13.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":166
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4499,14 +4001,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0976838165,
-        "Return Lowest":-0.1451,
-        "Return Highest":0.1004,
-        "Avg Return Arithmetic":0.0208,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":13,
+        "Part\u00edcipes N":13.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":167
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4518,7 +4017,7 @@
         "Rentabilidad 2024":null,
         "Rentabilidad 2023":null,
         "Rentabilidad 2022":null,
-        "Rentabilidad 2021":-1.0,
+        "Rentabilidad 2021":null,
         "Rentabilidad 2020":0.0447,
         "Rentabilidad 2019":null,
         "Rentabilidad 2018":null,
@@ -4526,14 +4025,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.7387144543,
-        "Return Lowest":-1.0,
-        "Return Highest":0.0447,
-        "Avg Return Arithmetic":-0.4777,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":2,
+        "Part\u00edcipes N":2.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":168
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4553,14 +4049,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.3338860023,
-        "Return Lowest":-0.3891,
-        "Return Highest":0.3933,
-        "Avg Return Arithmetic":0.0678,
         "Patrimonio S\/.":50878829.1700000018,
-        "Part\u00edcipes N":459,
+        "Part\u00edcipes N":459.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":169
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4580,14 +4073,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.215848226,
-        "Return Lowest":-0.3187,
-        "Return Highest":0.2859,
-        "Avg Return Arithmetic":0.0762,
         "Patrimonio S\/.":36920901.1899999976,
-        "Part\u00edcipes N":499,
+        "Part\u00edcipes N":499.0,
         "A\u00f1os":6,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":170
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4607,14 +4097,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0526719818,
-        "Return Lowest":-0.0751,
-        "Return Highest":0.0717,
-        "Avg Return Arithmetic":0.0225,
-        "Patrimonio S\/.":402980256.6000000238,
-        "Part\u00edcipes N":908,
+        "Patrimonio S\/.":402980256.6399999857,
+        "Part\u00edcipes N":908.0,
         "A\u00f1os":5,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":171
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4634,14 +4121,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.2152560104,
-        "Return Lowest":-0.2744,
-        "Return Highest":0.2148,
-        "Avg Return Arithmetic":0.0387,
         "Patrimonio S\/.":15067136.7400000002,
-        "Part\u00edcipes N":313,
+        "Part\u00edcipes N":313.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":172
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4661,14 +4145,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0308,
-        "Return Highest":0.0308,
-        "Avg Return Arithmetic":0.0308,
         "Patrimonio S\/.":43141412.299999997,
-        "Part\u00edcipes N":182,
+        "Part\u00edcipes N":182.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":173
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4688,14 +4169,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1642952221,
-        "Return Lowest":-0.3401,
-        "Return Highest":-0.0063,
-        "Avg Return Arithmetic":-0.1454,
         "Patrimonio S\/.":5619706.8499999996,
-        "Part\u00edcipes N":114,
+        "Part\u00edcipes N":114.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":174
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4715,14 +4193,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0075,
-        "Return Highest":0.0075,
-        "Avg Return Arithmetic":0.0075,
         "Patrimonio S\/.":41986809.5399999991,
-        "Part\u00edcipes N":159,
+        "Part\u00edcipes N":159.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":175
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4742,14 +4217,11 @@
         "Rentabilidad 2016":0.0821,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1017262011,
-        "Return Lowest":-0.1666,
-        "Return Highest":0.1531,
-        "Avg Return Arithmetic":0.0419,
-        "Patrimonio S\/.":160211985.5,
-        "Part\u00edcipes N":1281,
+        "Patrimonio S\/.":160211985.5200000107,
+        "Part\u00edcipes N":1281.0,
         "A\u00f1os":8,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":176
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4769,14 +4241,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.2382403261,
-        "Return Lowest":-0.3575,
-        "Return Highest":0.2915,
-        "Avg Return Arithmetic":0.0267,
         "Patrimonio S\/.":39246228.7100000009,
-        "Part\u00edcipes N":293,
+        "Part\u00edcipes N":293.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":177
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4796,14 +4265,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0768533474,
-        "Return Lowest":-0.1241,
-        "Return Highest":0.0752,
-        "Avg Return Arithmetic":-0.0011,
         "Patrimonio S\/.":54743913.9099999964,
-        "Part\u00edcipes N":160,
+        "Part\u00edcipes N":160.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":178
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4823,14 +4289,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1382985508,
-        "Return Lowest":-0.2242,
-        "Return Highest":0.078,
-        "Avg Return Arithmetic":-0.0197,
         "Patrimonio S\/.":9053768.4499999993,
-        "Part\u00edcipes N":146,
+        "Part\u00edcipes N":146.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":179
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4850,14 +4313,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":1263670.6000000001,
-        "Part\u00edcipes N":10,
+        "Part\u00edcipes N":10.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":180
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4877,14 +4337,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":181
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4904,14 +4361,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0966,
-        "Return Highest":0.0966,
-        "Avg Return Arithmetic":0.0966,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":9,
+        "Part\u00edcipes N":9.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":182
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4931,14 +4385,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":5803672.1600000001,
-        "Part\u00edcipes N":18,
+        "Part\u00edcipes N":18.0,
         "A\u00f1os":2,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":183
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4958,14 +4409,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.035674127,
-        "Return Lowest":0.02,
-        "Return Highest":0.0911,
-        "Avg Return Arithmetic":0.0573,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":9,
+        "Part\u00edcipes N":9.0,
         "A\u00f1os":2,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":184
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -4985,14 +4433,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0349719888,
-        "Return Lowest":0.0183,
-        "Return Highest":0.0879,
-        "Avg Return Arithmetic":0.0551,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":8,
+        "Part\u00edcipes N":8.0,
         "A\u00f1os":2,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":185
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5012,14 +4457,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0359547401,
-        "Return Lowest":0.0207,
-        "Return Highest":0.0924,
-        "Avg Return Arithmetic":0.0581,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":2,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":186
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5039,14 +4481,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0680614122,
-        "Return Lowest":-0.1237,
-        "Return Highest":0.0373,
-        "Avg Return Arithmetic":-0.029,
         "Patrimonio S\/.":6974287.2000000002,
-        "Part\u00edcipes N":76,
+        "Part\u00edcipes N":76.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":187
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5066,14 +4505,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.2797301378,
-        "Return Lowest":-0.3088,
-        "Return Highest":0.4411,
-        "Avg Return Arithmetic":0.078,
         "Patrimonio S\/.":6031392.5199999996,
-        "Part\u00edcipes N":104,
+        "Part\u00edcipes N":104.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":188
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5093,14 +4529,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1694405107,
-        "Return Lowest":-0.2128,
-        "Return Highest":0.1617,
-        "Avg Return Arithmetic":0.0371,
         "Patrimonio S\/.":18164541.0399999991,
-        "Part\u00edcipes N":131,
+        "Part\u00edcipes N":131.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":189
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5120,14 +4553,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0472009604,
-        "Return Lowest":-0.0901,
-        "Return Highest":0.0385,
-        "Avg Return Arithmetic":-0.002,
         "Patrimonio S\/.":15895319.8100000005,
-        "Part\u00edcipes N":221,
+        "Part\u00edcipes N":221.0,
         "A\u00f1os":5,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":190
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5147,14 +4577,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1356401981,
-        "Return Lowest":-0.052,
-        "Return Highest":0.2165,
-        "Avg Return Arithmetic":0.0934,
         "Patrimonio S\/.":8766214.5500000007,
-        "Part\u00edcipes N":354,
+        "Part\u00edcipes N":354.0,
         "A\u00f1os":2,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":191
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5174,14 +4601,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0187394415,
-        "Return Lowest":0.0053,
-        "Return Highest":0.0504,
-        "Avg Return Arithmetic":0.0252,
-        "Patrimonio S\/.":332265013.8999999762,
-        "Part\u00edcipes N":898,
+        "Patrimonio S\/.":332265013.8799999952,
+        "Part\u00edcipes N":898.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":192
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5201,14 +4625,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0044547727,
-        "Return Lowest":0.0181,
-        "Return Highest":0.0244,
-        "Avg Return Arithmetic":0.0213,
         "Patrimonio S\/.":66062411.299999997,
-        "Part\u00edcipes N":353,
+        "Part\u00edcipes N":353.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":193
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5228,14 +4649,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0018384776,
-        "Return Lowest":0.0223,
-        "Return Highest":0.0249,
-        "Avg Return Arithmetic":0.0236,
         "Patrimonio S\/.":92579006.599999994,
-        "Part\u00edcipes N":416,
+        "Part\u00edcipes N":416.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":194
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5255,14 +4673,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0079903066,
-        "Return Lowest":0.0137,
-        "Return Highest":0.025,
-        "Avg Return Arithmetic":0.0194,
         "Patrimonio S\/.":60555635.2599999979,
-        "Part\u00edcipes N":370,
+        "Part\u00edcipes N":370.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":195
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5282,14 +4697,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0115258405,
-        "Return Lowest":0.0088,
-        "Return Highest":0.0251,
-        "Avg Return Arithmetic":0.017,
         "Patrimonio S\/.":58847187.3299999982,
-        "Part\u00edcipes N":399,
+        "Part\u00edcipes N":399.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":196
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5309,14 +4721,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0201,
-        "Return Highest":0.0201,
-        "Avg Return Arithmetic":0.0201,
         "Patrimonio S\/.":39838118.200000003,
-        "Part\u00edcipes N":222,
+        "Part\u00edcipes N":222.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":197
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5336,14 +4745,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0087,
-        "Return Highest":0.0087,
-        "Avg Return Arithmetic":0.0087,
-        "Patrimonio S\/.":103229900.900000006,
-        "Part\u00edcipes N":415,
+        "Patrimonio S\/.":103229900.9099999964,
+        "Part\u00edcipes N":415.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":198
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5363,14 +4769,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0135,
-        "Return Highest":0.0135,
-        "Avg Return Arithmetic":0.0135,
         "Patrimonio S\/.":34591895.7299999967,
-        "Part\u00edcipes N":251,
+        "Part\u00edcipes N":251.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":199
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5390,14 +4793,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0117,
-        "Return Highest":0.0117,
-        "Avg Return Arithmetic":0.0117,
         "Patrimonio S\/.":64764253.8400000036,
-        "Part\u00edcipes N":334,
+        "Part\u00edcipes N":334.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":200
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5417,14 +4817,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0032,
-        "Return Highest":0.0032,
-        "Avg Return Arithmetic":0.0032,
         "Patrimonio S\/.":81750613.3299999982,
-        "Part\u00edcipes N":400,
+        "Part\u00edcipes N":400.0,
         "A\u00f1os":0,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":201
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5444,14 +4841,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":4341869.0700000003,
-        "Part\u00edcipes N":31,
+        "Part\u00edcipes N":31.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":202
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5471,14 +4865,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0011,
-        "Return Highest":0.0011,
-        "Avg Return Arithmetic":0.0011,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":20,
+        "Part\u00edcipes N":20.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":203
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5498,14 +4889,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0003,
-        "Return Highest":0.0003,
-        "Avg Return Arithmetic":0.0003,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":11,
+        "Part\u00edcipes N":11.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":204
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5525,14 +4913,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0212113177,
-        "Return Lowest":0.0046,
-        "Return Highest":0.047,
-        "Avg Return Arithmetic":0.0254,
         "Patrimonio S\/.":84753632.8700000048,
-        "Part\u00edcipes N":376,
+        "Part\u00edcipes N":376.0,
         "A\u00f1os":2,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":205
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5552,14 +4937,11 @@
         "Rentabilidad 2016":0.0318,
         "Rentabilidad 2015":0.0065,
         "Rentabilidad 2014":0.0234,
-        "Standard Dev":0.0306510774,
-        "Return Lowest":-0.0134,
-        "Return Highest":0.0777,
-        "Avg Return Arithmetic":0.0257,
         "Patrimonio S\/.":53654113.6099999994,
-        "Part\u00edcipes N":524,
+        "Part\u00edcipes N":524.0,
         "A\u00f1os":19,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":206
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5579,14 +4961,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0576292027,
-        "Return Lowest":0.0813,
-        "Return Highest":0.1628,
-        "Avg Return Arithmetic":0.1221,
         "Patrimonio S\/.":2759560.6200000001,
-        "Part\u00edcipes N":40,
+        "Part\u00edcipes N":40.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":207
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5606,14 +4985,11 @@
         "Rentabilidad 2016":0.51,
         "Rentabilidad 2015":-0.3969,
         "Rentabilidad 2014":-0.1235,
-        "Standard Dev":0.2489411139,
-        "Return Lowest":-0.3969,
-        "Return Highest":0.51,
-        "Avg Return Arithmetic":0.0402,
         "Patrimonio S\/.":41699460.9099999964,
-        "Part\u00edcipes N":353,
+        "Part\u00edcipes N":353.0,
         "A\u00f1os":14,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":208
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5633,14 +5009,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1029246326,
-        "Return Lowest":-0.1405,
-        "Return Highest":0.0653,
-        "Avg Return Arithmetic":-0.0389,
         "Patrimonio S\/.":9541240.1099999994,
-        "Part\u00edcipes N":81,
+        "Part\u00edcipes N":81.0,
         "A\u00f1os":2,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":209
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5660,14 +5033,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0550175037,
-        "Return Lowest":-0.0873,
-        "Return Highest":0.0715,
-        "Avg Return Arithmetic":0.0178,
-        "Patrimonio S\/.":319069944.6000000238,
-        "Part\u00edcipes N":742,
+        "Patrimonio S\/.":319069944.5699999928,
+        "Part\u00edcipes N":742.0,
         "A\u00f1os":6,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":210
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5687,14 +5057,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0980715513,
-        "Return Lowest":-0.117,
-        "Return Highest":0.1227,
-        "Avg Return Arithmetic":0.0074,
         "Patrimonio S\/.":45801961.5799999982,
-        "Part\u00edcipes N":194,
+        "Part\u00edcipes N":194.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":211
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5714,14 +5081,11 @@
         "Rentabilidad 2016":0.0124,
         "Rentabilidad 2015":-0.0062,
         "Rentabilidad 2014":0.0149,
-        "Standard Dev":0.0310483201,
-        "Return Lowest":-0.0589,
-        "Return Highest":0.0584,
-        "Avg Return Arithmetic":0.0147,
         "Patrimonio S\/.":19350291.629999999,
-        "Part\u00edcipes N":110,
+        "Part\u00edcipes N":110.0,
         "A\u00f1os":22,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":212
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5741,14 +5105,11 @@
         "Rentabilidad 2016":0.1385,
         "Rentabilidad 2015":-0.0814,
         "Rentabilidad 2014":-0.0032,
-        "Standard Dev":0.0611425949,
-        "Return Lowest":-0.0814,
-        "Return Highest":0.1385,
-        "Avg Return Arithmetic":0.0174,
         "Patrimonio S\/.":13878029.9600000009,
-        "Part\u00edcipes N":599,
+        "Part\u00edcipes N":599.0,
         "A\u00f1os":26,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":213
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5768,14 +5129,11 @@
         "Rentabilidad 2016":0.0232,
         "Rentabilidad 2015":-0.1957,
         "Rentabilidad 2014":-0.1755,
-        "Standard Dev":0.1149187832,
-        "Return Lowest":-0.1957,
-        "Return Highest":0.124,
-        "Avg Return Arithmetic":-0.0294,
         "Patrimonio S\/.":2815873.79,
-        "Part\u00edcipes N":119,
+        "Part\u00edcipes N":119.0,
         "A\u00f1os":13,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":214
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5795,14 +5153,11 @@
         "Rentabilidad 2016":0.4919,
         "Rentabilidad 2015":-0.3143,
         "Rentabilidad 2014":-0.0775,
-        "Standard Dev":0.2099234445,
-        "Return Lowest":-0.3143,
-        "Return Highest":0.4919,
-        "Avg Return Arithmetic":0.0263,
         "Patrimonio S\/.":17623299.120000001,
-        "Part\u00edcipes N":1478,
+        "Part\u00edcipes N":1478.0,
         "A\u00f1os":17,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":215
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5822,14 +5177,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0659180552,
-        "Return Lowest":-0.0836,
-        "Return Highest":0.0734,
-        "Avg Return Arithmetic":0.0082,
         "Patrimonio S\/.":2466454.3999999999,
-        "Part\u00edcipes N":76,
+        "Part\u00edcipes N":76.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":216
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5849,14 +5201,11 @@
         "Rentabilidad 2016":0.2597,
         "Rentabilidad 2015":-0.1628,
         "Rentabilidad 2014":-0.0215,
-        "Standard Dev":0.1117935175,
-        "Return Lowest":-0.1628,
-        "Return Highest":0.2597,
-        "Avg Return Arithmetic":0.0219,
         "Patrimonio S\/.":13276790.6699999999,
-        "Part\u00edcipes N":2010,
+        "Part\u00edcipes N":2010.0,
         "A\u00f1os":17,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":217
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5876,14 +5225,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1747967963,
-        "Return Lowest":-0.1737,
-        "Return Highest":0.0735,
-        "Avg Return Arithmetic":-0.0501,
         "Patrimonio S\/.":2938832.5099999998,
-        "Part\u00edcipes N":405,
+        "Part\u00edcipes N":405.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":218
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5903,14 +5249,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0306904437,
-        "Return Lowest":0.0085,
-        "Return Highest":0.0635,
-        "Avg Return Arithmetic":0.0281,
         "Patrimonio S\/.":64372503.7400000021,
-        "Part\u00edcipes N":358,
+        "Part\u00edcipes N":358.0,
         "A\u00f1os":2,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":219
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5930,14 +5273,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":96821559.4200000018,
-        "Part\u00edcipes N":240,
+        "Part\u00edcipes N":240.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":220
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5957,14 +5297,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.015048228,
-        "Return Lowest":0.006,
-        "Return Highest":0.0427,
-        "Avg Return Arithmetic":0.0233,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":186,
+        "Part\u00edcipes N":186.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":221
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -5984,14 +5321,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.015048228,
-        "Return Lowest":0.006,
-        "Return Highest":0.0427,
-        "Avg Return Arithmetic":0.0233,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":54,
+        "Part\u00edcipes N":54.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":222
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6011,14 +5345,11 @@
         "Rentabilidad 2016":0.1288,
         "Rentabilidad 2015":-0.0638,
         "Rentabilidad 2014":0.0277,
-        "Standard Dev":0.0751301283,
-        "Return Lowest":-0.0928,
-        "Return Highest":0.1331,
-        "Avg Return Arithmetic":0.0286,
         "Patrimonio S\/.":99147351.1200000048,
-        "Part\u00edcipes N":571,
+        "Part\u00edcipes N":571.0,
         "A\u00f1os":12,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":223
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6038,14 +5369,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1372865297,
-        "Return Lowest":-0.1717,
-        "Return Highest":0.2572,
-        "Avg Return Arithmetic":0.0669,
-        "Patrimonio S\/.":140270837.400000006,
-        "Part\u00edcipes N":1052,
+        "Patrimonio S\/.":140270837.3899999857,
+        "Part\u00edcipes N":1052.0,
         "A\u00f1os":7,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":224
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6065,14 +5393,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1223467579,
-        "Return Lowest":-0.128,
-        "Return Highest":0.1511,
-        "Avg Return Arithmetic":0.036,
         "Patrimonio S\/.":23037223.2899999991,
-        "Part\u00edcipes N":1866,
+        "Part\u00edcipes N":1866.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":225
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6092,14 +5417,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":1190470.79,
-        "Part\u00edcipes N":21,
+        "Part\u00edcipes N":21.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":226
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6119,14 +5441,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0239002092,
-        "Return Lowest":-0.0206,
-        "Return Highest":0.0132,
-        "Avg Return Arithmetic":-0.0037,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":14,
+        "Part\u00edcipes N":14.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":227
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6146,14 +5465,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0247487373,
-        "Return Lowest":-0.0161,
-        "Return Highest":0.0189,
-        "Avg Return Arithmetic":0.0014,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":7,
+        "Part\u00edcipes N":7.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":228
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6173,14 +5489,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":6454419.1799999997,
-        "Part\u00edcipes N":81,
+        "Part\u00edcipes N":81.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":229
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6200,14 +5513,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0183847763,
-        "Return Lowest":0.0797,
-        "Return Highest":0.1057,
-        "Avg Return Arithmetic":0.0927,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":75,
+        "Part\u00edcipes N":75.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":230
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6227,14 +5537,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0179605122,
-        "Return Lowest":0.0877,
-        "Return Highest":0.1131,
-        "Avg Return Arithmetic":0.1004,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":6,
+        "Part\u00edcipes N":6.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":231
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6254,14 +5561,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0244656221,
-        "Return Lowest":-0.022,
-        "Return Highest":0.0321,
-        "Avg Return Arithmetic":0.0068,
         "Patrimonio S\/.":2896979.4199999999,
-        "Part\u00edcipes N":34,
+        "Part\u00edcipes N":34.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":232
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6281,14 +5585,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0207182287,
-        "Return Lowest":0.018,
-        "Return Highest":0.0473,
-        "Avg Return Arithmetic":0.0327,
-        "Patrimonio S\/.":103574492.299999997,
-        "Part\u00edcipes N":31,
+        "Patrimonio S\/.":103574492.2600000054,
+        "Part\u00edcipes N":31.0,
         "A\u00f1os":1,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":233
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6308,14 +5609,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1869511344,
-        "Return Lowest":-0.2674,
-        "Return Highest":0.2338,
-        "Avg Return Arithmetic":0.038,
         "Patrimonio S\/.":32887421.5100000016,
-        "Part\u00edcipes N":207,
+        "Part\u00edcipes N":207.0,
         "A\u00f1os":6,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":234
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6335,14 +5633,11 @@
         "Rentabilidad 2016":0.0328,
         "Rentabilidad 2015":0.0277,
         "Rentabilidad 2014":0.0228,
-        "Standard Dev":0.1725835987,
-        "Return Lowest":-0.2852,
-        "Return Highest":0.3052,
-        "Avg Return Arithmetic":0.0987,
-        "Patrimonio S\/.":118501749.400000006,
-        "Part\u00edcipes N":608,
+        "Patrimonio S\/.":118501749.4099999964,
+        "Part\u00edcipes N":608.0,
         "A\u00f1os":10,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":235
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6362,14 +5657,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0768614524,
-        "Return Lowest":-0.1286,
-        "Return Highest":0.0999,
-        "Avg Return Arithmetic":0.013,
         "Patrimonio S\/.":45431210.5200000033,
-        "Part\u00edcipes N":176,
+        "Part\u00edcipes N":176.0,
         "A\u00f1os":6,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":236
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6389,14 +5681,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0688666448,
-        "Return Lowest":-0.1308,
-        "Return Highest":0.075,
-        "Avg Return Arithmetic":0.0013,
         "Patrimonio S\/.":55822107.3500000015,
-        "Part\u00edcipes N":188,
+        "Part\u00edcipes N":188.0,
         "A\u00f1os":6,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":237
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6416,14 +5705,11 @@
         "Rentabilidad 2016":0.2347,
         "Rentabilidad 2015":-0.3708,
         "Rentabilidad 2014":-0.1775,
-        "Standard Dev":0.2078919256,
-        "Return Lowest":-0.3708,
-        "Return Highest":0.2462,
-        "Avg Return Arithmetic":-0.0509,
         "Patrimonio S\/.":22246761.4100000001,
-        "Part\u00edcipes N":226,
+        "Part\u00edcipes N":226.0,
         "A\u00f1os":10,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":238
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6443,14 +5729,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0858348705,
-        "Return Lowest":-0.1227,
-        "Return Highest":0.1089,
-        "Avg Return Arithmetic":-0.0009,
         "Patrimonio S\/.":5783674.6200000001,
-        "Part\u00edcipes N":23,
+        "Part\u00edcipes N":23.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":239
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6470,14 +5753,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0878926789,
-        "Return Lowest":-0.187,
-        "Return Highest":0.0343,
-        "Avg Return Arithmetic":-0.0408,
         "Patrimonio S\/.":84765869.099999994,
-        "Part\u00edcipes N":208,
+        "Part\u00edcipes N":208.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":240
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6497,14 +5777,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0670842903,
-        "Return Lowest":-0.1167,
-        "Return Highest":0.0585,
-        "Avg Return Arithmetic":-0.0109,
-        "Patrimonio S\/.":226009983.1999999881,
-        "Part\u00edcipes N":343,
+        "Patrimonio S\/.":226009983.1599999964,
+        "Part\u00edcipes N":343.0,
         "A\u00f1os":4,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":241
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6524,14 +5801,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1674712388,
-        "Return Lowest":-0.2236,
-        "Return Highest":0.143,
-        "Avg Return Arithmetic":0.0206,
         "Patrimonio S\/.":7567654.3600000003,
-        "Part\u00edcipes N":76,
+        "Part\u00edcipes N":76.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":242
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6551,14 +5825,11 @@
         "Rentabilidad 2016":0.0867,
         "Rentabilidad 2015":-0.0039,
         "Rentabilidad 2014":0.0867,
-        "Standard Dev":0.1392251133,
-        "Return Lowest":-0.1909,
-        "Return Highest":0.2678,
-        "Avg Return Arithmetic":0.0997,
         "Patrimonio S\/.":89678188.0100000054,
-        "Part\u00edcipes N":749,
+        "Part\u00edcipes N":749.0,
         "A\u00f1os":10,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":243
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6578,14 +5849,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1637979243,
-        "Return Lowest":-0.2098,
-        "Return Highest":0.2325,
-        "Avg Return Arithmetic":0.0679,
         "Patrimonio S\/.":42033760.299999997,
-        "Part\u00edcipes N":463,
+        "Part\u00edcipes N":463.0,
         "A\u00f1os":6,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":244
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6601,18 +5869,15 @@
         "Rentabilidad 2020":null,
         "Rentabilidad 2019":null,
         "Rentabilidad 2018":null,
-        "Rentabilidad 2017":-1.0,
+        "Rentabilidad 2017":null,
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":-1.0,
-        "Return Highest":-1.0,
-        "Avg Return Arithmetic":-1.0,
         "Patrimonio S\/.":61372476.049999997,
-        "Part\u00edcipes N":325,
+        "Part\u00edcipes N":325.0,
         "A\u00f1os":7,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":245
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6632,14 +5897,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0597453963,
-        "Return Lowest":-0.0782,
-        "Return Highest":0.0816,
-        "Avg Return Arithmetic":0.0052,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":249,
+        "Part\u00edcipes N":249.0,
         "A\u00f1os":7,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":246
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6659,14 +5921,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.060426039,
-        "Return Lowest":-0.1094,
-        "Return Highest":0.0713,
-        "Avg Return Arithmetic":-0.02,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":81,
+        "Part\u00edcipes N":81.0,
         "A\u00f1os":7,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":247
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6686,14 +5945,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":12949051.8699999992,
-        "Part\u00edcipes N":324,
+        "Part\u00edcipes N":324.0,
         "A\u00f1os":11,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":248
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6713,14 +5969,11 @@
         "Rentabilidad 2016":0.0074,
         "Rentabilidad 2015":0.0823,
         "Rentabilidad 2014":0.0321,
-        "Standard Dev":0.063980973,
-        "Return Lowest":-0.1345,
-        "Return Highest":0.1127,
-        "Avg Return Arithmetic":0.0315,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":204,
+        "Part\u00edcipes N":204.0,
         "A\u00f1os":11,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":249
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6740,14 +5993,11 @@
         "Rentabilidad 2016":0.0098,
         "Rentabilidad 2015":0.0849,
         "Rentabilidad 2014":0.0346,
-        "Standard Dev":0.0641184104,
-        "Return Lowest":-0.1325,
-        "Return Highest":0.1153,
-        "Avg Return Arithmetic":0.0338,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":122,
+        "Part\u00edcipes N":122.0,
         "A\u00f1os":11,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":250
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6767,14 +6017,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":20720545.7699999996,
-        "Part\u00edcipes N":476,
+        "Part\u00edcipes N":476.0,
         "A\u00f1os":11,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":251
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6794,14 +6041,11 @@
         "Rentabilidad 2016":-0.001,
         "Rentabilidad 2015":0.0572,
         "Rentabilidad 2014":0.0069,
-        "Standard Dev":0.0689719548,
-        "Return Lowest":-0.1228,
-        "Return Highest":0.1253,
-        "Avg Return Arithmetic":0.0329,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":262,
+        "Part\u00edcipes N":262.0,
         "A\u00f1os":11,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":252
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6821,14 +6065,11 @@
         "Rentabilidad 2016":-0.0014,
         "Rentabilidad 2015":0.0597,
         "Rentabilidad 2014":0.0092,
-        "Standard Dev":0.0692069111,
-        "Return Lowest":-0.1207,
-        "Return Highest":0.1279,
-        "Avg Return Arithmetic":0.0349,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":220,
+        "Part\u00edcipes N":220.0,
         "A\u00f1os":11,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":253
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6848,14 +6089,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0026057628,
-        "Return Lowest":0.0,
-        "Return Highest":0.0052,
-        "Avg Return Arithmetic":0.0025,
-        "Patrimonio S\/.":107998646.799999997,
-        "Part\u00edcipes N":292,
+        "Patrimonio S\/.":107998646.7699999958,
+        "Part\u00edcipes N":292.0,
         "A\u00f1os":2,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":254
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6875,14 +6113,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0954915952,
-        "Return Lowest":-0.1216,
-        "Return Highest":0.1873,
-        "Avg Return Arithmetic":0.0236,
-        "Patrimonio S\/.":977081116.7999999523,
-        "Part\u00edcipes N":2297,
+        "Patrimonio S\/.":977081116.8200000525,
+        "Part\u00edcipes N":2297.0,
         "A\u00f1os":6,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":255
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6902,14 +6137,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":40056741.0700000003,
-        "Part\u00edcipes N":280,
+        "Part\u00edcipes N":280.0,
         "A\u00f1os":8,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":256
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6929,14 +6161,11 @@
         "Rentabilidad 2016":-0.0071,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0817990135,
-        "Return Lowest":-0.1232,
-        "Return Highest":0.1241,
-        "Avg Return Arithmetic":0.0288,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":277,
+        "Part\u00edcipes N":277.0,
         "A\u00f1os":8,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":257
     },
     {
         "Tipo Fondo":"Fondo de Fondos",
@@ -6956,14 +6185,11 @@
         "Rentabilidad 2016":-0.0064,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0820793383,
-        "Return Lowest":-0.1211,
-        "Return Highest":0.1267,
-        "Avg Return Arithmetic":0.0309,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":3,
+        "Part\u00edcipes N":3.0,
         "A\u00f1os":8,
-        "Categoria":"Fondo de Fondos"
+        "Categoria":"Fondo de Fondos",
+        "Fund id":258
     },
     {
         "Tipo Fondo":"Flexible D\u00f3lares",
@@ -6983,14 +6209,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0929626448,
-        "Return Lowest":-0.1471,
-        "Return Highest":0.0559,
-        "Avg Return Arithmetic":-0.0165,
         "Patrimonio S\/.":22072655.7699999996,
-        "Part\u00edcipes N":10,
+        "Part\u00edcipes N":10.0,
         "A\u00f1os":3,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":259
     },
     {
         "Tipo Fondo":"Flexible D\u00f3lares",
@@ -7010,14 +6233,11 @@
         "Rentabilidad 2016":0.0067,
         "Rentabilidad 2015":0.0056,
         "Rentabilidad 2014":0.0017,
-        "Standard Dev":0.0071041345,
-        "Return Lowest":0.0017,
-        "Return Highest":0.023,
-        "Avg Return Arithmetic":0.011,
-        "Patrimonio S\/.":193362217.6999999881,
-        "Part\u00edcipes N":3341,
+        "Patrimonio S\/.":193362217.7199999988,
+        "Part\u00edcipes N":3341.0,
         "A\u00f1os":13,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":260
     },
     {
         "Tipo Fondo":"Flexible D\u00f3lares",
@@ -7037,14 +6257,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0548610153,
-        "Return Lowest":-0.0974,
-        "Return Highest":0.0623,
-        "Avg Return Arithmetic":0.0066,
         "Patrimonio S\/.":32874524.129999999,
-        "Part\u00edcipes N":16,
+        "Part\u00edcipes N":16.0,
         "A\u00f1os":5,
-        "Categoria":"Flexible"
+        "Categoria":"Flexible",
+        "Fund id":261
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7064,14 +6281,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0152027958,
-        "Return Lowest":0.0024,
-        "Return Highest":0.0239,
-        "Avg Return Arithmetic":0.0132,
         "Patrimonio S\/.":28618052.8099999987,
-        "Part\u00edcipes N":107,
+        "Part\u00edcipes N":107.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":262
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7091,14 +6305,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0011313709,
-        "Return Lowest":0.0265,
-        "Return Highest":0.0281,
-        "Avg Return Arithmetic":0.0273,
         "Patrimonio S\/.":59042325.3900000006,
-        "Part\u00edcipes N":186,
+        "Part\u00edcipes N":186.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":263
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7118,14 +6329,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0069296465,
-        "Return Lowest":0.0178,
-        "Return Highest":0.0276,
-        "Avg Return Arithmetic":0.0227,
         "Patrimonio S\/.":66064287.2299999967,
-        "Part\u00edcipes N":187,
+        "Part\u00edcipes N":187.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":264
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7145,14 +6353,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.012091526,
-        "Return Lowest":0.0088,
-        "Return Highest":0.0259,
-        "Avg Return Arithmetic":0.0174,
         "Patrimonio S\/.":71412176.9599999934,
-        "Part\u00edcipes N":207,
+        "Part\u00edcipes N":207.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":265
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7172,14 +6377,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0179605122,
-        "Return Lowest":0.0,
-        "Return Highest":0.0254,
-        "Avg Return Arithmetic":0.0127,
         "Patrimonio S\/.":48081050.1099999994,
-        "Part\u00edcipes N":137,
+        "Part\u00edcipes N":137.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":266
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7199,14 +6401,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.015,
-        "Return Highest":0.015,
-        "Avg Return Arithmetic":0.015,
-        "Patrimonio S\/.":123044865.700000003,
-        "Part\u00edcipes N":320,
+        "Patrimonio S\/.":123044865.6599999964,
+        "Part\u00edcipes N":320.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":267
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7226,14 +6425,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0138592929,
-        "Return Lowest":0.004,
-        "Return Highest":0.0236,
-        "Avg Return Arithmetic":0.0138,
         "Patrimonio S\/.":36578122.2599999979,
-        "Part\u00edcipes N":122,
+        "Part\u00edcipes N":122.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":268
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7253,14 +6449,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0008,
-        "Return Highest":0.0008,
-        "Avg Return Arithmetic":0.0008,
         "Patrimonio S\/.":25952105.0599999987,
-        "Part\u00edcipes N":93,
+        "Part\u00edcipes N":93.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":269
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7280,14 +6473,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0352092791,
-        "Return Lowest":-0.0105,
-        "Return Highest":0.0599,
-        "Avg Return Arithmetic":0.0242,
         "Patrimonio S\/.":25067948.0899999999,
-        "Part\u00edcipes N":107,
+        "Part\u00edcipes N":107.0,
         "A\u00f1os":2,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":270
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7307,14 +6497,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0119,
-        "Return Highest":0.0119,
-        "Avg Return Arithmetic":0.0119,
         "Patrimonio S\/.":53602494.0200000033,
-        "Part\u00edcipes N":25,
+        "Part\u00edcipes N":25.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":271
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7323,7 +6510,7 @@
         "Fec. Inicio Operaci\u00f3n":"13\/06\/2023",
         "Moneda Cuota":"$",
         "Valor Cuota":0.0,
-        "Rentabilidad 2024":-1.0,
+        "Rentabilidad 2024":null,
         "Rentabilidad 2023":0.0265,
         "Rentabilidad 2022":null,
         "Rentabilidad 2021":null,
@@ -7334,14 +6521,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.7258451109,
-        "Return Lowest":-1.0,
-        "Return Highest":0.0265,
-        "Avg Return Arithmetic":-0.4868,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":1,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":272
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7361,14 +6545,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0021213203,
-        "Return Lowest":0.0236,
-        "Return Highest":0.0266,
-        "Avg Return Arithmetic":0.0251,
         "Patrimonio S\/.":26444668.8599999994,
-        "Part\u00edcipes N":116,
+        "Part\u00edcipes N":116.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":273
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7388,14 +6569,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0021213203,
-        "Return Lowest":0.0207,
-        "Return Highest":0.0237,
-        "Avg Return Arithmetic":0.0222,
         "Patrimonio S\/.":86188975.1599999964,
-        "Part\u00edcipes N":257,
+        "Part\u00edcipes N":257.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":274
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7415,14 +6593,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0681852599,
-        "Return Lowest":-0.0884,
-        "Return Highest":0.1111,
-        "Avg Return Arithmetic":0.0315,
-        "Patrimonio S\/.":109069813.799999997,
-        "Part\u00edcipes N":101,
+        "Patrimonio S\/.":109069813.7699999958,
+        "Part\u00edcipes N":101.0,
         "A\u00f1os":5,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":275
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7442,14 +6617,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0056,
-        "Return Highest":0.0056,
-        "Avg Return Arithmetic":0.0056,
         "Patrimonio S\/.":29052794.9899999984,
-        "Part\u00edcipes N":175,
+        "Part\u00edcipes N":175.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":276
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7469,14 +6641,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0630912364,
-        "Return Lowest":-0.1299,
-        "Return Highest":0.0622,
-        "Avg Return Arithmetic":-0.0081,
         "Patrimonio S\/.":9154329.1999999993,
-        "Part\u00edcipes N":112,
+        "Part\u00edcipes N":112.0,
         "A\u00f1os":7,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":277
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7485,7 +6654,7 @@
         "Fec. Inicio Operaci\u00f3n":"07\/07\/2015",
         "Moneda Cuota":"$",
         "Valor Cuota":0.0,
-        "Rentabilidad 2024":-1.0,
+        "Rentabilidad 2024":null,
         "Rentabilidad 2023":0.0428,
         "Rentabilidad 2022":0.0145,
         "Rentabilidad 2021":0.0041,
@@ -7496,14 +6665,11 @@
         "Rentabilidad 2016":0.0062,
         "Rentabilidad 2015":0.0018,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.3209080188,
-        "Return Lowest":-1.0,
-        "Return Highest":0.0428,
-        "Avg Return Arithmetic":-0.0873,
-        "Patrimonio S\/.":2486392758.0,
-        "Part\u00edcipes N":20331,
+        "Patrimonio S\/.":2486392757.6399998665,
+        "Part\u00edcipes N":20331.0,
         "A\u00f1os":9,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":278
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7523,14 +6689,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":20115,
+        "Part\u00edcipes N":20115.0,
         "A\u00f1os":9,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":279
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7550,14 +6713,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":159,
+        "Part\u00edcipes N":159.0,
         "A\u00f1os":9,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":280
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7577,14 +6737,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":57,
+        "Part\u00edcipes N":57.0,
         "A\u00f1os":9,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":281
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl $",
@@ -7604,14 +6761,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0155563492,
-        "Return Lowest":0.0027,
-        "Return Highest":0.0247,
-        "Avg Return Arithmetic":0.0137,
         "Patrimonio S\/.":21865136.5100000016,
-        "Part\u00edcipes N":128,
+        "Part\u00edcipes N":128.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":282
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl S\/",
@@ -7624,21 +6778,18 @@
         "Rentabilidad 2023":null,
         "Rentabilidad 2022":null,
         "Rentabilidad 2021":null,
-        "Rentabilidad 2020":-1.0,
+        "Rentabilidad 2020":null,
         "Rentabilidad 2019":0.0273,
         "Rentabilidad 2018":0.0267,
         "Rentabilidad 2017":0.0358,
         "Rentabilidad 2016":0.0383,
         "Rentabilidad 2015":0.0189,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.4203083995,
-        "Return Lowest":-1.0,
-        "Return Highest":0.0383,
-        "Avg Return Arithmetic":-0.1422,
-        "Patrimonio S\/.":1586762920.0,
-        "Part\u00edcipes N":36555,
+        "Patrimonio S\/.":1586762920.4300000668,
+        "Part\u00edcipes N":36555.0,
         "A\u00f1os":9,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":283
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl S\/",
@@ -7658,14 +6809,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0245129898,
-        "Return Lowest":0.0052,
-        "Return Highest":0.0639,
-        "Avg Return Arithmetic":0.0339,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":36164,
+        "Part\u00edcipes N":36164.0,
         "A\u00f1os":9,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":284
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl S\/",
@@ -7685,14 +6833,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0246545973,
-        "Return Lowest":0.0064,
-        "Return Highest":0.0654,
-        "Avg Return Arithmetic":0.0351,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":169,
+        "Part\u00edcipes N":169.0,
         "A\u00f1os":9,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":285
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl S\/",
@@ -7712,14 +6857,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0,
-        "Return Highest":0.0,
-        "Avg Return Arithmetic":null,
         "Patrimonio S\/.":null,
-        "Part\u00edcipes N":222,
+        "Part\u00edcipes N":222.0,
         "A\u00f1os":9,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":286
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl S\/",
@@ -7739,14 +6881,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0254558441,
-        "Return Lowest":0.0113,
-        "Return Highest":0.0473,
-        "Avg Return Arithmetic":0.0293,
         "Patrimonio S\/.":37470755.0799999982,
-        "Part\u00edcipes N":197,
+        "Part\u00edcipes N":197.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":287
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl S\/",
@@ -7766,14 +6905,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.0120208153,
-        "Return Lowest":0.0198,
-        "Return Highest":0.0368,
-        "Avg Return Arithmetic":0.0283,
-        "Patrimonio S\/.":103315031.400000006,
-        "Part\u00edcipes N":23,
+        "Patrimonio S\/.":103315031.349999994,
+        "Part\u00edcipes N":23.0,
         "A\u00f1os":1,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":288
     },
     {
         "Tipo Fondo":"Inst Deuda Duraci\u00f3n Flexibl S\/",
@@ -7793,14 +6929,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0062,
-        "Return Highest":0.0062,
-        "Avg Return Arithmetic":0.0062,
-        "Patrimonio S\/.":115219923.599999994,
-        "Part\u00edcipes N":10,
+        "Patrimonio S\/.":115219923.6299999952,
+        "Part\u00edcipes N":10.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":289
     },
     {
         "Tipo Fondo":"Fondo Burs\u00e1til - ETF",
@@ -7820,14 +6953,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":0.1981212823,
-        "Return Lowest":-0.1739,
-        "Return Highest":0.2915,
-        "Avg Return Arithmetic":0.0675,
-        "Patrimonio S\/.":397579340.3999999762,
-        "Part\u00edcipes N":1,
+        "Patrimonio S\/.":397579340.4399999976,
+        "Part\u00edcipes N":1.0,
         "A\u00f1os":3,
-        "Categoria":"Fondo Burs\u00e1til - ETF"
+        "Categoria":"Fondo Burs\u00e1til - ETF",
+        "Fund id":290
     },
     {
         "Tipo Fondo":"Instrumento de Deuda",
@@ -7847,14 +6977,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0095,
-        "Return Highest":0.0095,
-        "Avg Return Arithmetic":0.0095,
         "Patrimonio S\/.":28745976.0899999999,
-        "Part\u00edcipes N":82,
+        "Part\u00edcipes N":82.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":291
     },
     {
         "Tipo Fondo":"Instrumento de Deuda",
@@ -7874,14 +7001,11 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0088,
-        "Return Highest":0.0088,
-        "Avg Return Arithmetic":0.0088,
-        "Patrimonio S\/.":107653253.799999997,
-        "Part\u00edcipes N":364,
+        "Patrimonio S\/.":107653253.7800000012,
+        "Part\u00edcipes N":364.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":292
     },
     {
         "Tipo Fondo":"Instrumento de Deuda",
@@ -7901,13 +7025,10 @@
         "Rentabilidad 2016":null,
         "Rentabilidad 2015":null,
         "Rentabilidad 2014":null,
-        "Standard Dev":null,
-        "Return Lowest":0.0027,
-        "Return Highest":0.0027,
-        "Avg Return Arithmetic":0.0027,
-        "Patrimonio S\/.":105865877.5,
-        "Part\u00edcipes N":328,
+        "Patrimonio S\/.":105865877.5300000012,
+        "Part\u00edcipes N":328.0,
         "A\u00f1os":0,
-        "Categoria":"Renta Fija"
+        "Categoria":"Renta Fija",
+        "Fund id":293
     }
 ]

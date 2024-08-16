@@ -12,6 +12,14 @@
   align-items: center;
 }
 
+/* Subtitles */
+.fund-page__subheading {
+  color: white;
+  text-align: left;
+  margin-top: -10px;
+  margin-right: 60%;
+}
+
 /* Fund Header Styles */
 .fund-header {
   background: RGB(18, 24, 38);
@@ -62,11 +70,31 @@
   font-weight: 600;
 }
 
+.info-item__subtitle {
+  color: #4a69bd;
+  margin-top: -20px;
+}
+
 .info-item__value {
   font-size: 1.5rem;
   font-weight: 700;
   margin-top: 0.5rem;
   color: white;
+}
+
+/* styles stat item */
+.stat-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px #0311d61a;
+}
+
+/* Fund Indicators Section */
+.fund-indicators {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+  width: 80%;
 }
 
 /* Yearly Returns Table */

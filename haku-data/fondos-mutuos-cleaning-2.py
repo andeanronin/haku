@@ -13,7 +13,7 @@ Output: fondos-mutuos-data-2 .csv & .json
 """
 
 # Read Dataset
-fondos_mutuos_dataframe = pd.read_csv("fondos-mutuos-table-1.csv")
+fondos_mutuos_dataframe = pd.read_csv("haku-data/fondos-mutuos-table.csv")
 
 # 1. Remove fund manager name from fund name column values 
 # 1.1 Get set de los gestores 
@@ -43,6 +43,7 @@ fondos_mutuos_dataframe["Años"] = current_year - fondos_mutuos_dataframe["Fec. 
 # 2.3 Revert data back to string format
 fondos_mutuos_dataframe["Fec. Inicio Operación"] = fondos_mutuos_dataframe["Fec. Inicio Operación"].dt.strftime("%d/%m/%Y")
 
+"""
 # 3. UPDATE Excel !DIV Error to Empty String
 for i in range(len(fondos_mutuos_dataframe)):
     fondos_mutuos_dataframe.loc[i,"Standard Dev"] = fondos_mutuos_dataframe.loc[i,"Standard Dev"].replace("#DIV/0!", "")
@@ -52,7 +53,7 @@ for i in range(len(fondos_mutuos_dataframe)):
 # 4. Convert Values in Std. Dev & Average Arithmetic from Strings --> floats
 fondos_mutuos_dataframe["Standard Dev"] = pd.to_numeric(fondos_mutuos_dataframe["Standard Dev"], errors = "coerce")
 fondos_mutuos_dataframe["Avg Return Arithmetic"] = pd.to_numeric(fondos_mutuos_dataframe["Avg Return Arithmetic"] , errors = "coerce")
-
+"""
 
 # 5. Add "Categoria" column
 # 5.1 Set de tipos de fondos 
@@ -76,13 +77,16 @@ for i in range(len(fondos_mutuos_dataframe)):
     else:
         fondos_mutuos_dataframe.loc[i, "Categoria"] = fondos_mutuos_dataframe.loc[i]["Tipo Fondo"]
 
+# 6. Add column with unique fund ID
+fondos_mutuos_dataframe['Fund id'] = range(1, len(fondos_mutuos_dataframe) + 1) 
+
 
 # Print the updated dataframe to verify changes
 print(fondos_mutuos_dataframe.head())
 
 
 # 6. SERIALIZE DATA TO CSV & JSON 
-fondos_mutuos_dataframe.to_csv("fondos-mutuos-table-2.csv" , index=False)
+fondos_mutuos_dataframe.to_csv("haku-data/fondos-mutuos-table-2.csv" , index=False)
 
-fondos_mutuos_dataframe.to_json("fondos-mutuos-data-2.json" , orient="records" , indent=4)
+fondos_mutuos_dataframe.to_json("haku-data/fondos-mutuos-data-2.json" , orient="records" , indent=4)
 

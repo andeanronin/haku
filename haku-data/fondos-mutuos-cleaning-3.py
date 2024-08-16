@@ -1,6 +1,7 @@
 import json
 import pandas as pd 
 import csv 
+import math
 
 """
 This script adds 5 datapoints to the fondos-mutuos dataset:
@@ -12,15 +13,99 @@ This script adds 5 datapoints to the fondos-mutuos dataset:
     - Risk Category (low - high)
 """
 
-file = open('fondos-mutuos-data-2.json') 
+file = open('haku-data/fondos-mutuos-data-2.json') 
 
-# Load json fie to a python list object
+# Load json file to a python list object
 fondos_mutuos_list = json.load(file)  
 
+
+def highest_return(fund):
+    yearly_returns = []
+
+    for key in fund:
+        if "Rentabilidad" in key and fund[key] is not None:
+            yearly_returns.append(fund[key])
+
+    if len(yearly_returns) > 0:
+        max_return = max(yearly_returns)
+        fund["Highest Return"] = max_return
+    
+    else:
+         fund["Highest Return"] = None  
+
+    return fund 
+
+
+def lowest_return(fund):
+    yearly_returns = []
+
+    for key in fund:
+        if "Rentabilidad" in key and fund[key] is not None:
+            yearly_returns.append(fund[key])
+
+    if len(yearly_returns) > 0:  
+        lowest_return = min(yearly_returns)
+        fund["Lowest Return"] = lowest_return
+    
+    else:
+        fund["Lowest Return"] = None 
+
+    return fund
+
+
+def arithmetic_mean(fund):
+
+    fund_years = 0 
+
+    sum_returns = 0
+
+    for key in fund:
+        if "Rentabilidad" in key and fund[key] is not None:
+            sum_returns += fund[key] 
+
+            if "2024" in key:
+                fund_years += 0.5
+            else: 
+                fund_years += 1
+
+    if fund_years > 0:
+        arithmetic_mean = sum_returns / fund_years
+        fund["Avg Return (Arithmetic)"] = arithmetic_mean
+
+    else:
+        fund["Avg Return (Arithmetic)"] = None
+
+    return fund
+
+
+def standard_dev(fund):
+
+    mean = fund["Avg Return (Arithmetic)"]
+
+    fund_years = 0 
+
+    sum_diff_squares = 0
+
+    for key in fund:
+        if "Rentabilidad" in key and fund[key] is not None:
+            fund_years += 1
+
+            squared_diff = (fund[key] - mean)**2
+
+            sum_diff_squares += (squared_diff)
+    
+    if fund_years > 1:
+        stdev = math.sqrt(sum_diff_squares/fund_years)
+        fund["Standard Deviation of Returns"] = stdev
+    
+    else:
+        fund["Standard Deviation of Returns"] = None
+
+    
 def cagr_cumulative_return(fund, starting_investment=100): 
     """
     This function calculates the cagr and cumulative return of a fund and adds them to its dictionary. 
-        Input: fund dictionary {}
+        Input: fund dictionary object {}
         Output: fund dict with cagr and cumulative return figures ---> {cumulative-return : x, cagr : y}
     """
 
@@ -68,12 +153,12 @@ def cagr_cumulative_return(fund, starting_investment=100):
 def sharpe_ratio(fund, risk_free_rate=0.02):
     """
     Function calculates sharpe ratio. 
-    Input: dictionary with "CAGR" and "Standard Dev" data
-    Output: 
+    Input: dictionary object with "CAGR" and "Standard Dev" data
+    Output: new key with sharpe raitoi
     """
     cagr = fund.get("CAGR")
 
-    stdev = fund.get("Standard Dev")
+    stdev = fund.get("Standard Deviation of Returns")
 
     if cagr is not None and stdev is not None and stdev != 0:
         sharpe_ratio = (cagr - risk_free_rate) / stdev 
@@ -87,18 +172,34 @@ def sharpe_ratio(fund, risk_free_rate=0.02):
 
 # Run script & Update Dataset 
 if __name__ == "__main__":
+ 
+    # Add highest return column
+    for fund in fondos_mutuos_list:
+        highest_return(fund)
 
-    # 1. Add Cumulative Return & CAGR metrics to data 
+    # Add lowest return column
+    for fund in fondos_mutuos_list:
+        lowest_return(fund)
+ 
+    # Add arithmetic mean return column
+    for fund in fondos_mutuos_list:
+        arithmetic_mean(fund)
+
+    # Add Return's Standard Dev Column 
+    for fund in fondos_mutuos_list:
+        standard_dev(fund)
+
+    # Add Cumulative Return & CAGR metrics to data 
     for fund in fondos_mutuos_list:
         cagr_cumulative_return(fund)
-
-    # 2. Add Sharpe Ratio 
+    
+    # Add Sharpe Ratio 
     for fund in fondos_mutuos_list:
         sharpe_ratio(fund)
 
-    # 3. Add fund risk category based on standard deviation of historic returns 
+     # Add fund risk category based on standard deviation of historic returns 
     for fund in fondos_mutuos_list:
-        std_dev = fund.get("Standard Dev")
+        std_dev = fund.get("Standard Deviation of Returns")
     
         if std_dev is not None:
             if std_dev > 0.20:
@@ -118,11 +219,11 @@ if __name__ == "__main__":
 
 
     # Save list of dicts to JSON file
-    with open("fondos-mutuos-data-3.json", "w") as json_file:
+    with open("haku-data/fondos-mutuos-data-3.json", "w") as json_file:
         json.dump(fondos_mutuos_list, json_file, indent = 4)
 
     # Save list of dicts to CSV table
-    with open('fondos-mutuos-table-3.csv', 'w', newline='') as csv_file:
+    with open('haku-data/fondos-mutuos-table-3.csv', 'w', newline='') as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=fondos_mutuos_list[0].keys())
         writer.writeheader()
         writer.writerows(fondos_mutuos_list)

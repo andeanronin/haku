@@ -72,9 +72,29 @@
 }
 
 .fundSquare-data-div .positive {
-  color: green;
+  color: rgb(2, 186, 2);
 }
 
 .fundSquare-data-div .negative {
-  color: rgb(179, 4, 4);
+  color: rgb(203, 4, 4);
+}
+
+.fundSquare-data-div .green {
+  color: rgb(0, 195, 0);
+}
+
+.fundSquare-data-div .green-orange {
+  color: rgb(255, 217, 0);
+}
+
+.fundSquare-data-div .orange {
+  color: orange;
+}
+
+.fundSquare-data-div .orange-red {
+  color: rgb(255, 89, 0);
+}
+
+.fundSquare-data-div .red {
+  color: red;
 }
