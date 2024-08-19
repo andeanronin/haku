@@ -116,105 +116,109 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
           </p>
         </header>
 
-        <h2 className="fund-page__subheading">Datos Generales</h2>
+        <div className="fundData-container">
+          <h2 className="fund-page__subheading">Datos Generales</h2>
 
-        {/* General Fund Info */}
-        <section className="fund-info">
-          <div className="info-item">
-            <h3 className="info-item__title">Gestor</h3>
-            <p className="info-item__value">{fundData.Administradora}</p>
-          </div>
-          <div className="info-item">
-            <h3 className="info-item__title">Fecha de Inicio</h3>
-            <p className="info-item__value">
-              {formatDate(fundData["Fec. Inicio Operación"])}
-            </p>
-          </div>
-          <div className="info-item">
-            <h3 className="info-item__title">Moneda</h3>
-            <p className="info-item__value">
-              {fundData["Moneda Cuota"] === "$" ? "USD" : "PEN"}
-            </p>
-          </div>
-          <div className="info-item">
-            <h3 className="info-item__title">Valor Cuota Actual</h3>
-            <p className="info-item__value">
-              {fundData["Valor Cuota"] !== null
-                ? formatCurrency(
-                    fundData["Valor Cuota"],
-                    fundData["Moneda Cuota"]
-                  )
-                : "N/A"}
-            </p>
-          </div>
-        </section>
+          {/* General Fund Info */}
+          <section className="fund-info">
+            <div className="info-item">
+              <h3 className="info-item__title">Gestor</h3>
+              <p className="info-item__value">{fundData.Administradora}</p>
+            </div>
+            <div className="info-item">
+              <h3 className="info-item__title">Fecha de Inicio</h3>
+              <p className="info-item__value">
+                {formatDate(fundData["Fec. Inicio Operación"])}
+              </p>
+            </div>
+            <div className="info-item">
+              <h3 className="info-item__title">Moneda</h3>
+              <p className="info-item__value">
+                {fundData["Moneda Cuota"] === "$" ? "USD" : "PEN"}
+              </p>
+            </div>
+            <div className="info-item">
+              <h3 className="info-item__title">Valor Cuota Actual</h3>
+              <p className="info-item__value">
+                {fundData["Valor Cuota"] !== null
+                  ? formatCurrency(
+                      fundData["Valor Cuota"],
+                      fundData["Moneda Cuota"]
+                    )
+                  : "N/A"}
+              </p>
+            </div>
+          </section>
 
-        {/* General Stats */}
-        <section className="fund-stats">
-          <div className="stat-item">
-            <h3 className="stat-item__title ">Assets Under Management</h3>
-            <p className="stat-item__value">
-              {fundData["Patrimonio S/."] !== null
-                ? formatCurrency(fundData["Patrimonio S/."], "PEN")
-                : "N/A"}
-            </p>
-          </div>
-          <div className="stat-item">
-            <h3 className="stat-item__title ">Numero de Participantes</h3>
-            <p className="stat-item__value">
-              {fundData["Partícipes N"] !== null
-                ? fundData["Partícipes N"].toLocaleString()
-                : "N/A"}
-            </p>
-          </div>
-        </section>
+          {/* General Stats */}
+          <section className="fund-stats">
+            <div className="stat-item">
+              <h3 className="stat-item__title ">Assets Under Management</h3>
+              <p className="stat-item__value">
+                {fundData["Patrimonio S/."] !== null
+                  ? formatCurrency(fundData["Patrimonio S/."], "PEN")
+                  : "N/A"}
+              </p>
+            </div>
+            <div className="stat-item">
+              <h3 className="stat-item__title ">Numero de Participantes</h3>
+              <p className="stat-item__value">
+                {fundData["Partícipes N"] !== null
+                  ? fundData["Partícipes N"].toLocaleString()
+                  : "N/A"}
+              </p>
+            </div>
+          </section>
+        </div>
 
-        {/* Findo Info Section */}
-        <h2 className="fund-page__subheading">Indicadores de Retorno</h2>
-        <section className="fund-indicators">
-          <div className="info-item">
-            <h3 className="info-item__title">Retorno Historico</h3>
-            <p className="info-item__subtitle">CAGR</p>
-            <p className="info-item__value">
-              {fundData["CAGR"] === null
-                ? "N/A"
-                : `${(fundData.CAGR * 100).toFixed(2)} %`}
-            </p>
-          </div>
+        {/* Fund Return Indicators  */}
+        <div className="fundData-container">
+          <h2 className="fund-page__subheading">Indicadores de Retorno</h2>
+          <section className="fund-indicators">
+            <div className="info-item">
+              <h3 className="info-item__title">Retorno Historico</h3>
+              <p className="info-item__subtitle">CAGR</p>
+              <p className="info-item__value">
+                {fundData["CAGR"] === null
+                  ? "N/A"
+                  : `${(fundData.CAGR * 100).toFixed(2)} %`}
+              </p>
+            </div>
 
-          <div className="info-item">
-            <h3 className="info-item__title">Retorno x Riesgo</h3>
-            <p className="info-item__subtitle">Sharpe</p>
-            <p className="info-item__value">
-              {fundData["Sharpe Ratio"] === null
-                ? "N/A"
-                : fundData["Sharpe Ratio"].toFixed(2)}
-            </p>
-          </div>
+            <div className="info-item">
+              <h3 className="info-item__title">Retorno x Riesgo</h3>
+              <p className="info-item__subtitle">Sharpe</p>
+              <p className="info-item__value">
+                {fundData["Sharpe Ratio"] === null
+                  ? "N/A"
+                  : fundData["Sharpe Ratio"].toFixed(2)}
+              </p>
+            </div>
 
-          <div className="info-item">
-            <h3 className="info-item__title">Riesgo</h3>
-            <p className="info-item__value">
-              {fundData["Risk"] === null ? "N/A" : fundData["Risk"]}
-            </p>
-          </div>
+            <div className="info-item">
+              <h3 className="info-item__title">Riesgo</h3>
+              <p className="info-item__value">
+                {fundData["Risk"] === null ? "N/A" : fundData["Risk"]}
+              </p>
+            </div>
 
-          <div className="info-item">
-            <h3 className="info-item__title">Retorno Acumulado</h3>
-            <p className="info-item__subtitle">
-              {fundData["Cumulative Return Period"] === null
-                ? ""
-                : `${fundData["Cumulative Return Period"]} años`}
-            </p>
-            <p className="info-item__value">
-              {fundData["Total Cumulative Return"] === null
-                ? "N/A"
-                : ` ${(fundData["Total Cumulative Return"] * 100).toFixed(
-                    2
-                  )} %`}
-            </p>
-          </div>
-        </section>
+            <div className="info-item">
+              <h3 className="info-item__title">Retorno Acumulado</h3>
+              <p className="info-item__subtitle">
+                {fundData["Cumulative Return Period"] === null
+                  ? ""
+                  : `${fundData["Cumulative Return Period"]} años`}
+              </p>
+              <p className="info-item__value">
+                {fundData["Total Cumulative Return"] === null
+                  ? "N/A"
+                  : ` ${(fundData["Total Cumulative Return"] * 100).toFixed(
+                      2
+                    )} %`}
+              </p>
+            </div>
+          </section>
+        </div>
 
         {/* Fund Performance Chart */}
         <section className="fund-performance">

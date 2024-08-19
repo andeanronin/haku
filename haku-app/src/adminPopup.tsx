@@ -1,5 +1,6 @@
 // AdminPopup.tsx
 import React from "react";
+import "./adminPopup.css";
 
 interface AdminPopupProps {
   administrators: string[];

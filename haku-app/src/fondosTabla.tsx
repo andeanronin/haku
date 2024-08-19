@@ -172,7 +172,7 @@ function TablaFondos() {
           <div className="fondos-mutuos-header-main">
             <SearchButton />
             <p className="fondos-mutuos-heading">
-              Busca todos los fondos mutuos disponibles en la BVL
+              Busca todos los fondos mutuos disponibles en Peru
             </p>
           </div>
           <div className="tableFilters-container">
