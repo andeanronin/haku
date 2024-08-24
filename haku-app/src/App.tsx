@@ -6,6 +6,7 @@ import LandingPage from "./landingPage";
 import FundPage from "./fundPage";
 import fundData from "./assets/fondos-mutuos-data-3.json";
 import FundList from "./FundDirectory";
+import FondosMutuosTable from "./fondosMutuosTable";
 
 function App() {
   return (
@@ -13,6 +14,10 @@ function App() {
       <div className="app-container">
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route
+            path="fondos-mutuos-table"
+            element={<FondosMutuosTable data={fundData} />}
+          />
           <Route path="/fondos-mutuos" element={<TablaFondos />} />
           {fundData.map((fund) => {
             const path = `/fund/${fund["Fund id"]}`;

@@ -3,6 +3,22 @@
 import "./FundPage.css";
 import FooterComponent from "./footerComp";
 import Navbar from "./Navbar";
+import React, { useState, useEffect, useMemo } from "react";
+
+import {
+  BarChart,
+  Line,
+  LineChart,
+  Bar,
+  XAxis,
+  YAxis,
+  CartesianGrid,
+  Tooltip,
+  Legend,
+  ResponsiveContainer,
+  Label,
+  Cell,
+} from "recharts";
 
 interface FundData {
   "Tipo Fondo": string;
@@ -44,7 +60,86 @@ interface FundPageProps {
   fundData: FundData;
 }
 
+// The Data Format for Recharts anual return Graph
+type ChartData = {
+  year: string;
+  [key: string]: string | number | null;
+};
+
+// Function to Format Data for Recharts
+const rechartsFormat = (
+  fund: { [key: string]: any },
+  rentabilidadLabel: string
+): ChartData[] => {
+  {
+    let years = [];
+
+    const keys = Object.keys(fund);
+
+    const rentaBilidadKeys = keys
+      .filter((key) => key.startsWith("Rentabilidad"))
+      .sort();
+
+    for (const key of rentaBilidadKeys) {
+      if (fund[key] !== null) {
+        let year = key.split(" ")[1];
+        years.push(year);
+      }
+    }
+
+    return years.map((y) => ({
+      year: y,
+      [rentabilidadLabel]: fund[`Rentabilidad ${y}`],
+    }));
+  }
+};
+
+// Define a type for the compound returns object
+type CompoundReturns = { [key: string]: number };
+
 const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
+  // Helper Function to get Object with yearly compounded returns
+  const getCompoundReturns = (
+    fund: { [key: string]: any },
+    initialInvestment: number
+  ) => {
+    const keys = Object.keys(fund);
+    const rentabilidadKeys = keys
+      .filter((key) => key.startsWith("Rentabilidad"))
+      .sort();
+
+    let accumulatedValue = initialInvestment;
+    const compoundReturns: { [key: string]: number } = {};
+
+    // Find the first non-null rentabilidad year
+    const firstNonNullYear = rentabilidadKeys.find((key) => fund[key] !== null);
+
+    if (firstNonNullYear) {
+      const firstYear = parseInt(firstNonNullYear.split(" ")[1]);
+      const initialInvestmentYear = `Rentabilidad ${firstYear - 1}`;
+      compoundReturns[initialInvestmentYear] = initialInvestment;
+
+      rentabilidadKeys.forEach((key) => {
+        const year = parseInt(key.split(" ")[1]);
+        if (year >= firstYear && fund[key] !== null) {
+          accumulatedValue *= 1 + fund[key];
+          compoundReturns[key] = accumulatedValue;
+        }
+      });
+    }
+
+    return compoundReturns;
+  };
+
+  // Get Compounded Returns
+  const startingcompoundedReturns = getCompoundReturns(fundData, 100);
+
+  // State Variables
+  const [userInvestment, setUserInvestment] = useState<number>(100);
+  const [compoundedReturns, setCompoundedReturns] = useState<CompoundReturns>(
+    startingcompoundedReturns
+  );
+
   // Helper function to format date strings
   const formatDate = (dateString: string): string => {
     // Split the date string into components
@@ -100,6 +195,53 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
     if (value === null) return "N/A";
     return `${(value * 100).toFixed(2)}%`;
   };
+
+  // Function Call --> Transform Data for Anual Returns BAR CHART
+  const barChartData = rechartsFormat(fundData, "Rentabilidad");
+
+  // Function to get Bar Color in Anual Returns Barchart
+  const getBarColor = (value: number) => (value >= 0 ? "#4CAF50" : "#F44336");
+
+  // Update calculatedReturns whenever userInvestment changes
+  useEffect(() => {
+    const calculatedReturns = getCompoundReturns(fundData, userInvestment);
+    setCompoundedReturns(calculatedReturns);
+  }, [userInvestment]);
+
+  // Format Compounded Returns Data for Recharts
+  // Format Compounded Returns Data for Recharts
+  const compoundedReturnsChartData = useMemo(
+    () => rechartsFormat(compoundedReturns, "Valor"),
+    [compoundedReturns]
+  );
+
+  const handleInvestmentInputChange = (
+    event: React.ChangeEvent<HTMLInputElement>
+  ) => {
+    const value = parseFloat(event.target.value);
+    setUserInvestment(isNaN(value) ? 0 : value);
+  };
+
+  // Get Max Return Value
+  const maxValue = Math.max(
+    ...compoundedReturnsChartData
+      .map((item) => item.Valor)
+      .filter((value): value is number => value !== null)
+  );
+
+  // Get max value for Y-axis (conditions: multiple of 20 / at least 20 more )
+  const yAxisMax = Math.ceil(maxValue / 20) * 20;
+
+  //  Get tick values dynamically
+  const getLineChartTicks = (maxYaxis: number) => {
+    const ticks = [];
+    for (let i = 0; i <= maxYaxis; i += 20) {
+      ticks.push(i);
+    }
+    return ticks;
+  };
+
+  const yAxisTicks = getLineChartTicks(yAxisMax);
 
   return (
     <>
@@ -220,7 +362,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
           </section>
         </div>
 
-        {/* Fund Performance Chart */}
+        {/* Fund Anualized Performance Chart */}
         <section className="fund-performance">
           <h2 className="fund-performance__title">
             Retornos Anuales Historicos
@@ -252,12 +394,122 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
               ))}
             </tbody>
           </table>
+          {/* Anualized Returns BAR Chart */}
+          <ResponsiveContainer width="100%" height={500}>
+            <BarChart
+              data={barChartData}
+              margin={{ top: 50, right: 20, left: 30, bottom: 20 }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis
+                dataKey="year"
+                label={{ value: "Año", position: "insideBottom", offset: -20 }}
+              />
+              <YAxis
+                label={{
+                  value: "Rentabilidad del Año",
+                  angle: -90,
+                  position: "insideLeft",
+                  offset: -10,
+                  dy: 50,
+                }}
+              />
+              <Tooltip />
+
+              {/* FILLS OUT THE DATA in the Graph */}
+              <Bar dataKey="Rentabilidad">
+                {barChartData.map((entry, index) => (
+                  <Cell
+                    key={`cell-${index}`}
+                    fill={getBarColor(Number(entry.Rentabilidad) || 0)}
+                  />
+                ))}
+                <Label
+                  content={({ viewBox }) => {
+                    if (!viewBox) return null;
+                    const { x, y } = viewBox as { x: number; y: number };
+                    return (
+                      <text
+                        x={x + 5}
+                        y={y + 15}
+                        fill="#666"
+                        fontSize={14}
+                        textAnchor="start"
+                      >
+                        Rentabilidad
+                      </text>
+                    );
+                  }}
+                />
+              </Bar>
+            </BarChart>
+          </ResponsiveContainer>
+        </section>
+
+        {/* Compound Returns LINE Chart */}
+        <section className="compound-returns">
+          <div id="retornoAcumulado-Graph-Heading">
+            <h2>Retorno Acumulado</h2>
+            <div className="content-wrapper">
+              <label htmlFor="investment-input" style={{ color: "white" }}>
+                <span>Inversión:</span>
+                <input
+                  id="investment-input"
+                  type="number"
+                  value={userInvestment}
+                  onChange={handleInvestmentInputChange}
+                />
+              </label>
+              <p>
+                <span>Valor Actual:</span>
+                {compoundedReturns["Rentabilidad 2024"].toFixed()} despues de{" "}
+                {fundData["Cumulative Return Period"]} años
+              </p>
+            </div>
+          </div>
+          <ResponsiveContainer width="100%" height={500}>
+            <LineChart
+              data={compoundedReturnsChartData}
+              margin={{ top: 20, right: 30, left: 30, bottom: 20 }}
+            >
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis
+                dataKey="year"
+                label={{ value: "Año", position: "bottom", offset: 5 }}
+              />
+              <YAxis
+                label={{
+                  value: "Retorno Acumulado",
+                  angle: -90,
+                  position: "insideLeft",
+                  offset: -15,
+                }}
+                domain={[0, yAxisMax]}
+                ticks={yAxisTicks}
+                tickFormatter={(value) => `${value.toFixed(0)}`}
+              />
+              <Tooltip />
+              <Legend
+                verticalAlign="bottom"
+                align="left"
+                wrapperStyle={{ paddingLeft: "100px" }}
+              />
+              <Line
+                type="monotone"
+                dataKey="Valor"
+                stroke="#8884d8"
+                activeDot={{ r: 8 }}
+                connectNulls
+              />
+            </LineChart>
+          </ResponsiveContainer>
         </section>
 
         <div className="buyButtonContainer">
           <button className="buyFundButton">Lo Quiero</button>
         </div>
       </div>
+
       <FooterComponent />
     </>
   );

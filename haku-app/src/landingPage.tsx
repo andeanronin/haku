@@ -16,7 +16,7 @@ function LandingPage() {
   const navigate = useNavigate();
 
   const handleFondosMutuosClick = () => {
-    navigate("/fondos-mutuos");
+    navigate("/fondos-mutuos-table");
   };
 
   const handleExploraFondosClick = () => {

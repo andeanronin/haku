@@ -212,3 +212,104 @@
 .buyFundButton:hover {
   background-color: #394e8a;
 }
+
+/* COMPOUND RETURNS CONTAINER */
+.compound-returns {
+  width: 74.5%;
+  background-color: rgb(30, 36, 50);
+  padding: 2.5rem;
+  border-radius: 12px;
+  margin-bottom: 2rem;
+}
+
+/* Compound Returns HEADING CONTAINER styles */
+#retornoAcumulado-Graph-Heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 20px;
+  padding-bottom: 10px;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+  width: 70%;
+}
+
+/* H2 styles */
+#retornoAcumulado-Graph-Heading h2 {
+  color: #4a69bd;
+  font-size: 1.8em;
+  margin: 0 0 20px 0;
+  width: 100%;
+}
+
+/* Wrapper for label and p */
+#retornoAcumulado-Graph-Heading .content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 30px;
+}
+
+#retornoAcumulado-Graph-Heading span {
+  font-size: 1.3em;
+  margin-right: 10px;
+}
+
+/* Label styles */
+#retornoAcumulado-Graph-Heading label[for="investment-input"] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Input styles */
+#investment-input {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 8px 10px;
+  color: white;
+  font-size: 1em;
+  transition: all 0.3s ease;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 120px;
+  padding-bottom: 1px;
+  margin-top: -6px;
+}
+
+#investment-input:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-bottom-color: rgba(255, 255, 255, 0.05);
+}
+
+#investment-input:focus {
+  background-color: rgba(22, 156, 239, 0.15);
+  border-bottom-color: rgb(22, 156, 239);
+  box-shadow: 0 4px 8px rgba(22, 156, 239, 0.2);
+}
+
+/* Paragraph styles */
+#retornoAcumulado-Graph-Heading p {
+  color: white;
+  font-size: 1em;
+  margin: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Remove spinner buttons for WebKit browsers */
+#investment-input::-webkit-outer-spin-button,
+#investment-input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove spinner buttons for Firefox */
+#investment-input[type="number"] {
+  -moz-appearance: textfield;
+}

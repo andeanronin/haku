@@ -8,11 +8,16 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background-color: transparent;
   cursor: pointer;
-  padding-right: 40px;
-  padding-left: 100px;
+  padding: 0 40px;
   border-bottom: 2px solid rgb(40, 45, 73);
+}
+
+/* Move the Haku text towards the center */
+.mainHeader-container > p:first-child {
+  margin-left: 160px;
 }
 
 .mainHeader-container p {
@@ -29,7 +34,69 @@
   background-color: rgb(31, 40, 61);
 }
 
+/* Move the mainHeader-subcontainer towards the center */
 .mainHeader-subcontainer {
   display: flex;
   flex-direction: row;
+  margin-right: 140px;
+}
+
+.search-container {
+  position: relative;
+  width: 600px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  margin-left: 10px;
+}
+
+.search-container input {
+  width: 100%;
+  padding: 8px 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 20px;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  transition: all 0.3s ease;
+}
+
+.search-container input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.search-container input:focus {
+  outline: none;
+  background-color: rgba(255, 255, 255, 0.15);
+  border-color: rgba(255, 255, 255, 0.3);
+}
+
+.search-results {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: rgba(18, 24, 38, 0.95);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  max-height: 400px;
+  overflow-y: auto;
+  z-index: 2000;
+  border-radius: 0 0 10px 10px;
+}
+
+.search-results li {
+  padding: 10px 12px;
+  cursor: pointer;
+  color: white;
+  font-size: 14px;
+  transition: background-color 0.2s ease;
+}
+
+.search-results li:hover {
+  background-color: rgba(255, 255, 255, 0.1);
 }
