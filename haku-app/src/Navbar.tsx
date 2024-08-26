@@ -86,7 +86,7 @@ function Navbar({ show = true }) {
           )}
         </div>
         <div className="mainHeader-subcontainer">
-          <p onClick={() => navigate("/explora-fondos")}>Fondos Mutuos</p>
+          <p onClick={() => navigate("/fondos-mutuos")}>Fondos Mutuos</p>
           <p>Asesórate</p>
         </div>
       </div>

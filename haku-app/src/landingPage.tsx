@@ -16,7 +16,7 @@ function LandingPage() {
   const navigate = useNavigate();
 
   const handleFondosMutuosClick = () => {
-    navigate("/fondos-mutuos-table");
+    navigate("/fondos-mutuos");
   };
 
   const handleExploraFondosClick = () => {
@@ -96,7 +96,7 @@ function LandingPage() {
               Explora Fondos Mutuos
             </button>
             <button className={`${landingStyles.exploreButton} fade-in`}>
-              Explora ETF's
+              Explora ETFs
             </button>
             <button
               className={`${landingStyles.exploreButton} fade-in`}

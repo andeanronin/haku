@@ -3,15 +3,15 @@ This component creates an interactive table containing fund data
 Each fund corresponds to a row in the table.
 The table has additional features, like filtering by fund type, administrator, currency, return and fund size.
 */
-import importedData from "./assets/fondos-mutuos-whole.json";
+import importedData from "../assets/fondos-mutuos-whole.json";
 import { useState, useEffect, useMemo } from "react";
 import "./fondosTabla.css";
-import SearchButton from "./searchButton";
-import AdminPopup from "./adminPopup";
-import FooterComponent from "./footerComp";
+import SearchButton from "../searchButton";
+import AdminPopup from "../adminPopup";
+import FooterComponent from "../footerComp";
 import { useNavigate } from "react-router-dom";
-import FundList from "./FundDirectory";
-import Navbar from "./Navbar";
+import FundList from "../fondosMutuosSquares";
+import Navbar from "../Navbar";
 
 interface FondoMutuo {
   "Tipo Fondo": string;
@@ -315,7 +315,7 @@ function TablaFondos() {
         </div>
       </div>
 
-      <FundList showHeader={false} showFooter={false} />
+      <FundList />
 
       {showAdminPopup && (
         <AdminPopup

@@ -5,11 +5,8 @@ The table has additional features, like filtering by fund type, administrator, c
 */
 import { useState, useEffect, useMemo } from "react";
 import "./fondosMutuosTable.css";
-import SearchButton from "./searchButton";
 import AdminPopup from "./adminPopup";
-import FooterComponent from "./footerComp";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Navbar";
 
 interface MutualFundData {
   "Tipo Fondo": string;
@@ -233,12 +230,8 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
 
   return (
     <>
-      <Navbar />
       <div className="fondos-mutuos-table-page-container">
         <div className="fondos-mutuos-header">
-          <div className="fondos-mutuos-header-main">
-            <p>Explora Fondos Mutuos Peruanos</p>
-          </div>
           <div className="tableFilters-container">
             {selectedAdmin && (
               <div className="filtered-funds-heading">
@@ -419,8 +412,6 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
           onClose={() => setShowAdminPopup(false)}
         />
       )}
-
-      <FooterComponent />
     </>
   );
 }

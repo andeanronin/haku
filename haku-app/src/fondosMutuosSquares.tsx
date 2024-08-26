@@ -4,15 +4,13 @@ The user can scroll this page to explore mutual funds.
 */
 
 import fundData from "./assets/fondos-mutuos-data-3.json";
-import "./FundDirectory.css";
+import "./fondosMutuosSquares.css";
 import { useNavigate } from "react-router-dom";
-import Navbar from "./Navbar";
-import FooterComponent from "./footerComp";
 import { useState, useEffect } from "react";
 import { useMemo } from "react";
 import AdminPopup from "./adminPopup";
 
-function FundList({ showHeader = true, showFooter = true }) {
+function FundList() {
   const navigate = useNavigate();
 
   const [data, setData] = useState(fundData);
@@ -135,10 +133,7 @@ function FundList({ showHeader = true, showFooter = true }) {
 
   return (
     <>
-      <Navbar show={showHeader} />
       <div className="fundDirectoryContainer">
-        <h2>Explora Fondos</h2>
-
         <div className="filtrosContainer">
           <p>Filtra Por: </p>
 
@@ -311,7 +306,6 @@ function FundList({ showHeader = true, showFooter = true }) {
           onClose={() => setshowFundAdminPopUp(false)}
         />
       )}
-      <FooterComponent show={showFooter} />
     </>
   );
 }

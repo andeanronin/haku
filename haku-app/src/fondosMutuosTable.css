@@ -13,20 +13,6 @@
   align-items: center;
 }
 
-.fondos-mutuos-header-main {
-  display: flex;
-  flex-direction: row;
-  align-items: start;
-  margin: 15px;
-  margin-top: 60px;
-  margin-bottom: 5px;
-}
-
-.fondos-mutuos-header-main p {
-  color: white;
-  font-size: 1.2em;
-}
-
 /* Styles for the container of the filters */
 .tableFilters-container {
   display: flex;
@@ -36,7 +22,7 @@
 
 /* Styles for the Main Table */
 .table-container {
-  height: 72vh; /* or any height that's less than your viewport */
+  height: 78vh; /* or any height that's less than your viewport */
   overflow-y: auto;
   overflow-x: auto; /* Add horizontal scrolling */
   width: 100%; /* Set the width to 95% of the parent container */

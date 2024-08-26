@@ -1,12 +1,12 @@
 // import { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
-import TablaFondos from "./fondosTabla";
 import LandingPage from "./landingPage";
 import FundPage from "./fundPage";
 import fundData from "./assets/fondos-mutuos-data-3.json";
-import FundList from "./FundDirectory";
+import FundList from "./fondosMutuosSquares";
 import FondosMutuosTable from "./fondosMutuosTable";
+import FondosMutuos from "./fondosMutuos";
 
 function App() {
   return (
@@ -18,7 +18,8 @@ function App() {
             path="fondos-mutuos-table"
             element={<FondosMutuosTable data={fundData} />}
           />
-          <Route path="/fondos-mutuos" element={<TablaFondos />} />
+          <Route path="/fondos-mutuos-list" element={<FundList />} />
+          <Route path="/fondos-mutuos" element={<FondosMutuos />} />
           {fundData.map((fund) => {
             const path = `/fund/${fund["Fund id"]}`;
             return (
@@ -29,7 +30,6 @@ function App() {
               />
             );
           })}
-          <Route path="/explora-fondos" element={<FundList />} />
         </Routes>
       </div>
     </Router>
