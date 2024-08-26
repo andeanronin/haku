@@ -93,16 +93,16 @@ function LandingPage() {
               className={`${landingStyles.exploreButton} fade-in`}
               onClick={handleFondosMutuosClick}
             >
-              Explora Fondos Mutuos
+              Fondos Mutuos
             </button>
             <button className={`${landingStyles.exploreButton} fade-in`}>
-              Explora ETFs
+              ETFs
             </button>
             <button
               className={`${landingStyles.exploreButton} fade-in`}
               onClick={handleExploraFondosClick}
             >
-              Explora Fondos
+              Fondos de Inversion
             </button>
           </div>
         </div>
