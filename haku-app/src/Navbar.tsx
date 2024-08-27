@@ -52,7 +52,7 @@ function Navbar({ show = true }) {
           String(value).toLowerCase().includes(searchTerm.toLowerCase())
         )
       );
-      setSearchResults(results.slice(0, 8)); // Limit to 8 results for better performance
+      setSearchResults(results.slice(0, 15)); // Limit to 8 results for better performance
     } else {
       setSearchResults([]);
     }
@@ -78,8 +78,7 @@ function Navbar({ show = true }) {
                   key={index}
                   onClick={() => navigate(`/fund/${fund["Fund id"]}`)}
                 >
-                  {fund["Fondo Mutuo"]} - {fund["Administradora"]} -{" "}
-                  {fund["Categoria"]}
+                  {fund["Fondo Mutuo"]} - {fund["Categoria"]}
                 </li>
               ))}
             </ul>

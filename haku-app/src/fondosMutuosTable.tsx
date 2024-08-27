@@ -72,25 +72,14 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
     "Moneda Cuota",
     "Valor Cuota",
     "Categoria",
-    "Annualized Cumulative Return",
-    "CAGR",
-    "Standard Deviation of Returns",
-    "Sharpe Ratio",
     "Risk",
-  ];
-
-  const percentageColumns: (keyof MutualFundData)[] = [
-    "Annualized Cumulative Return",
     "CAGR",
-    "Standard Deviation of Returns",
-  ];
-
-  const sortableColumns: (keyof MutualFundData)[] = [
-    "Annualized Cumulative Return",
-    "CAGR",
-    "Standard Deviation of Returns",
     "Sharpe Ratio",
   ];
+
+  const percentageColumns: (keyof MutualFundData)[] = ["CAGR"];
+
+  const sortableColumns: (keyof MutualFundData)[] = ["CAGR", "Sharpe Ratio"];
 
   const formatPercentage = (value: number | null): string => {
     if (value === null) return "N/A";
@@ -266,6 +255,7 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
           </div>
         </div>
 
+        {/* TABLE COMPONENT */}
         <div className="table-container">
           <table className="fondosMutuosTable">
             <thead>
@@ -308,11 +298,11 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
                     {/* Code below renders dropdown menus for the Moneda Cuota, Risk & Fund Type columns*/}
                     {/* Dropdowns are rendered when showXDropdown is set to true, which happens onMouseEnter the <th> element */}
                     {column === "Moneda Cuota" && showCurrencyDropdown && (
-                      <div className="dropdown-filter">
+                      <div className="table-dropdown-filter table-currency-dropdown">
                         {uniqueCurrencies.map((currency) => (
                           <div
                             key={currency}
-                            className="dropdown-option"
+                            className="table-dropdown-option"
                             onClick={(e) => {
                               e.stopPropagation();
                               handleCurrencySelect(currency);
@@ -324,11 +314,11 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
                       </div>
                     )}
                     {column === "Risk" && showRiskDropdown && (
-                      <div className="dropdown-filter">
+                      <div className="table-dropdown-filter">
                         {uniqueRisks.map((risk) => (
                           <div
                             key={risk}
-                            className="dropdown-option"
+                            className="table-dropdown-option"
                             onClick={(e) => {
                               e.stopPropagation();
                               handleRiskSelect(risk);
@@ -339,13 +329,12 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
                         ))}
                       </div>
                     )}
-                    {/* Div for the dropdown menu*/}
                     {column === "Categoria" && showCategoriaDropdown && (
-                      <div className="dropdown-filter">
+                      <div className="table-dropdown-filter">
                         {uniqueCategorias.map((categoria) => (
                           <div
                             key={categoria}
-                            className="dropdown-option"
+                            className="table-dropdown-option"
                             onClick={(e) => {
                               e.stopPropagation();
                               handleCategoriaSelect(categoria);

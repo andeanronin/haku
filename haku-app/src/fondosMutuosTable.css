@@ -43,10 +43,10 @@
 }
 
 .fondosMutuosTable thead {
-  background: linear-gradient(to bottom, #2c4b7c, #243b61);
+  background: rgb(33, 42, 63);
   position: sticky;
   top: 0;
-  z-index: 100;
+  /*z-index: 100;*/
 }
 
 /* Styles for the Table Titles */
@@ -57,10 +57,10 @@
   font-weight: 600;
   letter-spacing: 0.05em;
   text-transform: uppercase;
-  border-bottom: 2px solid #3a5680;
+  border-bottom: 1px solid gray;
   text-align: center;
   white-space: nowrap; /* Prevent header text from wrapping */
-  font-family: "Segoe UI", "Roboto", "Helvetica Neue", sans-serif; /* Modern sans-serif font */
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; /* Modern sans-serif font */
 }
 
 .fondosMutuosTable thead th:hover {
@@ -162,27 +162,6 @@ tbody.sorting {
   background-color: rgb(31, 40, 61);
 }
 
-/* Currency DropDown Styles */
-.currency-dropdown {
-  position: absolute;
-  top: 100%;
-  left: 0;
-  background-color: white;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-  z-index: 1000;
-  width: 100%;
-}
-
-.currency-option {
-  padding: 5px 10px;
-  cursor: pointer;
-  background-color: #324b71;
-}
-
-.currency-option:hover {
-  background-color: rgb(89, 119, 193);
-}
-
 /* Conditional color of the text in the Risk column */
 
 .fondosMutuosTable .green {
@@ -203,4 +182,35 @@ tbody.sorting {
 
 .fondosMutuosTable .red {
   color: red;
+}
+
+/* STYLES FOR DROPDOWN FILTER */
+.table-dropdown-filter {
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-48%);
+  background-color: rgba(30, 36, 50);
+  border-radius: 5px;
+  font-size: 0.85em;
+  z-index: 1;
+  width: 130%;
+  border: gray solid;
+}
+
+.table-dropdown-filter.table-currency-dropdown {
+  width: 100%;
+  left: 48.5%;
+}
+
+/* STYLES FOR DROPDOWN OPTIONS */
+.table-dropdown-option {
+  cursor: pointer;
+  padding-top: 5%;
+  padding-bottom: 5%;
+  border-radius: 5px;
+}
+
+.table-dropdown-option:hover {
+  background-color: rgb(41, 49, 67);
 }
