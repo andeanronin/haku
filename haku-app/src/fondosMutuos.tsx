@@ -4,7 +4,7 @@ import Navbar from "./Navbar";
 import "./fondosMutuos.css";
 import FooterComponent from "./footerComp";
 import FondosMutuosTable from "./fondosMutuosTable";
-import mutualFundData from "./assets/fondos-mutuos-data-3.json";
+import mutualFundData from "./assets/fondos-mutuos-data-4.json";
 import FondosMutuosList from "./fondosMutuosSquares";
 import { Rows4, LayoutGrid } from "lucide-react";
 

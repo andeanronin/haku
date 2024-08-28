@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./landingPage";
 import FundPage from "./fundPage";
-import fundData from "./assets/fondos-mutuos-data-3.json";
+import fundData from "./assets/fondos-mutuos-data-4.json";
 import FundList from "./fondosMutuosSquares";
 import FondosMutuosTable from "./fondosMutuosTable";
 import FondosMutuos from "./fondosMutuos";

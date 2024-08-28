@@ -217,7 +217,8 @@ if __name__ == "__main__":
         else:
             fund["Risk"] = None
 
-
+    # Drop rows with a value of NaN for CAGR 
+    
     # Save list of dicts to JSON file
     with open("haku-data/fondos-mutuos-data-3.json", "w") as json_file:
         json.dump(fondos_mutuos_list, json_file, indent = 4)
