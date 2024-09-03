@@ -330,14 +330,16 @@
   /* Fund Page Header Adjustments*/
   .fund-header__title {
     font-size: 1.4rem;
+    margin-top: 0.4rem;
   }
 
   .fund-header__type {
     font-size: 0.9rem;
+    margin-top: 0.3rem;
   }
 
   .fundPage-fund-header__logo {
-    height: 8vh;
+    height: 10vh;
   }
 
   .fund-page__subheading {
@@ -405,19 +407,25 @@
   }
 }
 
-/* Media Queries for Phones */
+/* Media Queries for Large Phones / Small tablets */
 @media screen and (max-width: 768px) {
   /* Fund Page Header Adjustments*/
+  .fund-header {
+    margin-top: 1.5rem;
+  }
+
   .fund-header__title {
     font-size: 1.1rem;
+    margin-top: 0.4rem;
   }
 
   .fund-header__type {
     font-size: 0.7rem;
+    margin-top: 0.3rem;
   }
 
   .fundPage-fund-header__logo {
-    height: 7vh;
+    height: 8vh;
   }
 
   .fund-page__subheading {
@@ -507,5 +515,132 @@
 
   #investment-input {
     width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  /* Fund Page Header Adjustments */
+  .fund-header {
+    margin-top: 1rem;
+  }
+
+  .fund-header__title {
+    font-size: 1rem;
+    margin-top: 0.3rem;
+  }
+
+  .fund-header__type {
+    font-size: 0.6rem;
+    margin-top: 0.2rem;
+  }
+
+  .fundPage-fund-header__logo {
+    height: 7vh;
+    margin-bottom: 0.5rem;
+  }
+
+  .fund-page__subheading {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  /* FUND INFO CARDS */
+
+  .fundData-container {
+    width: 90%;
+  }
+
+  .fund-info,
+  .fund-stats,
+  .fund-indicators {
+    flex-direction: column;
+    gap: 0.4rem;
+  }
+
+  .fund-stats {
+    margin-top: -33px;
+  }
+
+  .info-item,
+  .stat-item {
+    width: 100%;
+    padding: 0.7rem;
+    display: flex;
+    align-items: end;
+  }
+
+  .info-item__title,
+  .stat-item__title {
+    font-size: 0.8rem;
+  }
+
+  .info-item__subtitle {
+    font-size: 0.6rem;
+    margin-top: 0.1rem;
+  }
+
+  .info-item__value,
+  .stat-item__value {
+    font-size: 0.85rem;
+    text-align: left;
+    margin-left: 1rem;
+    flex: 1;
+  }
+
+  /* Fund Return Indicators Section */
+
+  .fund-indicators .info-item {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .fund-indicators .info-item__title {
+    font-size: 0.8rem;
+    margin-bottom: 0.2rem;
+  }
+
+  .fund-indicators .info-item__subtitle {
+    font-size: 0.6rem;
+    margin-left: 0.2rem;
+  }
+
+  .fund-indicators .info-item__value {
+    font-size: 0.9rem;
+    align-self: flex-start;
+  }
+
+  /* Retornos Anuales Table */
+  .fund-performance {
+    width: 85%;
+    padding: 1.5rem;
+  }
+
+  .fund-yearly-returns {
+    font-size: 0.6rem;
+  }
+
+  .fund-yearly-returns__cell {
+    padding: 0.5rem;
+  }
+
+  /* Compound Returns Graph */
+  .compound-returns {
+    width: 85%;
+    padding: 1.5rem;
+  }
+
+  #retornoAcumulado-Graph-Heading h2 {
+    font-size: 1.2rem;
+  }
+
+  #retornoAcumulado-Graph-Heading .content-wrapper {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+    font-size: 0.55rem;
+  }
+
+  #investment-input {
+    width: 80%;
   }
 }

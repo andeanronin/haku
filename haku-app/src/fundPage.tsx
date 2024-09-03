@@ -287,6 +287,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
         <div className="fundData-container">
           <h2 className="fund-page__subheading">Datos Generales</h2>
 
+          {/* General Fund Info */}
           <section className="fund-info">
             <div className="info-item">
               <h3 className="info-item__title">Gestor</h3>

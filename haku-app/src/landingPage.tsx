@@ -78,11 +78,7 @@ function LandingPage() {
       <Navbar />
       <div className={landingStyles.landingcontainer}>
         <div className={landingStyles.landingPageContent}>
-          <p
-            className="fade-in"
-            style={{ fontSize: "3.5em" }}
-            id={landingStyles.introText}
-          >
+          <p className="fade-in" id={landingStyles.introText}>
             Haku
           </p>
           <p className="fade-in">No somos una plataforma de inversion.</p>

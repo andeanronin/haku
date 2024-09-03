@@ -43,10 +43,16 @@
   border-radius: 150px;
   position: absolute;
   font-weight: bold;
+  background-color: transparent;
+  color: white;
 }
 
 .admin-popup-content button:hover {
   background-color: rgb(217, 213, 213);
+}
+
+.admin-popup-content .close-button:hover {
+  background-color: rgb(44, 66, 116);
 }
 
 .admin-popup-content ul {
@@ -65,4 +71,43 @@
   background-color: #f0f0f0;
   border-radius: 5px;
   color: #1a2b3c;
+}
+
+@media screen and (max-width: 1200px) {
+  .admin-popup-content {
+    width: 50%;
+    font-size: 0.85rem;
+  }
+}
+
+@media screen and (max-width: 750px) {
+  .admin-popup-content {
+    width: 50%;
+    font-size: 0.7rem;
+  }
+  .admin-popup-content button {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .admin-popup-content {
+    width: 55%;
+    font-size: 0.6rem;
+  }
+
+  .admin-popup-content button {
+    height: 30px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .admin-popup-content {
+    width: 60%;
+    font-size: 0.6rem;
+  }
+
+  .admin-popup-content button {
+    height: 30px;
+  }
 }

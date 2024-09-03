@@ -36,8 +36,62 @@
 
 /* RESPONSIVE DESIGN: adjusting text, headings and icons size*/
 @media screen and (max-width: 800px) {
+  #fondosMutuos-container {
+    padding-top: 50px;
+  }
+
   #fondosMutuos-heading {
     margin-bottom: 15px;
+  }
+
+  #fondosMutuos-heading-controls {
+    margin-right: 10px;
+  }
+
+  .fondosMutuos-toggle-icons {
+    width: 20px;
+    height: 20px;
+    padding: 3px;
+  }
+
+  #fondosMutuos-heading h2 {
+    font-size: 1.5rem;
+  }
+}
+
+/* LARGE PHONES & SMALL TABLETS */
+@media screen and (max-width: 600px) {
+  #fondosMutuos-container {
+    padding-top: 45px;
+  }
+
+  #fondosMutuos-heading {
+    margin-bottom: 15px;
+  }
+
+  #fondosMutuos-heading-controls {
+    margin-right: 10px;
+  }
+
+  .fondosMutuos-toggle-icons {
+    width: 18px;
+    height: 18px;
+    padding: 2.5px;
+  }
+
+  #fondosMutuos-heading h2 {
+    font-size: 1.35rem;
+  }
+}
+
+/* SMALL PHONES */
+@media screen and (max-width: 410px) {
+  #fondosMutuos-container {
+    padding-top: 45px;
+  }
+
+  #fondosMutuos-heading {
+    margin-bottom: 12.5px;
   }
 
   #fondosMutuos-heading-controls {
@@ -47,7 +101,7 @@
   .fondosMutuos-toggle-icons {
     width: 15px;
     height: 15px;
-    padding: 2.5px;
+    padding: 2px;
   }
 
   #fondosMutuos-heading h2 {

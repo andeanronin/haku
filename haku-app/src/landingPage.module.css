@@ -26,6 +26,7 @@
 /* Styles for the Bienvenido a Haku Intro Text */
 #introText {
   margin-bottom: 50px;
+  font-size: 4rem;
 }
 
 @keyframes fadeIn {
@@ -74,15 +75,41 @@
   left: 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 800px) {
   .landingPageContent p {
     font-size: 1.2rem;
   }
+
   #introText {
-    font-size: 1.5rem;
+    font-size: 3rem;
+    margin-bottom: 40px;
   }
+
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .exploreButton {
+    font-size: 1rem;
+    margin: 5px;
+  }
+}
+
+/* PHONES */
+@media screen and (max-width: 500px) {
+  .landingPageContent p {
+    font-size: 0.9rem;
+  }
+
+  .buttonsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
   .exploreButton {
     font-size: 0.8em;
-    margin: 5px;
+    margin: 3px;
+    padding: 15px 15px;
   }
 }

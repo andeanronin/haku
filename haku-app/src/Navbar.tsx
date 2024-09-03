@@ -113,7 +113,7 @@ function Navbar({ show = true }) {
           <p onClick={() => navigate("/fondos-mutuos")} className="navbar-text">
             Fondos Mutuos
           </p>
-          <p>Asesórate</p>
+          <p id="navBar-asesorate">Asesórate</p>
         </div>
       </div>
     </nav>
