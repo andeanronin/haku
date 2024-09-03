@@ -15,7 +15,8 @@
 
 .filtrosContainer {
   display: flex;
-  margin-top: -5px;
+  margin-top: -25px;
+  margin-bottom: -5px;
 }
 
 .filtrosContainer p {
@@ -106,6 +107,7 @@
   border: 10px;
   margin: 10px;
   padding: 20px;
+  padding-top: 10px;
   border-radius: 20px;
   cursor: pointer;
 }
@@ -117,12 +119,12 @@
 }
 
 .fundSquare h3 {
-  font-size: 13px;
+  font-size: 1.1rem;
   color: #4a69bd;
 }
 .fundSquare p {
   color: rgb(255, 255, 255);
-  font-size: 10px;
+  font-size: 0.8rem;
   margin: 1%;
 }
 
@@ -164,4 +166,57 @@
 
 .fundSquare-data-div .red {
   color: red;
+}
+
+/* Media Queries for Responsive Font Sizes */
+@media screen and (max-width: 1050px) {
+  .fundSquare h3 {
+    font-size: 0.9rem;
+  }
+
+  .fundSquare p {
+    font-size: 0.7rem;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .fundSquare h3 {
+    font-size: 0.7rem;
+  }
+
+  .fundSquare p {
+    font-size: 0.5rem;
+  }
+
+  .filtrosContainer p {
+    font-size: 0.7rem;
+    margin: 5px;
+    padding: 2px;
+  }
+
+  .fund-filter-reset {
+    margin-right: 5px;
+    margin-bottom: 0px;
+  }
+
+  .fund-filter-reset p {
+    font-size: 0.6rem;
+  }
+
+  .fund-filter-reset button {
+    height: auto;
+    padding: 4px 6px; /* Reduce padding */
+    font-size: 0.7rem;
+    border-radius: 4px; /* Optionally reduce border radius */
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .fundSquare h3 {
+    font-size: 0.53rem;
+  }
+
+  .fundSquare p {
+    font-size: 0.33rem;
+  }
 }

@@ -83,7 +83,7 @@ function LandingPage() {
             style={{ fontSize: "3.5em" }}
             id={landingStyles.introText}
           >
-            Bienvenido a Haku
+            Haku
           </p>
           <p className="fade-in">No somos una plataforma de inversion.</p>
           <p className="fade-in">Somos un buscador de fondos.</p>

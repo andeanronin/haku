@@ -17,7 +17,7 @@
 
 /* Move the Haku text towards the center */
 .mainHeader-container > p:first-child {
-  margin-left: 160px;
+  margin-left: 8vw;
 }
 
 .mainHeader-container p {
@@ -38,12 +38,18 @@
 .mainHeader-subcontainer {
   display: flex;
   flex-direction: row;
-  margin-right: 140px;
+  margin-right: 7vw;
+}
+
+.navbar-text {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .search-container {
   position: relative;
-  width: 600px;
+  width: 100%;
   display: flex;
   align-items: center;
   margin: 0 auto;
@@ -99,4 +105,82 @@
 
 .search-results li:hover {
   background-color: rgba(255, 255, 255, 0.1);
+}
+
+.search-results li {
+  display: flex;
+  flex-direction: row;
+}
+
+/* STYLES FOR FUND TITLES IN NAVBAR*/
+
+.Navbar-search-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.Navbar-fund-name {
+  font-weight: bold;
+}
+
+.Navbar-fund-descriptor {
+  font-size: 0.9em;
+  color: #666;
+}
+
+/* FUND LOGO */
+.navbar-logo {
+  height: 7vh;
+  border: 1px solid gray;
+  border-radius: 150px;
+}
+
+/* RESPONSIVE DESIGN */
+@media (max-width: 1200px) {
+  .search-results li {
+    font-size: 12px;
+  }
+  .navbar-logo {
+    height: 6vh;
+  }
+}
+
+@media (max-width: 925px) {
+  .search-results li {
+    font-size: 10px;
+  }
+  .mainHeader-container p {
+    font-size: 0.7rem;
+  }
+
+  .mainHeader-container > p:first-child {
+    margin-left: 5vw;
+  }
+
+  .mainHeader-subcontainer {
+    margin-right: 0px;
+  }
+
+  .mainHeader-subcontainer > *:first-child {
+    margin-right: -18px;
+  }
+
+  .search-container {
+    margin-left: 0px;
+  }
+
+  .search-container input {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 570px) {
+  .navbar-logo {
+    height: 4vh;
+  }
+  .search-results li {
+    font-size: 6px;
+  }
 }

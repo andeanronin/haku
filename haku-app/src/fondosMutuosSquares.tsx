@@ -215,7 +215,7 @@ function FundList() {
           </p>
         </div>
 
-        {/* FILTERS CONTAINER */}
+        {/* Container for CLEARING FILTERS  */}
         <div className="filters-container">
           {selectedAdmin && (
             <div className="fund-filter-reset">

@@ -1,7 +1,7 @@
 /* Fondos Mutuos Styles */
 #fondosMutuos-container {
   min-height: 100vh;
-  padding-top: 50px;
+  padding-top: 60px;
 }
 
 #fondosMutuos-heading {
@@ -13,11 +13,9 @@
 }
 
 #fondosMutuos-heading-controls {
-  position: absolute;
-  left: 0;
   display: flex;
-  margin-left: 50px;
   align-items: center;
+  margin-right: 15px;
 }
 
 #fondosMutuos-heading h2 {
@@ -26,16 +24,33 @@
 
 .fondosMutuos-toggle-icons {
   cursor: pointer;
-  margin: 5px;
+  margin: 1px;
   color: white;
   padding: 5px;
   border-radius: 5px;
 }
 
-.fondosMutuos-toggle-icons:first-child {
-  margin-left: 120px;
-}
-
 .fondosMutuos-toggle-icons:hover {
   background-color: rgb(31, 40, 61);
+}
+
+/* RESPONSIVE DESIGN: adjusting text, headings and icons size*/
+@media screen and (max-width: 800px) {
+  #fondosMutuos-heading {
+    margin-bottom: 15px;
+  }
+
+  #fondosMutuos-heading-controls {
+    margin-right: 5px;
+  }
+
+  .fondosMutuos-toggle-icons {
+    width: 15px;
+    height: 15px;
+    padding: 2.5px;
+  }
+
+  #fondosMutuos-heading h2 {
+    font-size: 1rem;
+  }
 }

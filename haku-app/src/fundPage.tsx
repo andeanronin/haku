@@ -53,6 +53,7 @@ interface FundData {
   CAGR: number | null;
   "Sharpe Ratio": number | null;
   Risk: string | null;
+  Logo: string;
   [key: string]: string | number | null; // Index signature for dynamic access
 }
 
@@ -139,6 +140,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
   const [compoundedReturns, setCompoundedReturns] = useState<CompoundReturns>(
     startingcompoundedReturns
   );
+  const [chartHeight, setChartHeight] = useState(500);
 
   // Helper function to format date strings
   const formatDate = (dateString: string): string => {
@@ -243,25 +245,48 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
 
   const yAxisTicks = getLineChartTicks(yAxisMax);
 
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setChartHeight(250);
+      } else if (window.innerWidth <= 1100) {
+        setChartHeight(350);
+      } else {
+        setChartHeight(500);
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Call once to set initial size
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <>
       <Navbar />
       <div className="fund-page">
         {/* Fund Page Header */}
         <header className="fund-header">
-          <h1 className="fund-header__title">{fundData["Fondo Mutuo"]}</h1>
-          <p className="fund-header__type">
-            Tipo de Fondo: {fundData["Tipo Fondo"]}{" "}
-            {fundData["Tipo Fondo"] === fundData["Categoria"]
-              ? ""
-              : ` - ${fundData["Categoria"]}`}
-          </p>
+          <img
+            src={fundData["Logo"]}
+            className="fundPage-fund-header__logo"
+          ></img>
+          <div>
+            <h1 className="fund-header__title">{fundData["Fondo Mutuo"]}</h1>
+            <p className="fund-header__type">
+              Tipo de Fondo: {fundData["Tipo Fondo"]}{" "}
+              {fundData["Tipo Fondo"] === fundData["Categoria"]
+                ? ""
+                : ` - ${fundData["Categoria"]}`}
+            </p>
+          </div>
         </header>
 
+        {/* General Fund Info */}
         <div className="fundData-container">
           <h2 className="fund-page__subheading">Datos Generales</h2>
 
-          {/* General Fund Info */}
           <section className="fund-info">
             <div className="info-item">
               <h3 className="info-item__title">Gestor</h3>
@@ -314,7 +339,10 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
         </div>
 
         {/* Fund Return Indicators  */}
-        <div className="fundData-container">
+        <div
+          className="fundData-container"
+          id="fundPage-fundIndicators-container"
+        >
           <h2 className="fund-page__subheading">Indicadores de Retorno</h2>
           <section className="fund-indicators">
             <div className="info-item">
@@ -395,7 +423,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
             </tbody>
           </table>
           {/* Anualized Returns BAR Chart */}
-          <ResponsiveContainer width="100%" height={500}>
+          <ResponsiveContainer width="100%" height={chartHeight}>
             <BarChart
               data={barChartData}
               margin={{ top: 50, right: 20, left: 30, bottom: 20 }}
@@ -467,7 +495,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
               </p>
             </div>
           </div>
-          <ResponsiveContainer width="100%" height={500}>
+          <ResponsiveContainer width="100%" height={chartHeight}>
             <LineChart
               data={compoundedReturnsChartData}
               margin={{ top: 20, right: 30, left: 30, bottom: 20 }}

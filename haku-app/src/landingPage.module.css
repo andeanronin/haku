@@ -73,3 +73,16 @@
   top: 0;
   left: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .landingPageContent p {
+    font-size: 1.2rem;
+  }
+  #introText {
+    font-size: 1.5rem;
+  }
+  .exploreButton {
+    font-size: 0.8em;
+    margin: 5px;
+  }
+}

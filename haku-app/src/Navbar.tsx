@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
-import fondosData from "./assets/fondos-mutuos-data-3.json";
+import fondosData from "./assets/fondos-mutuos-data-4.json";
 
 // Define the data structure & tyes of a fund object
 type Fund = {
@@ -37,7 +37,8 @@ type Fund = {
   CAGR: number | null;
   "Sharpe Ratio": number | null;
   Risk: string | null;
-  [key: string]: string | number | null; // Index signature for dynamic access
+  Logo?: string;
+  [key: string]: string | number | null | undefined; // Index signature for dynamic access
 };
 
 function Navbar({ show = true }) {
@@ -60,6 +61,14 @@ function Navbar({ show = true }) {
 
   if (!show) return null;
 
+  const formatCAGR = (decimal: number | null) => {
+    if (decimal === null) {
+      return "N/A";
+    } else {
+      return (decimal * 100).toFixed(2);
+    }
+  };
+
   return (
     <nav className="mainHeader">
       <div className="mainHeader-container">
@@ -73,19 +82,37 @@ function Navbar({ show = true }) {
           />
           {searchResults.length > 0 && (
             <ul className="search-results">
-              {searchResults.map((fund, index) => (
-                <li
-                  key={index}
-                  onClick={() => navigate(`/fund/${fund["Fund id"]}`)}
-                >
-                  {fund["Fondo Mutuo"]} - {fund["Categoria"]}
-                </li>
-              ))}
+              {searchResults.map((fund, index) => {
+                const fundLogo = fund["Logo"];
+                return (
+                  <li
+                    key={index}
+                    onClick={() => navigate(`/fund/${fund["Fund id"]}`)}
+                  >
+                    <img
+                      src={fundLogo}
+                      className="navbar-logo"
+                      alt="Fund Logo"
+                    ></img>
+
+                    <div className="Navbar-search-item">
+                      <span className="Navbar-fund-name">
+                        {fund["Fondo Mutuo"]}
+                      </span>
+                      <span className="Navbar-fund-descriptor">
+                        {fund["Categoria"]} {formatCAGR(fund["CAGR"])}%
+                      </span>
+                    </div>
+                  </li>
+                );
+              })}
             </ul>
           )}
         </div>
         <div className="mainHeader-subcontainer">
-          <p onClick={() => navigate("/fondos-mutuos")}>Fondos Mutuos</p>
+          <p onClick={() => navigate("/fondos-mutuos")} className="navbar-text">
+            Fondos Mutuos
+          </p>
           <p>Asesórate</p>
         </div>
       </div>
