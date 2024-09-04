@@ -259,7 +259,8 @@
   }
 
   .fundSquare {
-    width: 36%;
+    width: 35%;
+    margin: 8px;
   }
 
   .fundSquare h3 {
@@ -272,7 +273,7 @@
 }
 
 /* PHONES NORMAL - SMALL */
-@media screen and (max-width: 410px) {
+@media screen and (max-width: 421px) {
   /* FILTERS DIV */
 
   .filtrosContainer p {
@@ -301,6 +302,10 @@
   /* SQUARES */
   .fundExploreContainer {
     width: 100%;
+  }
+
+  .fundSquare {
+    margin: 8px;
   }
 
   .fundSquare h3 {
@@ -354,6 +359,10 @@
     border-radius: 4px; /* Optionally reduce border radius */
   }
 
+  .fundSquare {
+    margin: 7px;
+  }
+
   .fundSquare h3 {
     font-size: 0.5rem;
   }
@@ -365,6 +374,52 @@
   .fundSquare {
     padding: 12px;
     padding-top: 3px;
+    width: 33%;
+  }
+}
+
+@media screen and (max-width: 295px) {
+  #filtrosContainer-subcontainer {
+    margin-top: -3px;
+  }
+
+  .filtrosContainer p {
+    font-size: 9px;
+  }
+
+  /* Reset Filter Styles */
+  .fund-filter-reset {
+    margin-right: 3px;
+    margin-bottom: 0px;
+  }
+
+  .fund-filter-reset p {
+    font-size: 0.4rem;
+    margin-left: 2px;
+  }
+
+  .fund-filter-reset button {
+    height: auto;
+    padding: 3px 5px; /* Reduce padding */
+    font-size: 0.4rem;
+    border-radius: 4px; /* Optionally reduce border radius */
+  }
+
+  .fundSquare {
+    margin: 5px;
+  }
+
+  .fundSquare h3 {
+    font-size: 0.35rem;
+  }
+
+  .fundSquare p {
+    font-size: 0.25rem;
+  }
+
+  .fundSquare {
+    padding: 11px;
+    padding-top: 2px;
     width: 33%;
   }
 }

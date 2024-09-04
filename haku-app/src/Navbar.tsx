@@ -45,6 +45,7 @@ function Navbar({ show = true }) {
   const navigate = useNavigate();
   const [searchTerm, setSearchTerm] = useState("");
   const [searchResults, setSearchResults] = useState<Fund[]>([]);
+  const [showResults, setShowResults] = useState(false);
 
   useEffect(() => {
     if (searchTerm) {
@@ -79,8 +80,10 @@ function Navbar({ show = true }) {
             placeholder="Busca Fondos"
             value={searchTerm}
             onChange={(e) => setSearchTerm(e.target.value)}
+            onFocus={() => setShowResults(true)}
+            onBlur={() => setTimeout(() => setShowResults(false), 200)}
           />
-          {searchResults.length > 0 && (
+          {showResults && searchResults.length > 0 && (
             <ul className="search-results">
               {searchResults.map((fund, index) => {
                 const fundLogo = fund["Logo"];

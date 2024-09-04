@@ -52,7 +52,8 @@
 }
 
 .admin-popup-content .close-button:hover {
-  background-color: rgb(44, 66, 116);
+  color: gray;
+  background-color: transparent;
 }
 
 .admin-popup-content ul {

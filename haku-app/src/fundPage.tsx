@@ -141,6 +141,29 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
     startingcompoundedReturns
   );
   const [chartHeight, setChartHeight] = useState(500);
+  const [showYaxisLabelLineChart, setShowYaxisLabelLineChart] = useState(true);
+  const [showXaxisLabel, setShowXaxisLabel] = useState(true);
+  const [showYaxisLabelBarChart, setShowYaxislabelBarChart] = useState(true);
+  const [barChartMargin, setBarChartMargin] = useState({
+    top: 30,
+    right: 20,
+    left: 20,
+    bottom: 20,
+  });
+
+  // Event listener to HANDLE LINECHART Y AXIS AND X AXIS LABELS BASED ON SCREEN WIDTH
+  useEffect(() => {
+    const handleResize = () => {
+      setShowYaxisLabelLineChart(window.innerWidth >= 1100);
+      setShowXaxisLabel(window.innerWidth >= 768);
+      setShowYaxislabelBarChart(window.innerWidth >= 768);
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Call once to set initial state
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   // Helper function to format date strings
   const formatDate = (dateString: string): string => {
@@ -247,7 +270,9 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
 
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 450) {
+        setChartHeight(180);
+      } else if (window.innerWidth <= 768) {
         setChartHeight(250);
       } else if (window.innerWidth <= 1100) {
         setChartHeight(350);
@@ -258,6 +283,22 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
 
     window.addEventListener("resize", handleResize);
     handleResize(); // Call once to set initial size
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // RESIZING BAR CHART
+  useEffect(() => {
+    const handleResize = () => {
+      if (window.innerWidth <= 768) {
+        setBarChartMargin({ top: 10, right: 15, left: -15, bottom: 0 });
+      } else {
+        setBarChartMargin({ top: 30, right: 20, left: 20, bottom: 20 });
+      }
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Call once to set initial margin
 
     return () => window.removeEventListener("resize", handleResize);
   }, []);
@@ -425,23 +466,24 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
           </table>
           {/* Anualized Returns BAR Chart */}
           <ResponsiveContainer width="100%" height={chartHeight}>
-            <BarChart
-              data={barChartData}
-              margin={{ top: 50, right: 20, left: 30, bottom: 20 }}
-            >
-              <CartesianGrid strokeDasharray="3 3" />
+            <BarChart data={barChartData} margin={barChartMargin}>
+              <CartesianGrid strokeDasharray="5 5" />
               <XAxis
                 dataKey="year"
                 label={{ value: "Año", position: "insideBottom", offset: -20 }}
               />
               <YAxis
-                label={{
-                  value: "Rentabilidad del Año",
-                  angle: -90,
-                  position: "insideLeft",
-                  offset: -10,
-                  dy: 50,
-                }}
+                label={
+                  showYaxisLabelBarChart
+                    ? {
+                        value: "Rentabilidad del Año",
+                        angle: -90,
+                        position: "insideLeft",
+                        offset: -10,
+                        dy: 50,
+                      }
+                    : undefined
+                }
               />
               <Tooltip />
 
@@ -499,20 +541,28 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
           <ResponsiveContainer width="100%" height={chartHeight}>
             <LineChart
               data={compoundedReturnsChartData}
-              margin={{ top: 20, right: 30, left: 30, bottom: 20 }}
+              margin={{ top: 10, right: 15, left: -15, bottom: 0 }}
             >
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis
                 dataKey="year"
-                label={{ value: "Año", position: "bottom", offset: 5 }}
+                label={
+                  showXaxisLabel
+                    ? { value: "Año", position: "bottom", offset: 5 }
+                    : undefined
+                }
               />
               <YAxis
-                label={{
-                  value: "Retorno Acumulado",
-                  angle: -90,
-                  position: "insideLeft",
-                  offset: -15,
-                }}
+                label={
+                  showYaxisLabelLineChart
+                    ? {
+                        value: "Retorno Acumulado",
+                        angle: -90,
+                        position: "insideLeft",
+                        offset: -15,
+                      }
+                    : undefined
+                }
                 domain={[0, yAxisMax]}
                 ticks={yAxisTicks}
                 tickFormatter={(value) => `${value.toFixed(0)}`}
