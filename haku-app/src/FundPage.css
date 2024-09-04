@@ -560,7 +560,7 @@ html {
   /* FUND INFO CARDS */
 
   .fundData-container {
-    width: 90%;
+    width: 110%;
   }
 
   .fund-info,
@@ -576,7 +576,7 @@ html {
 
   .info-item,
   .stat-item {
-    width: 95%;
+    width: 96%;
     padding: 0.7rem;
     display: flex;
     align-items: end;
@@ -624,7 +624,7 @@ html {
 
   /* Retornos Anuales Table */
   .fund-performance {
-    width: 80%;
+    width: 100%;
     padding: 1.5rem;
   }
 
@@ -642,7 +642,7 @@ html {
 
   /* Compound Returns Graph */
   .compound-returns {
-    width: 80%;
+    width: 100%;
     padding: 1.5rem;
   }
 
@@ -697,6 +697,15 @@ html {
   }
 
   /* FUND INFO CARDS */
+  .fundData-container {
+    width: 115%;
+  }
+
+  .info-item,
+  .stat-item {
+    width: 99%;
+    padding: 0.7rem 0rem 0.4rem 0.4rem;
+  }
 
   .info-item__title,
   .stat-item__title {
@@ -731,7 +740,6 @@ html {
 
   /* Retornos Anuales Table */
   .fund-performance {
-    width: 78%;
     padding: 1.5rem;
   }
 
@@ -749,9 +757,6 @@ html {
   }
 
   /* Compound Returns Graph */
-  .compound-returns {
-    width: 78%;
-  }
 
   #retornoAcumulado-Graph-Heading {
     padding: 15px 0px 3px 5px;
@@ -808,6 +813,16 @@ html {
 
   /* FUND INFO CARDS */
 
+  .fundData-container {
+    width: 115%;
+  }
+
+  .info-item,
+  .stat-item {
+    width: 96%;
+    padding: 0.5rem;
+  }
+
   .info-item__title,
   .stat-item__title {
     font-size: 0.7rem;
@@ -848,10 +863,6 @@ html {
   }
 
   /* Compound Returns Graph */
-  .compound-returns {
-    width: 78%;
-  }
-
   #retornoAcumulado-Graph-Heading h2 {
     font-size: 16px;
     margin-bottom: 4px;
