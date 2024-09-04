@@ -137,82 +137,84 @@ function FundList() {
         <div className="filtrosContainer">
           <p>Filtra Por: </p>
 
-          {/* Filtro Gestor */}
-          <p
-            onClick={() => setshowFundAdminPopUp(true)}
-            style={{ cursor: "pointer" }}
-          >
-            Gestor
-          </p>
+          <div id="filtrosContainer-subcontainer">
+            {/* Filtro Gestor */}
+            <p
+              onClick={() => setshowFundAdminPopUp(true)}
+              style={{ cursor: "pointer" }}
+            >
+              Gestor
+            </p>
 
-          {/* Filtro Tipo de Fondo */}
-          <p
-            onMouseEnter={() => setShowFundTypeDropdown(true)}
-            onMouseLeave={() => setShowFundTypeDropdown(false)}
-            style={{ cursor: "pointer" }}
-          >
-            Tipo de Fondo
-            {showFundTypeDropdown && (
-              <div className="dropdown-filter">
-                {uniqueFundTypes.map((item) => (
-                  <div
-                    key={item}
-                    className="dropdown-option"
-                    onClick={() => handleFundTypeSelect(item)}
-                  >
-                    {item}
-                  </div>
-                ))}
-              </div>
-            )}
-          </p>
-
-          {/* Filtro Moneda */}
-          <p
-            onMouseEnter={() => setShowCurrencyDropdown(true)}
-            onMouseLeave={() => setShowCurrencyDropdown(false)}
-            style={{ cursor: "pointer" }}
-          >
-            Moneda
-            {showCurrencyDropdown && (
-              <div className="dropdown-filter">
-                <div
-                  onClick={() => handleCurrencySelect("$")}
-                  className="dropdown-option"
-                >
-                  $
+            {/* Filtro Tipo de Fondo */}
+            <p
+              onMouseEnter={() => setShowFundTypeDropdown(true)}
+              onMouseLeave={() => setShowFundTypeDropdown(false)}
+              style={{ cursor: "pointer" }}
+            >
+              Tipo de Fondo
+              {showFundTypeDropdown && (
+                <div className="dropdown-filter">
+                  {uniqueFundTypes.map((item) => (
+                    <div
+                      key={item}
+                      className="dropdown-option"
+                      onClick={() => handleFundTypeSelect(item)}
+                    >
+                      {item}
+                    </div>
+                  ))}
                 </div>
-                <div
-                  onClick={() => handleCurrencySelect("S/.")}
-                  className="dropdown-option"
-                >
-                  S/.
-                </div>
-              </div>
-            )}
-          </p>
+              )}
+            </p>
 
-          {/* Filtro Nivel de Riesgo */}
-          <p
-            onMouseEnter={() => setShowRiskDropdown(true)}
-            onMouseLeave={() => setShowRiskDropdown(false)}
-            style={{ cursor: "pointer" }}
-          >
-            Riesgo
-            {showRiskDropdown && (
-              <div className="dropdown-filter">
-                {uniqueRiskTypes2.map((type) => (
+            {/* Filtro Moneda */}
+            <p
+              onMouseEnter={() => setShowCurrencyDropdown(true)}
+              onMouseLeave={() => setShowCurrencyDropdown(false)}
+              style={{ cursor: "pointer" }}
+            >
+              Moneda
+              {showCurrencyDropdown && (
+                <div className="dropdown-filter">
                   <div
-                    key={type}
+                    onClick={() => handleCurrencySelect("$")}
                     className="dropdown-option"
-                    onClick={() => handleRiskSelect(type)}
                   >
-                    {type}
+                    $
                   </div>
-                ))}
-              </div>
-            )}
-          </p>
+                  <div
+                    onClick={() => handleCurrencySelect("S/.")}
+                    className="dropdown-option"
+                  >
+                    S/.
+                  </div>
+                </div>
+              )}
+            </p>
+
+            {/* Filtro Nivel de Riesgo */}
+            <p
+              onMouseEnter={() => setShowRiskDropdown(true)}
+              onMouseLeave={() => setShowRiskDropdown(false)}
+              style={{ cursor: "pointer" }}
+            >
+              Riesgo
+              {showRiskDropdown && (
+                <div className="dropdown-filter">
+                  {uniqueRiskTypes2.map((type) => (
+                    <div
+                      key={type}
+                      className="dropdown-option"
+                      onClick={() => handleRiskSelect(type)}
+                    >
+                      {type}
+                    </div>
+                  ))}
+                </div>
+              )}
+            </p>
+          </div>
         </div>
 
         {/* Container for CLEARING FILTERS  */}

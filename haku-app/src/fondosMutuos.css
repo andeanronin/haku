@@ -82,12 +82,20 @@
   #fondosMutuos-heading h2 {
     font-size: 1.35rem;
   }
+
+  .fondosMutuos-toggle-icons:first-child {
+    display: none;
+  }
+
+  .fondosMutuos-table-alt-container {
+    display: none !important;
+  }
 }
 
 /* SMALL PHONES */
 @media screen and (max-width: 410px) {
   #fondosMutuos-container {
-    padding-top: 45px;
+    padding-top: 55px;
   }
 
   #fondosMutuos-heading {
@@ -106,5 +114,13 @@
 
   #fondosMutuos-heading h2 {
     font-size: 1rem;
+  }
+
+  .fondosMutuos-toggle-icons:first-child {
+    display: none;
+  }
+
+  .fondosMutuos-table-alt-container {
+    display: none !important;
   }
 }

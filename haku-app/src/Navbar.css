@@ -178,13 +178,13 @@
 
 @media (max-width: 570px) {
   .navbar-logo {
-    height: 4vh;
+    height: 5.5vh;
   }
   .search-results li {
-    font-size: 6px;
+    font-size: 10px;
   }
   .mainHeader-container > p:first-child {
-    margin-left: 2vw;
+    margin-left: -2vw;
   }
 
   #navBar-asesorate {
@@ -194,13 +194,13 @@
 
 @media (max-width: 470px) {
   .navbar-logo {
-    height: 3.5vh;
+    height: 5vh;
   }
   .search-results li {
-    font-size: 5.5px;
+    font-size: 9px;
   }
   .mainHeader-container > p:first-child {
-    margin-left: -3vw;
+    margin-left: -6vw;
   }
   .mainHeader-subcontainer {
     margin-right: -4vw;
@@ -213,16 +213,17 @@
 
 @media (max-width: 410px) {
   .navbar-logo {
-    height: 3vh;
+    height: 6vh;
   }
   .search-results li {
-    font-size: 4px;
+    font-size: 9px;
   }
   .mainHeader-container > p:first-child {
-    margin-left: -5vw;
+    margin-left: -8vw;
   }
-  .mainHeader-subcontainer {
-    margin-right: -6vw;
+
+  .navbar-text {
+    display: none;
   }
 
   #navBar-asesorate {

@@ -19,6 +19,10 @@
   margin-bottom: -5px;
 }
 
+#filtrosContainer-subcontainer {
+  display: flex;
+}
+
 .filtrosContainer p {
   color: rgb(255, 255, 255);
   padding: 5px;
@@ -270,6 +274,7 @@
 /* PHONES NORMAL - SMALL */
 @media screen and (max-width: 410px) {
   /* FILTERS DIV */
+
   .filtrosContainer p {
     padding: 1px;
     font-size: 10.5px;
@@ -310,5 +315,56 @@
     padding: 15px;
     padding-top: 5px;
     width: 35%;
+  }
+}
+
+/* PHONES VERY SMALL */
+@media screen and (max-width: 350px) {
+  .filtrosContainer {
+    display: flex;
+    flex-direction: column;
+  }
+
+  #filtrosContainer-subcontainer {
+    /* this collapses the filters in two rows so that it fits in the screen */
+    display: flex;
+    margin-top: -4px;
+  }
+
+  .filtrosContainer p {
+    padding: 0px;
+    font-size: 10px;
+  }
+
+  /* Reset Filter Styles */
+  .fund-filter-reset {
+    margin-right: 3px;
+    margin-bottom: 0px;
+  }
+
+  .fund-filter-reset p {
+    font-size: 0.4rem;
+    margin-left: 2px;
+  }
+
+  .fund-filter-reset button {
+    height: auto;
+    padding: 3px 5px; /* Reduce padding */
+    font-size: 0.4rem;
+    border-radius: 4px; /* Optionally reduce border radius */
+  }
+
+  .fundSquare h3 {
+    font-size: 0.5rem;
+  }
+
+  .fundSquare p {
+    font-size: 0.35rem;
+  }
+
+  .fundSquare {
+    padding: 12px;
+    padding-top: 3px;
+    width: 33%;
   }
 }

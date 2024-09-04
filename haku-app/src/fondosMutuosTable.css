@@ -243,25 +243,3 @@ tbody.sorting {
     padding: 8px;
   }
 }
-
-/* PHONES */
-@media screen and (max-width: 500px) {
-  .fondos-mutuos-table-page-container {
-    font-size: 8px;
-  }
-
-  .filtered-funds-heading button {
-    height: 70%;
-    padding: 0px 8px;
-    font-size: 10px;
-  }
-
-  .filtered-funds-heading p {
-    font-size: 10px;
-  }
-
-  /* */
-  .fondosMutuosTable thead th {
-    padding: 7px 4px;
-  }
-}

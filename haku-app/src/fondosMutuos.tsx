@@ -9,7 +9,7 @@ import FondosMutuosList from "./fondosMutuosSquares";
 import { Rows4, LayoutGrid } from "lucide-react";
 
 function FondosMutuos() {
-  const [showTable, setShowTable] = useState(true);
+  const [showTable, setShowTable] = useState(false);
   return (
     <>
       <Navbar />
@@ -28,7 +28,9 @@ function FondosMutuos() {
           <h2>Explora Fondos Mutuos</h2>
         </div>
         {showTable ? (
-          <FondosMutuosTable data={mutualFundData} />
+          <div className="fondosMutuos-table-alt-container">
+            <FondosMutuosTable data={mutualFundData} />
+          </div>
         ) : (
           <FondosMutuosList />
         )}

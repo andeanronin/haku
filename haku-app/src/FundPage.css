@@ -1,16 +1,20 @@
-:root {
-  --chart-height: 500px;
+body,
+html {
+  overflow-x: hidden;
+  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 
 /* Container Styles */
 .fund-page {
-  max-width: 98%;
+  max-width: 100%;
   margin: 0 auto;
   padding: 2rem;
   font-family: "Roboto", sans-serif;
   color: #333;
   background-color: rgba(18, 24, 38);
-  width: 100%;
+  width: 80%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -56,7 +60,7 @@
 .fundData-container {
   display: flex;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
 }
 
 /* Fund Info Section */
@@ -157,7 +161,7 @@
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   margin-bottom: 2.5rem;
-  width: 74.5%;
+  width: 100%;
 }
 
 .fund-performance__title {
@@ -225,7 +229,7 @@
 
 /* COMPOUND RETURNS CONTAINER */
 .compound-returns {
-  width: 74.5%;
+  width: 100%;
   background-color: rgb(30, 36, 50);
   padding: 2.5rem;
   border-radius: 12px;
@@ -382,7 +386,7 @@
 
   /* Retornos Anuales Table */
   .fund-performance {
-    width: 71.5%;
+    width: 90%;
   }
 
   .fund-performance__title {
@@ -399,7 +403,7 @@
 
   /* Compound returns graph section */
   .compound-returns {
-    width: 71.5%;
+    width: 90%;
   }
 
   #retornoAcumulado-Graph-Heading .content-wrapper {
@@ -407,7 +411,7 @@
   }
 }
 
-/* Media Queries for Large Phones / Small tablets */
+/* Media Queries Small tablets */
 @media screen and (max-width: 768px) {
   /* Fund Page Header Adjustments*/
   .fund-header {
@@ -486,7 +490,7 @@
 
   /* Retornos Anuales Table */
   .fund-performance {
-    width: 68%;
+    width: 86%;
   }
 
   .fund-yearly-returns {
@@ -499,7 +503,7 @@
 
   /* Compound Returns Graph */
   .compound-returns {
-    width: 68%;
+    width: 86%;
   }
 
   #retornoAcumulado-Graph-Heading h2 {
@@ -518,6 +522,7 @@
   }
 }
 
+/* Media Queries Phones */
 @media (max-width: 600px) {
   /* Fund Page Header Adjustments */
   .fund-header {
@@ -525,7 +530,7 @@
   }
 
   .fund-header__title {
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 0.3rem;
   }
 
@@ -535,7 +540,7 @@
   }
 
   .fundPage-fund-header__logo {
-    height: 7vh;
+    height: 8vh;
     margin-bottom: 0.5rem;
   }
 
@@ -547,7 +552,7 @@
   /* FUND INFO CARDS */
 
   .fundData-container {
-    width: 90%;
+    width: 100%;
   }
 
   .fund-info,
@@ -581,7 +586,7 @@
 
   .info-item__value,
   .stat-item__value {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     text-align: left;
     margin-left: 1rem;
     flex: 1;
@@ -642,5 +647,86 @@
 
   #investment-input {
     width: 80%;
+  }
+}
+
+/* Media Queries Small Phones */
+@media (max-width: 450px) {
+  /* Fund Page Header Adjustments */
+  .fund-header {
+    margin-top: 1rem;
+  }
+
+  .fund-header__title {
+    font-size: 0.8rem;
+    margin-top: 0.6rem;
+  }
+
+  .fund-header__type {
+    font-size: 0.5rem;
+    margin-top: 0.2rem;
+  }
+
+  .fundPage-fund-header__logo {
+    height: 7vh;
+    margin-bottom: 0.5rem;
+  }
+
+  .fund-page__subheading {
+    font-size: 0.9rem;
+    text-align: left;
+    color: #4a69bd;
+  }
+
+  /* FUND INFO CARDS */
+
+  .info-item__title,
+  .stat-item__title {
+    font-size: 0.75rem;
+  }
+
+  .info-item__subtitle {
+    /* PENDING FIX */
+    font-size: 0.6rem;
+  }
+
+  .info-item__value,
+  .stat-item__value {
+    font-size: 0.75rem;
+  }
+
+  /* Fund Return Indicators Section */
+
+  .fund-indicators .info-item__title {
+    font-size: 0.75rem;
+    margin-bottom: 0.6rem;
+  }
+
+  .fund-indicators .info-item__subtitle {
+    font-size: 0.6rem;
+  }
+
+  .fund-indicators .info-item__value {
+    font-size: 0.85rem;
+    align-self: flex-start;
+  }
+
+  /* Retornos Anuales Table */
+  .fund-performance {
+    width: 85%;
+    padding: 1.5rem;
+  }
+
+  .fund-yearly-returns {
+    font-size: 0.6rem;
+  }
+
+  .fund-yearly-returns__cell {
+    padding: 0.5rem;
+  }
+
+  /* Compound Returns Graph */
+  .compound-returns {
+    width: 85%;
   }
 }
