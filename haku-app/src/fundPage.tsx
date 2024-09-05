@@ -132,13 +132,10 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
     return compoundReturns;
   };
 
-  // Get Compounded Returns
-  const startingcompoundedReturns = getCompoundReturns(fundData, 100);
-
   // State Variables
   const [userInvestment, setUserInvestment] = useState<number>(100);
   const [compoundedReturns, setCompoundedReturns] = useState<CompoundReturns>(
-    startingcompoundedReturns
+    getCompoundReturns(fundData, userInvestment)
   );
   const [chartHeight, setChartHeight] = useState(500);
   const [showYaxisLabelLineChart, setShowYaxisLabelLineChart] = useState(true);
@@ -150,6 +147,21 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
     left: 20,
     bottom: 20,
   });
+
+  // ENSURE that Compounded Return UPDATES when fundData or userInvestment changes
+  useEffect(() => {
+    setCompoundedReturns(getCompoundReturns(fundData, userInvestment));
+  }, [fundData, userInvestment]);
+
+  useEffect(() => {
+    console.log("NEW");
+    console.log(fundData);
+    console.log("STARTING Compounded Returns");
+    //console.log(startingcompoundedReturns);
+    console.log("COMPOUNDED Returns");
+    console.log(compoundedReturns);
+    console.log("END");
+  }, []);
 
   // Event listener to HANDLE LINECHART Y AXIS AND X AXIS LABELS BASED ON SCREEN WIDTH
   useEffect(() => {
@@ -227,13 +239,6 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
   // Function to get Bar Color in Anual Returns Barchart
   const getBarColor = (value: number) => (value >= 0 ? "#4CAF50" : "#F44336");
 
-  // Update calculatedReturns whenever userInvestment changes
-  useEffect(() => {
-    const calculatedReturns = getCompoundReturns(fundData, userInvestment);
-    setCompoundedReturns(calculatedReturns);
-  }, [userInvestment]);
-
-  // Format Compounded Returns Data for Recharts
   // Format Compounded Returns Data for Recharts
   const compoundedReturnsChartData = useMemo(
     () => rechartsFormat(compoundedReturns, "Valor"),
@@ -247,7 +252,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
     setUserInvestment(isNaN(value) ? 0 : value);
   };
 
-  // Get Max Return Value
+  // Get Max Return Value for Compound Returns LineChart
   const maxValue = Math.max(
     ...compoundedReturnsChartData
       .map((item) => item.Valor)
@@ -268,6 +273,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
 
   const yAxisTicks = getLineChartTicks(yAxisMax);
 
+  // CHART HEIGHTS FOR DIFFERENT SCREENS
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 450) {
@@ -287,7 +293,7 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // RESIZING BAR CHART
+  // RESIZING MARGINS OF BAR CHART FOR DIFFERENT SCREEN SIZES
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 768) {

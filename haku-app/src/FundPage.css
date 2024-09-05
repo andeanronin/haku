@@ -38,14 +38,17 @@ html {
 }
 
 .fund-header__title {
-  margin: 0;
+  margin-top: 0.5rem;
+  margin-bottom: 0px;
+  padding-bottom: 0px;
   font-size: 2rem;
 }
 
 .fund-header__type {
   font-size: 1.2rem;
   opacity: 0.9;
-  margin-top: 0.75rem;
+  margin-top: 0rem;
+  color: rgb(182, 182, 182);
 }
 
 /* Subtitles */
@@ -161,7 +164,7 @@ html {
   border-radius: 12px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
   margin-bottom: 2.5rem;
-  width: 100%;
+  width: 95%;
 }
 
 .fund-performance__title {
@@ -229,7 +232,7 @@ html {
 
 /* COMPOUND RETURNS CONTAINER */
 .compound-returns {
-  width: 100%;
+  width: 95%;
   background-color: rgb(30, 36, 50);
   padding: 2.5rem;
   border-radius: 12px;
@@ -333,12 +336,12 @@ html {
   /* Fund Page Header Adjustments*/
   .fund-header__title {
     font-size: 1.4rem;
-    margin-top: 0.4rem;
+    margin-top: 0.8rem;
   }
 
   .fund-header__type {
     font-size: 0.9rem;
-    margin-top: 0.3rem;
+    margin-top: 0rem;
   }
 
   .fundPage-fund-header__logo {
@@ -419,12 +422,11 @@ html {
 
   .fund-header__title {
     font-size: 1.1rem;
-    margin-top: 0.4rem;
+    margin-top: 0.5rem;
   }
 
   .fund-header__type {
     font-size: 0.7rem;
-    margin-top: 0.3rem;
   }
 
   .fundPage-fund-header__logo {
