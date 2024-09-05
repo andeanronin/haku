@@ -57,10 +57,6 @@ interface FundData {
   [key: string]: string | number | null; // Index signature for dynamic access
 }
 
-interface FundPageProps {
-  fundData: FundData;
-}
-
 // The Data Format for Recharts anual return Graph
 type ChartData = {
   year: string;
@@ -98,7 +94,7 @@ const rechartsFormat = (
 // Define a type for the compound returns object
 type CompoundReturns = { [key: string]: number };
 
-const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
+function FundPage({ fundData }: { fundData: FundData }) {
   // Helper Function to get Object with yearly compounded returns
   const getCompoundReturns = (
     fund: { [key: string]: any },
@@ -152,16 +148,6 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
   useEffect(() => {
     setCompoundedReturns(getCompoundReturns(fundData, userInvestment));
   }, [fundData, userInvestment]);
-
-  useEffect(() => {
-    console.log("NEW");
-    console.log(fundData);
-    console.log("STARTING Compounded Returns");
-    //console.log(startingcompoundedReturns);
-    console.log("COMPOUNDED Returns");
-    console.log(compoundedReturns);
-    console.log("END");
-  }, []);
 
   // Event listener to HANDLE LINECHART Y AXIS AND X AXIS LABELS BASED ON SCREEN WIDTH
   useEffect(() => {
@@ -598,6 +584,6 @@ const FundPage: React.FC<FundPageProps> = ({ fundData }) => {
       <FooterComponent />
     </>
   );
-};
+}
 
 export default FundPage;

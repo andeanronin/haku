@@ -6,8 +6,7 @@ The user can scroll this page to explore mutual funds.
 import fundData from "./assets/fondos-mutuos-data-4.json";
 import "./fondosMutuosSquares.css";
 import { useNavigate } from "react-router-dom";
-import { useState, useEffect } from "react";
-import { useMemo } from "react";
+import { useState, useEffect, useMemo } from "react";
 import AdminPopup from "./adminPopup";
 
 function FundList() {
@@ -114,7 +113,7 @@ function FundList() {
     }
   };
 
-  // FILTER TABLE CONTROL FOR ADMINISTRATOR & CURRENCY & FUND TYPE
+  // FILTERED DATA CONTROL FOR ADMINISTRATOR & CURRENCY & FUND TYPE
   useEffect(() => {
     // Filter data based on selected currency, administrator, and fund type
     const filteredData = fundData.filter((item) => {
@@ -246,6 +245,7 @@ function FundList() {
           )}
         </div>
 
+        {/* Container of all the fund boxes  */}
         <div className="fundExploreContainer">
           {data.map((fund) => {
             const path = `/fund/${fund["Fund id"]}`;
@@ -301,6 +301,8 @@ function FundList() {
           })}
         </div>
       </div>
+
+      {/* POPUP for fund administrator filter */}
       {showFundAdminPopUp && (
         <AdminPopup
           administrators={uniqueFundAdmins}

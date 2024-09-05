@@ -3,10 +3,10 @@ This component creates an interactive table containing fund data
 Each fund corresponds to a row in the table.
 The table has additional features, like filtering by fund type, administrator, currency, return and fund size.
 */
-import { useState, useEffect, useMemo } from "react";
 import "./fondosMutuosTable.css";
-import AdminPopup from "./adminPopup";
+import { useState, useEffect, useMemo } from "react";
 import { useNavigate } from "react-router-dom";
+import AdminPopup from "./adminPopup";
 
 interface MutualFundData {
   "Tipo Fondo": string;
