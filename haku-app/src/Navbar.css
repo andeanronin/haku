@@ -75,7 +75,8 @@
 .search-container input:focus {
   outline: none;
   background-color: rgba(255, 255, 255, 0.15);
-  border-color: rgba(255, 255, 255, 0.3);
+  border-color: #3652a0;
+  border-width: 2px;
 }
 
 .search-results {

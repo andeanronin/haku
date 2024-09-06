@@ -13,6 +13,7 @@ function FundList() {
   const navigate = useNavigate();
 
   const [data, setData] = useState(fundData);
+
   const [showCurrencyDropdown, setShowCurrencyDropdown] = useState(false);
   const [showFundTypeDropdown, setShowFundTypeDropdown] = useState(false);
   const [showFundAdminPopUp, setshowFundAdminPopUp] = useState(false);
