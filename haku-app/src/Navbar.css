@@ -16,9 +16,6 @@
 }
 
 /* Move the Haku text towards the center */
-.mainHeader-container > p:first-child {
-  margin-left: 8vw;
-}
 
 .mainHeader-container p {
   color: white;
@@ -32,6 +29,17 @@
 .mainHeader-container p:hover {
   color: rgb(157, 177, 223);
   background-color: rgb(31, 40, 61);
+}
+
+#logoHaku {
+  height: 4.5vh;
+  margin-right: -15px;
+  border-radius: 10px;
+  margin-left: 6vw;
+}
+
+#navBar-hakuName {
+  margin-right: -0.5vw;
 }
 
 /* Move the mainHeader-subcontainer towards the center */
@@ -156,8 +164,13 @@
     font-size: 0.7rem;
   }
 
-  .mainHeader-container > p:first-child {
-    margin-left: 5vw;
+  #navBar-hakuName {
+    display: none;
+  }
+
+  #logoHaku {
+    margin-right: 1vw;
+    margin-left: 3vw;
   }
 
   .mainHeader-subcontainer {
@@ -184,7 +197,8 @@
   .search-results li {
     font-size: 10px;
   }
-  .mainHeader-container > p:first-child {
+
+  #logoHaku {
     margin-left: -2vw;
   }
 
@@ -200,9 +214,10 @@
   .search-results li {
     font-size: 9px;
   }
-  .mainHeader-container > p:first-child {
+  #logoHaku {
     margin-left: -6vw;
   }
+
   .mainHeader-subcontainer {
     margin-right: -4vw;
   }
@@ -219,8 +234,11 @@
   .search-results li {
     font-size: 9px;
   }
-  .mainHeader-container > p:first-child {
+
+  #logoHaku {
     margin-left: -8vw;
+    margin-top: 5px;
+    margin-bottom: 5px;
   }
 
   .navbar-text {

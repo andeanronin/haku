@@ -1,13 +1,13 @@
 import pandas as pd
 
 import os
-print("Current working directory:", os.getcwd())   # note: this script runs 
+print("Current working directory:", os.getcwd())   # note: this script runs
 
 # PATH - READ csv data
 fondos_mutuos_24 = pd.read_csv('haku-data/smv-cuadros/fondos-mutuos-resumen-06-24.csv', skiprows=6, skipfooter=3, engine='python')
 fondos_mutuos_19 = pd.read_csv('haku-data/smv-cuadros/fondos-mutuos-resumen-01-19.csv', skiprows=6, skipfooter=3, engine='python')
 
-# Remove any trailing or leading whitespace in the column names. 
+# Remove any trailing or leading whitespace in the column names.
 fondos_mutuos_19.columns = fondos_mutuos_19.columns.str.strip()
 fondos_mutuos_24.columns = fondos_mutuos_24.columns.str.strip()
 

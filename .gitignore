@@ -9,6 +9,9 @@ venv/
 dist/
 build/
 
+# Environment variables
+.env
+
 # Poetry
 .venv/
 
