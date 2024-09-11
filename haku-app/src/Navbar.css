@@ -214,4 +214,8 @@
   .search-results li {
     font-size: 11px;
   }
+
+  #logoHaku {
+    height: 5vh;
+  }
 }

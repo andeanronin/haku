@@ -75,8 +75,9 @@ function Navbar({ show = true }) {
       <div className="mainHeader-container">
         <img
           onClick={() => navigate("/")}
-          src="logoHaku2.png"
+          src="/logoHaku2.png"
           id="logoHaku"
+          alt="HakuLogo"
         ></img>
         <p onClick={() => navigate("/")} id="navBar-hakuName">
           Haku
