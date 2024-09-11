@@ -19,7 +19,7 @@ const AdminPopup: React.FC<AdminPopupProps> = ({
         <button className="close-button" onClick={onClose}>
           X
         </button>
-        <h3>Selecciona un Administrador</h3>
+        <h3>Selecciona un Gestor</h3>
         <ul>
           {administrators.map((admin) => (
             <li key={admin} onClick={() => onSelect(admin)}>

@@ -40,6 +40,10 @@
   cursor: pointer;
 }
 
+#logoHaku:hover {
+  border: solid white;
+}
+
 #navBar-hakuName {
   margin-right: -0.5vw;
 }
