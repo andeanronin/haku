@@ -300,10 +300,6 @@
   }
 
   /* SQUARES */
-  .fundExploreContainer {
-    width: 100%;
-  }
-
   .fundSquare {
     margin: 8px;
   }
@@ -359,6 +355,8 @@
     border-radius: 4px; /* Optionally reduce border radius */
   }
 
+  /* FUND EXPLORE CONTAINER */
+
   .fundSquare {
     margin: 7px;
   }
@@ -405,21 +403,27 @@
     border-radius: 4px; /* Optionally reduce border radius */
   }
 
+  /* FUND SQUARES*/
+  .fundExploreContainer {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .fundSquare {
     margin: 5px;
   }
 
   .fundSquare h3 {
-    font-size: 0.35rem;
+    font-size: 0.75rem;
   }
 
   .fundSquare p {
-    font-size: 0.25rem;
+    font-size: 0.65rem;
   }
 
   .fundSquare {
     padding: 11px;
     padding-top: 2px;
-    width: 33%;
+    width: 80%;
   }
 }
