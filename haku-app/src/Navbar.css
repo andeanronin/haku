@@ -36,6 +36,8 @@
   margin-right: -15px;
   border-radius: 10px;
   margin-left: 6vw;
+  border: 1px solid rgb(66, 66, 84);
+  cursor: pointer;
 }
 
 #navBar-hakuName {
@@ -148,72 +150,52 @@
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 1200px) {
-  .search-results li {
-    font-size: 12px;
-  }
-  .navbar-logo {
-    height: 6vh;
+  .navbar-text {
+    display: none;
   }
 }
 
 @media (max-width: 925px) {
-  .search-results li {
-    font-size: 10px;
-  }
-  .mainHeader-container p {
-    font-size: 0.7rem;
+  #logoHaku {
+    margin-left: 3vw;
   }
 
+  /* subcontainer contains the stuff to the right of the search bar */
+  .mainHeader-subcontainer {
+    margin-right: 12px;
+  }
+}
+
+@media (max-width: 700px) {
   #navBar-hakuName {
     display: none;
   }
 
   #logoHaku {
-    margin-right: 1vw;
-    margin-left: 3vw;
-  }
-
-  .mainHeader-subcontainer {
-    margin-right: 0px;
-  }
-
-  .mainHeader-subcontainer > *:first-child {
-    margin-right: -18px;
-  }
-
-  .search-container {
-    margin-left: 0px;
-  }
-
-  .search-container input {
-    font-size: 9px;
+    margin-right: 0.1vw;
   }
 }
 
 @media (max-width: 570px) {
-  .navbar-logo {
-    height: 5.5vh;
+  /* remove text from navbar */
+  #navBar-asesorate {
+    display: none;
   }
+
+  /* make result text smaller */
   .search-results li {
-    font-size: 10px;
+    font-size: 12px;
   }
 
   #logoHaku {
+    margin-right: -0.5vw;
     margin-left: -2vw;
-  }
-
-  #navBar-asesorate {
-    display: none;
+    margin-top: 1.2vh;
+    margin-bottom: 1.2vh;
   }
 }
 
 @media (max-width: 470px) {
-  .navbar-logo {
-    height: 5vh;
-  }
-  .search-results li {
-    font-size: 9px;
-  }
   #logoHaku {
     margin-left: -6vw;
   }
@@ -221,31 +203,15 @@
   .mainHeader-subcontainer {
     margin-right: -4vw;
   }
-
-  #navBar-asesorate {
-    display: none;
-  }
 }
 
 @media (max-width: 410px) {
+  /* the fund's navbar logo in the searchbar */
   .navbar-logo {
-    height: 6vh;
+    height: 6.5vh;
   }
+
   .search-results li {
-    font-size: 9px;
-  }
-
-  #logoHaku {
-    margin-left: -8vw;
-    margin-top: 5px;
-    margin-bottom: 5px;
-  }
-
-  .navbar-text {
-    display: none;
-  }
-
-  #navBar-asesorate {
-    display: none;
+    font-size: 11px;
   }
 }
