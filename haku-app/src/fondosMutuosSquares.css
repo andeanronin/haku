@@ -356,23 +356,27 @@
   }
 
   /* FUND EXPLORE CONTAINER */
+  .fundExploreContainer {
+    flex-direction: column;
+    align-items: center;
+  }
 
   .fundSquare {
     margin: 7px;
   }
 
   .fundSquare h3 {
-    font-size: 0.5rem;
+    font-size: 0.95rem;
   }
 
   .fundSquare p {
-    font-size: 0.35rem;
+    font-size: 0.75rem;
   }
 
   .fundSquare {
     padding: 12px;
     padding-top: 3px;
-    width: 33%;
+    width: 80%;
   }
 }
 
