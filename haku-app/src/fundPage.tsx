@@ -143,6 +143,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
     left: 20,
     bottom: 20,
   });
+  const [tickStyle, setTickStyle] = useState({ fontSize: 12 }); // used to control the font size of ticks in barchart
 
   // ENSURE that Compounded Return UPDATES when fundData or userInvestment changes
   useEffect(() => {
@@ -221,6 +222,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
 
   // Function Call --> Transform Data for Anual Returns BAR CHART
   const barChartData = rechartsFormat(fundData, "Rentabilidad");
+  console.log(barChartData);
 
   // Function to get Bar Color in Anual Returns Barchart
   const getBarColor = (value: number) => (value >= 0 ? "#4CAF50" : "#F44336");
@@ -248,7 +250,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
   // Get max value for Y-axis (conditions: multiple of 20 / at least 20 more )
   const yAxisMax = Math.ceil(maxValue / 20) * 20;
 
-  //  Get tick values dynamically
+  //  Get tick values dynamically for y-axis ticks in the compound returns line chart
   const getLineChartTicks = (maxYaxis: number) => {
     const ticks = [];
     for (let i = 0; i <= maxYaxis; i += 20) {
@@ -293,6 +295,29 @@ function FundPage({ fundData }: { fundData: FundData }) {
     handleResize(); // Call once to set initial margin
 
     return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // Change the sizes of ticks in barchart depending on screen width
+  useEffect(() => {
+    const updateTickSize = () => {
+      // uses window.matchMedia api to check screen width and set tick font size accordingly
+      if (window.matchMedia("(max-width: 450px)").matches) {
+        setTickStyle({ fontSize: 10 });
+      } else if (window.matchMedia("(max-width: 768px)").matches) {
+        setTickStyle({ fontSize: 12 });
+      } else {
+        setTickStyle({ fontSize: 16 });
+      }
+    };
+
+    // Initial Call on Mount
+    updateTickSize();
+
+    // Event listener for window resizing
+    window.addEventListener("resize", updateTickSize); // updateTickSize is called whenever the user re-sizes the screen
+
+    // Clean up event listener on component unmount
+    return () => window.removeEventListener("resize", updateTickSize);
   }, []);
 
   return (
@@ -459,12 +484,14 @@ function FundPage({ fundData }: { fundData: FundData }) {
           {/* Anualized Returns BAR Chart */}
           <ResponsiveContainer width="100%" height={chartHeight}>
             <BarChart data={barChartData} margin={barChartMargin}>
-              <CartesianGrid strokeDasharray="5 5" />
+              <CartesianGrid strokeDasharray="5 5" />{" "}
               <XAxis
                 dataKey="year"
                 label={{ value: "Año", position: "insideBottom", offset: -20 }}
+                tick={tickStyle}
               />
               <YAxis
+                tickFormatter={(value) => `${(value * 100).toFixed(0)}%`}
                 label={
                   showYaxisLabelBarChart
                     ? {
@@ -476,9 +503,11 @@ function FundPage({ fundData }: { fundData: FundData }) {
                       }
                     : undefined
                 }
+                tick={tickStyle} // controls sizes of y-axis ticks
               />
-              <Tooltip />
-
+              <Tooltip
+                formatter={(value) => `${(Number(value) * 100).toFixed(2)}%`}
+              />
               {/* FILLS OUT THE DATA in the Graph */}
               <Bar dataKey="Rentabilidad">
                 {barChartData.map((entry, index) => (
@@ -543,6 +572,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
                     ? { value: "Año", position: "bottom", offset: 5 }
                     : undefined
                 }
+                tick={tickStyle}
               />
               <YAxis
                 label={

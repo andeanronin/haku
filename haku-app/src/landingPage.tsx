@@ -19,10 +19,6 @@ function LandingPage() {
     navigate("/fondos-mutuos");
   };
 
-  const handleExploraFondosClick = () => {
-    navigate("/explora-fondos");
-  };
-
   useEffect(() => {
     // Text animation:
     const texts = document.querySelectorAll(".fade-in"); // querySelectorAll returns a node list, which is array like.
@@ -91,12 +87,15 @@ function LandingPage() {
             >
               Fondos Mutuos
             </button>
-            <button className={`${landingStyles.exploreButton} fade-in`}>
+            <button
+              className={`${landingStyles.exploreButton} fade-in`}
+              onClick={() => navigate("/etf")}
+            >
               ETFs
             </button>
             <button
               className={`${landingStyles.exploreButton} fade-in`}
-              onClick={handleExploraFondosClick}
+              onClick={() => navigate("/fondos-de-inversion")}
             >
               Fondos de Inversion
             </button>

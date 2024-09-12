@@ -7,6 +7,8 @@ import fundData from "./assets/fondos-mutuos-data-4.json";
 import FundList from "./fondosMutuosSquares";
 import FondosMutuosTable from "./fondosMutuosTable";
 import FondosMutuos from "./fondosMutuos";
+import FondosInversion from "./fondosInversion";
+import EtfFunds from "./etfs.tsx";
 
 function App() {
   return (
@@ -30,6 +32,8 @@ function App() {
               />
             );
           })}
+          <Route path="/etf" element={<EtfFunds />} />
+          <Route path="/fondos-de-inversion" element={<FondosInversion />} />
         </Routes>
       </div>
     </Router>

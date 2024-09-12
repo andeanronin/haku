@@ -55,12 +55,6 @@
   margin-right: 7vw;
 }
 
-.navbar-text {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
-}
-
 .search-container {
   position: relative;
   width: 100%;
@@ -153,12 +147,6 @@
 }
 
 /* RESPONSIVE DESIGN */
-@media (max-width: 1200px) {
-  .navbar-text {
-    display: none;
-  }
-}
-
 @media (max-width: 925px) {
   #logoHaku {
     margin-left: 3vw;
