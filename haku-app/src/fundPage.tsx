@@ -216,6 +216,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
 
   // Function Call --> Transform Data for Anual Returns BAR CHART
   const barChartData = rechartsFormat(fundData, "Rentabilidad");
+  console.log("BarChart Data");
   console.log(barChartData);
 
   // Function to get Bar Color in Anual Returns Barchart
@@ -253,7 +254,10 @@ function FundPage({ fundData }: { fundData: FundData }) {
     return ticks;
   };
 
+  // Call Function --> getLineChartTicks with yAxisMax and get Y-axis ticks for the LINE CHART
   const yAxisTicks = getLineChartTicks(yAxisMax);
+  console.log("Y-Axis Ticks for Line Chart");
+  console.log(yAxisTicks);
 
   // Event listener to handle wether  Y-axis and X-axis LABELS show or not depending on SCREEN width
   useEffect(() => {
@@ -311,11 +315,11 @@ function FundPage({ fundData }: { fundData: FundData }) {
   useEffect(() => {
     const resizeLineChartMargin = () => {
       if (window.innerWidth <= 450) {
-        setLineChartMargin({ top: 10, right: 5, left: -25, bottom: -10 });
+        setLineChartMargin({ top: 10, right: 5, left: -35, bottom: -10 });
       } else if (window.innerWidth <= 768) {
-        setLineChartMargin({ top: 10, right: 5, left: -20, bottom: -5 });
+        setLineChartMargin({ top: 10, right: 5, left: -30, bottom: -5 });
       } else {
-        setLineChartMargin({ top: 10, right: 15, left: 25, bottom: 0 });
+        setLineChartMargin({ top: 10, right: 15, left: 10, bottom: 0 });
       }
     };
 
@@ -609,12 +613,13 @@ function FundPage({ fundData }: { fundData: FundData }) {
                         value: "Valor de Inversion",
                         angle: -90,
                         position: "insideLeft",
-                        offset: -5,
+                        offset: 0,
                       }
                     : undefined
                 }
                 domain={[0, yAxisMax]}
                 ticks={yAxisTicks}
+                tick={tickStyle}
                 tickFormatter={(value) => `${value.toFixed(0)}`}
               />
               {/* tooltip Formats the valor cuota number  when user hover over */}
