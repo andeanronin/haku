@@ -133,36 +133,30 @@ function FundPage({ fundData }: { fundData: FundData }) {
   const [compoundedReturns, setCompoundedReturns] = useState<CompoundReturns>(
     getCompoundReturns(fundData, userInvestment)
   );
-  const [chartHeight, setChartHeight] = useState(500);
+  const [chartHeight, setChartHeight] = useState(500); // use to set BOTH CHART'S heights depending on screen size
   const [showYaxisLabelLineChart, setShowYaxisLabelLineChart] = useState(true);
   const [showXaxisLabel, setShowXaxisLabel] = useState(true);
   const [showYaxisLabelBarChart, setShowYaxislabelBarChart] = useState(true);
+  // State varibles to control Bar Chart Margins for different screen sizes :
   const [barChartMargin, setBarChartMargin] = useState({
     top: 30,
     right: 20,
     left: 20,
     bottom: 20,
   });
-  const [tickStyle, setTickStyle] = useState({ fontSize: 12 }); // used to control the font size of ticks in barchart
+  // State Variable to control Line Chart Margins for different screen sizes :
+  const [lineChartMargin, setLineChartMargin] = useState({
+    top: 10,
+    right: 15,
+    left: 25,
+    bottom: 0,
+  });
+  const [tickStyle, setTickStyle] = useState({ fontSize: 12 }); // used to control the font size of ticks in BOTH charts
 
   // ENSURE that Compounded Return UPDATES when fundData or userInvestment changes
   useEffect(() => {
     setCompoundedReturns(getCompoundReturns(fundData, userInvestment));
   }, [fundData, userInvestment]);
-
-  // Event listener to HANDLE LINECHART Y AXIS AND X AXIS LABELS BASED ON SCREEN WIDTH
-  useEffect(() => {
-    const handleResize = () => {
-      setShowYaxisLabelLineChart(window.innerWidth >= 1100);
-      setShowXaxisLabel(window.innerWidth >= 768);
-      setShowYaxislabelBarChart(window.innerWidth >= 768);
-    };
-
-    window.addEventListener("resize", handleResize);
-    handleResize(); // Call once to set initial state
-
-    return () => window.removeEventListener("resize", handleResize);
-  }, []);
 
   // Helper function to format date strings
   const formatDate = (dateString: string): string => {
@@ -174,7 +168,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
       return "Invalid Date";
     }
 
-    let [day, month, year] = parts;
+    let [day, month, year] = parts; // array destructuring to store the 3 strings to variables: day, month, year
 
     // Pad the year to 4 digits if it's 2 digits
     if (year.length === 2) {
@@ -227,7 +221,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
   // Function to get Bar Color in Anual Returns Barchart
   const getBarColor = (value: number) => (value >= 0 ? "#4CAF50" : "#F44336");
 
-  // Format Compounded Returns Data for Recharts
+  // Format Compounded Returns Data for Recharts Line Graph
   const compoundedReturnsChartData = useMemo(
     () => rechartsFormat(compoundedReturns, "Valor"),
     [compoundedReturns]
@@ -250,7 +244,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
   // Get max value for Y-axis (conditions: multiple of 20 / at least 20 more )
   const yAxisMax = Math.ceil(maxValue / 20) * 20;
 
-  //  Get tick values dynamically for y-axis ticks in the compound returns line chart
+  //  Get approriate y-axis tick values for each different compound returns line chart
   const getLineChartTicks = (maxYaxis: number) => {
     const ticks = [];
     for (let i = 0; i <= maxYaxis; i += 20) {
@@ -261,7 +255,21 @@ function FundPage({ fundData }: { fundData: FundData }) {
 
   const yAxisTicks = getLineChartTicks(yAxisMax);
 
-  // CHART HEIGHTS FOR DIFFERENT SCREENS
+  // Event listener to handle wether  Y-axis and X-axis LABELS show or not depending on SCREEN width
+  useEffect(() => {
+    const handleResize = () => {
+      setShowYaxisLabelLineChart(window.innerWidth >= 768);
+      setShowXaxisLabel(window.innerWidth >= 768); // hides X-axis Label on BOTH charts in screens smaller than 768
+      setShowYaxislabelBarChart(window.innerWidth >= 768); // evaluates to false for screens smaller than 768 and sets showYaxisLabelBarChart to false
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Call once to set initial state
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
+  // CHART HEIGHTS (both bar chart & line chart) FOR DIFFERENT SCREENS
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 450) {
@@ -275,7 +283,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
       }
     };
 
-    window.addEventListener("resize", handleResize);
+    window.addEventListener("resize", handleResize); // add event listener to window re-sizing, call handleResize when activated
     handleResize(); // Call once to set initial size
 
     return () => window.removeEventListener("resize", handleResize);
@@ -284,10 +292,12 @@ function FundPage({ fundData }: { fundData: FundData }) {
   // RESIZING MARGINS OF BAR CHART FOR DIFFERENT SCREEN SIZES
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 768) {
-        setBarChartMargin({ top: 10, right: 15, left: -15, bottom: 0 });
+      if (window.innerWidth <= 450) {
+        setBarChartMargin({ top: 10, right: 5, left: -30, bottom: 0 });
+      } else if (window.innerWidth <= 768) {
+        setBarChartMargin({ top: 10, right: 5, left: -20, bottom: 0 });
       } else {
-        setBarChartMargin({ top: 30, right: 20, left: 20, bottom: 20 });
+        setBarChartMargin({ top: 30, right: 5, left: 20, bottom: 20 });
       }
     };
 
@@ -297,7 +307,25 @@ function FundPage({ fundData }: { fundData: FundData }) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // Change the sizes of ticks in barchart depending on screen width
+  // RESIZING MARGINS for LINE CHART based on SCREEN WIDTH (adapts line chart for different screen sizes)
+  useEffect(() => {
+    const resizeLineChartMargin = () => {
+      if (window.innerWidth <= 450) {
+        setLineChartMargin({ top: 10, right: 5, left: -25, bottom: -10 });
+      } else if (window.innerWidth <= 768) {
+        setLineChartMargin({ top: 10, right: 5, left: -20, bottom: -5 });
+      } else {
+        setLineChartMargin({ top: 10, right: 15, left: 25, bottom: 0 });
+      }
+    };
+
+    window.addEventListener("resize", resizeLineChartMargin);
+    resizeLineChartMargin(); //
+
+    return () => window.removeEventListener("resize", resizeLineChartMargin);
+  }, []);
+
+  // Change TICK SIZE in Charts depending on SCREEN WIDTH
   useEffect(() => {
     const updateTickSize = () => {
       // uses window.matchMedia api to check screen width and set tick font size accordingly
@@ -503,7 +531,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
                       }
                     : undefined
                 }
-                tick={tickStyle} // controls sizes of y-axis ticks
+                tick={tickStyle} // controls sizes of y-axis ticks depending on screen size
               />
               <Tooltip
                 formatter={(value) => `${(Number(value) * 100).toFixed(2)}%`}
@@ -562,7 +590,7 @@ function FundPage({ fundData }: { fundData: FundData }) {
           <ResponsiveContainer width="100%" height={chartHeight}>
             <LineChart
               data={compoundedReturnsChartData}
-              margin={{ top: 10, right: 15, left: -15, bottom: 0 }}
+              margin={lineChartMargin}
             >
               <CartesianGrid strokeDasharray="3 3" />
               <XAxis
@@ -578,10 +606,10 @@ function FundPage({ fundData }: { fundData: FundData }) {
                 label={
                   showYaxisLabelLineChart
                     ? {
-                        value: "Retorno Acumulado",
+                        value: "Valor de Inversion",
                         angle: -90,
                         position: "insideLeft",
-                        offset: -15,
+                        offset: -5,
                       }
                     : undefined
                 }
@@ -589,7 +617,8 @@ function FundPage({ fundData }: { fundData: FundData }) {
                 ticks={yAxisTicks}
                 tickFormatter={(value) => `${value.toFixed(0)}`}
               />
-              <Tooltip />
+              {/* tooltip Formats the valor cuota number  when user hover over */}
+              <Tooltip formatter={(value) => `$ ${Number(value).toFixed(2)}`} />{" "}
               <Legend
                 verticalAlign="bottom"
                 align="left"
