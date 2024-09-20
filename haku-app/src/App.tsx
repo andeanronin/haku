@@ -2,13 +2,18 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./landingPage";
+// Mutual Funds
 import FundPage from "./fundPage";
 import fundData from "./assets/fondos-mutuos-data-4.json";
 import FundList from "./fondosMutuosSquares";
 import FondosMutuosTable from "./fondosMutuosTable";
 import FondosMutuos from "./fondosMutuos";
 import FondosInversion from "./fondosInversion";
-import EtfFunds from "./etfs.tsx";
+// ETFS
+import EtfFunds from "./etfs/etfs.tsx";
+import EtfPage from "./etfs/EtfPage.tsx";
+import EtfProfiles from "./etfs/etfPrototyping/sample-etf-profiles.json"; // etf data for etf page component
+const etfTickers = Object.keys(EtfProfiles);
 
 function App() {
   return (
@@ -33,6 +38,16 @@ function App() {
             );
           })}
           <Route path="/etf" element={<EtfFunds />} />
+          {etfTickers.map((ticker) => {
+            const path = `/etf/${ticker}`;
+            return (
+              <Route
+                key={path}
+                path={path}
+                element={<EtfPage etfData={EtfProfiles[ticker]} />}
+              />
+            );
+          })}
           <Route path="/fondos-de-inversion" element={<FondosInversion />} />
         </Routes>
       </div>

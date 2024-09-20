@@ -1,0 +1,332 @@
+{
+  "ARKK": {
+    "net_assets": "5665000000",
+    "net_expense_ratio": "0.0075",
+    "portfolio_turnover": "0.26",
+    "dividend_yield": "0.0",
+    "inception_date": "2014-10-31",
+    "leveraged": "NO",
+    "asset_allocation": {
+      "domestic_equities": "0.952",
+      "foreign_equities": "0.045",
+      "bond": "0.0",
+      "cash": "0.0",
+      "other": "0.002"
+    },
+    "sectors": [
+      {
+        "sector": "COMMUNICATION SERVICES",
+        "weight": "0.232"
+      },
+      {
+        "sector": "INFORMATION TECHNOLOGY",
+        "weight": "0.191"
+      },
+      {
+        "sector": "HEALTHCARE",
+        "weight": "0.178"
+      },
+      {
+        "sector": "CONSUMER DISCRETIONARY",
+        "weight": "0.174"
+      },
+      {
+        "sector": "FINANCIALS",
+        "weight": "0.17"
+      },
+      {
+        "sector": "INDUSTRIALS",
+        "weight": "0.009"
+      },
+      {
+        "sector": "CONSUMER STAPLES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "MATERIALS",
+        "weight": "0.00"
+      },
+      {
+        "sector": "UTILITIES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "ENERGY",
+        "weight": "0.00"
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "TSLA",
+        "description": "TESLA INC",
+        "weight": "0.1473"
+      },
+      {
+        "symbol": "ROKU",
+        "description": "ROKU INC CLASS A",
+        "weight": "0.1044"
+      },
+      {
+        "symbol": "RBLX",
+        "description": "ROBLOX CORP ORDINARY SHARES CLASS A",
+        "weight": "0.0722"
+      },
+      {
+        "symbol": "COIN",
+        "description": "COINBASE GLOBAL INC ORDINARY SHARES CLASS A",
+        "weight": "0.0659"
+      },
+      {
+        "symbol": "PLTR",
+        "description": "PALANTIR TECHNOLOGIES INC ORDINARY SHARES CLASS A",
+        "weight": "0.0504"
+      },
+      {
+        "symbol": "SQ",
+        "description": "BLOCK INC CLASS A",
+        "weight": "0.0491"
+      },
+      {
+        "symbol": "CRSP",
+        "description": "CRISPR THERAPEUTICS AG",
+        "weight": "0.0449"
+      },
+      {
+        "symbol": "HOOD",
+        "description": "ROBINHOOD MARKETS INC CLASS A",
+        "weight": "0.0448"
+      },
+      {
+        "symbol": "SHOP",
+        "description": "SHOPIFY INC REGISTERED SHS -A- SUBORD VTG",
+        "weight": "0.0345"
+      },
+      {
+        "symbol": "NTLA",
+        "description": "INTELLIA THERAPEUTICS INC",
+        "weight": "0.0317"
+      },
+      {
+        "symbol": "PATH",
+        "description": "UIPATH INC CLASS A",
+        "weight": "0.0307"
+      },
+      {
+        "symbol": "TXG",
+        "description": "10X GENOMICS INC ORDINARY SHARES CLASS A",
+        "weight": "0.0306"
+      },
+      {
+        "symbol": "PD",
+        "description": "PAGERDUTY INC",
+        "weight": "0.0258"
+      },
+      {
+        "symbol": "META",
+        "description": "META PLATFORMS INC CLASS A",
+        "weight": "0.0224"
+      },
+      {
+        "symbol": "DKNG",
+        "description": "DRAFTKINGS INC ORDINARY SHARES CLASS A",
+        "weight": "0.0218"
+      },
+      {
+        "symbol": "RXRX",
+        "description": "RECURSION PHARMACEUTICALS INC CLASS A",
+        "weight": "0.0214"
+      },
+      {
+        "symbol": "U",
+        "description": "UNITY SOFTWARE INC ORDINARY SHARES",
+        "weight": "0.0207"
+      },
+      {
+        "symbol": "TWST",
+        "description": "TWIST BIOSCIENCE CORP",
+        "weight": "0.0206"
+      },
+      {
+        "symbol": "BEAM",
+        "description": "BEAM THERAPEUTICS INC",
+        "weight": "0.0191"
+      },
+      {
+        "symbol": "TTD",
+        "description": "THE TRADE DESK INC CLASS A",
+        "weight": "0.0186"
+      },
+      {
+        "symbol": "TER",
+        "description": "TERADYNE INC",
+        "weight": "0.0184"
+      },
+      {
+        "symbol": "VCYT",
+        "description": "VERACYTE INC",
+        "weight": "0.0179"
+      },
+      {
+        "symbol": "PINS",
+        "description": "PINTEREST INC CLASS A",
+        "weight": "0.0143"
+      },
+      {
+        "symbol": "MRNA",
+        "description": "MODERNA INC",
+        "weight": "0.0104"
+      },
+      {
+        "symbol": "AMD",
+        "description": "ADVANCED MICRO DEVICES INC",
+        "weight": "0.0104"
+      },
+      {
+        "symbol": "SOFI",
+        "description": "SOFI TECHNOLOGIES INC ORDINARY SHARES",
+        "weight": "0.0104"
+      },
+      {
+        "symbol": "ACHR",
+        "description": "ARCHER AVIATION INC CLASS A",
+        "weight": "0.0091"
+      },
+      {
+        "symbol": "TEM",
+        "description": "TEMPUS AI INC CLASS A COMMON STOCK",
+        "weight": "0.0089"
+      },
+      {
+        "symbol": "NTRA",
+        "description": "NATERA INC",
+        "weight": "0.006"
+      },
+      {
+        "symbol": "PACB",
+        "description": "PACIFIC BIOSCIENCES OF CALIFORNIA INC",
+        "weight": "0.0057"
+      },
+      {
+        "symbol": "AMZN",
+        "description": "AMAZON.COM INC",
+        "weight": "0.0051"
+      },
+      {
+        "symbol": "CERS",
+        "description": "CERUS CORP",
+        "weight": "0.0037"
+      },
+      {
+        "symbol": "PRME",
+        "description": "PRIME MEDICINE INC",
+        "weight": "0.0019"
+      }
+    ],
+    "name": "ARK INNOVATION ETF"
+  },
+  "AZTD": {
+    "net_assets": "26000000",
+    "net_expense_ratio": "0.0075",
+    "portfolio_turnover": "9.86",
+    "dividend_yield": "0.001",
+    "inception_date": "2022-08-17",
+    "leveraged": "NO",
+    "asset_allocation": {
+      "domestic_equities": "0.289",
+      "foreign_equities": "0.708",
+      "bond": "0.0",
+      "cash": "0.003",
+      "other": "0.0"
+    },
+    "sectors": [
+      {
+        "sector": "COMMUNICATION SERVICES",
+        "weight": "0.04"
+      },
+      {
+        "sector": "INFORMATION TECHNOLOGY",
+        "weight": "0.038"
+      },
+      {
+        "sector": "HEALTHCARE",
+        "weight": "0.038"
+      },
+      {
+        "sector": "CONSUMER STAPLES",
+        "weight": "0.037"
+      },
+      {
+        "sector": "MATERIALS",
+        "weight": "0.036"
+      },
+      {
+        "sector": "FINANCIALS",
+        "weight": "0.036"
+      },
+      {
+        "sector": "CONSUMER DISCRETIONARY",
+        "weight": "0.035"
+      },
+      {
+        "sector": "INDUSTRIALS",
+        "weight": "0.035"
+      },
+      {
+        "sector": "UTILITIES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "ENERGY",
+        "weight": "0.00"
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "CNK",
+        "description": "CINEMARK HOLDINGS INC",
+        "weight": "0.0395"
+      },
+      {
+        "symbol": "YOU",
+        "description": "CLEAR SECURE INC ORDINARY SHARES CLASS A",
+        "weight": "0.0378"
+      },
+      {
+        "symbol": "DOCS",
+        "description": "DOXIMITY INC CLASS A",
+        "weight": "0.0378"
+      },
+      {
+        "symbol": "SFM",
+        "description": "SPROUTS FARMERS MARKET INC",
+        "weight": "0.037"
+      },
+      {
+        "symbol": "OSCR",
+        "description": "OSCAR HEALTH INC CLASS A",
+        "weight": "0.0362"
+      },
+      {
+        "symbol": "SMG",
+        "description": "THE SCOTTS MIRACLE GRO CO CLASS A",
+        "weight": "0.0358"
+      },
+      {
+        "symbol": "VSCO",
+        "description": "VICTORIA'S SECRET & CO",
+        "weight": "0.0353"
+      },
+      {
+        "symbol": "MTZ",
+        "description": "MASTEC INC",
+        "weight": "0.0346"
+      },
+      {
+        "symbol": "FGXXX",
+        "description": "FIRST AMERICAN GOVERNMENT OBLIGS X",
+        "weight": "0.0008"
+      }
+    ],
+    "name": "AZTLAN GLOBAL STOCK SELECTION DM SMID ETF"
+  }
+}

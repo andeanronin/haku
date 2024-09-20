@@ -1,0 +1,68 @@
+/* Styles for Etf Pages */
+
+/* Container of entire Etf Page */
+#etfPage-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ETF HEADING */
+#etfPage-Heading {
+  padding-top: 3rem;
+}
+
+#etfPage-Heading h2 {
+  color: white;
+}
+
+/* FUND INDICATOR BOXES */
+/* Container for the info item boxes */
+#etfPage-generalData {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 1.5rem;
+  width: 80%;
+}
+
+/* BOX that contains the general indicator and its value: Net assets $50 Billino */
+.etfPage-infoItem {
+  background-color: rgba(30, 36, 50);
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.etfPage-infoItem:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(22, 156, 239, 0.1);
+}
+
+.etfPage-infoItem h3 {
+  margin-top: 0;
+  color: #4a69bd;
+  font-size: 1.2rem;
+}
+
+.etfPage-infoItem p {
+  color: white;
+}
+
+/* FUND ASSET ALLOCAITON SECTION  */
+.etfPage-assetAllocation {
+  width: 40%;
+  height: 350px;
+  background-color: rgba(30, 36, 50);
+  margin-top: 2rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 2rem 0 2rem;
+}
+.etfPage-assetAllocation h2 {
+  color: #4a69bd;
+}
