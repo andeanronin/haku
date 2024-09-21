@@ -100,7 +100,9 @@ function EtfAssetAllocationChart({ data }: { data: EtfData }) {
                 />
               ))}
             </Pie>
-            <Tooltip />
+            <Tooltip
+              formatter={(value) => `${(Number(value) * 100).toFixed(2)}%`}
+            />
             <Legend />
           </PieChart>
         </ResponsiveContainer>

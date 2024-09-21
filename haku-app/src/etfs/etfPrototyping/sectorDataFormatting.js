@@ -51,3 +51,9 @@ const sectorData4 = sectorData.map((item) => {
 
 console.log("Version 3");
 console.log(sectorData4);
+
+// Filter
+console.log("");
+const filteredData = sectorData4.filter((item) => item["weight"] > 0);
+console.log("Filtered Data");
+console.log(filteredData);

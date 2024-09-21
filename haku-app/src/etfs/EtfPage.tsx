@@ -60,6 +60,7 @@ function EtfsFundPage({ etfData }: { etfData: EtfData }) {
         <div id="etfPage-Heading">
           <h2>{etfData["name"]}</h2>
         </div>
+
         {/* Etf General Data Section */}
         <h2 style={{ color: "white" }}>Indicadores Generales del Fondo</h2>
         <div id="etfPage-generalData">
@@ -89,12 +90,13 @@ function EtfsFundPage({ etfData }: { etfData: EtfData }) {
           </div>
         </div>
 
-        {/* ETF Asset Allocation Chart*/}
-        <EtfAssetAllocationChart data={etfData} />
+        <div className="etfPage-allocationCharts">
+          {/* ETF Asset Allocation Chart*/}
+          <EtfAssetAllocationChart data={etfData} />
 
-        {/* ETF Sector Allocation Chart */}
-        <EtfSectorAllocation data={etfData} />
-
+          {/* ETF Sector Allocation Chart */}
+          <EtfSectorAllocation data={etfData} />
+        </div>
         {/* ETF Holdings Pie Chart */}
       </div>
       <FooterComponent />

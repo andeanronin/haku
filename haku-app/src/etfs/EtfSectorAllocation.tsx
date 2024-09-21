@@ -1,6 +1,5 @@
 // Pie Chart of Etf Sector Allocations
-
-import { useMemo } from "react";
+import "./EtfSectorAllocation.css";
 
 interface EtfData {
   net_assets: string;
@@ -29,32 +28,42 @@ interface EtfData {
 }
 
 import {
-  PieChart,
-  Pie,
-  Cell,
   ResponsiveContainer,
+  BarChart,
+  Bar,
+  XAxis,
+  YAxis,
   Tooltip,
   Legend,
+  Cell,
 } from "recharts";
 
-const assetAllocationColors = [
+const COLORS = [
+  "#8884d8",
+  "#82ca9d",
+  "#ffc658",
+  "#ff7300",
   "#0088FE",
   "#00C49F",
   "#FFBB28",
   "#FF8042",
-  "#8884D8",
+  "#a4de6c",
+  "#d0ed57",
 ];
 
 function EtfSectorAllocation({ data }: { data: EtfData }) {
   const sectorData = data["sectors"];
 
-  const sectorDataFormatted = sectorData.map((item) => {
-    item["weight"] = Number(item["weight"]); // modify the values for "weight" directly
-    return item;
-  });
+  const sectorDataFormatted = sectorData.map((item) => ({
+    ...item,
+    weight: Number(item.weight),
+  }));
+
+  // remove sectors with weight of 0 from chart
+  const filteredData = sectorDataFormatted.filter((item) => item["weight"] > 0);
 
   return (
-    <div className="etfPage-chartContainer">
+    <div className="etfPage-chartContainer-sector">
       <h2>Sector Allocation</h2>
       <div
         style={{
@@ -65,29 +74,34 @@ function EtfSectorAllocation({ data }: { data: EtfData }) {
         }}
       >
         <ResponsiveContainer>
-          <PieChart width={400} height={400}>
-            <Pie
-              data={sectorDataFormatted}
-              cx="50%"
-              cy="50%"
-              outerRadius={80}
-              fill="#8884d8"
-              dataKey="weight"
-              nameKey="category"
-              label
-            >
-              {sectorDataFormatted.map((entry, index) => (
+          <BarChart
+            data={filteredData}
+            layout="vertical"
+            margin={{ top: 20, right: 50, left: 80, bottom: 5 }}
+          >
+            <XAxis
+              type="number"
+              tickFormatter={(value) => `${(value * 100).toFixed(2)}%`}
+            />
+            <YAxis
+              dataKey="sector"
+              type="category"
+              width={50}
+              tick={{ fontSize: 10 }}
+            />
+            <Tooltip
+              formatter={(value) => `${(Number(value) * 100).toFixed(2)}%`}
+              labelFormatter={(label) => `Sector: ${label}`}
+            />
+            <Bar dataKey="weight">
+              {filteredData.map((entry, index) => (
                 <Cell
                   key={`cell-${index}`}
-                  fill={
-                    assetAllocationColors[index % assetAllocationColors.length]
-                  }
+                  fill={COLORS[index % COLORS.length]}
                 />
               ))}
-            </Pie>
-            <Tooltip />
-            <Legend />
-          </PieChart>
+            </Bar>
+          </BarChart>
         </ResponsiveContainer>
       </div>
     </div>
