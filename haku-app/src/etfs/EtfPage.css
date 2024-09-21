@@ -50,7 +50,7 @@
 }
 
 /* FUND ASSET ALLOCAITON SECTION  */
-.etfPage-assetAllocation {
+.etfPage-chartContainer {
   width: 40%;
   height: 350px;
   background-color: rgba(30, 36, 50);
@@ -63,6 +63,6 @@
   position: relative;
   padding: 0 2rem 0 2rem;
 }
-.etfPage-assetAllocation h2 {
+.etfPage-chartContainer h2 {
   color: #4a69bd;
 }

@@ -1,23 +1,6 @@
-// Pie Chart of Etf Asset Allocation
+// Pie Chart of Etf Sector Allocations
 
 import { useMemo } from "react";
-
-import {
-  PieChart,
-  Pie,
-  Cell,
-  ResponsiveContainer,
-  Tooltip,
-  Legend,
-} from "recharts";
-
-const assetAllocationColors = [
-  "#0088FE",
-  "#00C49F",
-  "#FFBB28",
-  "#FF8042",
-  "#8884D8",
-];
 
 interface EtfData {
   net_assets: string;
@@ -45,32 +28,34 @@ interface EtfData {
   name: string;
 }
 
-function EtfAssetAllocationChart({ data }: { data: EtfData }) {
-  // Get Asset Allocation Data
-  const assetAllocationData = data["asset_allocation"];
+import {
+  PieChart,
+  Pie,
+  Cell,
+  ResponsiveContainer,
+  Tooltip,
+  Legend,
+} from "recharts";
 
-  // Formats Data for Recharts
-  const assetAllocationRecharts = useMemo(() => {
-    function formatAssetAllocation(inputData: object) {
-      let assetAllocationChartData = [];
+const assetAllocationColors = [
+  "#0088FE",
+  "#00C49F",
+  "#FFBB28",
+  "#FF8042",
+  "#8884D8",
+];
 
-      for (let key in inputData) {
-        const category = {
-          category: key,
-          value: Number(inputData[key as keyof typeof inputData]),
-        }; // this is the format required for recharts
-        assetAllocationChartData.push(category);
-      }
-      return assetAllocationChartData;
-    }
+function EtfSectorAllocation({ data }: { data: EtfData }) {
+  const sectorData = data["sectors"];
 
-    return formatAssetAllocation(assetAllocationData);
-  }, [assetAllocationData]);
+  const sectorDataFormatted = sectorData.map((item) => {
+    item["weight"] = Number(item["weight"]); // modify the values for "weight" directly
+    return item;
+  });
 
-  // Create Pie Chart
   return (
     <div className="etfPage-chartContainer">
-      <h2>Asset Allocation</h2>
+      <h2>Sector Allocation</h2>
       <div
         style={{
           position: "absolute",
@@ -82,16 +67,16 @@ function EtfAssetAllocationChart({ data }: { data: EtfData }) {
         <ResponsiveContainer>
           <PieChart width={400} height={400}>
             <Pie
-              data={assetAllocationRecharts}
+              data={sectorDataFormatted}
               cx="50%"
               cy="50%"
               outerRadius={80}
               fill="#8884d8"
-              dataKey="value"
+              dataKey="weight"
               nameKey="category"
               label
             >
-              {assetAllocationRecharts.map((entry, index) => (
+              {sectorDataFormatted.map((entry, index) => (
                 <Cell
                   key={`cell-${index}`}
                   fill={
@@ -109,4 +94,4 @@ function EtfAssetAllocationChart({ data }: { data: EtfData }) {
   );
 }
 
-export default EtfAssetAllocationChart;
+export default EtfSectorAllocation;
