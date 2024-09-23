@@ -1,0 +1,38 @@
+/* Top Etf Holding Table */
+
+#etfTopHoldings-container {
+  background-color: rgba(30, 36, 50);
+  color: white;
+  width: 80%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+#etfTopHoldings-container h2 {
+  color: #4a69bd;
+  margin-bottom: 0px;
+}
+
+#etfTopHoldings-table {
+  width: 95%;
+  margin: 1rem 0rem 2rem 0rem;
+}
+
+#etfTopHoldings-table thead th {
+  background-color: rgb(18, 26, 48);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+#etfTopHoldings-table tbody td {
+  background-color: rgb(42, 49, 66);
+  padding: 10px;
+  border-radius: 10px;
+}
+#etfTopHoldings-table tbody td:hover {
+  background-color: rgb(122, 129, 146);
+}

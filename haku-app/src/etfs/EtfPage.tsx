@@ -4,6 +4,7 @@ import Navbar from "../Navbar";
 import FooterComponent from "../footerComp";
 import EtfAssetAllocationChart from "./EtfAssetAllocChart";
 import EtfSectorAllocation from "./EtfSectorAllocation";
+import EtfTopHoldings from "./etfTopHoldings";
 import React from "react";
 
 interface EtfData {
@@ -97,7 +98,9 @@ function EtfsFundPage({ etfData }: { etfData: EtfData }) {
           {/* ETF Sector Allocation Chart */}
           <EtfSectorAllocation data={etfData} />
         </div>
-        {/* ETF Holdings Pie Chart */}
+
+        {/* ETF Top Holdings  Chart */}
+        <EtfTopHoldings data={etfData} />
       </div>
       <FooterComponent />
     </>

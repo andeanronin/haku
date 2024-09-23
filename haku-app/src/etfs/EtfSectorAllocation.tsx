@@ -54,6 +54,7 @@ const COLORS = [
 function EtfSectorAllocation({ data }: { data: EtfData }) {
   const sectorData = data["sectors"];
 
+  // format data
   const sectorDataFormatted = sectorData.map((item) => ({
     ...item,
     weight: Number(item.weight),
@@ -64,7 +65,7 @@ function EtfSectorAllocation({ data }: { data: EtfData }) {
 
   return (
     <div className="etfPage-chartContainer-sector">
-      <h2>Sector Allocation</h2>
+      <h2>Sector Exposure</h2>
       <div
         style={{
           position: "absolute",
