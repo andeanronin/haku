@@ -30,12 +30,15 @@ interface EtfData {
 function EtfTopHoldings({ data }: { data: EtfData }) {
   const fundHoldings = data["holdings"];
 
-  const getTopHoldings = (holdings) => {
+  const getTopHoldings = (holdings: EtfData["holdings"]) => {
     let topHoldings = [];
 
     for (let i = 0; i < 8; i++) {
-      holdings[i]["weight"] = Number(holdings[i]["weight"]);
-      topHoldings.push(holdings[i]);
+      const weightAsNumber = Number(holdings[i]["weight"]);
+      topHoldings.push({
+        ...holdings[i],
+        weight: weightAsNumber, // Add the numeric weight to the object for use in rendering
+      });
     }
     return topHoldings;
   };

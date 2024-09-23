@@ -1,0 +1,14 @@
+/*  */
+#etfPriceChart-container {
+  background-color: rgba(30, 36, 50);
+  width: 80%;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+#etfPriceChart-container {
+  color: #4a69bd;
+}

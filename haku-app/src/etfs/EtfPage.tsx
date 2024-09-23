@@ -5,6 +5,7 @@ import FooterComponent from "../footerComp";
 import EtfAssetAllocationChart from "./EtfAssetAllocChart";
 import EtfSectorAllocation from "./EtfSectorAllocation";
 import EtfTopHoldings from "./etfTopHoldings";
+import EtfHistoricalValues from "./etfPriceChart";
 import React from "react";
 
 interface EtfData {
@@ -33,7 +34,31 @@ interface EtfData {
   name: string;
 }
 
-function EtfsFundPage({ etfData }: { etfData: EtfData }) {
+interface EtfPriceData {
+  "Meta Data": {
+    "1. Information": string;
+    "2. Symbol": string;
+    "3. Last Refreshed": string;
+    "4. Time Zone": string;
+  };
+  "Monthly Adjusted Time Series": {
+    [date: string]: {
+      "1. open": string;
+      "2. high": string;
+      "3. low": string;
+      "4. close": string;
+      "5. adjusted close": string;
+      "6. volume": string;
+      "7. dividend amount": string;
+    };
+  };
+}
+interface EtfPageProps {
+  etfData: EtfData;
+  etfMonthlyValues: EtfPriceData; // Replace 'any' with the correct type for etfMonthlyValues
+}
+
+function EtfsFundPage({ etfData, etfMonthlyValues }: EtfPageProps) {
   // Helper Function to format decimals in percent
   const toPercentage = (decimal: number) => {
     const valueInPercent = (decimal * 100).toFixed(2);
@@ -101,6 +126,9 @@ function EtfsFundPage({ etfData }: { etfData: EtfData }) {
 
         {/* ETF Top Holdings  Chart */}
         <EtfTopHoldings data={etfData} />
+
+        {/* Historical Monthly Values */}
+        <EtfHistoricalValues data={etfMonthlyValues} />
       </div>
       <FooterComponent />
     </>

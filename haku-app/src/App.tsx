@@ -13,6 +13,8 @@ import FondosInversion from "./fondosInversion";
 import EtfFunds from "./etfs/etfs.tsx";
 import EtfPage from "./etfs/EtfPage.tsx";
 import EtfProfiles from "./etfs/etfPrototyping/sample-etf-profiles.json"; // etf data for etf page component
+import EtfMonthlyValues from "./etfs/etfPrototyping/sample-monthly-values.json";
+
 const etfTickers = Object.keys(EtfProfiles);
 
 function App() {
@@ -44,7 +46,12 @@ function App() {
               <Route
                 key={path}
                 path={path}
-                element={<EtfPage etfData={EtfProfiles[ticker]} />}
+                element={
+                  <EtfPage
+                    etfData={EtfProfiles[ticker]}
+                    etfMonthlyValues={EtfMonthlyValues[ticker]}
+                  />
+                }
               />
             );
           })}
