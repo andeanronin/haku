@@ -4,7 +4,6 @@
   background-color: rgba(30, 36, 50);
   color: white;
   width: 80%;
-  border-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,14 +24,13 @@
 #etfTopHoldings-table thead th {
   background-color: rgb(18, 26, 48);
   padding: 20px;
-  border-radius: 10px;
 }
 
 #etfTopHoldings-table tbody td {
   background-color: rgb(42, 49, 66);
   padding: 10px;
-  border-radius: 10px;
 }
+
 #etfTopHoldings-table tbody td:hover {
   background-color: rgb(122, 129, 146);
 }
