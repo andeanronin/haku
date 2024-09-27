@@ -2,9 +2,10 @@
 import "./etfs.css";
 import Navbar from "../Navbar";
 import FooterComponent from "../footerComp";
-import etfProfiles from "./etfPrototyping/ten-etf-profiles.json";
-import etfMonthlyValues from "./etfPrototyping/ten-monthly-values-final.json";
+//import etfProfiles from "./etfPrototyping/ten-etf-profiles.json";
+//import etfMonthlyValues from "./etfPrototyping/ten-monthly-values-final.json";
 import { useNavigate } from "react-router-dom";
+import { AllEtfData } from "../types/etfTypes";
 
 const getReturnColor = (value: number | null) => {
   /*
@@ -17,10 +18,9 @@ const getReturnColor = (value: number | null) => {
   return value >= 0 ? "positive" : "negative";
 };
 
-const etfTickers = Object.keys(etfProfiles);
-console.log(etfTickers);
+function EtfFunds({ etfProfiles, etfMonthlyValues }: AllEtfData) {
+  const etfTickers = Object.keys(etfProfiles);
 
-function EtfFunds() {
   const navigate = useNavigate();
   return (
     <>
@@ -41,9 +41,11 @@ function EtfFunds() {
                 <div className="fundSquare-data-div">
                   <p style={{ fontWeight: "bold" }}>Sector Principal</p>
                   <p>
-                    {etfProfiles[etfTicker]["sectors"][0]?.["sector"] || "N/A"}
+                    {etfProfiles[etfTicker]["sectors"]?.[0]?.["sector"] ||
+                      "N/A"}
                   </p>
                 </div>
+
                 {/* Dividend Yield */}
                 <div className="fundSquare-data-div">
                   <p style={{ fontWeight: "bold" }}>Dividend Yield</p>

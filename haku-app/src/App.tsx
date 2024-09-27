@@ -16,10 +16,17 @@ import FondosInversion from "./fondosInversion/fondosInversion.tsx";
 // ETFS
 import EtfFunds from "./etfs/etfs.tsx"; // main etf directory
 import EtfPage from "./etfs/EtfPage.tsx"; // etf page component
-import EtfProfiles from "./etfs/etfPrototyping/ten-etf-profiles.json"; // etf profile data for etf page component
-import EtfMonthlyValues from "./etfs/etfPrototyping/ten-monthly-values-final.json"; // etf monthly values
+import EtfProfilesData from "./etfs/data/ten-etf-profiles.json"; // etf profile data for etf page component
+import EtfMonthlyValuesData from "./etfs/data/ten-monthly-values-final.json"; // etf monthly values
 
-const etfTickers = Object.keys(EtfProfiles);
+// Import types for etf data
+import { EtfProfiles, AllEtfMonthlyValues } from "./types/etfTypes.ts";
+
+// Store imported data into variables with explicit types (for type security)
+const etfProfilesData: EtfProfiles = EtfProfilesData;
+const allEtfMonthlyValues: AllEtfMonthlyValues = EtfMonthlyValuesData;
+
+const etfTickers = Object.keys(etfProfilesData);
 
 function App() {
   return (
@@ -43,7 +50,15 @@ function App() {
               />
             );
           })}
-          <Route path="/etf" element={<EtfFunds />} />
+          <Route
+            path="/etf"
+            element={
+              <EtfFunds
+                etfProfiles={etfProfilesData}
+                etfMonthlyValues={allEtfMonthlyValues}
+              />
+            }
+          />
           {etfTickers.map((ticker) => {
             const path = `/etf/${ticker}`;
             return (
@@ -52,8 +67,8 @@ function App() {
                 path={path}
                 element={
                   <EtfPage
-                    etfData={EtfProfiles[ticker]}
-                    etfMonthlyValues={EtfMonthlyValues[ticker]}
+                    etfData={etfProfilesData[ticker]}
+                    etfMonthlyValues={allEtfMonthlyValues[ticker]}
                   />
                 }
               />

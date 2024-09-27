@@ -1,7 +1,7 @@
 // Pie Chart of Etf Asset Allocation
 
 import { useMemo } from "react";
-import { EtfProfiles } from "../types/etfTypes";
+import { EtfProfile } from "../types/etfTypes";
 import {
   PieChart,
   Pie,
@@ -19,7 +19,7 @@ const assetAllocationColors = [
   "#8884D8",
 ];
 
-function EtfAssetAllocationChart({ data }: { data: EtfProfiles }) {
+function EtfAssetAllocationChart({ data }: { data: EtfProfile }) {
   // Get Asset Allocation Data
   const assetAllocationData = data["asset_allocation"];
 

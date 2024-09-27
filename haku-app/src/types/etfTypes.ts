@@ -1,12 +1,13 @@
-// etf types for etf components
+// Data types for etf components
 
-export interface EtfProfiles {
+// Data Structure for individual profiles for Individual Etfs
+export interface EtfProfile {
   net_assets: string;
   net_expense_ratio: string;
   portfolio_turnover: string;
   dividend_yield: string;
   inception_date: string;
-  leveraged: "YES" | "NO";
+  leveraged: string;
   asset_allocation: {
     domestic_equities: string;
     foreign_equities: string;
@@ -26,7 +27,12 @@ export interface EtfProfiles {
   name: string;
 }
 
-export interface EtfPriceData {
+// Data strucutre for data containing all etf profiles
+export interface EtfProfiles {
+  [etfTicker: string]: EtfProfile;
+}
+
+export interface EtfMonthlyValues {
   "Meta Data": {
     "1. Information": string;
     "2. Symbol": string;
@@ -49,7 +55,21 @@ export interface EtfPriceData {
   };
 }
 
+// Data structure for data containing all etf Monthly Values
+export interface AllEtfMonthlyValues {
+  [etfTicker: string]: EtfMonthlyValues;
+}
+
+// Types for components that need to import / receive as props both --> Etf Profiles & Etf Monthly Values
+
+// Prop type of data of individual ETFs passed down to EtfPage component (EtfPage.tsx)
 export interface EtfPageProps {
-  etfData: EtfProfiles;
-  etfMonthlyValues: EtfPriceData;
+  etfData: EtfProfile;
+  etfMonthlyValues: EtfMonthlyValues;
+}
+
+// Data structure for components receiving etf profiles & monthly values of all etf data (etfs.tsx)
+export interface AllEtfData {
+  etfProfiles: EtfProfiles;
+  etfMonthlyValues: AllEtfMonthlyValues;
 }

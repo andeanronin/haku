@@ -1,6 +1,6 @@
 // Historical Monthly Values
 import "./etfPriceChart.css";
-import { EtfPriceData } from "../types/etfTypes";
+import { EtfMonthlyValues } from "../types/etfTypes";
 import {
   AreaChart,
   Area,
@@ -16,7 +16,7 @@ interface DataPoint {
   close: number;
 }
 
-function EtfHistoricalValues({ data }: { data: EtfPriceData }) {
+function EtfHistoricalValues({ data }: { data: EtfMonthlyValues }) {
   let monthlyData = data["Monthly Adjusted Time Series"];
   const chartData: DataPoint[] = Object.entries(monthlyData)
     .map(([date, values]) => ({

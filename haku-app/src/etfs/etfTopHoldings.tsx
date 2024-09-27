@@ -1,10 +1,11 @@
 // Top Holdings Table
 import "./etfTopHoldings.css";
-import { EtfProfiles } from "../types/etfTypes";
+import { EtfProfile } from "../types/etfTypes";
 
-function EtfTopHoldings({ data }: { data: EtfProfiles }) {
+function EtfTopHoldings({ data }: { data: EtfProfile }) {
   const fundHoldings = data["holdings"];
 
+  // handle cases where there is no holdings data
   if (!fundHoldings || fundHoldings.length === 0) {
     return (
       <div id="etfTopHoldings-container">
@@ -13,11 +14,18 @@ function EtfTopHoldings({ data }: { data: EtfProfiles }) {
     );
   }
 
-  // Function to get Top Holdings from array with All the holdings
-  const getTopHoldings = (holdings: EtfProfiles["holdings"]) => {
+  // Function to get an array including only the Top 8 Holdings (taken from the array with all the holdings)
+  const getTopHoldings = (holdings?: EtfProfile["holdings"]) => {
+    // Return empty array if holdings is undefined
+    if (!holdings) return [];
+
     let topHoldings = [];
 
     for (let i = 0; i < 8; i++) {
+      // handle cases where ETF has less than 8 holdings (stops function at holdings[i] = undefined)
+      if (!holdings[i]) {
+        return topHoldings;
+      }
       const weightAsNumber = Number(holdings[i]["weight"]);
       topHoldings.push({
         ...holdings[i],

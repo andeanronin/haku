@@ -1,6 +1,6 @@
 // Pie Chart of Etf Sector Allocations
 import "./EtfSectorAllocation.css";
-import { EtfProfiles } from "../types/etfTypes";
+import { EtfProfile } from "../types/etfTypes";
 
 import {
   ResponsiveContainer,
@@ -26,7 +26,7 @@ const COLORS = [
   "#d0ed57",
 ];
 
-function EtfSectorAllocation({ data }: { data: EtfProfiles }) {
+function EtfSectorAllocation({ data }: { data: EtfProfile }) {
   const sectorData = data["sectors"];
 
   if (!sectorData || sectorData.length === 0) {
