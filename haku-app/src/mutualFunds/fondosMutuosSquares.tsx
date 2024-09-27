@@ -3,7 +3,7 @@ This component renders all of the mutual fund data in visually appealing boxes f
 The user can scroll this page to explore mutual funds. 
 */
 
-import fundData from "./assets/fondos-mutuos-data-4.json";
+import fundData from "./data/fondos-mutuos-data-4.json";
 import "./fondosMutuosSquares.css";
 import { useNavigate } from "react-router-dom";
 import { useState, useEffect, useMemo } from "react";
@@ -134,6 +134,7 @@ function FundList() {
   return (
     <>
       <div className="fundDirectoryContainer">
+        {/* Container for FILTERS  */}
         <div className="filtrosContainer">
           <p>Filtra Por: </p>
 

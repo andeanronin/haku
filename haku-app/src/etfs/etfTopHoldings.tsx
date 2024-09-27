@@ -1,36 +1,20 @@
 // Top Holdings Table
 import "./etfTopHoldings.css";
+import { EtfProfiles } from "../types/etfTypes";
 
-interface EtfData {
-  net_assets: string;
-  net_expense_ratio: string;
-  portfolio_turnover: string;
-  dividend_yield: string;
-  inception_date: string;
-  leveraged: "YES" | "NO";
-  asset_allocation: {
-    domestic_equities: string;
-    foreign_equities: string;
-    bond: string;
-    cash: string;
-    other: string;
-  };
-  sectors: Array<{
-    sector: string;
-    weight: string;
-  }>;
-  holdings: Array<{
-    symbol: string;
-    description: string;
-    weight: string;
-  }>;
-  name: string;
-}
-
-function EtfTopHoldings({ data }: { data: EtfData }) {
+function EtfTopHoldings({ data }: { data: EtfProfiles }) {
   const fundHoldings = data["holdings"];
 
-  const getTopHoldings = (holdings: EtfData["holdings"]) => {
+  if (!fundHoldings || fundHoldings.length === 0) {
+    return (
+      <div id="etfTopHoldings-container">
+        <h2>No Holdings Data Available</h2>{" "}
+      </div>
+    );
+  }
+
+  // Function to get Top Holdings from array with All the holdings
+  const getTopHoldings = (holdings: EtfProfiles["holdings"]) => {
     let topHoldings = [];
 
     for (let i = 0; i < 8; i++) {

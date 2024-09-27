@@ -7,56 +7,7 @@ import EtfSectorAllocation from "./EtfSectorAllocation";
 import EtfTopHoldings from "./etfTopHoldings";
 import EtfHistoricalValues from "./etfPriceChart";
 import React from "react";
-
-interface EtfData {
-  net_assets: string;
-  net_expense_ratio: string;
-  portfolio_turnover: string;
-  dividend_yield: string;
-  inception_date: string;
-  leveraged: "YES" | "NO";
-  asset_allocation: {
-    domestic_equities: string;
-    foreign_equities: string;
-    bond: string;
-    cash: string;
-    other: string;
-  };
-  sectors: Array<{
-    sector: string;
-    weight: string;
-  }>;
-  holdings: Array<{
-    symbol: string;
-    description: string;
-    weight: string;
-  }>;
-  name: string;
-}
-
-interface EtfPriceData {
-  "Meta Data": {
-    "1. Information": string;
-    "2. Symbol": string;
-    "3. Last Refreshed": string;
-    "4. Time Zone": string;
-  };
-  "Monthly Adjusted Time Series": {
-    [date: string]: {
-      "1. open": string;
-      "2. high": string;
-      "3. low": string;
-      "4. close": string;
-      "5. adjusted close": string;
-      "6. volume": string;
-      "7. dividend amount": string;
-    };
-  };
-}
-interface EtfPageProps {
-  etfData: EtfData;
-  etfMonthlyValues: EtfPriceData; // Replace 'any' with the correct type for etfMonthlyValues
-}
+import { EtfPageProps } from "../types/etfTypes";
 
 function EtfsFundPage({ etfData, etfMonthlyValues }: EtfPageProps) {
   // Helper Function to format decimals in percent
@@ -113,6 +64,22 @@ function EtfsFundPage({ etfData, etfMonthlyValues }: EtfPageProps) {
           <div className="etfPage-infoItem">
             <h3>Apalancamiento / Deuda</h3>
             <p>{etfData["leveraged"]}</p>
+          </div>
+          <div className="etfPage-infoItem">
+            <h3>Retorno (Cagr)</h3>
+            <p>
+              {(etfMonthlyValues["Meta Data"]["5. CAGR"] * 100).toFixed(2)}%
+            </p>
+          </div>
+          <div className="etfPage-infoItem">
+            <h3>Riesgo (Standard Dev)</h3>
+            <p>
+              {etfMonthlyValues["Meta Data"]["6. Stdev of Returns"].toFixed(2)}
+            </p>
+          </div>
+          <div className="etfPage-infoItem">
+            <h3>Risk Adjusted Returns (Sharpe)</h3>
+            <p>{etfMonthlyValues["Meta Data"]["7. Sharpe Ratio"].toFixed(3)}</p>
           </div>
         </div>
 

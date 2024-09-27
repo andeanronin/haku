@@ -7,3 +7,15 @@
   align-items: center;
   height: 90vh;
 }
+
+.etfSquares-container {
+  background-color: gray;
+}
+
+.etfSquares-container p {
+  color: white;
+}
+
+.etfSquares-container h2 {
+  color: white;
+}

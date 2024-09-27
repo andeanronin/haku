@@ -2,18 +2,22 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./landingPage";
+
 // Mutual Funds
-import FundPage from "./fundPage";
-import fundData from "./assets/fondos-mutuos-data-4.json";
-import FundList from "./fondosMutuosSquares";
-import FondosMutuosTable from "./fondosMutuosTable";
-import FondosMutuos from "./fondosMutuos";
-import FondosInversion from "./fondosInversion";
+import FundPage from "./mutualFunds/fundPage.tsx";
+import fundData from "./mutualFunds/data/fondos-mutuos-data-4.json";
+import FundList from "./mutualFunds/fondosMutuosSquares.tsx";
+import FondosMutuosTable from "./mutualFunds/fondosMutuosTable";
+import FondosMutuos from "./mutualFunds/fondosMutuos.tsx";
+
+// Fondos Inversion
+import FondosInversion from "./fondosInversion/fondosInversion.tsx";
+
 // ETFS
-import EtfFunds from "./etfs/etfs.tsx";
-import EtfPage from "./etfs/EtfPage.tsx";
-import EtfProfiles from "./etfs/etfPrototyping/sample-etf-profiles.json"; // etf data for etf page component
-import EtfMonthlyValues from "./etfs/etfPrototyping/sample-monthly-values.json";
+import EtfFunds from "./etfs/etfs.tsx"; // main etf directory
+import EtfPage from "./etfs/EtfPage.tsx"; // etf page component
+import EtfProfiles from "./etfs/etfPrototyping/ten-etf-profiles.json"; // etf profile data for etf page component
+import EtfMonthlyValues from "./etfs/etfPrototyping/ten-monthly-values-final.json"; // etf monthly values
 
 const etfTickers = Object.keys(EtfProfiles);
 

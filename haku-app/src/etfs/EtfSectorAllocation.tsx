@@ -1,31 +1,6 @@
 // Pie Chart of Etf Sector Allocations
 import "./EtfSectorAllocation.css";
-
-interface EtfData {
-  net_assets: string;
-  net_expense_ratio: string;
-  portfolio_turnover: string;
-  dividend_yield: string;
-  inception_date: string;
-  leveraged: "YES" | "NO";
-  asset_allocation: {
-    domestic_equities: string;
-    foreign_equities: string;
-    bond: string;
-    cash: string;
-    other: string;
-  };
-  sectors: Array<{
-    sector: string;
-    weight: string;
-  }>;
-  holdings: Array<{
-    symbol: string;
-    description: string;
-    weight: string;
-  }>;
-  name: string;
-}
+import { EtfProfiles } from "../types/etfTypes";
 
 import {
   ResponsiveContainer,
@@ -51,8 +26,16 @@ const COLORS = [
   "#d0ed57",
 ];
 
-function EtfSectorAllocation({ data }: { data: EtfData }) {
+function EtfSectorAllocation({ data }: { data: EtfProfiles }) {
   const sectorData = data["sectors"];
+
+  if (!sectorData || sectorData.length === 0) {
+    return (
+      <div className="etfPage-chartContainer-sector">
+        <h2>No Sector Data Available</h2>
+      </div>
+    );
+  }
 
   // format data
   const sectorDataFormatted = sectorData.map((item) => ({

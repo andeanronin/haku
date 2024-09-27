@@ -7,10 +7,10 @@ import importedData from "../assets/fondos-mutuos-whole.json";
 import { useState, useEffect, useMemo } from "react";
 import "./fondosTabla.css";
 import SearchButton from "../searchButton";
-import AdminPopup from "../adminPopup";
+import AdminPopup from "../mutualFunds/adminPopup";
 import FooterComponent from "../footerComp";
 import { useNavigate } from "react-router-dom";
-import FundList from "../fondosMutuosSquares";
+import FundList from "../mutualFunds/fondosMutuosSquares";
 import Navbar from "../Navbar";
 
 interface FondoMutuo {

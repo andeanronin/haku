@@ -1,5 +1,6 @@
 // Historical Monthly Values
 import "./etfPriceChart.css";
+import { EtfPriceData } from "../types/etfTypes";
 import {
   AreaChart,
   Area,
@@ -9,26 +10,6 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
-
-interface EtfPriceData {
-  "Meta Data": {
-    "1. Information": string;
-    "2. Symbol": string;
-    "3. Last Refreshed": string;
-    "4. Time Zone": string;
-  };
-  "Monthly Adjusted Time Series": {
-    [date: string]: {
-      "1. open": string;
-      "2. high": string;
-      "3. low": string;
-      "4. close": string;
-      "5. adjusted close": string;
-      "6. volume": string;
-      "7. dividend amount": string;
-    };
-  };
-}
 
 interface DataPoint {
   date: string;

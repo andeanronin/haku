@@ -1,7 +1,7 @@
 // Pie Chart of Etf Asset Allocation
 
 import { useMemo } from "react";
-
+import { EtfProfiles } from "../types/etfTypes";
 import {
   PieChart,
   Pie,
@@ -19,33 +19,7 @@ const assetAllocationColors = [
   "#8884D8",
 ];
 
-interface EtfData {
-  net_assets: string;
-  net_expense_ratio: string;
-  portfolio_turnover: string;
-  dividend_yield: string;
-  inception_date: string;
-  leveraged: "YES" | "NO";
-  asset_allocation: {
-    domestic_equities: string;
-    foreign_equities: string;
-    bond: string;
-    cash: string;
-    other: string;
-  };
-  sectors: Array<{
-    sector: string;
-    weight: string;
-  }>;
-  holdings: Array<{
-    symbol: string;
-    description: string;
-    weight: string;
-  }>;
-  name: string;
-}
-
-function EtfAssetAllocationChart({ data }: { data: EtfData }) {
+function EtfAssetAllocationChart({ data }: { data: EtfProfiles }) {
   // Get Asset Allocation Data
   const assetAllocationData = data["asset_allocation"];
 

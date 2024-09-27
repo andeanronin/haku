@@ -1,10 +1,9 @@
 // Component for each fund's independent page
 
 import "./FundPage.css";
-import FooterComponent from "./footerComp";
-import Navbar from "./Navbar";
+import FooterComponent from "../footerComp";
+import Navbar from "../Navbar";
 import React, { useState, useEffect, useMemo } from "react";
-
 import {
   BarChart,
   Line,
@@ -19,43 +18,7 @@ import {
   Label,
   Cell,
 } from "recharts";
-
-interface FundData {
-  "Tipo Fondo": string;
-  "Fondo Mutuo": string;
-  Administradora: string;
-  "Fec. Inicio Operación": string;
-  "Moneda Cuota": string;
-  "Valor Cuota": number | null;
-  "Rentabilidad 2024": number | null;
-  "Rentabilidad 2023": number | null;
-  "Rentabilidad 2022": number | null;
-  "Rentabilidad 2021": number | null;
-  "Rentabilidad 2020": number | null;
-  "Rentabilidad 2019": number | null;
-  "Rentabilidad 2018": number | null;
-  "Rentabilidad 2017": number | null;
-  "Rentabilidad 2016": number | null;
-  "Rentabilidad 2015": number | null;
-  "Rentabilidad 2014": number | null;
-  "Patrimonio S/.": number | null;
-  "Partícipes N": number | null;
-  "A\u00f1os": number | null;
-  Categoria: string;
-  "Fund id": number;
-  "Highest Return": number | null;
-  "Lowest Return": number | null;
-  "Avg Return (Arithmetic)": number | null;
-  "Standard Deviation of Returns": number | null;
-  "Total Cumulative Return": number | null;
-  "Cumulative Return Period": number | null;
-  "Annualized Cumulative Return": number | null;
-  CAGR: number | null;
-  "Sharpe Ratio": number | null;
-  Risk: string | null;
-  Logo: string;
-  [key: string]: string | number | null; // Index signature for dynamic access
-}
+import { MutualFundData } from "../types/mutualFundTypes";
 
 // The Data Format for Recharts anual return Graph
 type ChartData = {
@@ -94,7 +57,7 @@ const rechartsFormat = (
 // Define a type for the compound returns object
 type CompoundReturns = { [key: string]: number };
 
-function FundPage({ fundData }: { fundData: FundData }) {
+function FundPage({ fundData }: { fundData: MutualFundData }) {
   // Helper Function to get Object with yearly compounded returns
   const getCompoundReturns = (
     fund: { [key: string]: any },

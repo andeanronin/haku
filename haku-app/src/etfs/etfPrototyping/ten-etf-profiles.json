@@ -1,0 +1,1340 @@
+{
+  "ARKK": {
+    "net_assets": "5665000000",
+    "net_expense_ratio": "0.0075",
+    "portfolio_turnover": "0.26",
+    "dividend_yield": "0.0",
+    "inception_date": "2014-10-31",
+    "leveraged": "NO",
+    "asset_allocation": {
+      "domestic_equities": "0.952",
+      "foreign_equities": "0.045",
+      "bond": "0.0",
+      "cash": "0.0",
+      "other": "0.002"
+    },
+    "sectors": [
+      {
+        "sector": "COMMUNICATION SERVICES",
+        "weight": "0.232"
+      },
+      {
+        "sector": "INFORMATION TECHNOLOGY",
+        "weight": "0.188"
+      },
+      {
+        "sector": "HEALTHCARE",
+        "weight": "0.181"
+      },
+      {
+        "sector": "FINANCIALS",
+        "weight": "0.175"
+      },
+      {
+        "sector": "CONSUMER DISCRETIONARY",
+        "weight": "0.169"
+      },
+      {
+        "sector": "INDUSTRIALS",
+        "weight": "0.008"
+      },
+      {
+        "sector": "CONSUMER STAPLES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "MATERIALS",
+        "weight": "0.00"
+      },
+      {
+        "sector": "UTILITIES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "ENERGY",
+        "weight": "0.00"
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "TSLA",
+        "description": "TESLA INC",
+        "weight": "0.1394"
+      },
+      {
+        "symbol": "ROKU",
+        "description": "ROKU INC CLASS A",
+        "weight": "0.1096"
+      },
+      {
+        "symbol": "RBLX",
+        "description": "ROBLOX CORP ORDINARY SHARES CLASS A",
+        "weight": "0.069"
+      },
+      {
+        "symbol": "COIN",
+        "description": "COINBASE GLOBAL INC ORDINARY SHARES CLASS A",
+        "weight": "0.0646"
+      },
+      {
+        "symbol": "SQ",
+        "description": "BLOCK INC CLASS A",
+        "weight": "0.0506"
+      },
+      {
+        "symbol": "HOOD",
+        "description": "ROBINHOOD MARKETS INC CLASS A",
+        "weight": "0.0484"
+      },
+      {
+        "symbol": "PLTR",
+        "description": "PALANTIR TECHNOLOGIES INC ORDINARY SHARES CLASS A",
+        "weight": "0.0475"
+      },
+      {
+        "symbol": "CRSP",
+        "description": "CRISPR THERAPEUTICS AG",
+        "weight": "0.0462"
+      },
+      {
+        "symbol": "NTLA",
+        "description": "INTELLIA THERAPEUTICS INC",
+        "weight": "0.0334"
+      },
+      {
+        "symbol": "PATH",
+        "description": "UIPATH INC CLASS A",
+        "weight": "0.0295"
+      },
+      {
+        "symbol": "TXG",
+        "description": "10X GENOMICS INC ORDINARY SHARES CLASS A",
+        "weight": "0.0284"
+      },
+      {
+        "symbol": "DKNG",
+        "description": "DRAFTKINGS INC ORDINARY SHARES CLASS A",
+        "weight": "0.0243"
+      },
+      {
+        "symbol": "PD",
+        "description": "PAGERDUTY INC",
+        "weight": "0.0242"
+      },
+      {
+        "symbol": "META",
+        "description": "META PLATFORMS INC CLASS A",
+        "weight": "0.0224"
+      },
+      {
+        "symbol": "TWST",
+        "description": "TWIST BIOSCIENCE CORP",
+        "weight": "0.0221"
+      },
+      {
+        "symbol": "RXRX",
+        "description": "RECURSION PHARMACEUTICALS INC CLASS A",
+        "weight": "0.0215"
+      },
+      {
+        "symbol": "BEAM",
+        "description": "BEAM THERAPEUTICS INC",
+        "weight": "0.0194"
+      },
+      {
+        "symbol": "VCYT",
+        "description": "VERACYTE INC",
+        "weight": "0.0184"
+      },
+      {
+        "symbol": "U",
+        "description": "UNITY SOFTWARE INC ORDINARY SHARES",
+        "weight": "0.0182"
+      },
+      {
+        "symbol": "TER",
+        "description": "TERADYNE INC",
+        "weight": "0.0179"
+      },
+      {
+        "symbol": "TTD",
+        "description": "THE TRADE DESK INC CLASS A",
+        "weight": "0.0176"
+      },
+      {
+        "symbol": "PINS",
+        "description": "PINTEREST INC CLASS A",
+        "weight": "0.0135"
+      },
+      {
+        "symbol": "AMD",
+        "description": "ADVANCED MICRO DEVICES INC",
+        "weight": "0.0128"
+      },
+      {
+        "symbol": "TEM",
+        "description": "TEMPUS AI INC CLASS A COMMON STOCK",
+        "weight": "0.0115"
+      },
+      {
+        "symbol": "SOFI",
+        "description": "SOFI TECHNOLOGIES INC ORDINARY SHARES",
+        "weight": "0.0113"
+      },
+      {
+        "symbol": "MRNA",
+        "description": "MODERNA INC",
+        "weight": "0.0089"
+      },
+      {
+        "symbol": "ACHR",
+        "description": "ARCHER AVIATION INC CLASS A",
+        "weight": "0.0081"
+      },
+      {
+        "symbol": "NTRA",
+        "description": "NATERA INC",
+        "weight": "0.006"
+      },
+      {
+        "symbol": "PACB",
+        "description": "PACIFIC BIOSCIENCES OF CALIFORNIA INC",
+        "weight": "0.0058"
+      },
+      {
+        "symbol": "AMZN",
+        "description": "AMAZON.COM INC",
+        "weight": "0.005"
+      },
+      {
+        "symbol": "CERS",
+        "description": "CERUS CORP",
+        "weight": "0.0033"
+      },
+      {
+        "symbol": "PRME",
+        "description": "PRIME MEDICINE INC",
+        "weight": "0.0018"
+      }
+    ],
+    "name": "ARK INNOVATION ETF"
+  },
+  "AZTD": {
+    "net_assets": "26000000",
+    "net_expense_ratio": "0.0075",
+    "portfolio_turnover": "9.86",
+    "dividend_yield": "0.001",
+    "inception_date": "2022-08-17",
+    "leveraged": "NO",
+    "asset_allocation": {
+      "domestic_equities": "0.289",
+      "foreign_equities": "0.708",
+      "bond": "0.0",
+      "cash": "0.003",
+      "other": "0.0"
+    },
+    "sectors": [
+      {
+        "sector": "FINANCIALS",
+        "weight": "0.043"
+      },
+      {
+        "sector": "HEALTHCARE",
+        "weight": "0.039"
+      },
+      {
+        "sector": "COMMUNICATION SERVICES",
+        "weight": "0.038"
+      },
+      {
+        "sector": "INFORMATION TECHNOLOGY",
+        "weight": "0.037"
+      },
+      {
+        "sector": "CONSUMER DISCRETIONARY",
+        "weight": "0.037"
+      },
+      {
+        "sector": "INDUSTRIALS",
+        "weight": "0.037"
+      },
+      {
+        "sector": "CONSUMER STAPLES",
+        "weight": "0.036"
+      },
+      {
+        "sector": "MATERIALS",
+        "weight": "0.036"
+      },
+      {
+        "sector": "UTILITIES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "ENERGY",
+        "weight": "0.00"
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "OSCR",
+        "description": "OSCAR HEALTH INC CLASS A",
+        "weight": "0.0433"
+      },
+      {
+        "symbol": "DOCS",
+        "description": "DOXIMITY INC CLASS A",
+        "weight": "0.0393"
+      },
+      {
+        "symbol": "CNK",
+        "description": "CINEMARK HOLDINGS INC",
+        "weight": "0.0384"
+      },
+      {
+        "symbol": "VSCO",
+        "description": "VICTORIA'S SECRET & CO",
+        "weight": "0.0368"
+      },
+      {
+        "symbol": "YOU",
+        "description": "CLEAR SECURE INC ORDINARY SHARES CLASS A",
+        "weight": "0.0365"
+      },
+      {
+        "symbol": "MTZ",
+        "description": "MASTEC INC",
+        "weight": "0.0365"
+      },
+      {
+        "symbol": "SFM",
+        "description": "SPROUTS FARMERS MARKET INC",
+        "weight": "0.0359"
+      },
+      {
+        "symbol": "SMG",
+        "description": "THE SCOTTS MIRACLE GRO CO CLASS A",
+        "weight": "0.0359"
+      },
+      {
+        "symbol": "FGXXX",
+        "description": "FIRST AMERICAN GOVERNMENT OBLIGS X",
+        "weight": "0.0007"
+      }
+    ],
+    "name": "AZTLAN GLOBAL STOCK SELECTION DM SMID ETF"
+  },
+  "NRSH": {
+    "net_assets": "11000000",
+    "net_expense_ratio": "0.0075",
+    "portfolio_turnover": "n/a",
+    "dividend_yield": "n/a",
+    "inception_date": "2023-11-29",
+    "leveraged": "NO",
+    "asset_allocation": {
+      "domestic_equities": "0.746",
+      "foreign_equities": "0.251",
+      "bond": "0.0",
+      "cash": "0.003",
+      "other": "0.0"
+    },
+    "sectors": [
+      {
+        "sector": "INDUSTRIALS",
+        "weight": "0.742"
+      },
+      {
+        "sector": "INFORMATION TECHNOLOGY",
+        "weight": "0.00"
+      },
+      {
+        "sector": "COMMUNICATION SERVICES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "CONSUMER DISCRETIONARY",
+        "weight": "0.00"
+      },
+      {
+        "sector": "HEALTHCARE",
+        "weight": "0.00"
+      },
+      {
+        "sector": "CONSUMER STAPLES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "MATERIALS",
+        "weight": "0.00"
+      },
+      {
+        "sector": "UTILITIES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "ENERGY",
+        "weight": "0.00"
+      },
+      {
+        "sector": "FINANCIALS",
+        "weight": "0.00"
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "FWRD",
+        "description": "FORWARD AIR CORP",
+        "weight": "0.0765"
+      },
+      {
+        "symbol": "CHRW",
+        "description": "C.H. ROBINSON WORLDWIDE INC",
+        "weight": "0.076"
+      },
+      {
+        "symbol": "UNP",
+        "description": "UNION PACIFIC CORP",
+        "weight": "0.0606"
+      },
+      {
+        "symbol": "SNDR",
+        "description": "SCHNEIDER NATIONAL INC",
+        "weight": "0.0578"
+      },
+      {
+        "symbol": "LSTR",
+        "description": "LANDSTAR SYSTEM INC",
+        "weight": "0.0576"
+      },
+      {
+        "symbol": "CSX",
+        "description": "CSX CORP",
+        "weight": "0.0514"
+      },
+      {
+        "symbol": "ARCB",
+        "description": "ARCBEST CORP",
+        "weight": "0.0499"
+      },
+      {
+        "symbol": "MATX",
+        "description": "MATSON INC",
+        "weight": "0.0484"
+      },
+      {
+        "symbol": "HUBG",
+        "description": "HUB GROUP INC CLASS A",
+        "weight": "0.048"
+      },
+      {
+        "symbol": "NSC",
+        "description": "NORFOLK SOUTHERN CORP",
+        "weight": "0.0465"
+      },
+      {
+        "symbol": "CP",
+        "description": "CANADIAN PACIFIC KANSAS CITY LTD",
+        "weight": "0.0452"
+      },
+      {
+        "symbol": "WERN",
+        "description": "WERNER ENTERPRISES INC",
+        "weight": "0.0406"
+      },
+      {
+        "symbol": "KEX",
+        "description": "KIRBY CORP",
+        "weight": "0.0364"
+      },
+      {
+        "symbol": "ODFL",
+        "description": "OLD DOMINION FREIGHT LINE INC ORDINARY SHARES",
+        "weight": "0.0343"
+      },
+      {
+        "symbol": "EXPD",
+        "description": "EXPEDITORS INTERNATIONAL OF WASHINGTON INC",
+        "weight": "0.0313"
+      },
+      {
+        "symbol": "ATSG",
+        "description": "AIR TRANSPORT SERVICES GROUP INC",
+        "weight": "0.0114"
+      },
+      {
+        "symbol": "PTSI",
+        "description": "P.A.M. TRANSPORTATION SERVICES INC",
+        "weight": "0.0051"
+      },
+      {
+        "symbol": "CVLG",
+        "description": "COVENANT LOGISTICS GROUP INC CLASS A",
+        "weight": "0.005"
+      },
+      {
+        "symbol": "ULH",
+        "description": "UNIVERSAL LOGISTICS HOLDINGS INC",
+        "weight": "0.0049"
+      },
+      {
+        "symbol": "FGXXX",
+        "description": "FIRST AMERICAN GOVERNMENT OBLIGS X",
+        "weight": "0.0011"
+      }
+    ],
+    "name": "AZTLAN NORTH AMERICA NEARSHORING STOCK SELECTION ETF"
+  },
+  "XLY": {
+    "net_assets": "18884000000",
+    "net_expense_ratio": "0.0009",
+    "portfolio_turnover": "0.24",
+    "dividend_yield": "0.008",
+    "inception_date": "1998-12-16",
+    "leveraged": "NO",
+    "asset_allocation": {
+      "domestic_equities": "0.991",
+      "foreign_equities": "0.008",
+      "bond": "0.0",
+      "cash": "0.001",
+      "other": "0.0"
+    },
+    "sectors": [
+      {
+        "sector": "CONSUMER DISCRETIONARY",
+        "weight": "0.991"
+      },
+      {
+        "sector": "FINANCIALS",
+        "weight": "0.007"
+      },
+      {
+        "sector": "INFORMATION TECHNOLOGY",
+        "weight": "0.00"
+      },
+      {
+        "sector": "COMMUNICATION SERVICES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "HEALTHCARE",
+        "weight": "0.00"
+      },
+      {
+        "sector": "CONSUMER STAPLES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "INDUSTRIALS",
+        "weight": "0.00"
+      },
+      {
+        "sector": "MATERIALS",
+        "weight": "0.00"
+      },
+      {
+        "sector": "UTILITIES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "ENERGY",
+        "weight": "0.00"
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "AMZN",
+        "description": "AMAZON.COM INC",
+        "weight": "0.2156"
+      },
+      {
+        "symbol": "TSLA",
+        "description": "TESLA INC",
+        "weight": "0.1631"
+      },
+      {
+        "symbol": "HD",
+        "description": "THE HOME DEPOT INC",
+        "weight": "0.098"
+      },
+      {
+        "symbol": "MCD",
+        "description": "MCDONALD'S CORP",
+        "weight": "0.048"
+      },
+      {
+        "symbol": "LOW",
+        "description": "LOWE'S COMPANIES INC",
+        "weight": "0.0384"
+      },
+      {
+        "symbol": "BKNG",
+        "description": "BOOKING HOLDINGS INC",
+        "weight": "0.0358"
+      },
+      {
+        "symbol": "TJX",
+        "description": "TJX COMPANIES INC",
+        "weight": "0.0349"
+      },
+      {
+        "symbol": "SBUX",
+        "description": "STARBUCKS CORP",
+        "weight": "0.0285"
+      },
+      {
+        "symbol": "NKE",
+        "description": "NIKE INC CLASS B",
+        "weight": "0.0255"
+      },
+      {
+        "symbol": "CMG",
+        "description": "CHIPOTLE MEXICAN GRILL INC",
+        "weight": "0.021"
+      },
+      {
+        "symbol": "ORLY",
+        "description": "O'REILLY AUTOMOTIVE INC",
+        "weight": "0.0174"
+      },
+      {
+        "symbol": "DHI",
+        "description": "D.R. HORTON INC",
+        "weight": "0.0151"
+      },
+      {
+        "symbol": "MAR",
+        "description": "MARRIOTT INTERNATIONAL INC CLASS A",
+        "weight": "0.0148"
+      },
+      {
+        "symbol": "HLT",
+        "description": "HILTON WORLDWIDE HOLDINGS INC",
+        "weight": "0.0144"
+      },
+      {
+        "symbol": "GM",
+        "description": "GENERAL MOTORS CO",
+        "weight": "0.0142"
+      },
+      {
+        "symbol": "ABNB",
+        "description": "AIRBNB INC ORDINARY SHARES CLASS A",
+        "weight": "0.0141"
+      },
+      {
+        "symbol": "AZO",
+        "description": "AUTOZONE INC",
+        "weight": "0.0139"
+      },
+      {
+        "symbol": "ROST",
+        "description": "ROSS STORES INC",
+        "weight": "0.0132"
+      },
+      {
+        "symbol": "LEN",
+        "description": "LENNAR CORP CLASS A",
+        "weight": "0.0121"
+      },
+      {
+        "symbol": "F",
+        "description": "FORD MOTOR CO",
+        "weight": "0.0112"
+      },
+      {
+        "symbol": "RCL",
+        "description": "ROYAL CARIBBEAN GROUP",
+        "weight": "0.0104"
+      },
+      {
+        "symbol": "YUM",
+        "description": "YUM BRANDS INC",
+        "weight": "0.0097"
+      },
+      {
+        "symbol": "EBAY",
+        "description": "EBAY INC",
+        "weight": "0.0086"
+      },
+      {
+        "symbol": "LULU",
+        "description": "LULULEMON ATHLETICA INC",
+        "weight": "0.008"
+      },
+      {
+        "symbol": "TSCO",
+        "description": "TRACTOR SUPPLY CO",
+        "weight": "0.0078"
+      },
+      {
+        "symbol": "NVR",
+        "description": "NVR INC",
+        "weight": "0.0078"
+      },
+      {
+        "symbol": "PHM",
+        "description": "PULTEGROUP INC",
+        "weight": "0.0077"
+      },
+      {
+        "symbol": "GRMN",
+        "description": "GARMIN LTD",
+        "weight": "0.0069"
+      },
+      {
+        "symbol": "DECK",
+        "description": "DECKERS OUTDOOR CORP",
+        "weight": "0.0062"
+      },
+      {
+        "symbol": "DRI",
+        "description": "DARDEN RESTAURANTS INC",
+        "weight": "0.005"
+      },
+      {
+        "symbol": "APTV",
+        "description": "APTIV PLC",
+        "weight": "0.005"
+      },
+      {
+        "symbol": "BBY",
+        "description": "BEST BUY CO INC",
+        "weight": "0.005"
+      },
+      {
+        "symbol": "GPC",
+        "description": "GENUINE PARTS CO",
+        "weight": "0.005"
+      },
+      {
+        "symbol": "ULTA",
+        "description": "ULTA BEAUTY INC",
+        "weight": "0.005"
+      },
+      {
+        "symbol": "CCL",
+        "description": "CARNIVAL CORP",
+        "weight": "0.0048"
+      },
+      {
+        "symbol": "EXPE",
+        "description": "EXPEDIA GROUP INC",
+        "weight": "0.0046"
+      },
+      {
+        "symbol": "LVS",
+        "description": "LAS VEGAS SANDS CORP",
+        "weight": "0.0039"
+      },
+      {
+        "symbol": "DPZ",
+        "description": "DOMINO'S PIZZA INC",
+        "weight": "0.0038"
+      },
+      {
+        "symbol": "POOL",
+        "description": "POOL CORP",
+        "weight": "0.0037"
+      },
+      {
+        "symbol": "KMX",
+        "description": "CARMAX INC",
+        "weight": "0.0033"
+      },
+      {
+        "symbol": "LKQ",
+        "description": "LKQ CORP",
+        "weight": "0.0028"
+      },
+      {
+        "symbol": "TPR",
+        "description": "TAPESTRY INC",
+        "weight": "0.0026"
+      },
+      {
+        "symbol": "MGM",
+        "description": "MGM RESORTS INTERNATIONAL",
+        "weight": "0.0024"
+      },
+      {
+        "symbol": "HAS",
+        "description": "HASBRO INC",
+        "weight": "0.0024"
+      },
+      {
+        "symbol": "CZR",
+        "description": "CAESARS ENTERTAINMENT INC",
+        "weight": "0.0023"
+      },
+      {
+        "symbol": "NCLH",
+        "description": "NORWEGIAN CRUISE LINE HOLDINGS LTD",
+        "weight": "0.0022"
+      },
+      {
+        "symbol": "MHK",
+        "description": "MOHAWK INDUSTRIES INC",
+        "weight": "0.0021"
+      },
+      {
+        "symbol": "BWA",
+        "description": "BORGWARNER INC",
+        "weight": "0.002"
+      },
+      {
+        "symbol": "WYNN",
+        "description": "WYNN RESORTS LTD",
+        "weight": "0.002"
+      },
+      {
+        "symbol": "RL",
+        "description": "RALPH LAUREN CORP CLASS A",
+        "weight": "0.0019"
+      },
+      {
+        "symbol": "ETSY",
+        "description": "ETSY INC",
+        "weight": "0.0017"
+      },
+      {
+        "symbol": "BBWI",
+        "description": "BATH & BODY WORKS INC",
+        "weight": "0.0017"
+      }
+    ],
+    "name": "CONSUMER DISCRETIONARY SELECT SPDR FUND"
+  },
+  "TMF": {
+    "net_assets": "6361000000",
+    "net_expense_ratio": "0.0104",
+    "portfolio_turnover": "n/a",
+    "dividend_yield": "0.032",
+    "inception_date": "2009-04-16",
+    "leveraged": "YES",
+    "asset_allocation": {
+      "domestic_equities": "0.137",
+      "foreign_equities": "0.0",
+      "bond": "0.69",
+      "cash": "0.174",
+      "other": "0.0"
+    },
+    "sectors": [],
+    "holdings": [
+      {
+        "symbol": "TLT",
+        "description": "ISHARES 20& YEAR TREASURY BOND ETF",
+        "weight": "0.6758"
+      },
+      {
+        "symbol": "FTIXX",
+        "description": "GOLDMAN SACHS FS TREASURY INTMS INSTL",
+        "weight": "0.1017"
+      }
+    ],
+    "name": "DIREXION DAILY 20+ YEAR TREASURY BULL 3X SHARES"
+  },
+  "FAS": {
+    "net_assets": "2622000000",
+    "net_expense_ratio": "0.0094",
+    "portfolio_turnover": "n/a",
+    "dividend_yield": "0.01",
+    "inception_date": "2008-11-06",
+    "leveraged": "YES",
+    "asset_allocation": {
+      "domestic_equities": "0.888",
+      "foreign_equities": "0.021",
+      "bond": "0.0",
+      "cash": "0.047",
+      "other": "0.044"
+    },
+    "sectors": [
+      {
+        "sector": "FINANCIALS",
+        "weight": "0.567"
+      },
+      {
+        "sector": "CONSUMER DISCRETIONARY",
+        "weight": "0.013"
+      },
+      {
+        "sector": "INFORMATION TECHNOLOGY",
+        "weight": "0.00"
+      },
+      {
+        "sector": "COMMUNICATION SERVICES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "HEALTHCARE",
+        "weight": "0.00"
+      },
+      {
+        "sector": "CONSUMER STAPLES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "INDUSTRIALS",
+        "weight": "0.00"
+      },
+      {
+        "sector": "MATERIALS",
+        "weight": "0.00"
+      },
+      {
+        "sector": "UTILITIES",
+        "weight": "0.00"
+      },
+      {
+        "sector": "ENERGY",
+        "weight": "0.00"
+      }
+    ],
+    "holdings": [
+      {
+        "symbol": "BRK-B",
+        "description": "BERKSHIRE HATHAWAY INC CLASS B",
+        "weight": "0.0903"
+      },
+      {
+        "symbol": "JPM",
+        "description": "JPMORGAN CHASE & CO",
+        "weight": "0.0655"
+      },
+      {
+        "symbol": "V",
+        "description": "VISA INC CLASS A",
+        "weight": "0.0492"
+      },
+      {
+        "symbol": "MA",
+        "description": "MASTERCARD INC CLASS A",
+        "weight": "0.0441"
+      },
+      {
+        "symbol": "BAC",
+        "description": "BANK OF AMERICA CORP",
+        "weight": "0.0292"
+      },
+      {
+        "symbol": "WFC",
+        "description": "WELLS FARGO & CO",
+        "weight": "0.0206"
+      },
+      {
+        "symbol": "SPGI",
+        "description": "S&P GLOBAL INC",
+        "weight": "0.0182"
+      },
+      {
+        "symbol": "GS",
+        "description": "THE GOLDMAN SACHS GROUP INC",
+        "weight": "0.0167"
+      },
+      {
+        "symbol": "PGR",
+        "description": "PROGRESSIVE CORP",
+        "weight": "0.0161"
+      },
+      {
+        "symbol": "AXP",
+        "description": "AMERICAN EXPRESS CO",
+        "weight": "0.0159"
+      },
+      {
+        "symbol": "BLK",
+        "description": "BLACKROCK INC",
+        "weight": "0.0135"
+      },
+      {
+        "symbol": "MS",
+        "description": "MORGAN STANLEY",
+        "weight": "0.0134"
+      },
+      {
+        "symbol": "CB",
+        "description": "CHUBB LTD",
+        "weight": "0.0127"
+      },
+      {
+        "symbol": "MMC",
+        "description": "MARSH & MCLENNAN COMPANIES INC",
+        "weight": "0.0124"
+      },
+      {
+        "symbol": "C",
+        "description": "CITIGROUP INC",
+        "weight": "0.012"
+      },
+      {
+        "symbol": "BX",
+        "description": "BLACKSTONE INC",
+        "weight": "0.0113"
+      },
+      {
+        "symbol": "FI",
+        "description": "FISERV INC",
+        "weight": "0.011"
+      },
+      {
+        "symbol": "SCHW",
+        "description": "CHARLES SCHWAB CORP",
+        "weight": "0.0104"
+      },
+      {
+        "symbol": "ICE",
+        "description": "INTERCONTINENTAL EXCHANGE INC",
+        "weight": "0.0101"
+      },
+      {
+        "symbol": "CME",
+        "description": "CME GROUP INC CLASS A",
+        "weight": "0.0087"
+      },
+      {
+        "symbol": "KKR",
+        "description": "KKR & CO INC ORDINARY SHARES",
+        "weight": "0.0087"
+      },
+      {
+        "symbol": "MCO",
+        "description": "MOODYS CORP",
+        "weight": "0.0083"
+      },
+      {
+        "symbol": "AON",
+        "description": "AON PLC CLASS A",
+        "weight": "0.0082"
+      },
+      {
+        "symbol": "PYPL",
+        "description": "PAYPAL HOLDINGS INC",
+        "weight": "0.008"
+      },
+      {
+        "symbol": "PNC",
+        "description": "PNC FINANCIAL SERVICES GROUP INC",
+        "weight": "0.0078"
+      },
+      {
+        "symbol": "USB",
+        "description": "U.S. BANCORP",
+        "weight": "0.0077"
+      },
+      {
+        "symbol": "AJG",
+        "description": "ARTHUR J. GALLAGHER & CO",
+        "weight": "0.0071"
+      },
+      {
+        "symbol": "AFL",
+        "description": "AFLAC INC",
+        "weight": "0.0061"
+      },
+      {
+        "symbol": "TFC",
+        "description": "TRUIST FINANCIAL CORP",
+        "weight": "0.0061"
+      },
+      {
+        "symbol": "TRV",
+        "description": "THE TRAVELERS COMPANIES INC",
+        "weight": "0.0058"
+      },
+      {
+        "symbol": "COF",
+        "description": "CAPITAL ONE FINANCIAL CORP",
+        "weight": "0.0057"
+      },
+      {
+        "symbol": "BK",
+        "description": "BANK OF NEW YORK MELLON CORP",
+        "weight": "0.0056"
+      },
+      {
+        "symbol": "ALL",
+        "description": "ALLSTATE CORP",
+        "weight": "0.0054"
+      },
+      {
+        "symbol": "AIG",
+        "description": "AMERICAN INTERNATIONAL GROUP INC",
+        "weight": "0.0053"
+      },
+      {
+        "symbol": "FIS",
+        "description": "n/a",
+        "weight": "0.0051"
+      },
+      {
+        "symbol": "MSCI",
+        "description": "MSCI INC",
+        "weight": "0.0049"
+      },
+      {
+        "symbol": "MET",
+        "description": "METLIFE INC",
+        "weight": "0.0049"
+      },
+      {
+        "symbol": "AMP",
+        "description": "AMERIPRISE FINANCIAL INC",
+        "weight": "0.0048"
+      },
+      {
+        "symbol": "ACGL",
+        "description": "ARCH CAPITAL GROUP LTD",
+        "weight": "0.0045"
+      },
+      {
+        "symbol": "PRU",
+        "description": "PRUDENTIAL FINANCIAL INC",
+        "weight": "0.0045"
+      },
+      {
+        "symbol": "HIG",
+        "description": "n/a",
+        "weight": "0.0037"
+      },
+      {
+        "symbol": "DFS",
+        "description": "DISCOVER FINANCIAL SERVICES",
+        "weight": "0.0035"
+      },
+      {
+        "symbol": "NDAQ",
+        "description": "NASDAQ INC",
+        "weight": "0.0033"
+      },
+      {
+        "symbol": "WTW",
+        "description": "WILLIS TOWERS WATSON PLC",
+        "weight": "0.0032"
+      },
+      {
+        "symbol": "FITB",
+        "description": "FIFTH THIRD BANCORP",
+        "weight": "0.0031"
+      },
+      {
+        "symbol": "GPN",
+        "description": "GLOBAL PAYMENTS INC",
+        "weight": "0.0031"
+      },
+      {
+        "symbol": "MTB",
+        "description": "M&T BANK CORP",
+        "weight": "0.003"
+      },
+      {
+        "symbol": "STT",
+        "description": "STATE STREET CORP",
+        "weight": "0.0027"
+      },
+      {
+        "symbol": "BRO",
+        "description": "BROWN & BROWN INC",
+        "weight": "0.0026"
+      },
+      {
+        "symbol": "TROW",
+        "description": "T. ROWE PRICE GROUP INC",
+        "weight": "0.0026"
+      },
+      {
+        "symbol": "RJF",
+        "description": "RAYMOND JAMES FINANCIAL INC",
+        "weight": "0.0024"
+      },
+      {
+        "symbol": "CBOE",
+        "description": "CBOE GLOBAL MARKETS INC",
+        "weight": "0.0024"
+      },
+      {
+        "symbol": "CPAY",
+        "description": "CORPAY INC",
+        "weight": "0.0024"
+      },
+      {
+        "symbol": "HBAN",
+        "description": "HUNTINGTON BANCSHARES INC",
+        "weight": "0.0023"
+      },
+      {
+        "symbol": "CINF",
+        "description": "CINCINNATI FINANCIAL CORP",
+        "weight": "0.0023"
+      },
+      {
+        "symbol": "RF",
+        "description": "REGIONS FINANCIAL CORP",
+        "weight": "0.0022"
+      },
+      {
+        "symbol": "CFG",
+        "description": "CITIZENS FINANCIAL GROUP INC",
+        "weight": "0.002"
+      },
+      {
+        "symbol": "SYF",
+        "description": "SYNCHRONY FINANCIAL",
+        "weight": "0.002"
+      },
+      {
+        "symbol": "NTRS",
+        "description": "NORTHERN TRUST CORP",
+        "weight": "0.002"
+      },
+      {
+        "symbol": "PFG",
+        "description": "PRINCIPAL FINANCIAL GROUP INC",
+        "weight": "0.0019"
+      },
+      {
+        "symbol": "WRB",
+        "description": "WR BERKLEY CORP",
+        "weight": "0.0019"
+      },
+      {
+        "symbol": "EG",
+        "description": "EVEREST GROUP LTD",
+        "weight": "0.0018"
+      },
+      {
+        "symbol": "FDS",
+        "description": "FACTSET RESEARCH SYSTEMS INC",
+        "weight": "0.0018"
+      },
+      {
+        "symbol": "KEY",
+        "description": "KEYCORP",
+        "weight": "0.0017"
+      },
+      {
+        "symbol": "L",
+        "description": "LOEWS CORP",
+        "weight": "0.0016"
+      },
+      {
+        "symbol": "JKHY",
+        "description": "JACK HENRY & ASSOCIATES INC",
+        "weight": "0.0014"
+      },
+      {
+        "symbol": "AIZ",
+        "description": "ASSURANT INC",
+        "weight": "0.0011"
+      },
+      {
+        "symbol": "MKTX",
+        "description": "MARKETAXESS HOLDINGS INC",
+        "weight": "0.0011"
+      },
+      {
+        "symbol": "GL",
+        "description": "GLOBE LIFE INC",
+        "weight": "0.0009"
+      },
+      {
+        "symbol": "IVZ",
+        "description": "INVESCO LTD",
+        "weight": "0.0008"
+      },
+      {
+        "symbol": "BEN",
+        "description": "FRANKLIN RESOURCES INC",
+        "weight": "0.0006"
+      }
+    ],
+    "name": "DIREXION DAILY FINANCIAL BULL 3X SHARES"
+  },
+  "DUST": {
+    "net_assets": "95000000",
+    "net_expense_ratio": "0.0099",
+    "portfolio_turnover": "0.0",
+    "dividend_yield": "0.093",
+    "inception_date": "2010-12-08",
+    "leveraged": "YES",
+    "asset_allocation": {
+      "domestic_equities": "-0.179",
+      "foreign_equities": "0.0",
+      "bond": "0.0",
+      "cash": "1.179",
+      "other": "0.0"
+    },
+    "sectors": [],
+    "holdings": [],
+    "name": "DIREXION DAILY GOLD MINERS INDEX BEAR 2X SHARES"
+  },
+  "NUGT": {
+    "net_assets": "581000000",
+    "net_expense_ratio": "0.0118",
+    "portfolio_turnover": "1.08",
+    "dividend_yield": "0.016",
+    "inception_date": "2010-12-08",
+    "leveraged": "YES",
+    "asset_allocation": {
+      "domestic_equities": "0.156",
+      "foreign_equities": "0.613",
+      "bond": "0.0",
+      "cash": "0.231",
+      "other": "0.0"
+    },
+    "sectors": [],
+    "holdings": [
+      {
+        "symbol": "GDX",
+        "description": "VANECK GOLD MINERS ETF",
+        "weight": "0.4681"
+      },
+      {
+        "symbol": "FTIXX",
+        "description": "GOLDMAN SACHS FS TREASURY INTMS INSTL",
+        "weight": "0.0824"
+      }
+    ],
+    "name": "DIREXION DAILY GOLD MINERS INDEX BULL 2X SHARES"
+  },
+  "JNUG": {
+    "net_assets": "319000000",
+    "net_expense_ratio": "0.0113",
+    "portfolio_turnover": "0.98",
+    "dividend_yield": "0.02",
+    "inception_date": "2013-10-03",
+    "leveraged": "YES",
+    "asset_allocation": {
+      "domestic_equities": "0.036",
+      "foreign_equities": "0.634",
+      "bond": "0.0",
+      "cash": "0.317",
+      "other": "0.013"
+    },
+    "sectors": [],
+    "holdings": [
+      {
+        "symbol": "GDXJ",
+        "description": "VANECK JUNIOR GOLD MINERS ETF",
+        "weight": "0.3403"
+      }
+    ],
+    "name": "DIREXION DAILY JUNIOR GOLD MINERS INDEX BULL 2X SHARES"
+  },
+  "BRZU": {
+    "net_assets": "120000000",
+    "net_expense_ratio": "0.0124",
+    "portfolio_turnover": "0.32",
+    "dividend_yield": "0.053",
+    "inception_date": "2013-04-10",
+    "leveraged": "YES",
+    "asset_allocation": {
+      "domestic_equities": "-0.039",
+      "foreign_equities": "0.471",
+      "bond": "0.0",
+      "cash": "0.297",
+      "other": "0.27"
+    },
+    "sectors": [],
+    "holdings": [],
+    "name": "DIREXION DAILY MSCI BRAZIL BULL 2X SHARES"
+  }
+}

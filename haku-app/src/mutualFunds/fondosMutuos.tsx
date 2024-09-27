@@ -1,10 +1,10 @@
 // Fondos Mutuos Table & Square View
 import { useState } from "react";
-import Navbar from "./Navbar";
+import Navbar from "../Navbar";
 import "./fondosMutuos.css";
-import FooterComponent from "./footerComp";
+import FooterComponent from "../footerComp";
 import FondosMutuosTable from "./fondosMutuosTable";
-import mutualFundData from "./assets/fondos-mutuos-data-4.json";
+import mutualFundData from "./data/fondos-mutuos-data-4.json"; // Imports Mutual Fund Data
 import FondosMutuosList from "./fondosMutuosSquares";
 import { Rows4, LayoutGrid } from "lucide-react";
 

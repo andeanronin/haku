@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
-import fondosData from "./assets/fondos-mutuos-data-4.json";
+import fondosData from "./mutualFunds/data/fondos-mutuos-data-4.json";
 import SideBar from "./sideBar";
 
 // Define the data structure & tyes of a fund object
