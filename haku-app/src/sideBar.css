@@ -59,6 +59,11 @@
   text-align: center;
 }
 
+/* Hide asesorate buton for now */
+#sideBar-asesorate {
+  display: none;
+}
+
 @media (max-width: 350px) {
   #sideBar-container {
     width: 200px;

@@ -124,7 +124,7 @@ function Navbar({ show = true }) {
             )}
           </div>
           <div className="mainHeader-subcontainer">
-            <p id="navBar-asesorate">Asesórate</p>
+            <img src="/FlagOfPeru.svg" id="navBar-asesorate" alt="peruflag" />
           </div>
         </div>
       </nav>

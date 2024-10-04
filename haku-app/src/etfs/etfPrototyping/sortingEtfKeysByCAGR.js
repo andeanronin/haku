@@ -6,6 +6,14 @@ const etfKeys = Object.keys(data);
 
 console.log(etfKeys);
 
+// example of sorting an object
+var list = { you: 100, me: 75, foo: 116, bar: 15 };
+keysSorted = Object.keys(list).sort(function (a, b) {
+  return list[a] - list[b];
+});
+console.log(keysSorted); // bar,me,you,foo
+
+// sorting etf keys
 const sortedKeys = Object.keys(data).sort(
   (a, b) => data[a]["Meta Data"]["5. CAGR"] - data[b]["Meta Data"]["5. CAGR"]
 );

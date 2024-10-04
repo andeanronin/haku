@@ -11,6 +11,39 @@ function EtfCards({ etfProfiles, etfMonthlyValues }: AllEtfData) {
   const [selectedRisk, setSelectedRisk] = useState<string | null>(null);
   const [selectedSector, setSelectedSector] = useState<string | null>(null);
 
+  // Sort Tickers based on Returns (CAGR)
+  const sortTickers = (tickers: Array<string>, column: String) => {
+    if (column === "Retorno") {
+      return [...tickers].sort(
+        (a, b) =>
+          etfMonthlyValues[b]["Meta Data"]["5. CAGR"] -
+          etfMonthlyValues[a]["Meta Data"]["5. CAGR"]
+      );
+    } else if (column === "Sharpe") {
+      return [...tickers].sort(
+        (a, b) =>
+          etfMonthlyValues[b]["Meta Data"]["7. Sharpe Ratio"] -
+          etfMonthlyValues[a]["Meta Data"]["7. Sharpe Ratio"]
+      );
+    } else if (column === "Dividend-Yield") {
+      return [...tickers].sort(
+        (a, b) =>
+          Number(etfProfiles[b]["dividend_yield"]) -
+          Number(etfProfiles[a]["dividend_yield"])
+      );
+    }
+
+    // If no match is found, return the original tickers array
+    return [...tickers];
+  };
+
+  // Update
+  const handleSortClick = (column: string) => {
+    const sortedTickers = sortTickers(etfTickers, column);
+    console.log("sorted tickers", sortedTickers);
+    setData(sortedTickers);
+  };
+
   // State Management for Card-view Filters
   useEffect(() => {
     const filteredTickers = etfTickers.filter((ticker) => {
@@ -44,7 +77,7 @@ function EtfCards({ etfProfiles, etfMonthlyValues }: AllEtfData) {
   ];
 
   // Set of Etf Sectors (non-repeating) (iterate over etf profiles, and add the value for the sector keys to a set)
-  let sectors = new Set();
+  let sectors = new Set(); // explicitly setting the type of sectors as a set of strings
   for (const etf of etfTickers) {
     const sector = etfProfiles[etf]["sectors"]?.[0]?.["sector"];
     if (sector) {
@@ -52,7 +85,7 @@ function EtfCards({ etfProfiles, etfMonthlyValues }: AllEtfData) {
       sectors.add(sector);
     }
   }
-  const sectorsArray = new Array(...sectors);
+  const sectorsArray = Array.from(sectors) as string[];
 
   return (
     <>
@@ -72,8 +105,8 @@ function EtfCards({ etfProfiles, etfMonthlyValues }: AllEtfData) {
             ))}
           </div>
         </p>
-        <p>Retorno</p>
-        <p>Retorno x Riesgo</p>
+        <p onClick={() => handleSortClick("Retorno")}>Retorno</p>
+        <p onClick={() => handleSortClick("Sharpe")}>Retorno x Riesgo</p>
         <p>
           Riesgo
           <div className="etf-Dropdown">

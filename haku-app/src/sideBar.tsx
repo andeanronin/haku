@@ -47,7 +47,7 @@ function SideBar({ onClose }: SideBarProps) {
       <p onClick={() => navigate("/fondos-de-inversion")}>
         Fondos de Inversion
       </p>
-      <p>Asesorate</p>
+      <p id="sideBar-asesorate">Asesorate</p>
       <p id="sideBar-contacto">Contacto</p>
     </div>
   );

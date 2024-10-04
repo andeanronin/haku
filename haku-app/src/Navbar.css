@@ -48,6 +48,11 @@
   margin-right: -0.5vw;
 }
 
+#navBar-asesorate {
+  height: 30px;
+  margin-left: 10px;
+}
+
 /* Move the mainHeader-subcontainer towards the center */
 .mainHeader-subcontainer {
   display: flex;
@@ -165,6 +170,8 @@
 
   #logoHaku {
     margin-right: 0.1vw;
+    margin-top: 1.2vh;
+    margin-bottom: 1.2vh;
   }
 }
 
