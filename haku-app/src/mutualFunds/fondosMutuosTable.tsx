@@ -186,6 +186,7 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
     <>
       <div className="fondos-mutuos-table-page-container">
         <div className="fondos-mutuos-header">
+          {/* Table Filters */}
           <div className="tableFilters-container">
             {selectedAdmin && (
               <div className="filtered-funds-heading">
@@ -222,7 +223,7 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
 
         {/* TABLE COMPONENT */}
         <div className="table-container">
-          <table className="fondosMutuosTable">
+          <table className="fondos-table">
             <thead>
               <tr>
                 {columnsToDisplay.map((column) => (
@@ -315,6 +316,7 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
               </tr>
             </thead>
 
+            {/* TABLE BODY */}
             <tbody className={isSorting ? "sorting" : ""}>
               {displayData.map((item, index) => {
                 const path = `/fund/${item["Fund id"]}`;

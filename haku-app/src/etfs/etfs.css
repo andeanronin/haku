@@ -1,21 +1,62 @@
 /* ETF Funds */
 
-.etfs-p {
+#etfSection-heading {
   color: white;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 90vh;
+  padding-top: 60px;
 }
 
-.etfSquares-container {
-  background-color: gray;
+#etfSection-heading h2 {
+  margin-left: 10px;
 }
 
-.etfSquares-container p {
+.etfCards-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Etf Cards Filters */
+.etfCards-filters {
   color: white;
+  display: flex;
+  justify-content: center;
 }
 
-.etfSquares-container h2 {
-  color: white;
+.etfCards-filters p {
+  padding: 5px;
+  margin: 5px;
+}
+
+.etfCards-filters p:hover {
+  background-color: rgb(31, 40, 61);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+/* Etf Cards Filter's Dropdown Menus */
+.etf-Dropdown {
+  display: none;
+  position: absolute;
+  background-color: rgb(31, 40, 61);
+  transform: translateX(-4.5%);
+  border-radius: 5px;
+}
+
+.etfCards-filters p:hover .etf-Dropdown {
+  display: block;
+}
+
+.etfDropdown-option {
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.etfDropdown-option:hover {
+  background-color: rgb(41, 49, 67);
 }

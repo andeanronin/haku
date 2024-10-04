@@ -44,7 +44,7 @@ function EtfHistoricalValues({ data }: { data: EtfMonthlyValues }) {
             dataKey="close"
             stroke="#8884d8"
             fill="#8884d8"
-            fillOpacity={0.5}
+            fillOpacity={0.7}
           />
         </AreaChart>
       </ResponsiveContainer>

@@ -7,7 +7,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": 0.08731635655687064,
       "6. Stdev of Returns": 0.5249542210458398,
-      "7. Sharpe Ratio": 0.1282328131827565
+      "7. Sharpe Ratio": 0.1282328131827565,
+      "8. Risk": "High"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {
@@ -1091,7 +1092,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": 0.18020677937017804,
       "6. Stdev of Returns": 0.06840102128178675,
-      "7. Sharpe Ratio": 2.342169405778106
+      "7. Sharpe Ratio": 2.342169405778106,
+      "8. Risk": "Medium Low"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {
@@ -1329,7 +1331,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": 0.05815610437639118,
       "6. Stdev of Returns": 0.05954555350867598,
-      "7. Sharpe Ratio": 0.6407884741693048
+      "7. Sharpe Ratio": 0.6407884741693048,
+      "8. Risk": "Medium Low"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {
@@ -1432,7 +1435,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": 0.07812423252484835,
       "6. Stdev of Returns": 0.20984425237631799,
-      "7. Sharpe Ratio": 0.27698748889539737
+      "7. Sharpe Ratio": 0.27698748889539737,
+      "8. Risk": "High"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {
@@ -4127,7 +4131,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": 0.021282056318437936,
       "6. Stdev of Returns": 1.5615918561395437,
-      "7. Sharpe Ratio": 0.000820993214966774
+      "7. Sharpe Ratio": 0.000820993214966774,
+      "8. Risk": "High"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {
@@ -5805,7 +5810,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": 0.10667796069891189,
       "6. Stdev of Returns": 1.7836709009479956,
-      "7. Sharpe Ratio": 0.04859526533333239
+      "7. Sharpe Ratio": 0.04859526533333239,
+      "8. Risk": "High"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {
@@ -7528,7 +7534,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": -0.15703998581710887,
       "6. Stdev of Returns": 1.0126904360137756,
-      "7. Sharpe Ratio": -0.17482142570042064
+      "7. Sharpe Ratio": -0.17482142570042064,
+      "8. Risk": "High"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {
@@ -9026,7 +9033,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": 0.04336718860156474,
       "6. Stdev of Returns": 1.0006233873671024,
-      "7. Sharpe Ratio": 0.023352630866493963
+      "7. Sharpe Ratio": 0.023352630866493963,
+      "8. Risk": "High"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {
@@ -10524,7 +10532,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": 0.09274034022546629,
       "6. Stdev of Returns": 1.8627490741422539,
-      "7. Sharpe Ratio": 0.03904999403044195
+      "7. Sharpe Ratio": 0.03904999403044195,
+      "8. Risk": "High"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {
@@ -11716,7 +11725,8 @@
       "4. Time Zone": "US/Eastern",
       "5. CAGR": 0.07596580913947126,
       "6. Stdev of Returns": 1.0946581500937507,
-      "7. Sharpe Ratio": 0.05112628918414222
+      "7. Sharpe Ratio": 0.05112628918414222,
+      "8. Risk": "High"
     },
     "Monthly Adjusted Time Series": {
       "2024-09-25": {

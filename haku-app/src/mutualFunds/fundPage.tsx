@@ -6,8 +6,8 @@ import Navbar from "../Navbar";
 import React, { useState, useEffect, useMemo } from "react";
 import {
   BarChart,
-  Line,
-  LineChart,
+  Area,
+  AreaChart,
   Bar,
   XAxis,
   YAxis,
@@ -555,7 +555,7 @@ function FundPage({ fundData }: { fundData: MutualFundData }) {
             </div>
           </div>
           <ResponsiveContainer width="100%" height={chartHeight}>
-            <LineChart
+            <AreaChart
               data={compoundedReturnsChartData}
               margin={lineChartMargin}
             >
@@ -585,21 +585,21 @@ function FundPage({ fundData }: { fundData: MutualFundData }) {
                 tick={tickStyle}
                 tickFormatter={(value) => `${value.toFixed(0)}`}
               />
-              {/* tooltip Formats the valor cuota number  when user hover over */}
-              <Tooltip formatter={(value) => `$ ${Number(value).toFixed(2)}`} />{" "}
+              <Tooltip formatter={(value) => `$ ${Number(value).toFixed(2)}`} />
               <Legend
                 verticalAlign="bottom"
                 align="left"
                 wrapperStyle={{ paddingLeft: "100px" }}
               />
-              <Line
+              <Area
                 type="monotone"
                 dataKey="Valor"
                 stroke="#8884d8"
-                activeDot={{ r: 8 }}
+                fill="#8884d8"
+                fillOpacity={0.6}
                 connectNulls
               />
-            </LineChart>
+            </AreaChart>
           </ResponsiveContainer>
         </section>
 

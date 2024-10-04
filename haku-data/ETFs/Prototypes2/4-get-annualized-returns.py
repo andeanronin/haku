@@ -2,7 +2,7 @@ import pandas as pd
 
 
 # Import CSV with Monthly Values 
-monthly_values_df = pd.read_csv("./haku-data/ETFs/Prototypes2/ten-monthly-values.csv")
+monthly_values_df = pd.read_csv("./haku-data/ETFs/Prototypes2/twenty-monthly-values.csv")
 
 # Initialize Empty Dataframe
 yearly_returns_df = pd.DataFrame()

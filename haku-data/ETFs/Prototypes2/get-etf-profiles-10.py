@@ -17,11 +17,11 @@ etfs_df = pd.read_excel("haku-data/ETFs/ETFs-BVL.xlsx", sheet_name=0, header=0)
 
 etf_tickers = etfs_df[etfs_df["Tipo"] == "ETF"]["Nemónico"] # get list of tickers
 etf_tickers_list = list(etf_tickers) # pandas series --> python list
-etf_tickers_ten = etf_tickers_list[0:10]
+etf_tickers_ten = etf_tickers_list[0:20]
 
 etf_names = etfs_df[etfs_df["Tipo"] == "ETF"]["Nombre"] # get list of names
 etf_names_list = list(etf_names)
-etf_names_ten = etf_names_list[0:10]
+etf_names_ten = etf_names_list[0:20]
 
 # Place name & ticker pairs in Dict 
 etfs_titles = {}
@@ -34,7 +34,7 @@ etf_data = {}
 
 # Iterate over etf_titles dictionary, make API call accessing each ticker, store ALL data in etf_data{}
 for etf in etfs_titles:
-    url = f'https://www.alphavantage.co/query?function=ETF_PROFILE&symbol={etfs_titles[etf]}&apikey={alpha_vantage_key}'
+    url = f'https://www.alphavantage.co/query?function=ETF_PROFILE&symbol={etfs_titles[etf]}&apikey={rapid_api_key}'
     r = requests.get(url)
     data = r.json()
 
@@ -44,5 +44,5 @@ for etf in etfs_titles:
     etf_data[etfs_titles[etf]] = data   # example: {'ARKK': {etf profile} }
 
 # Store data in JSON file
-with open('ten-etf-profiles.json', 'w') as json_file:
+with open('twenty-etf-profiles.json', 'w') as json_file:
     json.dump(etf_data, json_file, indent=4)

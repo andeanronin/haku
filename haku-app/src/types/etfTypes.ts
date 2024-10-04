@@ -41,6 +41,7 @@ export interface EtfMonthlyValues {
     "5. CAGR": number;
     "6. Stdev of Returns": number;
     "7. Sharpe Ratio": number;
+    "8. Risk": string;
   };
   "Monthly Adjusted Time Series": {
     [date: string]: {
@@ -72,4 +73,12 @@ export interface EtfPageProps {
 export interface AllEtfData {
   etfProfiles: EtfProfiles;
   etfMonthlyValues: AllEtfMonthlyValues;
+}
+
+// Prop of EtfCard Component
+export interface EtfCardProps {
+  etfProfiles: EtfProfiles;
+  etfMonthlyValues: AllEtfMonthlyValues;
+  etfTicker: string;
+  path: string;
 }

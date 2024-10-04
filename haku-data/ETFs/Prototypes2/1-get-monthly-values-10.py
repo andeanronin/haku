@@ -20,7 +20,7 @@ etf_tickers = etfs_df[etfs_df["Tipo"] == "ETF"]["Nemónico"] # get list of ticke
 
 etf_tickers_list = list(etf_tickers) # pandas series --> python list
 
-etf_tickers_list_ten = etf_tickers_list[0:10]
+etf_tickers_list_ten = etf_tickers_list[0:20]
 
 
 # Where ALL etf data awill be stored 

@@ -6,7 +6,7 @@ print("Current working directory:", os.getcwd())
 
 
 
-with open("./haku-data/ETFs/Prototypes2/ten-etf-monthly-values.json", "r") as file:
+with open("./haku-data/ETFs/Prototypes2/twenty-etf-monthly-values.json", "r") as file:
     data = json.load(file) 
 
 
@@ -35,6 +35,6 @@ for etf in data:
 print(data['ARKK']["Meta Data"])
 
 # Store data in JSON file
-with open('ten-etf-monthly-values.json', 'w') as json_file:
+with open('twenty-etf-monthly-values.json', 'w') as json_file:
     json.dump(data, json_file, indent=4)
 

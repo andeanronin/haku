@@ -33,7 +33,7 @@
   margin-top: -10px;
 }
 
-.fondosMutuosTable {
+.fondos-table {
   width: 100%;
   border-collapse: separate;
   border-spacing: 0;
@@ -43,7 +43,7 @@
   color: #e0e0e0; /* sets the color of the table's text */
 }
 
-.fondosMutuosTable thead {
+.fondos-table thead {
   background: rgb(33, 42, 63);
   position: sticky;
   top: 0;
@@ -51,7 +51,7 @@
 }
 
 /* Styles for the Table Titles */
-.fondosMutuosTable thead th {
+.fondos-table thead th {
   padding: 16px 20px;
   text-align: left;
   font-size: 0.9em;
@@ -64,11 +64,11 @@
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif; /* Modern sans-serif font */
 }
 
-.fondosMutuosTable thead th:hover {
+.fondos-table thead th:hover {
   background-color: #3a5680;
 }
 
-.fondosMutuosTable tbody tr {
+.fondos-table tbody tr {
   transition: background-color 0.3s ease;
 }
 
@@ -78,16 +78,16 @@
 }
 
 /* ads different background color to every other row */
-.fondosMutuosTable tbody tr:nth-of-type(even) {
+.fondos-table tbody tr:nth-of-type(even) {
   background-color: #1e3048;
 }
 
 /* Hover effect for table rows */
-.fondosMutuosTable tbody tr:hover {
+.fondos-table tbody tr:hover {
   background-color: #2a4366;
 }
 
-.fondosMutuosTable tbody td {
+.fondos-table tbody td {
   padding: 14px 20px;
   font-size: 0.8em;
   border-bottom: 1px solid #2a3f5f;
@@ -166,23 +166,23 @@ tbody.sorting {
 
 /* Conditional color of the text in the Risk column */
 
-.fondosMutuosTable .green {
+.fondos-table .green {
   color: rgb(0, 195, 0);
 }
 
-.fondosMutuosTable .green-orange {
+.fondos-table .green-orange {
   color: rgb(255, 217, 0);
 }
 
-.fondosMutuosTable .orange {
+.fondos-table .orange {
   color: orange;
 }
 
-.fondosMutuosTable .orange-red {
+.fondos-table .orange-red {
   color: rgb(255, 89, 0);
 }
 
-.fondosMutuosTable .red {
+.fondos-table .red {
   color: red;
 }
 
@@ -239,7 +239,7 @@ tbody.sorting {
   }
 
   /* */
-  .fondosMutuosTable thead th {
+  .fondos-table thead th {
     padding: 8px;
   }
 }

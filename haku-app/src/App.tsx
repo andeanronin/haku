@@ -16,8 +16,8 @@ import FondosInversion from "./fondosInversion/fondosInversion.tsx";
 // ETFS
 import EtfFunds from "./etfs/etfs.tsx"; // main etf directory
 import EtfPage from "./etfs/EtfPage.tsx"; // etf page component
-import EtfProfilesData from "./etfs/data/ten-etf-profiles.json"; // etf profile data for etf page component
-import EtfMonthlyValuesData from "./etfs/data/ten-monthly-values-final.json"; // etf monthly values
+import EtfProfilesData from "./etfs/data/twenty-etf-profiles.json"; // etf profile data for etf page component
+import EtfMonthlyValuesData from "./etfs/data/twenty-monthly-values-final.json"; // etf monthly values
 
 // Import types for etf data
 import { EtfProfiles, AllEtfMonthlyValues } from "./types/etfTypes.ts";
