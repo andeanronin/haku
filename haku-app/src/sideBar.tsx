@@ -48,6 +48,10 @@ function SideBar({ onClose }: SideBarProps) {
         Fondos de Inversion
       </p>
       <p id="sideBar-asesorate">Asesorate</p>
+      <div id="sideBar-location">
+        <p>Location: </p>
+        <img src="/FlagOfPeru.svg" id="locationFlag" alt="peruflag" />
+      </div>
       <p id="sideBar-contacto">Contacto</p>
     </div>
   );

@@ -48,7 +48,8 @@
   margin-right: -0.5vw;
 }
 
-#navBar-asesorate {
+#navBar-singUp {
+  display: none;
   height: 30px;
   margin-left: 10px;
 }

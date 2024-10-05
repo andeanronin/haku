@@ -59,6 +59,15 @@
   text-align: center;
 }
 
+#sideBar-location {
+  display: flex;
+  align-items: center;
+}
+
+#locationFlag {
+  height: 15px;
+}
+
 /* Hide asesorate buton for now */
 #sideBar-asesorate {
   display: none;
