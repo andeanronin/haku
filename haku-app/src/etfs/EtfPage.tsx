@@ -74,12 +74,14 @@ function EtfsFundPage({ etfData, etfMonthlyValues }: EtfPageProps) {
           <div className="etfPage-infoItem">
             <h3>Riesgo (Standard Dev)</h3>
             <p>
-              {etfMonthlyValues["Meta Data"]["6. Stdev of Returns"].toFixed(2)}
+              {etfMonthlyValues["Meta Data"]["6. Stdev of Returns"]?.toFixed(2)}
             </p>
           </div>
           <div className="etfPage-infoItem">
             <h3>Risk Adjusted Returns (Sharpe)</h3>
-            <p>{etfMonthlyValues["Meta Data"]["7. Sharpe Ratio"].toFixed(3)}</p>
+            <p>
+              {etfMonthlyValues["Meta Data"]["7. Sharpe Ratio"]?.toFixed(3)}
+            </p>
           </div>
         </div>
 

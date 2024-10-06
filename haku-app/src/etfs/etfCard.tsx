@@ -23,8 +23,12 @@ function EtfCard({
   const etfStdev =
     etfMonthlyValues[etfTicker]["Meta Data"]["6. Stdev of Returns"];
 
-  const getEtfRisk = (stdev: number) => {
+  const getEtfRisk = (stdev: number | null) => {
     let etfRisk = "Low";
+
+    if (stdev === null) {
+      return "No Data";
+    }
 
     if (stdev > 0.2) {
       etfRisk = "Alto / Agresivo";
@@ -104,7 +108,7 @@ function EtfCard({
               ? "N/A"
               : etfMonthlyValues[etfTicker]["Meta Data"][
                   "7. Sharpe Ratio"
-                ].toFixed(2)}
+                ]?.toFixed(2)}
           </p>
         </div>
 

@@ -39,9 +39,9 @@ export interface EtfMonthlyValues {
     "3. Last Refreshed": string;
     "4. Time Zone": string;
     "5. CAGR": number;
-    "6. Stdev of Returns": number;
-    "7. Sharpe Ratio": number;
-    "8. Risk": string;
+    "6. Stdev of Returns": number | null;
+    "7. Sharpe Ratio": number | null;
+    "8. Risk": string | null;
   };
   "Monthly Adjusted Time Series": {
     [date: string]: {

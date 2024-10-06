@@ -21,8 +21,8 @@ function EtfTable({ etfProfiles, etfMonthlyValues }: AllEtfData) {
     } else if (column === "Sharpe") {
       return [...tickers].sort(
         (a, b) =>
-          etfMonthlyValues[b]["Meta Data"]["7. Sharpe Ratio"] -
-          etfMonthlyValues[a]["Meta Data"]["7. Sharpe Ratio"]
+          Number(etfMonthlyValues[b]["Meta Data"]["7. Sharpe Ratio"] ?? 0) -
+          Number(etfMonthlyValues[a]["Meta Data"]["7. Sharpe Ratio"] ?? 0)
       );
     } else if (column === "Dividend-Yield") {
       return [...tickers].sort(
@@ -78,7 +78,10 @@ function EtfTable({ etfProfiles, etfMonthlyValues }: AllEtfData) {
   };
 
   // Used to set the color of the return data
-  const getReturnColor = (value: number) => {
+  const getReturnColor = (value: number | null) => {
+    if (value === null) {
+      return "";
+    }
     if (value >= 0) {
       return "green";
     } else return "red";
@@ -120,7 +123,7 @@ function EtfTable({ etfProfiles, etfMonthlyValues }: AllEtfData) {
                 onClick={() => handleSortClick("Turnover")}
                 style={{ cursor: "pointer" }}
               >
-                Portfolio Turnover
+                Turnover
               </th>
               <th
                 onClick={() => handleSortClick("Dividend-Yield")}
@@ -187,7 +190,7 @@ function EtfTable({ etfProfiles, etfMonthlyValues }: AllEtfData) {
                   >
                     {etfMonthlyValues[ticker]["Meta Data"][
                       "7. Sharpe Ratio"
-                    ].toFixed(2)}
+                    ]?.toFixed(2)}
                   </td>
                 </tr>
               );
