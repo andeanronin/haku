@@ -25,6 +25,9 @@ export interface EtfProfile {
     weight: string;
   }>;
   name: string;
+  gestor: string;
+  ISIN: string;
+  logo: string;
 }
 
 // Data strucutre for data containing all etf profiles

@@ -52,7 +52,9 @@ function SideBar({ onClose }: SideBarProps) {
         <p>Location: </p>
         <img src="/FlagOfPeru.svg" id="locationFlag" alt="peruflag" />
       </div>
-      <p id="sideBar-contacto">Contacto</p>
+      <a id="sideBar-contacto" href="mailto:hakudata01@gmail.com">
+        Contacto
+      </a>
     </div>
   );
 }

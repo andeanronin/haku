@@ -57,6 +57,11 @@
 
 #sideBar-contacto {
   text-align: center;
+  color: white;
+}
+
+#sideBar-contacto:hover {
+  color: gray;
 }
 
 #sideBar-location {

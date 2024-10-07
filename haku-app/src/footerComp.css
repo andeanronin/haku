@@ -47,6 +47,8 @@
   cursor: pointer;
   transition: color 0.3s ease, transform 0.3s ease;
   position: relative;
+  color: white;
+  text-decoration: none;
 }
 
 .footerLink:hover {

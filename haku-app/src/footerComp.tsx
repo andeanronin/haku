@@ -1,17 +1,21 @@
 import "./footerComp.css";
+import { useNavigate } from "react-router-dom";
 
 function FooterComponent({ show = true }) {
   if (!show) return null;
+  const navigate = useNavigate();
 
   return (
     <footer className="footer">
       <p className="footerText">Desarrollado x Andean Rōnin</p>
       <div className="footerLinksContainer">
-        {["GitHub", "Twitter", "Contact"].map((text, index) => (
-          <p key={index} className="footerLink">
-            {text}
-          </p>
-        ))}
+        <a className="footerLink" href="https://github.com/andeanronin">
+          GitHub
+        </a>
+        <p className="footerLink">Twitter</p>
+        <a className="footerLink" href="mailto:hakudata01@gmail.com">
+          Contact
+        </a>
       </div>
     </footer>
   );
