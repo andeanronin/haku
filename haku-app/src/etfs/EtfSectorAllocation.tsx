@@ -9,7 +9,6 @@ import {
   XAxis,
   YAxis,
   Tooltip,
-  Legend,
   Cell,
 } from "recharts";
 
@@ -78,10 +77,10 @@ function EtfSectorAllocation({ data }: { data: EtfProfile }) {
               labelFormatter={(label) => `Sector: ${label}`}
             />
             <Bar dataKey="weight">
-              {filteredData.map((entry, index) => (
+              {filteredData.map((_, index) => (
                 <Cell
                   key={`cell-${index}`}
-                  fill={COLORS[index % COLORS.length]}
+                  fill={COLORS[Number(index) % COLORS.length]}
                 />
               ))}
             </Bar>

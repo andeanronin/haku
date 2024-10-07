@@ -65,11 +65,13 @@ function EtfAssetAllocationChart({ data }: { data: EtfProfile }) {
               nameKey="category"
               label
             >
-              {assetAllocationRecharts.map((entry, index) => (
+              {assetAllocationRecharts.map((_, index) => (
                 <Cell
                   key={`cell-${index}`}
                   fill={
-                    assetAllocationColors[index % assetAllocationColors.length]
+                    assetAllocationColors[
+                      Number(index) % assetAllocationColors.length
+                    ]
                   }
                 />
               ))}

@@ -22,8 +22,8 @@ function EtfCards({ etfProfiles, etfMonthlyValues }: AllEtfData) {
     } else if (column === "Sharpe") {
       return [...tickers].sort(
         (a, b) =>
-          etfMonthlyValues[b]["Meta Data"]["7. Sharpe Ratio"] -
-          etfMonthlyValues[a]["Meta Data"]["7. Sharpe Ratio"]
+          (etfMonthlyValues[b]["Meta Data"]["7. Sharpe Ratio"] ?? 0) -
+          (etfMonthlyValues[a]["Meta Data"]["7. Sharpe Ratio"] ?? 0)
       );
     } else if (column === "Dividend-Yield") {
       return [...tickers].sort(
