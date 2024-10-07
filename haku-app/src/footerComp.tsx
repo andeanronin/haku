@@ -1,9 +1,7 @@
 import "./footerComp.css";
-import { useNavigate } from "react-router-dom";
 
 function FooterComponent({ show = true }) {
   if (!show) return null;
-  const navigate = useNavigate();
 
   return (
     <footer className="footer">
