@@ -12,3 +12,9 @@
 #etfPriceChart-container {
   color: #4a69bd;
 }
+
+@media screen and (max-width: 1050px) {
+  #etfPriceChart-container {
+    width: 90%;
+  }
+}

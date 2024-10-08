@@ -11,6 +11,7 @@ import {
   Tooltip,
   Cell,
 } from "recharts";
+import { useEffect, useState } from "react";
 
 const COLORS = [
   "#8884d8",
@@ -45,6 +46,40 @@ function EtfSectorAllocation({ data }: { data: EtfProfile }) {
   // remove sectors with weight of 0 from chart
   const filteredData = sectorDataFormatted.filter((item) => item["weight"] > 0);
 
+  // Adaptive Y-axis tick font size
+  const [yAxisTick, setYAxisTick] = useState(10);
+  const [chartMargins, setChartMargins] = useState({
+    top: 20,
+    right: 50,
+    left: 80,
+    bottom: 5,
+  });
+  const [xAxisTickSize, setXaxisTickSize] = useState(14);
+
+  useEffect(() => {
+    const resizeChart = () => {
+      if (innerWidth <= 500) {
+        setYAxisTick(7);
+        setChartMargins({ top: 20, right: 30, left: 40, bottom: -5 });
+        setXaxisTickSize(9);
+      } else if (innerWidth <= 700) {
+        setYAxisTick(8);
+        setChartMargins({ top: 20, right: 30, left: 50, bottom: -5 });
+        setXaxisTickSize(10);
+      } else {
+        setYAxisTick(10);
+        setChartMargins({ top: 20, right: 40, left: 80, bottom: 5 });
+        setXaxisTickSize(14);
+      }
+    };
+
+    window.addEventListener("resize", resizeChart);
+
+    resizeChart(); // Call once to set initial size
+
+    return () => window.removeEventListener("resize", resizeChart);
+  });
+
   return (
     <div className="etfPage-chartContainer-sector">
       <h2>Sector Exposure</h2>
@@ -57,20 +92,17 @@ function EtfSectorAllocation({ data }: { data: EtfProfile }) {
         }}
       >
         <ResponsiveContainer>
-          <BarChart
-            data={filteredData}
-            layout="vertical"
-            margin={{ top: 20, right: 50, left: 80, bottom: 5 }}
-          >
+          <BarChart data={filteredData} layout="vertical" margin={chartMargins}>
             <XAxis
               type="number"
               tickFormatter={(value) => `${(value * 100).toFixed(2)}%`}
+              tick={{ fontSize: xAxisTickSize }}
             />
             <YAxis
               dataKey="sector"
               type="category"
               width={50}
-              tick={{ fontSize: 10 }}
+              tick={{ fontSize: yAxisTick }}
             />
             <Tooltip
               formatter={(value) => `${(Number(value) * 100).toFixed(2)}%`}

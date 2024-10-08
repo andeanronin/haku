@@ -96,7 +96,9 @@ function EtfsFundPage({ etfData, etfMonthlyValues }: EtfPageProps) {
         </div>
 
         {/* Etf General Data Section */}
-        <h2 style={{ color: "white" }}>Indicadores Generales del Fondo</h2>
+        <h2 id="etfPage-heading-indicadores">
+          Indicadores Generales del Fondo
+        </h2>
         <div id="etfPage-generalData">
           <div className="etfPage-infoItem">
             <h3>Net Assets</h3>

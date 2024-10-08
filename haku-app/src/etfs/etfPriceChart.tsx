@@ -10,6 +10,7 @@ import {
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
+import { useState, useEffect } from "react";
 
 interface DataPoint {
   date: string;
@@ -27,10 +28,30 @@ function EtfHistoricalValues({ data }: { data: EtfMonthlyValues }) {
       close: parseFloat(values["4. close"]),
     }))
     .reverse();
+
+  // Adapt chart size for smaller screen sizes
+  const [chartHeight, setChartHeight] = useState(400);
+
+  useEffect(() => {
+    const resizeChart = () => {
+      if (innerWidth <= 500) {
+        setChartHeight(220);
+      } else if (innerWidth <= 700) {
+        setChartHeight(300);
+      } else {
+        setChartHeight(400);
+      }
+    };
+
+    window.addEventListener("resize", resizeChart);
+
+    resizeChart();
+  });
+
   return (
     <div id="etfPriceChart-container">
       <h2>Valor Cuota Historico</h2>
-      <ResponsiveContainer width="100%" height={400}>
+      <ResponsiveContainer width="100%" height={chartHeight}>
         <AreaChart
           data={chartData}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}

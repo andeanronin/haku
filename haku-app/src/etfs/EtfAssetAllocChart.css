@@ -1,6 +1,7 @@
-/* CSS Styles for Sector Allocation Barchart */
+/* etf asset allocation */
 
-.etfPage-chartContainer-sector {
+/* FUND ASSET ALLOCAITON SECTION  */
+.etfPage-chartContainer {
   width: 45%;
   height: 350px;
   background-color: rgba(30, 36, 50);
@@ -13,25 +14,26 @@
   position: relative;
   padding: 0 2rem 0 2rem;
 }
-.etfPage-chartContainer-sector h2 {
+
+.etfPage-chartContainer h2 {
   color: #4a69bd;
 }
 
+/* Adjust for screen sizes */
 @media screen and (max-width: 1050px) {
-  .etfPage-chartContainer-sector {
-    width: 45%;
+  .etfPage-chartContainer {
     height: 300px;
   }
-  .etfPage-chartContainer-sector h2 {
+  .etfPage-chartContainer h2 {
     font-size: 22px;
   }
 }
 
 @media screen and (max-width: 700px) {
-  .etfPage-chartContainer-sector {
+  .etfPage-chartContainer {
     width: 75%;
   }
-  .etfPage-chartContainer-sector h2 {
+  .etfPage-chartContainer h2 {
     font-size: 20px;
   }
 }

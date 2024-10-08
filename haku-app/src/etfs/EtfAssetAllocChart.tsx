@@ -1,6 +1,7 @@
 // Pie Chart of Etf Asset Allocation
-
-import { useMemo } from "react";
+import "./EtfAssetAllocChart.css";
+import { useEffect, useMemo } from "react";
+import { useState } from "react";
 import { EtfProfile } from "../types/etfTypes";
 import {
   PieChart,
@@ -41,6 +42,27 @@ function EtfAssetAllocationChart({ data }: { data: EtfProfile }) {
     return formatAssetAllocation(assetAllocationData);
   }, [assetAllocationData]);
 
+  // Set chart size dynamically based on screen size
+  const [legendSize, setLegendSize] = useState("14px");
+
+  useEffect(() => {
+    const resizeChart = () => {
+      if (innerWidth <= 500) {
+        setLegendSize("10px");
+      } else if (innerWidth <= 700) {
+        setLegendSize("12px");
+      } else {
+        setLegendSize("14px");
+      }
+    };
+
+    window.addEventListener("resize", resizeChart);
+
+    resizeChart(); // Call once to set initial size
+
+    return () => window.removeEventListener("resize", resizeChart);
+  });
+
   // Create Pie Chart
   return (
     <div className="etfPage-chartContainer">
@@ -53,8 +75,8 @@ function EtfAssetAllocationChart({ data }: { data: EtfProfile }) {
           top: "40px",
         }}
       >
-        <ResponsiveContainer>
-          <PieChart width={400} height={400}>
+        <ResponsiveContainer width="100%" height="100%">
+          <PieChart>
             <Pie
               data={assetAllocationRecharts}
               cx="50%"
@@ -79,7 +101,7 @@ function EtfAssetAllocationChart({ data }: { data: EtfProfile }) {
             <Tooltip
               formatter={(value) => `${(Number(value) * 100).toFixed(2)}%`}
             />
-            <Legend />
+            <Legend wrapperStyle={{ fontSize: legendSize }} />
           </PieChart>
         </ResponsiveContainer>
       </div>

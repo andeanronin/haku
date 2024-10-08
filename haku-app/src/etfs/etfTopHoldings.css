@@ -36,3 +36,21 @@
 #etfTopHoldings-table tbody td:hover {
   background-color: rgb(122, 129, 146);
 }
+
+@media screen and (max-width: 1050px) {
+  #etfTopHoldings-container {
+    width: 90%;
+  }
+  #etfTopHoldings-container h2 {
+    font-size: 20px;
+  }
+
+  #etfTopHoldings-table thead th {
+    font-size: 12px;
+    padding: 10px;
+  }
+  #etfTopHoldings-table tbody td {
+    font-size: 12px;
+    padding: 10px;
+  }
+}

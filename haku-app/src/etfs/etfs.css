@@ -60,3 +60,24 @@
 .etfDropdown-option:hover {
   background-color: rgb(41, 49, 67);
 }
+
+@media screen and (max-width: 600px) {
+  .etfCards-filters p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .etfCards-filters p {
+    font-size: 10px;
+    margin-right: 0px;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .etfCards-filters p {
+    font-size: 10px;
+    margin-right: 0px;
+    margin-left: 0px;
+  }
+}
