@@ -83,3 +83,20 @@
 .etfPage-chartContainer h2 {
   color: #4a69bd;
 }
+
+.downloadButton {
+  background-color: #2e437c;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  height: 120px;
+  width: 350px;
+  cursor: pointer;
+  font-size: 1.3em;
+  font-family: Menlo, monospace;
+  margin: 0 30px 100px 0;
+}
+
+.downloadButton:hover {
+  background-color: #394e8a;
+}

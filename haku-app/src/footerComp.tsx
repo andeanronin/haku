@@ -10,7 +10,10 @@ function FooterComponent({ show = true }) {
         <a className="footerLink" href="https://github.com/andeanronin">
           GitHub
         </a>
-        <p className="footerLink">Twitter</p>
+        <a className="footerLink" href="https://x.com/HakuLatam">
+          {" "}
+          Twitter
+        </a>
         <a className="footerLink" href="mailto:hakudata01@gmail.com">
           Contact
         </a>
