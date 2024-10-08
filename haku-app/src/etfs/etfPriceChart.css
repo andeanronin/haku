@@ -18,3 +18,13 @@
     width: 90%;
   }
 }
+
+@media screen and (max-width: 700px) {
+  #etfPriceChart-container h2 {
+    font-size: 18px;
+  }
+
+  #etfPriceChart-container p {
+    font-size: 12px;
+  }
+}
