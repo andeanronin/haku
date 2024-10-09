@@ -43,5 +43,6 @@
 
   .about-page p {
     font-size: 8px;
+    width: 80%;
   }
 }
