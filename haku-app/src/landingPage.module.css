@@ -17,16 +17,26 @@
 
 .landingPageContent p {
   color: white;
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 10px 0;
   opacity: 0;
   animation: fadeIn 2s forwards; /* */
+  font-family: "Sixtyfour", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0;
 }
 
 /* Styles for the Bienvenido a Haku Intro Text */
 #introText {
   margin-bottom: 50px;
   font-size: 4rem;
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
 }
 
 @keyframes fadeIn {
@@ -94,6 +104,15 @@
     font-size: 1rem;
     margin: 5px;
   }
+}
+
+.landingpage2 {
+  height: 100vh;
+  display: none;
+}
+
+.landingpage2 p {
+  color: white;
 }
 
 /* PHONES */

@@ -75,7 +75,7 @@ function LandingPage() {
       <div className={landingStyles.landingcontainer}>
         <div className={landingStyles.landingPageContent}>
           <p className="fade-in" id={landingStyles.introText}>
-            Haku
+            HAKU
           </p>
           <p className="fade-in">No somos una plataforma de inversion.</p>
           <p className="fade-in">Somos un buscador de fondos.</p>
@@ -105,6 +105,14 @@ function LandingPage() {
           id="particles-js"
           className={landingStyles.particlesContainer}
         ></div>
+      </div>
+      <div className={landingStyles.landingpage2}>
+        <p>
+          Encuentra todos los Fondos Mutuos, ETFS y Fondos de Inversión del Peru
+        </p>
+        <p>Explora Alternativas</p>
+        <p>Simula tu Inversión</p>
+        <p>Descarga Datos</p>
       </div>
       <FooterComponent />
     </>

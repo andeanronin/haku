@@ -46,7 +46,7 @@ function Navbar({ show = true }) {
             alt="HakuLogo"
           ></img>
           <p onClick={() => navigate("/")} id="navBar-hakuName">
-            Haku
+            HAKU
           </p>
           <div className="search-container">
             <input

@@ -48,6 +48,7 @@ function SideBar({ onClose }: SideBarProps) {
         Fondos de Inversion
       </p>
       <p id="sideBar-asesorate">Asesorate</p>
+      <p onClick={() => navigate("/About")}>Sobre Haku</p>
       <div id="sideBar-location">
         <p>Location: </p>
         <img src="/FlagOfPeru.svg" id="locationFlag" alt="peruflag" />

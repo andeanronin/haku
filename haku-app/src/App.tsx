@@ -2,6 +2,7 @@
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./landingPage";
+import About from "./About.tsx";
 
 // Mutual Funds
 import FundPage from "./mutualFunds/fundPage.tsx";
@@ -76,6 +77,7 @@ function App() {
             );
           })}
           <Route path="/fondos-de-inversion" element={<FondosInversion />} />
+          <Route path="/About" element={<About />} />
         </Routes>
       </div>
     </Router>
