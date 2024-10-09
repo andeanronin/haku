@@ -85,6 +85,15 @@
   left: 0;
 }
 
+.landingpage2 {
+  height: 100vh;
+  display: none;
+}
+
+.landingpage2 p {
+  color: white;
+}
+
 @media screen and (max-width: 800px) {
   .landingPageContent p {
     font-size: 1.2rem;
@@ -106,19 +115,10 @@
   }
 }
 
-.landingpage2 {
-  height: 100vh;
-  display: none;
-}
-
-.landingpage2 p {
-  color: white;
-}
-
 /* PHONES */
 @media screen and (max-width: 500px) {
   .landingPageContent p {
-    font-size: 0.9rem;
+    font-size: 0.7rem;
   }
 
   .buttonsContainer {
