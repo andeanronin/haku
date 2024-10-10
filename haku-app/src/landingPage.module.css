@@ -1,18 +1,50 @@
 /* Styles for the landing page container div */
-.landingcontainer {
+
+.sectionContainer {
   height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
   position: relative;
   overflow: hidden;
 }
 
 /* Styles for landing page's content div */
 .landingPageContent {
-  text-align: center;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   z-index: 1;
-  position: absolute; /* Add this */
+  position: relative;
+}
+
+.landingPageContent h1 {
+  font-family: "Sixtyfour Convergence", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0, "XELA" 0, "YELA" 0;
+}
+
+.landingPageContent h2 {
+  font-family: "Sixtyfour", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "BLED" 0, "SCAN" 0;
+  color: rgb(191, 192, 255);
+}
+
+#landingPage2Fondos {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+#landingPage2Fondos h2 {
+  margin-left: 20px;
 }
 
 .landingPageContent p {
@@ -85,14 +117,7 @@
   left: 0;
 }
 
-.landingpage2 {
-  height: 100vh;
-  display: none;
-}
-
-.landingpage2 p {
-  color: white;
-}
+/* LANDING PAGE 2 */
 
 @media screen and (max-width: 800px) {
   .landingPageContent p {
