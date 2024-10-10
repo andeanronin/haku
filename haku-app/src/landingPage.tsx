@@ -97,8 +97,10 @@ function LandingPage() {
         <div className={landingStyles.landingPageContent}>
           <h1>20-Year Historical Data </h1>
           <div id={landingStyles.landingPage2Fondos}>
-            <h2>Fondos Mutuos - </h2>
-            <h2>ETFS -</h2>
+            <h2>Fondos Mutuos</h2>
+            <h2>-</h2>
+            <h2>ETFS</h2>
+            <h2>-</h2>
             <h2>Fondos de Inversion</h2>
           </div>
         </div>
