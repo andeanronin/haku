@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import "./Navbar.css";
 import { useNavigate } from "react-router-dom";
 import fondosData from "./mutualFunds/data/fondos-mutuos-data-4.json";
-import SideBar from "./sideBar";
+import NavDropDown from "./navDropDown.tsx";
 import { MutualFundData } from "./types/mutualFundTypes";
 
 function Navbar({ show = true }) {
@@ -89,9 +89,9 @@ function Navbar({ show = true }) {
           <div className="mainHeader-subcontainer">
             <p id="navBar-singUp">Sign-Up</p>
           </div>
+          {showSideBar && <NavDropDown onClose={() => setShowSideBar(false)} />}
         </div>
       </nav>
-      {showSideBar && <SideBar onClose={() => setShowSideBar(false)} />}
     </>
   );
 }

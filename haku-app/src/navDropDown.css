@@ -1,7 +1,7 @@
-/* SideBar Styles */
+/* Navigation DropDown Styles */
 
 /* SideBar Container Div */
-#sideBar-container {
+#navBarDropdown-container {
   background-color: rgba(
     18,
     24,
@@ -22,48 +22,28 @@
   white-space: nowrap;
   padding-top: 0px;
   border-color: 4px solid gray;
-}
-
-/* Collapsed state */
-#sideBar-container.collapsed {
-  width: 35px;
-}
-
-/* Expanded state */
-#sideBar-container.expanded {
-  width: 300px;
-}
-
-/* Hide text in collapsed state */
-.collapsed .sidebar-text {
-  opacity: 0;
-  transition: opacity 0.2s ease;
-}
-
-/* Show text in expanded state */
-.expanded .sidebar-text {
-  opacity: 1;
-  transition: opacity 0.2s ease 0.1s; /* Slight delay for better visual effect */
+  width: 280px;
 }
 
 /* Sidebar Heading Styles: logo + haku name */
-#sideBar-heading-container {
+#navBarDropdown-heading-container {
   display: flex;
+  flex-direction: row;
   align-items: center;
 }
 
-#logoHaku-sidebar {
+#logoHaku-navBarDropdown {
   height: 4vh;
   border: solid white;
   border-radius: 10px;
 }
 
-#logoHaku-sidebar:hover {
+#logoHaku-navBarDropdown:hover {
   border: solid gray;
   cursor: pointer;
 }
 
-#sideBar-container p {
+#navBarDropdown-container p {
   color: #ffffff; /* White text for contrast */
   font-family: "Sixtyfour", sans-serif;
   font-optical-sizing: auto;
@@ -77,12 +57,12 @@
   transition: background-color 0.3s ease;
 }
 
-#sideBar-container p:hover {
+#navBarDropdown-container p:hover {
   background-color: rgba(255, 255, 255, 0.1); /* Slight highlight on hover */
   cursor: pointer;
 }
 
-#sideBar-heading-container p {
+#navBarDropdown-heading-container p {
   font-size: 20px;
   font-family: "Sixtyfour Convergence", sans-serif;
   font-optical-sizing: auto;
@@ -91,16 +71,16 @@
   font-variation-settings: "BLED" 0, "SCAN" 0;
 }
 
-#sideBar-contacto {
+#navBarDropdown-contacto {
   text-align: center;
   color: white;
 }
 
-#sideBar-contacto:hover {
+#navBarDropdown-contacto:hover {
   color: gray;
 }
 
-#sideBar-location {
+#navBarDropdown-location {
   display: flex;
   align-items: center;
 }
@@ -109,31 +89,31 @@
   height: 15px;
 }
 
-.sideBar-item {
+.navBarDropdown-item {
   display: flex;
   flex-direction: row;
   align-items: center;
 }
 
 /* Ensure icons are always visible */
-.sideBar-item svg {
+.navBarDropdown-item svg {
   min-width: 24px; /* or whatever size your icons are */
   flex-shrink: 0; /* Prevents the icon from shrinking */
 }
 
 /* Hide asesorate buton for now */
-#sideBar-asesorate {
+#navBarDropdown-asesorate {
   display: none;
 }
 
 @media (max-width: 925px) {
-  #sideBar-container {
-    display: none;
+  #navBarDropdown-container {
+    display: block;
   }
 }
 
 @media (max-width: 350px) {
-  #sideBar-container {
+  #navBarDropdown-container {
     width: 200px;
   }
 }

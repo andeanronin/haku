@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import "./App.css";
 import LandingPage from "./landingPage";
 import About from "./About.tsx";
+import SideBar from "./sideBar.tsx";
 
 // Mutual Funds
 import FundPage from "./mutualFunds/fundPage.tsx";
@@ -34,6 +35,7 @@ function App() {
   return (
     <Router>
       <div className="app-container">
+        <SideBar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route

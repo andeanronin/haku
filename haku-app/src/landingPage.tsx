@@ -4,7 +4,6 @@ import { useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import FooterComponent from "./footerComp";
 import Navbar from "./Navbar";
-
 declare global {
   interface Window {
     particlesJS: any;
@@ -77,7 +76,6 @@ function LandingPage() {
   return (
     <>
       <Navbar />
-
       <div className={landingStyles.sectionContainer}>
         <div className={landingStyles.landingPageContent}>
           <p className="fade-in" id={landingStyles.introText}>
