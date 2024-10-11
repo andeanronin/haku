@@ -26,11 +26,12 @@
   height: 78vh; /* or any height that's less than your viewport */
   overflow-y: auto;
   overflow-x: auto; /* Add horizontal scrolling */
-  width: 100%; /* Set the width to 95% of the parent container */
+  width: 95%; /* Set the width to 95% of the parent container */
   margin: 0 auto; /* Center the table container */
   /*background-color: red;*/
   margin-bottom: 2%;
   margin-top: -10px;
+  margin-left: 75px;
 }
 
 .fondos-table {
@@ -241,5 +242,12 @@ tbody.sorting {
   /* */
   .fondos-table thead th {
     padding: 8px;
+  }
+}
+
+@media screen and (max-width: 925px) {
+  .table-container {
+    margin-left: 0;
+    width: 100%;
   }
 }

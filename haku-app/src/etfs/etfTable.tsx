@@ -151,6 +151,9 @@ function EtfTable({ etfProfiles, etfMonthlyValues }: AllEtfData) {
           <tbody>
             {tickers.map((ticker) => {
               const path = `/etf/${ticker}`;
+              const divYield =
+                Number(etfProfiles[ticker]["dividend_yield"]) * 100;
+
               return (
                 <tr
                   key={ticker}
@@ -163,7 +166,7 @@ function EtfTable({ etfProfiles, etfMonthlyValues }: AllEtfData) {
                   </td>
                   <td>{etfProfiles[ticker]["net_expense_ratio"]}</td>
                   <td>{etfProfiles[ticker]["portfolio_turnover"]}</td>
-                  <td>{etfProfiles[ticker]["dividend_yield"]}</td>
+                  <td>{divYield.toFixed(1)}%</td>
                   <td
                     className={getReturnColor(
                       etfMonthlyValues[ticker]["Meta Data"]["5. CAGR"]

@@ -164,6 +164,11 @@
   #logoHaku {
     display: block;
     margin-left: 3vw;
+    height: 3.5vh;
+  }
+  #navBar-hakuName {
+    margin-left: 1vw;
+    margin-right: -1vw;
   }
 
   /* subcontainer contains the stuff to the right of the search bar */

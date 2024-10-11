@@ -33,7 +33,6 @@ function FondosMutuosTable({ data }: { data: MutualFundData[] }) {
   const columnsToDisplay: (keyof MutualFundData)[] = [
     "Fondo Mutuo",
     "Administradora",
-    "Fec. Inicio Operación",
     "Moneda Cuota",
     "Valor Cuota",
     "Categoria",
