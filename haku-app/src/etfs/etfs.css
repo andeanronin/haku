@@ -44,6 +44,13 @@
   border-radius: 5px;
 }
 
+/* Styles for the reset filters butons */
+#filters-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 /* Etf Cards Filter's Dropdown Menus */
 .etf-Dropdown {
   display: none;
@@ -81,8 +88,7 @@
   .etfCards-filters {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    margin-left: 50px;
+    align-items: center;
   }
   #etfCards-filters-subcontainer {
     display: flex;
@@ -93,6 +99,13 @@
     margin-right: 0px;
     margin-bottom: 0;
     margin-top: 0;
+  }
+
+  #filters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 50px;
   }
 }
 

@@ -126,7 +126,7 @@ function EtfCards({ etfProfiles, etfMonthlyValues }: AllEtfData) {
       </div>
 
       {/* Clearing Filters */}
-      <div className="filters-container">
+      <div id="filters-container">
         {selectedSector && (
           <div className="fund-filter-reset">
             <button onClick={() => setSelectedSector(null)}>Clear</button>{" "}
