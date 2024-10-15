@@ -165,6 +165,15 @@
 
 /* PHONES */
 @media screen and (max-width: 500px) {
+  #introText {
+    font-family: "Sixtyfour", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings: "BLED" 0, "SCAN" 0;
+    color: white;
+  }
+
   .landingPageContent p {
     font-size: 0.7rem;
   }
@@ -172,11 +181,11 @@
   .landingPageContent h1 {
     font-size: 1.2rem;
     color: white;
-    font-family: "Sixtyfour", sans-serif;
+    font-family: "Orbitron", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 400;
+    font-weight: 600;
     font-style: normal;
-    font-variation-settings: "BLED" 0, "SCAN" 0;
+    color: white;
   }
 
   #landingPage2Fondos h2 {
