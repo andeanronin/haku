@@ -21,11 +21,10 @@
   color: white;
   width: 50%;
   font-size: 15px;
-  font-family: "Sixtyfour", serif;
+  font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  font-variation-settings: "BLED" 0, "SCAN" 0;
 }
 
 .particlesContainer {

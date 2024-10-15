@@ -31,6 +31,7 @@ function LandingPage() {
         "particles-js-2",
         "particles-js-3",
         "particles-js-4",
+        "particles-js-5",
       ].forEach((containerId) => {
         window.particlesJS(containerId, {
           particles: {
@@ -94,6 +95,7 @@ function LandingPage() {
       <div className={landingStyles.sectionContainer}>
         <div className={landingStyles.landingPageContent}>
           <h1>20-Year Historical Data </h1>
+
           <div id={landingStyles.landingPage2Fondos}>
             <h2>Fondos Mutuos</h2>
             <h2>-</h2>
@@ -140,12 +142,23 @@ function LandingPage() {
 
       <div className={landingStyles.sectionContainer}>
         <div className={landingStyles.landingPageContent}>
+          <h1>Todos Los Fondos del Peru</h1>
+          <h1>En un Solo Lugar</h1>
+        </div>
+        <div
+          id="particles-js-4"
+          className={landingStyles.particlesContainer}
+        ></div>
+      </div>
+
+      <div className={landingStyles.sectionContainer}>
+        <div className={landingStyles.landingPageContent}>
           <h1>Descarga Datos</h1>
           <h1>&</h1>
           <h1>Arma tu Portafolio</h1>
         </div>
         <div
-          id="particles-js-4"
+          id="particles-js-5"
           className={landingStyles.particlesContainer}
         ></div>
       </div>

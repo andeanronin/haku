@@ -122,9 +122,20 @@
   box-shadow: 0 6px 12px rgba(20, 165, 255, 0.3);
 }
 
+#fundSquare-heading-container {
+  display: flex;
+  align-items: center;
+}
+#fundSquare-image {
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
 .fundSquare h3 {
   font-size: 1.1rem;
   color: #4a69bd;
+  text-align: start;
 }
 .fundSquare p {
   color: rgb(255, 255, 255);
@@ -227,7 +238,7 @@
   }
 }
 
-/* SMALL TABLETS - LARGE PHONES  */
+/* SMALL TABLETS  */
 @media screen and (max-width: 600px) {
   /* FUND FILTERS */
   .filtrosContainer p {
@@ -272,55 +283,8 @@
   }
 }
 
-/* PHONES NORMAL - SMALL */
-@media screen and (max-width: 421px) {
-  /* FILTERS DIV */
-
-  .filtrosContainer p {
-    padding: 1px;
-    font-size: 10.5px;
-  }
-
-  /* FILTER RESETS */
-  .fund-filter-reset {
-    margin-right: 3px;
-    margin-bottom: 0px;
-  }
-
-  .fund-filter-reset p {
-    font-size: 0.55rem;
-    margin-left: 3px;
-  }
-
-  .fund-filter-reset button {
-    height: auto;
-    padding: 4px 6px; /* Reduce padding */
-    font-size: 0.5rem;
-    border-radius: 4px; /* Optionally reduce border radius */
-  }
-
-  /* SQUARES */
-  .fundSquare {
-    margin: 8px;
-  }
-
-  .fundSquare h3 {
-    font-size: 0.6rem;
-  }
-
-  .fundSquare p {
-    font-size: 0.4rem;
-  }
-
-  .fundSquare {
-    padding: 15px;
-    padding-top: 5px;
-    width: 35%;
-  }
-}
-
-/* PHONES VERY SMALL */
-@media screen and (max-width: 350px) {
+/* PHONES  */
+@media screen and (max-width: 450px) {
   .filtrosContainer {
     display: flex;
     flex-direction: column;
@@ -334,24 +298,31 @@
 
   .filtrosContainer p {
     padding: 0px;
-    font-size: 10px;
+    font-size: 14px;
   }
 
   /* Reset Filter Styles */
+  .filters-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 150px;
+  }
   .fund-filter-reset {
     margin-right: 3px;
     margin-bottom: 0px;
+    margin-top: 1px;
   }
 
   .fund-filter-reset p {
-    font-size: 0.4rem;
+    font-size: 12px;
     margin-left: 2px;
   }
 
   .fund-filter-reset button {
     height: auto;
     padding: 3px 5px; /* Reduce padding */
-    font-size: 0.4rem;
+    font-size: 14px;
     border-radius: 4px; /* Optionally reduce border radius */
   }
 

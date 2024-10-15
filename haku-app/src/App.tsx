@@ -25,12 +25,38 @@ import EtfMonthlyValuesData from "./etfs/data/etfs-monthly-values-final.json"; /
 import { EtfProfiles, AllEtfMonthlyValues } from "./types/etfTypes.ts";
 
 // Store imported data into variables with explicit types (for type security)
-const etfProfilesData: EtfProfiles = EtfProfilesData;
+const typedEtfProfilesData: EtfProfiles = EtfProfilesData;
 const allEtfMonthlyValues: AllEtfMonthlyValues =
   EtfMonthlyValuesData as AllEtfMonthlyValues;
 
-const etfTickers = Object.keys(etfProfilesData);
+const etfTickers = Object.keys(typedEtfProfilesData);
 
+// GESTORES SECTION
+import GestoresPage from "./gestores/gestores.tsx";
+import GestorPage from "./gestores/gestorPage.tsx";
+import { AdminType } from "./types/gestoresTypes.ts";
+
+// Array of fund administrators (unique values)
+const mutualFundAdmins: Set<AdminType> = new Set(
+  fundData.map((item) => item.Administradora)
+);
+
+// Set of etf administrators (unique values)
+let etfAdmins: Set<AdminType> = new Set();
+for (const etf in typedEtfProfilesData) {
+  const gestor = typedEtfProfilesData[etf]["gestor"];
+  etfAdmins.add(gestor);
+}
+
+// Merge Sets
+const mergedAdminList: Set<AdminType> = new Set([
+  ...etfAdmins,
+  ...mutualFundAdmins,
+]);
+console.log(mergedAdminList);
+const mergedAdminArray: AdminType[] = Array.from(mergedAdminList);
+
+// Render App
 function App() {
   return (
     <Router>
@@ -58,7 +84,7 @@ function App() {
             path="/etf"
             element={
               <EtfFunds
-                etfProfiles={etfProfilesData}
+                etfProfiles={typedEtfProfilesData}
                 etfMonthlyValues={allEtfMonthlyValues}
               />
             }
@@ -71,7 +97,7 @@ function App() {
                 path={path}
                 element={
                   <EtfPage
-                    etfData={etfProfilesData[ticker]}
+                    etfData={typedEtfProfilesData[ticker]}
                     etfMonthlyValues={allEtfMonthlyValues[ticker]}
                   />
                 }
@@ -80,6 +106,19 @@ function App() {
           })}
           <Route path="/fondos-de-inversion" element={<FondosInversion />} />
           <Route path="/About" element={<About />} />
+          <Route
+            path="/gestores"
+            element={<GestoresPage adminList={mergedAdminArray} />}
+          />
+          {mergedAdminArray.map((gestor) => {
+            const path = `/gestores/${gestor}`;
+            return (
+              <Route
+                path={path}
+                element={<GestorPage nombreGestor={gestor} />}
+              />
+            );
+          })}
         </Routes>
       </div>
     </Router>

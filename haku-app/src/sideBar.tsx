@@ -8,6 +8,7 @@ import {
   ChartNoAxesCombined,
   Info,
   Globe,
+  Building2,
 } from "lucide-react";
 
 function SideBar() {
@@ -48,6 +49,13 @@ function SideBar() {
           onClick={() => navigate("/fondos-de-inversion")}
         >
           Fondos de Inversion
+        </p>
+      </div>
+
+      <div className="sideBar-item">
+        <Building2 color="white" />
+        <p className="sidebar-text" onClick={() => navigate("/gestores")}>
+          Gestores
         </p>
       </div>
 

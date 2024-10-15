@@ -1,0 +1,49 @@
+#etfCard-heading {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#etfCard-heading h3 {
+  font-size: 14px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+}
+
+#etfCard-logo {
+  height: 50px;
+  border-radius: 50px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 1050px) {
+  #etfCard-logo {
+    height: 40px;
+    margin-right: 5px;
+  }
+  #etfCard-heading h3 {
+    font-size: 12px;
+  }
+}
+
+/* Tablets */
+@media screen and (max-width: 600px) {
+  #etfCard-logo {
+    height: 35px;
+  }
+  #etfCard-heading h3 {
+    font-size: 10px;
+  }
+}
+
+/* Phones */
+@media screen and (max-width: 450px) {
+  #etfCard-logo {
+    height: 50px;
+  }
+  #etfCard-heading h3 {
+    font-size: 14px;
+  }
+}

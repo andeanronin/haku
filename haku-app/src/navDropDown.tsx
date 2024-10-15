@@ -9,6 +9,7 @@ import {
   ChartNoAxesCombined,
   Info,
   Globe,
+  Building2,
 } from "lucide-react";
 
 interface SideBarProps {
@@ -75,6 +76,16 @@ function NavDropDown({ onClose }: SideBarProps) {
           onClick={() => navigate("/fondos-de-inversion")}
         >
           Fondos de Inversion
+        </p>
+      </div>
+
+      <div className="navBarDropdown-item">
+        <Building2 color="white" />
+        <p
+          className="navBarDropdown-text"
+          onClick={() => navigate("/gestores")}
+        >
+          Gestores
         </p>
       </div>
 

@@ -92,35 +92,37 @@ function EtfCards({ etfProfiles, etfMonthlyValues }: AllEtfData) {
       {/* Etf Card Filters */}
       <div className="etfCards-filters">
         <p>Filtrar por:</p>
-        <p>
-          Sector
-          <div className="etf-Dropdown">
-            {sectorsArray.map((sector) => (
-              <div
-                className="etfDropdown-option"
-                onClick={() => setSelectedSector(sector)}
-              >
-                {sector}
-              </div>
-            ))}
-          </div>
-        </p>
-        <p onClick={() => handleSortClick("Retorno")}>Retorno</p>
-        <p onClick={() => handleSortClick("Sharpe")}>Retorno x Riesgo</p>
-        <p>
-          Riesgo
-          <div className="etf-Dropdown">
-            {uniqueRiskTypes.map((riskType) => (
-              <div
-                key={riskType}
-                className="etfDropdown-option"
-                onClick={() => setSelectedRisk(riskType)}
-              >
-                {riskType}
-              </div>
-            ))}
-          </div>
-        </p>
+        <div id="etfCards-filters-subcontainer">
+          <p>
+            Sector
+            <div className="etf-Dropdown">
+              {sectorsArray.map((sector) => (
+                <div
+                  className="etfDropdown-option"
+                  onClick={() => setSelectedSector(sector)}
+                >
+                  {sector}
+                </div>
+              ))}
+            </div>
+          </p>
+          <p onClick={() => handleSortClick("Retorno")}>Retorno</p>
+          <p onClick={() => handleSortClick("Sharpe")}>Retorno x Riesgo</p>
+          <p>
+            Riesgo
+            <div className="etf-Dropdown">
+              {uniqueRiskTypes.map((riskType) => (
+                <div
+                  key={riskType}
+                  className="etfDropdown-option"
+                  onClick={() => setSelectedRisk(riskType)}
+                >
+                  {riskType}
+                </div>
+              ))}
+            </div>
+          </p>
+        </div>
       </div>
 
       {/* Clearing Filters */}

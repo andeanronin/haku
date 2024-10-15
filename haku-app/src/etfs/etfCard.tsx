@@ -1,6 +1,7 @@
 // etf card
 import { useNavigate } from "react-router-dom";
 import { EtfCardProps } from "../types/etfTypes";
+import "./etfCard.css";
 const getReturnColor = (value: number | null) => {
   /*
     Input: the value of a fund's annual return data point 
@@ -69,7 +70,13 @@ function EtfCard({
       //key={path}
       onClick={() => navigate(path)}
     >
-      <h3>{etfProfiles[etfTicker]["name"]}</h3>
+      <div id="etfCard-heading">
+        <img
+          src={`/logosGestoresEtfs/${etfProfiles[etfTicker]["logo"]}`}
+          id="etfCard-logo"
+        ></img>
+        <h3>{etfProfiles[etfTicker]["name"]}</h3>
+      </div>
       <div className="fundSquare-data-container">
         {/* Sector Principal */}
         <div className="fundSquare-data-div">

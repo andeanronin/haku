@@ -162,9 +162,9 @@
 /* RESPONSIVE DESIGN */
 @media (max-width: 925px) {
   #logoHaku {
-    display: block;
+    display: block; /* make the logo appear */
     margin-left: 3vw;
-    height: 3.5vh;
+    height: 5vh;
   }
   #navBar-hakuName {
     margin-left: 1vw;
@@ -226,9 +226,5 @@
 
   .search-results li {
     font-size: 11px;
-  }
-
-  #logoHaku {
-    height: 5vh;
   }
 }

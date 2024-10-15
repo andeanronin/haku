@@ -45,12 +45,11 @@
 
 #navBarDropdown-container p {
   color: #ffffff; /* White text for contrast */
-  font-family: "Sixtyfour", sans-serif;
+  font-family: "Orbitron", sans-serif;
   font-optical-sizing: auto;
-  font-weight: 400;
+  font-weight: 500;
   font-style: normal;
-  font-variation-settings: "BLED" 0, "SCAN" 0;
-  font-size: 12px;
+  font-size: 14px;
   margin: 10px 0;
   padding: 10px;
   border-radius: 5px;

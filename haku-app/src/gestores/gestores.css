@@ -1,0 +1,66 @@
+/* */
+
+#GestoresPageContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 3rem;
+}
+
+#GestoresPageContainer h1 {
+  color: white;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+#GestoresCards-container {
+  width: 80%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+#GestoresCards-container h2 {
+  color: #4a69bd;
+}
+
+.gestorCard {
+  background-color: rgba(30, 36, 50);
+  text-align: center;
+  border-radius: 10px;
+}
+
+.gestorCard:hover {
+  background-color: rgb(41, 49, 67);
+  transform: translateY(-5px);
+  box-shadow: 0 6px 12px rgba(20, 165, 255, 0.3);
+  cursor: pointer;
+}
+
+/* adjustemnts for Tablets */
+@media screen and (max-width: 800px) {
+  #GestoresCards-container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* adjustemnts for phones */
+@media screen and (max-width: 450px) {
+  #GestoresPageContainer h1 {
+    font-size: 22px;
+    margin-top: 1.5rem;
+  }
+
+  #GestoresCards-container {
+    display: flex;
+    flex-direction: column;
+  }
+  #GestoresCards-container h2 {
+    font-size: 18px;
+  }
+}

@@ -5,13 +5,11 @@ The user can scroll this page to explore mutual funds.
 
 import fundData from "./data/fondos-mutuos-data-4.json";
 import "./fondosMutuosSquares.css";
-import { useNavigate } from "react-router-dom";
 import { useState, useEffect, useMemo } from "react";
 import AdminPopup from "./adminPopup";
+import FondoMutuoCard from "./fondoMutuoCard";
 
 function FundList() {
-  const navigate = useNavigate();
-
   const [data, setData] = useState(fundData);
 
   const [showCurrencyDropdown, setShowCurrencyDropdown] = useState(false);
@@ -85,33 +83,6 @@ function FundList() {
 
   const resetRiskFilter = () => {
     setSelectedRisk(null);
-  };
-
-  const getReturnColor = (value: number | null) => {
-    /*
-    Input: the value of a fund's annual return data point 
-    Output: a string - 'positive' or 'negative', to set the class of the <td> element. 
-    */
-    if (value === null) {
-      return undefined;
-    }
-    return value >= 0 ? "positive" : "negative";
-  };
-
-  const getRiskColor = (value: string | null) => {
-    if (value === null) {
-      return undefined;
-    } else if (value === "Low") {
-      return "green";
-    } else if (value === "Medium Low") {
-      return "green-orange";
-    } else if (value === "Medium") {
-      return "orange";
-    } else if (value === "Medium High") {
-      return "orange-red";
-    } else {
-      return "red";
-    }
   };
 
   // FILTERED DATA CONTROL FOR ADMINISTRATOR & CURRENCY & FUND TYPE
@@ -247,59 +218,11 @@ function FundList() {
           )}
         </div>
 
-        {/* Container of all the fund boxes  */}
+        {/* Container with all Mutual Fund CARDS  */}
         <div className="fundExploreContainer">
           {data.map((fund) => {
             const path = `/fund/${fund["Fund id"]}`;
-            return (
-              <div
-                className="fundSquare"
-                key={path}
-                onClick={() => navigate(path)}
-              >
-                <h3>{fund["Fondo Mutuo"]}</h3>
-                <div className="fundSquare-data-container">
-                  {/* Gestor */}
-                  <div className="fundSquare-data-div">
-                    <p style={{ fontWeight: "bold" }}>Gestor</p>
-                    <p>{fund["Administradora"]}</p>
-                  </div>
-
-                  {/* Tipo de Fondo */}
-                  <div className="fundSquare-data-div">
-                    <p style={{ fontWeight: "bold" }}>Tipo De Fondo</p>
-                    <p>{fund["Categoria"]}</p>
-                  </div>
-
-                  {/* Retorno  (CAGR) */}
-                  <div className="fundSquare-data-div">
-                    <p style={{ fontWeight: "bold" }}>Retorno Histórico</p>{" "}
-                    <p className={getReturnColor(fund["CAGR"])}>
-                      {" "}
-                      {fund["CAGR"] === null
-                        ? "N/A"
-                        : `${(fund["CAGR"] * 100).toFixed(2)} %`}
-                    </p>
-                  </div>
-
-                  {/* Valor Cuota */}
-                  <div className="fundSquare-data-div">
-                    <p style={{ fontWeight: "bold" }}>Valor Cuota</p>{" "}
-                    <p>
-                      {fund["Valor Cuota"] === 0 ? "N/A" : fund["Valor Cuota"]}
-                    </p>
-                  </div>
-
-                  {/* Riesgo */}
-                  <div className="fundSquare-data-div">
-                    <p style={{ fontWeight: "bold" }}>Riesgo</p>{" "}
-                    <p className={getRiskColor(fund["Risk"])}>
-                      {fund["Risk"] === null ? "N/A" : fund["Risk"]}
-                    </p>
-                  </div>
-                </div>
-              </div>
-            );
+            return <FondoMutuoCard path={path} fund={fund} />;
           })}
         </div>
       </div>

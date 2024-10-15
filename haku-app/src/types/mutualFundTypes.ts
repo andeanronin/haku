@@ -36,3 +36,8 @@ export interface MutualFundData {
   Logo: string;
   [key: string]: string | number | null; // Index signature for dynamic access
 }
+
+export interface FondoMutuoCardProps {
+  path: string;
+  fund: MutualFundData;
+}
