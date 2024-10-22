@@ -1,5 +1,11 @@
-# Get the Standard Deviations of Returns of all Etf funds
+"""
+This script calculates the Standard Deviations of Returns of all Etf funds and adds it to the monthly values JSON
+Input: etf-yearly-returns.csv
+Output: 
+- etf-standard-deviations.csv 
+- etfs-monthly-values.json with Stdev in meta data
 
+"""
 import pandas as pd
 import json
 import math

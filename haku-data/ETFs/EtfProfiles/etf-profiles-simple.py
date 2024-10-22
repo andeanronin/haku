@@ -1,7 +1,9 @@
-# Alpha vantage request through Rapid Api
 
 """
-Example Output: 
+Request RAW ETF profile from Alhpha vantage 
+
+Input: ETFs-BVL.xlsx (list of etfs in BVL)
+Output: etfs-profiles.json
 {
     "ARKK : {etf profile },
     "iShares500" : {etf profile}
@@ -25,7 +27,7 @@ load_dotenv()
 rapid_api_key = os.getenv("RAPID_API_ALPHA_VANTAGE")
 
 # Read excel containing list of ETFs in the BVL
-etfs_df = pd.read_excel("haku-data/ETFs/ETFs-BVL.xlsx", sheet_name=0, header=0)
+etfs_df = pd.read_excel("haku-data/ETFs/EtfProfiles/ETFs-BVL.xlsx", sheet_name=0, header=0)
 etf_tickers = etfs_df[etfs_df["Tipo"] == "ETF"]["Nemónico"] # get likst of tickers
 etf_names = etfs_df[etfs_df["Tipo"] == "ETF"]["Nombre"] # get list of names
 

@@ -1,8 +1,11 @@
-# Get table with monthly values of all etfs
+"""
+Get TABLE with monthly values of all etfs form Alpha Vantage API
+Input: ETFs-BVL.xlsx (excel sheet with the ETF tickers)
+Output: etf-monthly-values-table.csv (raw csv table with monthly values for each ETF ) 
+"""
 import os
 import pandas as pd
 import requests
-import json 
 from dotenv import load_dotenv
 import time
 from io import BytesIO  # Added import for BytesIO

@@ -1,11 +1,31 @@
 # Alpha vantage request through Rapid Api
 
 """
-Example Output: 
+Calls ETF Profiles from Alpha Vantage and adds additional ETF data (name, isin, ticker, manager, logo)
+
+Input: etfs-peru-list.csv (list of ETFs in BVL containing: Name, ISIN, Ticker, Fund Manager, Logo)
+
+Output: etfs-profiles.json 
 {
-    "ARKK : {etf profile },
-    "iShares500" : {etf profile}
+    "ETF TICKER" : {etf profile}
+    "ARKK" : {
+        "net_assets": "5665000000",
+        "net_expense_ratio": "0.0075",
+        "portfolio_turnover": "0.26",
+        "dividend_yield": "0.0",
+        "inception_date": "2014-10-31",
+        "leveraged": "NO",
+        "asset allocation" : {}, 
+        "sectors" : [{}, {}], 
+        "holdings" : [{}, {}]},
+        "name": "ARK INNOVATION ETF",
+        "gestor": "Ark",
+        "ISIN": "US00214Q1040",
+        "logo": "logoArk.png"
+        },
+    "iShares500 : {etf profile }
 }
+
 """
 
 import os

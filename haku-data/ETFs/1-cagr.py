@@ -1,5 +1,8 @@
-# Get CAGR for All Etfs
-
+"""
+This script adds CAGR to the JSON file with the monthly values.
+Input: etf-monthly-values.json
+Output: etf-monthly-values.json with CAGR metric in meta data
+"""
 import pandas as pd
 import json
 from datetime import datetime

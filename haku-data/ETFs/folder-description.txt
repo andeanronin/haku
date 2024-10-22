@@ -1,0 +1,6 @@
+This folder contains python scripts that 
+    - get etf data ( profiles & monthly values) from the alpha vantage api
+    - clean it
+    - do operations on it to get additional data
+    - Output: JSON file used for Haku-App front-end
+

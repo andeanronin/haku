@@ -1,10 +1,10 @@
-# etf monthly values 
-
-# This script gests the monthly values of ALL the ETFs in the BVL from the Alpha Vantage API
-# Outputs a JSON file containing "ETF Ticker" : {data}
-
 """
-Example Output: 
+This script gets the monthly values of ALL the ETFs in the BVL from the Alpha Vantage API
+Outputs a JSON file containing "ETF Ticker" : {data}
+
+Input: ETFs-BVL.xsls (excel with the list of ETFs in the BVL)
+
+Output: etfs-monthly-values.json
 {
     "ARKK : {monthly values},
     "iShares500" : {monthly values}

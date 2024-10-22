@@ -12,6 +12,8 @@ build/
 # Environment variables
 .env
 
+# Big query id info
+bigquery-service-key.json
 # Poetry
 .venv/
 

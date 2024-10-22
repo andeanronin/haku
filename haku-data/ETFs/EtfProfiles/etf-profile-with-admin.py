@@ -1,6 +1,5 @@
 # etf profiles with fund administrator
 
-
 import os
 import pandas as pd
 import requests
@@ -18,7 +17,7 @@ load_dotenv()
 rapid_api_key = os.getenv("RAPID_API_ALPHA_VANTAGE")
 
 # Read excel containing list of ETFs in the BVL
-etfs_df = pd.read_csv("haku-data/ETFs/etfs-peru-list.csv")
+etfs_df = pd.read_csv("haku-data/ETFs/EtfProfiles/etfs-peru-list.csv")
 print(etfs_df.head()) 
 
 etf_tickers = etfs_df["Nemonico"] # get list of tickers

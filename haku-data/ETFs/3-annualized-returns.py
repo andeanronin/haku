@@ -1,4 +1,9 @@
 # Annualized returns table
+"""
+This script gets the monthly values table and outputs a table where each row is the yearly return of an ETF. 
+Input: monthly-values-table.csv 
+Output: etf-yearly-returns.csv 
+"""
 
 import pandas as pd
 

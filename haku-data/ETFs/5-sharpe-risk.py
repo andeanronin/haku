@@ -1,3 +1,8 @@
+"""
+This script calculates the sharpe ratio of each ETF and adds a risk category to each etf
+Input: etfs-monthly-values.json
+Output: etfs-monthly-values-final.json with sharpe ratio & etf category
+"""
 import json
 
 # Import monthly values file 
