@@ -18,6 +18,9 @@ bigquery-service-key.json
 # Poetry
 .venv/
 
+# Ignore database files
+db/
+
 # Node.js
 node_modules/
 
