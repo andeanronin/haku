@@ -1,0 +1,188 @@
+bond_key,emisor,sector,valor,programa,emision,serie,fecha_colocacion,fecha_vencimiento,plazo,tasa_interes,monto_circulacion,moneda
+1 ,Administradora Jockey Plaza Shopping Center S.A.,Diversas,Bonos Corporativos,1er.,1ra.,A,12/17/2015,12/22/2030,15 años,7.09%,"  97,359,000.00 ",US$
+2 ,Administradora Jockey Plaza Shopping Center S.A.,Diversas,Bonos Corporativos,1er.,2da.,A,12/17/2015,12/22/2030,15 años,9.16%,"  32,000,000.00 ",S/
+3 ,Administradora Jockey Plaza Shopping Center S.A.,Diversas,Bonos Corporativos,1er.,3ra.,A,7/21/2016,7/22/2031,15 años,7.75%,"  100,000,000.00 ",S/
+4 ,Agrícola y Ganadera Chavín de Huántar S.A.,Agrario,Instrumentos de Corto Plazo,2do.,3ra.,E,2/1/2024,10/31/2024,272 dias,6.97%,"  641,000.00 ",US$
+5 ,Agrícola y Ganadera Chavín de Huántar S.A.,Agrario,Instrumentos de Corto Plazo,2do.,3ra.,F,5/9/2024,2/6/2025,272 dias,6.50%,"  500,000.00 ",US$
+6 ,Agrícola y Ganadera Chavín de Huántar S.A.,Agrario,Instrumentos de Corto Plazo,2do.,3ra.,G,8/8/2024,5/8/2025,272 dias,6.50%,"  1,000,000.00 ",US$
+7 ,Alicorp S.A.A.,Industriales,Bonos Corporativos,3er.,2da.,A,1/21/2015,1/22/2030,15 años,7.00%,"  500,000,000.00 ",S/
+8 ,Alicorp S.A.A.,Industriales,Bonos Corporativos,1er.,1ra.,A,10/24/2018,10/25/2024,6 años,6.50%,"  219,790,000.00 ",S/
+9 ,Alicorp S.A.A.,Industriales,Bonos Corporativos,1er.,3ra.,A,12/20/2023,12/21/2035,12 años,8.09%,"  175,000,000.00 ",S/
+10 ,Alicorp S.A.A.,Industriales,Instrumentos de Corto Plazo,1er.,3ra.,A,12/20/2023,12/16/2024,1 año,6.34%,"  125,000,000.00 ",S/
+11 ,Alicorp S.A.A.,Industriales,Bonos Corporativos - 144A,Senior Notes,Tramo local,,4/10/2019,4/17/2027,8 años,6.88%,,S/
+12 ,Banco BCI Perú S.A.,Bancos y Financieras,Certificados de Depósito Negociables,1er.,1ra.,A,4/10/2024,4/6/2025,1 año,5.56%,"  150,000,000.00 ",S/
+13 ,Banco de la Nación,Bancos y Financieras,Bonos Subordinados,1er.,1ra.,A,11/29/2016,11/30/2031,15 años,8.00%,"  250,000,000.00 ",S/
+14 ,Banco Pichincha,Bancos y Financieras,Bonos Corporativos,1er.,1ra.,A,4/4/2013,4/5/2026,13 años,6.90%,"  70,000,000.00 ",S/
+15 ,Banco Pichincha,Bancos y Financieras,Bonos Subordinados,1er.,1ra.,A,7/19/2013,7/22/2028,15 años,8.50%,"  25,000,000.00 ",S/
+16 ,Banco Falabella Perú S.A.,Bancos y Financieras,Certificados de Depósito Negociables,6to.,2da.,G,9/13/2023,9/8/2024,1 año,7.84%,,S/
+17 ,Banco Falabella Perú S.A.,Bancos y Financieras,Certificados de Depósito Negociables,6to.,2da.,H,11/15/2023,11/10/2024,1 año,7.34%,"  60,000,000.00 ",S/
+18 ,Banco Falabella Perú S.A.,Bancos y Financieras,Certificados de Depósito Negociables,6to.,2da.,I,12/18/2023,12/13/2024,1 año,6.72%,"  70,000,000.00 ",S/
+19 ,Banco Falabella Perú S.A.,Bancos y Financieras,Certificados de Depósito Negociables,6to.,2da.,J,4/17/2024,4/13/2025,1 año,5.53%,"  60,000,000.00 ",S/
+20 ,Banco Falabella Perú S.A.,Bancos y Financieras,Certificados de Depósito Negociables,6to.,2da.,K,6/26/2024,6/22/2025,1 año,5.44%,"  50,780,000.00 ",S/
+21 ,Banco Falabella Perú S.A.,Bancos y Financieras,Certificados de Depósito Negociables,7mo.,1ra.,C,1/18/2024,1/13/2025,1 año,6.22%,"  50,000,000.00 ",S/
+22 ,Banco GNB Peru S.A.,Bancos y Financieras,Bonos Subordinados,1er.,1ra.,A,10/26/2016,10/27/2026,10 años,5.44%,"  15,006,000.00 ",US$
+23 ,Banco GNB Peru S.A.,Bancos y Financieras,Certificados de Depósito Negociables,3er.,1ra.,A,3/21/2024,3/17/2025,1 año,5.59%,"  80,000,000.00 ",S/
+24 ,Banco GNB Peru S.A.,Bancos y Financieras,Certificados de Depósito Negociables,3er.,1ra.,B,5/16/2024,5/12/2025,1 año,5.50%,"  80,000,000.00 ",S/
+25 ,Banco GNB Peru S.A.,Bancos y Financieras,Certificados de Depósito Negociables,3er.,1ra.,C,9/18/2024,9/14/2025,1 año,4.88%,"  100,000,000.00 ",S/
+26 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Bonos Subordinados,2do.,1ra.,A,6/11/2015,6/12/2025,10 años,5.30%,"  25,500,000.00 ",S/
+27 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Bonos Subordinados,2do.,2da.,A,10/25/2017,10/26/2027,10 años,5.90%,"  7,000,000.00 ",US$
+28 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Bonos Subordinados,2do.,2da.,B,11/22/2017,11/23/2027,10 años,5.70%,"  15,000,000.00 ",US$
+29 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Bonos Subordinados,2do.,3ra.,B,1/25/2017,1/26/2025,8 años,Libor 6 Meses + 3.5%,"  8,800,000.00 ",US$
+30 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Bonos Subordinados,2do.,3ra.,C,10/11/2017,10/12/2025,8 años,Libor 6 Meses + 3.4%,"  7,400,000.00 ",US$
+31 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Bonos Subordinados,3er.,2da.,A,2/27/2019,2/28/2029,10 años,7.06%,"  98,698,000.00 ",S/
+32 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Bonos Subordinados,3er.,3ra.,A,10/22/2019,10/23/2029,10 años,5.91%,"  98,008,000.00 ",S/
+33 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Certificados de Depósito Negociables,5to.,1ra.,A,4/16/2024,4/12/2025,1 año,5.53%,"  140,000,000.00 ",S/
+34 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Certificados de Depósito Negociables,5to.,1ra.,B,5/14/2024,5/10/2025,1 año,5.50%,"  100,000,000.00 ",S/
+35 ,Banco Interamericano de Finanzas- Banbif ,Bancos y Financieras,Certificados de Depósito Negociables,5to.,1ra.,C,8/7/2024,8/3/2025,1 año,5.22%,"  120,000,000.00 ",S/
+36 ,Banco Ripley Perú S.A.,Bancos y Financieras,Certificados de Depósito Negociables,6to.,1ra.,G,11/13/2023,11/8/2024,1 año,7.81%,"  29,172,000.00 ",S/
+37 ,Banco Santander Perú S.A.,Bancos y Financieras,Bonos Corporativos,1er.,2da.,UNICA,12/16/2020,12/17/2025,5 años,2.66%,"  56,100,000.00 ",S/
+38 ,Banco BBVA Perú,Bancos y Financieras,Bonos Corporativos,5to.,2da.,A,12/16/2011,12/19/2026,15 años,7.47%,"  150,000,000.00 ",S/
+39 ,Banco BBVA Perú,Bancos y Financieras,Bonos Corporativos,7mo.,2da.,C,12/5/2019,12/6/2024,5 años,4.44%,"  96,550,000.00 ",S/
+40 ,Banco BBVA Perú,Bancos y Financieras,Bonos Subordinados,2do.,2da.,A,11/16/2007,11/16/2032,25 años,VAC + 3.5625%,"  50,000,000.00 ",S/
+41 ,Banco BBVA Perú,Bancos y Financieras,Bonos Subordinados,2do.,3ra.,A,2/27/2008,2/27/2028,20 años,6.47%,"  20,000,000.00 ",US$
+42 ,Banco BBVA Perú,Bancos y Financieras,Bonos Subordinados,2do.,6ta.,A,12/12/2008,12/15/2033,25 años,VAC + 4.1875%,"  30,000,000.00 ",S/
+43 ,Banco BBVA Perú,Bancos y Financieras,Bonos Subordinados,3er.,1ra.,UNICA,10/1/2013,10/2/2028,15 años,6.53%,"  45,000,000.00 ",US$
+44 ,Banco BBVA Perú,Bancos y Financieras,Bonos Subordinados,1er.,3ra.,A,6/15/2007,6/15/2032,25 años,VAC + 3.4688%,"  55,000,000.00 ",S/
+45 ,Bosques Amazónicos S.A.C.,Diversas,Instrumentos de Corto Plazo,3er.,1ra.,A,10/19/2023,10/14/2024,1 año,8.00%,"  3,404,000.00 ",US$
+46 ,Bosques Amazónicos S.A.C.,Diversas,Instrumentos de Corto Plazo,3er.,1ra.,B,12/20/2023,12/15/2024,1 año,8.00%,"  2,386,000.00 ",US$
+47 ,Bosques Amazónicos S.A.C.,Diversas,Instrumentos de Corto Plazo,3er.,1ra.,C,7/18/2024,7/14/2025,1 año,8.25%,"  3,005,000.00 ",US$
+48 ,Bosques Amazónicos S.A.C.,Diversas,Bonos Corporativos,1er.,1ra.,A,12/29/2021,12/30/2026,5 años,9.59%,"  4,267,000.00 ",US$
+49 ,Bosques Amazónicos S.A.C.,Diversas,Bonos Corporativos,1er.,1ra.,B,3/15/2022,3/16/2027,5 años,9.66%,"  2,733,000.00 ",US$
+50 ,Centenario Renta Inmobiliaria S.A.C.,Diversas,Bonos Corporativos,1er.,1ra.,A,2/24/2022,2/25/2037,15 años,7.28%,"  42,000,000.00 ",US$
+51 ,Cementos Pacasmayo S.A.A.,Industriales,Bonos Corporativos,2do.,1ra.,A,1/31/2019,2/1/2029,10 años,6.69%,"  260,000,000.00 ",S/
+52 ,Cementos Pacasmayo S.A.A.,Industriales,Bonos Corporativos,2do.,2da.,A,1/31/2019,2/1/2034,15 años,6.84%,"  310,000,000.00 ",S/
+53 ,Caja Municipal de Ahorro y Crédito de Arequipa S.A.,Bancos y Financieras,Bonos Subordinados,T.G.,1ra.,UNICA,12/17/2020,12/18/2028,8 años,8.03%,"  57,640,000.00 ",S/
+54 ,Cineplex S.A.,Diversas,Bonos Corporativos,2do.,1ra.,A,7/4/2019,7/5/2026,7 años,5.75%,"  60,000,000.00 ",S/
+55 ,Compartamos Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,3er.,2da.,H,10/26/2023,10/21/2024,1 año,7.44%,"  60,000,000.00 ",S/
+56 ,Compartamos Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,3er.,2da.,I,11/22/2023,11/17/2024,1 año,7.06%,"  60,000,000.00 ",S/
+57 ,Compartamos Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,3er.,2da.,J,12/19/2023,12/14/2024,1 año,6.56%,"  70,000,000.00 ",S/
+58 ,Compartamos Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,3er.,2da.,K,2/14/2024,2/9/2025,1 año,5.84%,"  70,000,000.00 ",S/
+59 ,Compartamos Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,3er.,2da.,L,3/14/2024,3/10/2025,1 año,0.0571875 ,"  70,000,000.00 ",S/
+60 ,Compartamos Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,3er.,2da.,M,9/6/2024,9/4/2025,1 año,0.05 ,"  70,000,000.00 ",S/
+61 ,Concesionaria Trasvase Olmos S.A.,Diversas,Bonos Corporativos,1er.,3ra.,UNICA,3/8/2006,9/8/2025,19.5 años,VAC + 6.625%,"  30,680,019.48 ",S/
+62 ,Concesionaria Trasvase Olmos S.A.,Diversas,Bonos Corporativos,1er.,4ta.,UNICA,3/8/2006,9/8/2025,18.5 años,VAC + 6.625%,"  10,226,672.99 ",S/
+63 ,Conelsur LT S.A.C.,Servicios Públicos,Bonos Corporativos,1er.,1ra.,A,6/2/2017,6/5/2047,30 años,7.22%,"  113,500,000.00 ",S/
+64 ,Corporación Azucarera del Perú S.A.,Diversas,Bonos Corporativos,1er.,2da.,A,8/12/2016,8/15/2031,15 años,9.00%,"  145,000,000.00 ",S/
+65 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Bonos Corporativos,3er.,10ma.,A,6/27/2012,6/28/2037,25 años,6.20%,"  100,000,000.00 ",S/
+66 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Bonos Corporativos,3er.,11ra.,A,10/29/2012,10/30/2042,30 años,5.63%,"  90,000,000.00 ",S/
+67 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Bonos Corporativos,3er.,9na.,A,4/26/2012,4/27/2027,15 años,6.65%,"  150,000,000.00 ",S/
+68 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Bonos Corporativos,4to.,10ma.,A,10/5/2016,10/6/2026,10 años,6.88%,"  150,000,000.00 ",S/
+69 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Bonos Corporativos,4to.,10ma.,B,10/27/2016,10/28/2026,10 años,6.68%,"  50,000,000.00 ",S/
+70 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Bonos Corporativos,4to.,11ra.,A,12/19/2016,12/20/2046,30 años,7.84%,"  300,000,000.00 ",S/
+71 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Bonos Corporativos,4to.,2da.,A,4/29/2013,4/30/2043,30 años,5.35%,"  100,000,000.00 ",S/
+72 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Bonos Corporativos,5to.,2da.,A,7/18/2019,7/19/2029,10 años,VAC + 3%,"  100,000,000.00 ",S/
+73 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Instrumentos de Corto Plazo,4to.,2da.,A,10/12/2023,10/4/2024,357 dias,7.34%,"  100,000,000.00 ",S/
+74 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Instrumentos de Corto Plazo,4to.,2da.,B,12/20/2023,12/13/2024,358 días,6.38%,"  100,000,000.00 ",S/
+75 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Instrumentos de Corto Plazo,4to.,2da.,C,1/24/2024,1/17/2025,358 días,6.00%,"  100,000,000.00 ",S/
+76 ,Corporación Financiera de Desarrollo - COFIDE,Bancos y Financieras,Instrumentos de Corto Plazo,4to.,3ra.,A,9/24/2024,9/20/2025,1 año,4.72%,"  100,000,000.00 ",S/
+77 ,Corporación Primax,Diversas,Bonos Corporativos,1er.,2da.,A,10/6/2016,10/7/2027,11 años,7.13%,"  181,800,000.00 ",S/
+78 ,Corporación Primax,Diversas,Bonos Corporativos,1er.,3ra.,A,10/6/2016,10/7/2036,20 años,7.94%,"  278,000,000.00 ",S/
+79 ,Corporación Primax,Diversas,Bonos Corporativos,1er.,4ta.,A,11/14/2019,11/15/2031,12 años,5.97%,"  180,000,000.00 ",S/
+80 ,Corporación Primax,Diversas,Bonos Corporativos,2do.,1ra.,A,7/20/2018,7/23/2028,10 años,7.06%,"  223,100,000.00 ",S/
+81 ,Corporación Primax,Diversas,Bonos Corporativos,2do.,2da.,A,7/20/2018,7/23/2028,20 años,7.69%,"  124,900,000.00 ",S/
+82 ,Cosapi S.A.,Diversas,Bonos Corporativos,1er.,1ra.,A,9/16/2015,9/17/2025,10 años,9.47%,"  10,024,000.00 ",S/
+83 ,Crediscotia Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,5to.,2da.,A,12/20/2023,12/15/2024,1 año,6.44%,"  68,180,000.00 ",S/
+84 ,Crediscotia Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,5to.,2da.,B,1/25/2024,1/20/2025,1 año,6.09%,"  100,000,000.00 ",S/
+85 ,Crediscotia Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,5to.,2da.,C,3/12/2024,3/8/2025,1 año,5.75%,"  100,000,000.00 ",S/
+86 ,Crediscotia Financiera S.A.,Bancos y Financieras,Certificados de Depósito Negociables,5to.,2da.,D,8/14/2024,8/10/2025,1 año,5.16%,"  80,000,000.00 ",S/
+87 ,Enel Generación Perú S.A.A.,Servicios Públicos,Bonos Corporativos,3er.,8va.,A,1/24/2008,1/24/2028,20 años,6.34%,"  10,000,000.00 ",US$
+88 ,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),Bancos y Financieras,Instrumentos de Corto Plazo,2do.,1ra.,E,11/13/2023,11/8/2024,1 año,7.34%,"  52,000,000.00 ",
+89 ,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),Bancos y Financieras,Instrumentos de Corto Plazo,2do.,1ra.,F,12/18/2023,12/13/2024,1 año,6.50%,"  62,200,000.00 ",
+90 ,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),Bancos y Financieras,Instrumentos de Corto Plazo,2do.,1ra.,G,2/12/2024,2/7/2025,1 año,5.97%,"  80,000,000.00 ",
+91 ,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),Bancos y Financieras,Instrumentos de Corto Plazo,2do.,1ra.,H,4/9/2024,4/5/2025,1 año,5.59%,"  60,000,000.00 ",
+92 ,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),Bancos y Financieras,Instrumentos de Corto Plazo,2do.,2da.,B,9/19/2023,9/14/2024,1 año,7.69%,,
+93 ,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),Bancos y Financieras,Instrumentos de Corto Plazo,2do.,2da.,C,6/18/2024,6/14/2025,1 año,5.34%,"  90,000,000.00 ",
+94 ,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),Bancos y Financieras,Instrumentos de Corto Plazo,2do.,2da.,D,9/17/2024,9/13/2025,1 año,4.88%,"  110,000,000.00 ",
+95 ,Pacífico Compañía de Seguros y Reaseguros,Seguros,Bonos Subordinados,2do.,2da.,A,12/17/2020,12/18/2030,10 años,4.41%,"  50,000,000.00 ",US$
+96 ,Pacífico Compañía de Seguros y Reaseguros,Seguros,Bonos Subordinados,2do.,2da.,B,5/30/2023,5/31/2033,10 años,8.00%,"  60,000,000.00 ",US$
+97 ,Atria Energía S.A.C.,Servicios Públicos,Bonos Corporativos,1er.,1ra.,A,12/3/2019,12/4/2024,5 años,5.66%,"  375,000.00 ",US$
+98 ,Atria Energía S.A.C.,Servicios Públicos,Bonos Corporativos,1er.,1ra.,B,3/5/2020,3/6/2025,5 años,5.50%,"  500,000.00 ",US$
+99 ,Electro Dunas S.A.A.,Servicios Públicos,Bonos Corporativos,1er.,1ra.,A,12/10/2020,12/11/2030,10 años,6.97%,"  230,500,000.00 ",S/
+100 ,Electro Dunas S.A.A.,Servicios Públicos,Bonos Corporativos,1er.,2da.,A,12/10/2020,12/11/2025,5 años,6.97%,"  65,500,000.00 ",S/
+101 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,4to.,11ra.,A,5/9/2012,5/10/2032,20 años,6.06%,"  50,000,000.00 ",S/
+102 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,4to.,12da.,A,1/24/2013,1/25/2033,20 años,5.13%,"  50,000,000.00 ",S/
+103 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,4to.,15ta.,A,11/6/2012,11/7/2025,13 años,5.56%,"  40,000,000.00 ",S/
+104 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,5to.,19na.,A,3/16/2016,3/17/2029,13 años,8.13%,"  70,000,000.00 ",S/
+105 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,5to.,21ra.,A,10/11/2016,10/12/2024,8 años,6.00%,"  72,405,000.00 ",S/
+106 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,5to.,2da.,A,9/17/2014,9/18/2024,10 años,6.34%,,S/
+107 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,5to.,5ta.,A,8/22/2013,8/23/2038,25 años,7.28%,"  35,500,000.00 ",S/
+108 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,5to.,8va.,A,11/19/2013,11/20/2038,25 años,7.38%,"  60,000,000.00 ",S/
+109 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,6to.,1ra.,A,11/10/2017,11/13/2025,8 años,5.72%,"  100,000,000.00 ",S/
+110 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,6to.,2da.,A,3/20/2018,3/21/2026,8 años,5.38%,"  100,000,000.00 ",S/
+111 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,6to.,3ra.,A,5/15/2019,5/16/2028,9 años,5.91%,"  130,000,000.00 ",S/
+112 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,6to.,4ta.,A,7/11/2019,7/12/2027,8 años,5.06%,"  90,000,000.00 ",S/
+113 ,Enel Distribución Perú S.A.A.,Servicios Públicos,Bonos Corporativos,6to.,5ta.,A,4/7/2021,4/8/2028,7 años,4.31%,"  108,000,000.00 ",S/
+114 ,Engie Energía Perú S.A (antes Enersur S.A),Servicios Públicos,Bonos Corporativos,1er.,3ra.,UNICA,6/6/2008,6/6/2028,20 años,6.31%,"  10,000,000.00 ",US$
+115 ,Engie Energía Perú S.A (antes Enersur S.A),Servicios Públicos,Bonos Corporativos,1er.,6ta.,A,12/2/2010,12/3/2025,15 años,6.50%,"  25,000,000.00 ",US$
+116 ,Engie Energía Perú S.A (antes Enersur S.A),Servicios Públicos,Bonos Corporativos,3er.,1ra.,A,6/22/2016,6/23/2026,10 años,7.13%,"  250,000,000.00 ",S/
+117 ,Engie Energía Perú S.A (antes Enersur S.A),Servicios Públicos,Bonos Corporativos,3er.,3ra.,A,6/26/2017,6/27/2027,10 años,6.53%,"  251,054,000.00 ",S/
+118 ,Engie Energía Perú S.A (antes Enersur S.A),Servicios Públicos,Bonos Corporativos,3er.,3ra.,B,6/12/2018,6/13/2028,10 años,6.72%,"  230,000,000.00 ",S/
+119 ,EuroCapital Servicios Financieros S.A.C.,Diversas,Instrumentos de Corto Plazo,1er.,7ma.,D,4/24/2024,10/22/2024,180 días,8.57%,"  2,500,000.00 ",US$
+120 ,Inverfal S.A.A.,Diversas,Bonos Corporativos,1er.,1ra.,A,7/23/2015,7/24/2035,20 años,8.06%,"  98,000,000.00 ",S/
+121 ,Inverfal S.A.A.,Diversas,Bonos Corporativos,2do.,1ra.,A,4/6/2017,4/7/2029,12 años,7.03%,"  135,714,285.74 ",S/
+122 ,Inverfal S.A.A.,Diversas,Bonos Corporativos,2do.,2da.,A,2/7/2018,2/8/2028,10 años,5.78%,"  200,000,000.00 ",S/
+123 ,Financiera Confianza S.A.A.,Bancos y Financieras,Certificados de Depósito Negociables,2do.,1ra.,C,11/15/2023,11/10/2024,1 año,7.19%,"  50,000,000.00 ",S/
+124 ,Financiera Confianza S.A.A.,Bancos y Financieras,Certificados de Depósito Negociables,2do.,1ra.,D,12/14/2023,12/9/2024,1 año,6.78%,"  43,100,000.00 ",S/
+125 ,Financiera Confianza S.A.A.,Bancos y Financieras,Certificados de Depósito Negociables,2do.,1ra.,E,2/13/2024,2/8/2025,1 año,5.91%,"  55,000,000.00 ",S/
+126 ,Financiera Confianza S.A.A.,Bancos y Financieras,Certificados de Depósito Negociables,2do.,1ra.,F,9/12/2024,9/8/2025,1 año,4.88%,"  50,000,000.00 ",S/
+127 ,Financiera Efectiva S.A.,Bancos y Financieras,Certificados de Depósito Negociables,2do.,1ra.,E,10/17/2023,10/12/2024,1 año,7.50%,"  60,000,000.00 ",S/
+128 ,Financiera Efectiva S.A.,Bancos y Financieras,Certificados de Depósito Negociables,2do.,1ra.,F,4/11/2024,4/7/2025,1 año,5.53%,"  70,000,000.00 ",S/
+129 ,Financiera OH! S.A.,Bancos y Financieras,Bonos Corporativos,2do.,2da.,A,3/25/2021,9/26/2025,4 años y 6 meses,4.38%,"  70,000,000.00 ",S/
+130 ,Finanty S.A.,Bancos y Financieras,Bonos Corporativos,1er.,1ra.,A,2/23/2023,2/23/2028,5 años,11.31%,"  30,000,000.00 ",S/
+131 ,Fondo Mivivienda S.A.,Bancos y Financieras,Bonos Corporativos,1er.,4ta.,A,7/12/2016,7/13/2026,10 años,6.72%,"  310,000,000.00 ",S/
+132 ,Fondo Mivivienda S.A.,Bancos y Financieras,Bonos Corporativos,1er.,5ta.,A,7/16/2019,7/17/2026,7 años,5.03%,"  250,000,000.00 ",S/
+133 ,Fondo Mivivienda S.A.,Bancos y Financieras,Bonos Corporativos,1er.,6ta.,A,1/14/2020,1/15/2027,7 años,4.78%,"  240,210,000.00 ",S/
+134 ,Fondo Mivivienda S.A.,Bancos y Financieras,Bonos Corporativos,2do.,1ra.,A,7/31/2024,8/1/2031,7 años,7.38%,"  135,000,000.00 ",S/
+135 ,Gas Natural de Lima y Callao S.A.,Servicios Públicos,Bonos Corporativos,1er.,2da.,UNICA,7/20/2018,7/23/2028,10 años,6.47%,"  200,000,000.00 ",S/
+136 ,Gas Natural de Lima y Callao S.A.,Servicios Públicos,Bonos Corporativos,1er.,5ta.,E,9/5/2019,9/6/2029,10 años,5.03%,"  342,000,000.00 ",S/
+137 ,Leche Gloria S.A.,Industriales,Bonos Corporativos,1er.,4ta.,A,2/4/2015,2/5/2035,20 años,7.13%,"  150,000,000.00 ",S/
+138 ,H2olmos S.A.,Diversas,Bonos Corporativos,1er.,2da.,UNICA,10/24/2012,10/25/2032,20 años,VAC + 4.25%,"  186,241,943.00 ",S/
+139 ,Hermes Transportes Blindados S.A.,Diversas,Bonos Corporativos,1er.,1ra.,A,3/2/2017,3/3/2030,13 años,8.19%,"  194,865,000.00 ",S/
+140 ,Hermes Transportes Blindados S.A.,Diversas,Bonos Corporativos,1er.,2da.,A,3/2/2017,3/3/2045,28 años,8.66%,"  81,000,000.00 ",S/
+141 ,Banco Internacional del Perú - Interbank,Bancos y Financieras,Bonos Corporativos,2do.,5ta.,A,3/25/2019,3/26/2029,10 años,VAC + 3.40625%,"  150,000,000.00 ",S/
+142 ,Banco Internacional del Perú - Interbank,Bancos y Financieras,Certificados de Depósito Negociables,2do.,1ra.,A,7/9/2024,7/5/2025,1 año,5.22%,"  112,964,000.00 ",S/
+143 ,Banco Internacional del Perú - Interbank,Bancos y Financieras,Certificados de Depósito Negociables,2do.,1ra.,B,9/9/2024,9/5/2025,1 año,4.94%,"  138,435,000.00 ",S/
+144 ,Interseguro Compañía de Seguros S.A.,Seguros,Bonos Subordinados,3er.,2da.,UNICA,10/24/2019,10/25/2029,10 años,4.34%,"  20,000,000.00 ",US$
+145 ,Interseguro Compañía de Seguros S.A.,Seguros,Bonos Subordinados,3er.,3ra.,UNICA,9/29/2020,9/30/2030,10 años,4.84%,"  25,000,000.00 ",US$
+146 ,Interseguro Compañía de Seguros S.A.,Seguros,Bonos Subordinados,3er.,4ta.,A,6/27/2024,6/28/2034,10 años,7.09%,"  34,780,000.00 ",US$
+147 ,Incimmet S.A.,Diversas,Instrumentos de Corto Plazo,1er.,1ra.,A,9/19/2024,3/19/2025,180 días,7.00%,"  1,000,000.00 ",US$
+148 ,Total Servicios Financieros Empresa de Créditos S.A. (Antes Total Servicios Financieros Edpyme S.A.),Bancos y Financieras,Bonos de Arrendamiento Financiero,5to.,10ma.,A,2/25/2021,2/26/2025,4 años,4.75%,"  1,109,000.00 ",US$
+149 ,Total Servicios Financieros Empresa de Créditos S.A. (Antes Total Servicios Financieros Edpyme S.A.),Bancos y Financieras,Bonos de Arrendamiento Financiero,6to.,2da.,A,3/30/2022,3/31/2026,4 años,5.88%,"  2,545,000.00 ",US$
+150 ,Total Servicios Financieros Empresa de Créditos S.A. (Antes Total Servicios Financieros Edpyme S.A.),Bancos y Financieras,Bonos de Arrendamiento Financiero,6to.,3ra.,A,2/27/2024,2/28/2029,5 años,8.00%,"  5,377,500.00 ",US$
+151 ,Total Servicios Financieros Empresa de Créditos S.A. (Antes Total Servicios Financieros Edpyme S.A.),Bancos y Financieras,Bonos Subordinados,1er.,1ra.,A,12/15/2021,12/16/2029,8 años,8.13%,"  2,250,000.00 ",US$
+152 ,Los Portales S.A.,Diversas,Instrumentos de Corto Plazo,3er.,1ra.,A,10/4/2023,9/29/2024,1 año,7.97%,,S/
+153 ,Los Portales S.A.,Diversas,Instrumentos de Corto Plazo,3er.,1ra.,B,11/23/2023,11/18/2024,1 año,8.00%,"  9,900,000.00 ",S/
+154 ,Los Portales S.A.,Diversas,Instrumentos de Corto Plazo,3er.,1ra.,C,3/21/2024,3/17/2025,1 año,7.00%,"  14,984,000.00 ",S/
+155 ,Los Portales S.A.,Diversas,Instrumentos de Corto Plazo,3er.,1ra.,D,9/5/2024,9/1/2025,1 año,6.50%,"  20,000,000.00 ",S/
+156 ,Luz del Sur S.A.A.,Servicios Públicos,Bonos Corporativos,3er.,2da.,A,9/2/2015,9/3/2026,11 años,8.75%,"  81,175,000.00 ",S/
+157 ,Luz del Sur S.A.A.,Servicios Públicos,Bonos Corporativos,3er.,3ra.,A,9/19/2014,9/22/2029,15 años,6.88%,"  143,150,000.00 ",S/
+158 ,Luz del Sur S.A.A.,Servicios Públicos,Bonos Corporativos,3er.,4ta.,A,7/13/2016,7/14/2025,9 años,6.50%,"  164,100,000.00 ",S/
+159 ,Luz del Sur S.A.A.,Servicios Públicos,Bonos Corporativos,3er.,6ta.,A,12/13/2017,12/14/2027,10 años,5.94%,"  161,800,000.00 ",S/
+160 ,Luz del Sur S.A.A.,Servicios Públicos,Bonos Corporativos,3er.,7ma.,A,10/29/2018,10/30/2028,10 años,7.00%,"  167,350,000.00 ",S/
+161 ,Luz del Sur S.A.A.,Servicios Públicos,Bonos Corporativos,3er.,8va.,A,4/2/2019,4/3/2026,7 años,5.75%,"  82,800,000.00 ",S/
+162 ,Luz del Sur S.A.A.,Servicios Públicos,Bonos Corporativos,4to.,1ra.,A,10/17/2019,10/18/2034,15 años,5.22%,"  168,500,000.00 ",S/
+163 ,Luz del Sur S.A.A.,Servicios Públicos,Instrumentos de Corto Plazo,4to.,1ra.,D,4/25/2024,4/21/2025,1 año,5.56%,"  115,467,000.00 ",S/
+164 ,Luz del Sur S.A.A.,Servicios Públicos,Instrumentos de Corto Plazo,4to.,1ra.,E,5/15/2024,5/11/2025,1 año,5.44%,"  100,000,000.00 ",S/
+165 ,Luz del Sur S.A.A.,Servicios Públicos,Instrumentos de Corto Plazo,4to.,2da.,C,9/26/2023,9/21/2024,1 año,7.22%,,
+166 ,Luz del Sur S.A.A.,Servicios Públicos,Instrumentos de Corto Plazo,4to.,3ra.,A,10/19/2023,10/14/2024,1 año,7.25%,"  110,000,000.00 ",S/
+167 ,Luz del Sur S.A.A.,Servicios Públicos,Instrumentos de Corto Plazo,4to.,3ra.,B,11/22/2023,11/17/2024,1 año,7.00%,"  120,000,000.00 ",S/
+168 ,Mibanco Banco de la Microempresa S.A.,Bancos y Financieras,Bonos Subordinados,2do.,1ra.,B,6/9/2017,6/12/2027,10 años,7.22%,"  30,000,000.00 ",S/
+169 ,Mibanco Banco de la Microempresa S.A.,Bancos y Financieras,Bonos Subordinados,4to.,1ra.,A,3/30/2021,3/31/2031,10 años,5.84%,"  155,000,000.00 ",S/
+170 ,Mibanco Banco de la Microempresa S.A.,Bancos y Financieras,Certificados de Depósito Negociables,4to.,2da.,H,9/25/2023,9/20/2024,1 año,7.38%,,
+171 ,Mibanco Banco de la Microempresa S.A.,Bancos y Financieras,Certificados de Depósito Negociables,4to.,2da.,I,5/30/2024,5/26/2025,1 año,5.47%,"  125,000,000.00 ",S/
+172 ,Red Vial 5 S.A. (Antes Norvial S.A.),Diversas,Bonos Corporativos,1er.,2da.,UNICA,7/22/2015,1/23/2027,11 años y 6 meses,8.38%,"  142,782,150.00 ",S/
+173 ,Pacífico S.A. Entidad Prestadora de Salud,Diversas,Bonos Corporativos,1er.,1ra.,A,9/27/2017,9/28/2037,20 años,6.59%,"  112,666,666.67 ",S/
+174 ,Softys Perú S.A.C.,Industriales,Bonos Corporativos,1er.,1ra.,A,10/22/2018,10/23/2024,6 años,6.25%,"  50,000,000.00 ",S/
+175 ,Red de Energía del Perú S.A.,Servicios Públicos,Bonos Corporativos,2do.,20ma.,A,1/19/2011,1/20/2026,15 años,6.50%,"  38,000,000.00 ",US$
+176 ,Red de Energía del Perú S.A.,Servicios Públicos,Bonos Corporativos,3er.,4ta.,A,10/18/2012,4/19/2031,18 años y 6 meses,5.88%,"  40,000,000.00 ",US$
+177 ,Scotiabank Perú S.A.,Bancos y Financieras,Bonos Corporativos - 144A,Senior Notes,Tramo local,,12/6/2012,12/13/2027,15 años,4.50%,,
+178 ,Telefónica del Peru S.A.A.,Servicios Públicos,Bonos Corporativos,4to.,19na.,A,7/12/2007,7/12/2027,20 años,VAC + 3.625%,"  60,000,000.00 ",S/
+179 ,Telefónica del Peru S.A.A.,Servicios Públicos,Bonos Corporativos,4to.,19na.,B,4/21/2008,4/21/2028,20 años,VAC + 2.875%,"  49,000,000.00 ",S/
+180 ,Telefónica del Peru S.A.A.,Servicios Públicos,Bonos Corporativos,4to.,19na.,C,7/18/2008,7/18/2028,20 años,VAC + 3.1875%,"  20,000,000.00 ",S/
+181 ,Telefónica del Peru S.A.A.,Servicios Públicos,Bonos Corporativos,4to.,37ma.,A,5/21/2008,5/21/2028,20 años,VAC + 3.125%,"  48,000,000.00 ",S/
+182 ,Telefónica del Peru S.A.A.,Servicios Públicos,Bonos Corporativos,6to.,15ta.,A,10/12/2017,10/13/2024,7 años,5.47%,"  135,000,000.00 ",S/
+183 ,Telefónica del Peru S.A.A.,Servicios Públicos,Bonos Corporativos,6to.,16ta.,A,4/18/2018,4/19/2025,7 años,5.50%,"  105,120,000.00 ",S/
+184 ,Telefónica del Peru S.A.A.,Servicios Públicos,Bonos Corporativos,6to.,17ma.,A,5/14/2018,5/15/2030,12 años,3.09%,"  60,000,000.00 ",S/
+185 ,Yura S.A.,Industriales,Bonos Corporativos,4to.,1ra.,A,5/5/2015,5/6/2030,15 años,7.94%,"  223,836,000.00 ",S/
+186 ,Yura S.A.,Industriales,Bonos Corporativos,4to.,2da.,A,5/5/2015,5/6/2040,25 años,7.91%,"  200,000,000.00 ",S/
+187 ,Yura S.A.,Industriales,Bonos Corporativos,4to.,3ra.,A,11/13/2018,11/14/2033,15 años,6.84%,"  284,050,000.00 ",S/

@@ -3,20 +3,21 @@ import time
 import pandas as pd
 from google.cloud import bigquery
 
+folder_path = "./haku-data/Bigquery"
+
 # Big query credentials
-os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'bq_credentials.json'
+os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "bigquery-service-key.json"
 client = bigquery.Client()
 
+# The name/path of the SQL query you wish to pull 
+query = f'{folder_path}/data_sample.sql'
 
-# The name/path of the SQL file you wish to pull 
-query = 'data_sample.sql'
-
-# Read file
+# Read SQL file
 with open (query, 'r') as file:
     sql_read = file.read()
 
-# Request google client 
-job = client.query(sql_read)
+# Request the query to google client 
+job = client.query(sql_read) # job contains the queried data
 
 # Wait for query to execute, build dataframe and json once done
 while job.state != 'DONE':
@@ -30,5 +31,3 @@ else:
     print(job.result())
 
 print(df)
-
-

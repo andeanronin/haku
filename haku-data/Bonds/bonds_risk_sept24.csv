@@ -1,0 +1,304 @@
+bond_key,emisor,credit_rating_agency,risk_classification
+1,Administradora Jockey Plaza Shopping Center S.A.,apoyo,AA+
+2,Administradora Jockey Plaza Shopping Center S.A.,apoyo,AA+
+3,Administradora Jockey Plaza Shopping Center S.A.,apoyo,AA+
+7,Alicorp S.A.A.,apoyo,AAA
+8,Alicorp S.A.A.,apoyo,AAA
+9,Alicorp S.A.A.,apoyo,AAA
+10,Alicorp S.A.A.,apoyo,CP-1+
+11,Alicorp S.A.A.,apoyo,BBB
+12,Banco BCI Perú S.A.,apoyo,CP-1+
+13,Banco de la Nación,apoyo,AA+
+16,Banco Falabella Perú S.A.,apoyo,CP-1
+17,Banco Falabella Perú S.A.,apoyo,CP-1
+18,Banco Falabella Perú S.A.,apoyo,CP-1
+19,Banco Falabella Perú S.A.,apoyo,CP-1
+20,Banco Falabella Perú S.A.,apoyo,CP-1
+21,Banco Falabella Perú S.A.,apoyo,CP-1
+37,Banco Santander Perú S.A.,apoyo,AAA
+38,Banco BBVA Perú,apoyo,AAA
+39,Banco BBVA Perú,apoyo,AAA
+40,Banco BBVA Perú,apoyo,AA+
+41,Banco BBVA Perú,apoyo,AA+
+42,Banco BBVA Perú,apoyo,AA+
+43,Banco BBVA Perú,apoyo,AA+
+44,Banco BBVA Perú,apoyo,AA+
+50,Centenario Renta Inmobiliaria S.A.C.,apoyo,AA
+53,Caja Municipal de Ahorro y Crédito de Arequipa S.A.,apoyo,A
+54,Cineplex S.A.,apoyo,AA-
+55,Compartamos Financiera S.A.,apoyo,CP-1
+56,Compartamos Financiera S.A.,apoyo,CP-1
+57,Compartamos Financiera S.A.,apoyo,CP-1
+58,Compartamos Financiera S.A.,apoyo,CP-1
+59,Compartamos Financiera S.A.,apoyo,CP-1
+60,Compartamos Financiera S.A.,apoyo,CP-1
+61,Concesionaria Trasvase Olmos S.A.,apoyo,AAA
+62,Concesionaria Trasvase Olmos S.A.,apoyo,AAA
+63,Conelsur LT S.A.C.,apoyo,AA+
+64,Corporación Azucarera del Perú S.A.,apoyo,A+
+65,Corporación Financiera de Desarrollo - COFIDE,apoyo,AA+
+66,Corporación Financiera de Desarrollo - COFIDE,apoyo,AA+
+67,Corporación Financiera de Desarrollo - COFIDE,apoyo,AA+
+68,Corporación Financiera de Desarrollo - COFIDE,apoyo,AA+
+69,Corporación Financiera de Desarrollo - COFIDE,apoyo,AA+
+70,Corporación Financiera de Desarrollo - COFIDE,apoyo,AA+
+71,Corporación Financiera de Desarrollo - COFIDE,apoyo,AA+
+73,Corporación Financiera de Desarrollo - COFIDE,apoyo,CP-1+
+74,Corporación Financiera de Desarrollo - COFIDE,apoyo,CP-1+
+75,Corporación Financiera de Desarrollo - COFIDE,apoyo,CP-1+
+76,Corporación Financiera de Desarrollo - COFIDE,apoyo,CP-1+
+83,Crediscotia Financiera S.A.,apoyo,CP-1+
+84,Crediscotia Financiera S.A.,apoyo,CP-1+
+85,Crediscotia Financiera S.A.,apoyo,CP-1+
+86,Crediscotia Financiera S.A.,apoyo,CP-1+
+87,Enel Generación Perú S.A.A.,apoyo,AAA
+88,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),apoyo,CP-1+
+89,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),apoyo,CP-1+
+90,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),apoyo,CP-1+
+91,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),apoyo,CP-1+
+92,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),apoyo,CP-1+
+93,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),apoyo,CP-1+
+94,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),apoyo,CP-1+
+95,Pacífico Compañía de Seguros y Reaseguros,apoyo,AA+
+96,Pacífico Compañía de Seguros y Reaseguros,apoyo,AA+
+97,Atria Energía S.A.C.,apoyo,AA-
+98,Atria Energía S.A.C.,apoyo,AA-
+99,Electro Dunas S.A.A.,apoyo,AAA
+100,Electro Dunas S.A.A.,apoyo,AAA
+114,Engie Energía Perú S.A (antes Enersur S.A),apoyo,AAA
+115,Engie Energía Perú S.A (antes Enersur S.A),apoyo,AAA
+116,Engie Energía Perú S.A (antes Enersur S.A),apoyo,AAA
+117,Engie Energía Perú S.A (antes Enersur S.A),apoyo,AAA
+118,Engie Energía Perú S.A (antes Enersur S.A),apoyo,AAA
+119,EuroCapital Servicios Financieros S.A.C.,apoyo,CP-2
+123,Financiera Confianza S.A.A.,apoyo,CP-1
+124,Financiera Confianza S.A.A.,apoyo,CP-1
+125,Financiera Confianza S.A.A.,apoyo,CP-1
+126,Financiera Confianza S.A.A.,apoyo,CP-1
+129,Financiera OH! S.A.,apoyo,AA-
+131,Fondo Mivivienda S.A.,apoyo,AAA
+132,Fondo Mivivienda S.A.,apoyo,AAA
+133,Fondo Mivivienda S.A.,apoyo,AAA
+134,Fondo Mivivienda S.A.,apoyo,AAA
+137,Leche Gloria S.A.,apoyo,AAA
+138,H2olmos S.A.,apoyo,AA
+141,Banco Internacional del Perú - Interbank,apoyo,AAA
+142,Banco Internacional del Perú - Interbank,apoyo,CP-1+
+143,Banco Internacional del Perú - Interbank,apoyo,CP-1+
+152,Los Portales S.A.,apoyo,CP-1-
+153,Los Portales S.A.,apoyo,CP-1-
+154,Los Portales S.A.,apoyo,CP-1-
+155,Los Portales S.A.,apoyo,CP-1-
+168,Mibanco Banco de la Microempresa S.A.,apoyo,AA
+169,Mibanco Banco de la Microempresa S.A.,apoyo,AA
+170,Mibanco Banco de la Microempresa S.A.,apoyo,CP-1+
+171,Mibanco Banco de la Microempresa S.A.,apoyo,CP-1+
+172,Red Vial 5 S.A. (Antes Norvial S.A.),apoyo,AA
+174,Softys Perú S.A.C.,apoyo,AA
+175,Red de Energía del Perú S.A.,apoyo,AAA
+176,Red de Energía del Perú S.A.,apoyo,AAA
+177,Scotiabank Perú S.A.,apoyo,BBB+
+178,Telefónica del Peru S.A.A.,apoyo,AAA
+179,Telefónica del Peru S.A.A.,apoyo,AAA
+180,Telefónica del Peru S.A.A.,apoyo,AAA
+181,Telefónica del Peru S.A.A.,apoyo,AAA
+182,Telefónica del Peru S.A.A.,apoyo,AAA
+183,Telefónica del Peru S.A.A.,apoyo,AAA
+184,Telefónica del Peru S.A.A.,apoyo,AAA
+1,Administradora Jockey Plaza Shopping Center S.A.,moodys_local_peru,AA+
+2,Administradora Jockey Plaza Shopping Center S.A.,moodys_local_peru,AA+
+3,Administradora Jockey Plaza Shopping Center S.A.,moodys_local_peru,AA+
+7,Alicorp S.A.A.,moodys_local_peru,AAA
+8,Alicorp S.A.A.,moodys_local_peru,AAA
+9,Alicorp S.A.A.,moodys_local_peru,AAA
+10,Alicorp S.A.A.,moodys_local_peru,ML-1
+11,Alicorp S.A.A.,moodys_local_peru,Baa3
+12,Banco BCI Perú S.A.,moodys_local_peru,ML-1
+13,Banco de la Nación,moodys_local_peru,AA+
+16,Banco Falabella Perú S.A.,moodys_local_peru,ML-1
+17,Banco Falabella Perú S.A.,moodys_local_peru,ML-1
+18,Banco Falabella Perú S.A.,moodys_local_peru,ML-1
+19,Banco Falabella Perú S.A.,moodys_local_peru,ML-1
+20,Banco Falabella Perú S.A.,moodys_local_peru,ML-1
+21,Banco Falabella Perú S.A.,moodys_local_peru,ML-1
+23,Banco GNB Peru S.A.,moodys_local_peru,ML-1
+24,Banco GNB Peru S.A.,moodys_local_peru,ML-1
+25,Banco GNB Peru S.A.,moodys_local_peru,ML-1
+33,Banco Interamericano de Finanzas- Banbif ,moodys_local_peru,ML-1
+34,Banco Interamericano de Finanzas- Banbif ,moodys_local_peru,ML-1
+35,Banco Interamericano de Finanzas- Banbif ,moodys_local_peru,ML-1
+36,Banco Ripley Perú S.A.,moodys_local_peru,ML-1
+37,Banco Santander Perú S.A.,moodys_local_peru,AAA
+38,Banco BBVA Perú,moodys_local_peru,AAA
+39,Banco BBVA Perú,moodys_local_peru,ML-2+
+40,Banco BBVA Perú,moodys_local_peru,AA+
+41,Banco BBVA Perú,moodys_local_peru,AA+
+42,Banco BBVA Perú,moodys_local_peru,AA+
+43,Banco BBVA Perú,moodys_local_peru,AA+
+44,Banco BBVA Perú,moodys_local_peru,AA+
+45,Bosques Amazónicos S.A.C.,moodys_local_peru,ML-2
+46,Bosques Amazónicos S.A.C.,moodys_local_peru,ML-2
+47,Bosques Amazónicos S.A.C.,moodys_local_peru,ML-2
+51,Cementos Pacasmayo S.A.A.,moodys_local_peru,AAA
+52,Cementos Pacasmayo S.A.A.,moodys_local_peru,AAA
+56,Compartamos Financiera S.A.,moodys_local_peru,ML-1
+57,Compartamos Financiera S.A.,moodys_local_peru,ML-1
+58,Compartamos Financiera S.A.,moodys_local_peru,ML-1
+59,Compartamos Financiera S.A.,moodys_local_peru,ML-1
+60,Compartamos Financiera S.A.,moodys_local_peru,ML-1
+61,Concesionaria Trasvase Olmos S.A.,moodys_local_peru,AA+
+62,Concesionaria Trasvase Olmos S.A.,moodys_local_peru,AA+
+64,Corporación Azucarera del Perú S.A.,moodys_local_peru,A
+65,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,AA
+66,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,AA
+67,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,AA
+68,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,AA
+69,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,AA
+70,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,AA
+71,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,AA
+72,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,AA
+73,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,ML-1
+74,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,ML-1
+75,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,ML-1
+76,Corporación Financiera de Desarrollo - COFIDE,moodys_local_peru,ML-1
+77,Corporación Primax,moodys_local_peru,AA+
+78,Corporación Primax,moodys_local_peru,AA+
+79,Corporación Primax,moodys_local_peru,AA+
+80,Corporación Primax,moodys_local_peru,AA+
+81,Corporación Primax,moodys_local_peru,AA+
+82,Cosapi S.A.,moodys_local_peru,A-
+83,Crediscotia Financiera S.A.,moodys_local_peru,ML-1
+84,Crediscotia Financiera S.A.,moodys_local_peru,ML-1
+85,Crediscotia Financiera S.A.,moodys_local_peru,EQL-1+
+86,Crediscotia Financiera S.A.,moodys_local_peru,ML-1
+88,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),moodys_local_peru,ML-1
+89,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),moodys_local_peru,ML-1
+90,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),moodys_local_peru,ML-1
+91,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),moodys_local_peru,ML-1
+92,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),moodys_local_peru,ML-1
+93,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),moodys_local_peru,ML-1
+94,Empresa de Créditos Santander Consumo Perú S.A. (Antes EDPYME Santander Consumo Perú S.A.),moodys_local_peru,ML-1
+95,Pacífico Compañía de Seguros y Reaseguros,moodys_local_peru,AA+
+96,Pacífico Compañía de Seguros y Reaseguros,moodys_local_peru,AA+
+111,Enel Distribución Perú S.A.A.,moodys_local_peru,ML-2+
+114,Engie Energía Perú S.A (antes Enersur S.A),moodys_local_peru,AAA
+115,Engie Energía Perú S.A (antes Enersur S.A),moodys_local_peru,AAA
+116,Engie Energía Perú S.A (antes Enersur S.A),moodys_local_peru,AAA
+117,Engie Energía Perú S.A (antes Enersur S.A),moodys_local_peru,AAA
+118,Engie Energía Perú S.A (antes Enersur S.A),moodys_local_peru,AAA
+120,Inverfal S.A.A.,moodys_local_peru,AA+
+121,Inverfal S.A.A.,moodys_local_peru,AA+
+122,Inverfal S.A.A.,moodys_local_peru,AA
+123,Financiera Confianza S.A.A.,moodys_local_peru,ML-1
+124,Financiera Confianza S.A.A.,moodys_local_peru,ML-1
+125,Financiera Confianza S.A.A.,moodys_local_peru,ML-1
+126,Financiera Confianza S.A.A.,moodys_local_peru,ML-1
+127,Financiera Efectiva S.A.,moodys_local_peru,ML-1
+128,Financiera Efectiva S.A.,moodys_local_peru,ML-1
+131,Fondo Mivivienda S.A.,moodys_local_peru,AAA
+132,Fondo Mivivienda S.A.,moodys_local_peru,AAA
+133,Fondo Mivivienda S.A.,moodys_local_peru,AAA
+134,Fondo Mivivienda S.A.,moodys_local_peru,AAA
+135,Gas Natural de Lima y Callao S.A.,moodys_local_peru,AAA
+136,Gas Natural de Lima y Callao S.A.,moodys_local_peru,AAA
+138,H2olmos S.A.,moodys_local_peru,AA-
+141,Banco Internacional del Perú - Interbank,moodys_local_peru,AAA
+142,Banco Internacional del Perú - Interbank,moodys_local_peru,ML-1
+143,Banco Internacional del Perú - Interbank,moodys_local_peru,ML-1
+144,Interseguro Compañía de Seguros S.A.,moodys_local_peru,AA
+145,Interseguro Compañía de Seguros S.A.,moodys_local_peru,AA
+146,Interseguro Compañía de Seguros S.A.,moodys_local_peru,AA
+147,Incimmet S.A.,moodys_local_peru,ML-2
+150,Total Servicios Financieros Empresa de Créditos S.A. (Antes Total Servicios Financieros Edpyme S.A.),moodys_local_peru,AA-
+165,Luz del Sur S.A.A.,moodys_local_peru,ML-1
+166,Luz del Sur S.A.A.,moodys_local_peru,ML-1
+167,Luz del Sur S.A.A.,moodys_local_peru,ML-1
+168,Mibanco Banco de la Microempresa S.A.,moodys_local_peru,AA
+169,Mibanco Banco de la Microempresa S.A.,moodys_local_peru,AA
+170,Mibanco Banco de la Microempresa S.A.,moodys_local_peru,ML-1
+171,Mibanco Banco de la Microempresa S.A.,moodys_local_peru,ML-1
+172,Red Vial 5 S.A. (Antes Norvial S.A.),moodys_local_peru,AA
+174,Softys Perú S.A.C.,moodys_local_peru,AA
+175,Red de Energía del Perú S.A.,moodys_local_peru,AAA
+176,Red de Energía del Perú S.A.,moodys_local_peru,AAA
+185,Yura S.A.,moodys_local_peru,AAA
+186,Yura S.A.,moodys_local_peru,AAA
+187,Yura S.A.,moodys_local_peru,AAA
+56,Compartamos Financiera S.A.,jcr_latino_america,P1-
+57,Compartamos Financiera S.A.,jcr_latino_america,P1-
+58,Compartamos Financiera S.A.,jcr_latino_america,P1-
+59,Compartamos Financiera S.A.,jcr_latino_america,P1-
+60,Compartamos Financiera S.A.,jcr_latino_america,P1-
+127,Financiera Efectiva S.A.,jcr_latino_america,P1-
+128,Financiera Efectiva S.A.,jcr_latino_america,P1-
+4,Agrícola y Ganadera Chavín de Huántar S.A.,pcr,p2
+5,Agrícola y Ganadera Chavín de Huántar S.A.,pcr,p2
+6,Agrícola y Ganadera Chavín de Huántar S.A.,pcr,p2
+14,Banco Pichincha,pcr,pAA
+15,Banco Pichincha,pcr,pAA-
+22,Banco GNB Peru S.A.,pcr,AA
+23,Banco GNB Peru S.A.,pcr,p1
+24,Banco GNB Peru S.A.,pcr,p1
+25,Banco GNB Peru S.A.,pcr,p1
+26,Banco Interamericano de Finanzas- Banbif ,pcr,pAA
+27,Banco Interamericano de Finanzas- Banbif ,pcr,pAA
+28,Banco Interamericano de Finanzas- Banbif ,pcr,pAA
+29,Banco Interamericano de Finanzas- Banbif ,pcr,pAA
+30,Banco Interamericano de Finanzas- Banbif ,pcr,pAA
+31,Banco Interamericano de Finanzas- Banbif ,pcr,pAA
+32,Banco Interamericano de Finanzas- Banbif ,pcr,pAA
+33,Banco Interamericano de Finanzas- Banbif ,pcr,p1+
+34,Banco Interamericano de Finanzas- Banbif ,pcr,p1+
+35,Banco Interamericano de Finanzas- Banbif ,pcr,p1+
+36,Banco Ripley Perú S.A.,pcr,p1-
+37,Banco Santander Perú S.A.,pcr,pAAA
+38,Banco BBVA Perú,pcr,pAAA
+40,Banco BBVA Perú,pcr,pAA+
+41,Banco BBVA Perú,pcr,pAA+
+42,Banco BBVA Perú,pcr,pAA+
+43,Banco BBVA Perú,pcr,pAA+
+44,Banco BBVA Perú,pcr,pAA+
+45,Bosques Amazónicos S.A.C.,pcr,p1-
+46,Bosques Amazónicos S.A.C.,pcr,p1-
+47,Bosques Amazónicos S.A.C.,pcr,p1-
+48,Bosques Amazónicos S.A.C.,pcr,PA+
+49,Bosques Amazónicos S.A.C.,pcr,pA+
+50,Centenario Renta Inmobiliaria S.A.C.,pcr,pAA
+61,Concesionaria Trasvase Olmos S.A.,pcr,pAAA
+62,Concesionaria Trasvase Olmos S.A.,pcr,pAAA
+87,Enel Generación Perú S.A.A.,pcr,pAAA
+101,Enel Distribución Perú S.A.A.,pcr,pAAA
+102,Enel Distribución Perú S.A.A.,pcr,pAAA
+103,Enel Distribución Perú S.A.A.,pcr,pAAA
+104,Enel Distribución Perú S.A.A.,pcr,pAAA
+105,Enel Distribución Perú S.A.A.,pcr,pAAA
+106,Enel Distribución Perú S.A.A.,pcr,pAAA
+107,Enel Distribución Perú S.A.A.,pcr,pAAA
+108,Enel Distribución Perú S.A.A.,pcr,pAAA
+109,Enel Distribución Perú S.A.A.,pcr,pAAA
+110,Enel Distribución Perú S.A.A.,pcr,pAAA
+111,Enel Distribución Perú S.A.A.,pcr,pAAA
+112,Enel Distribución Perú S.A.A.,pcr,pAAA
+113,Enel Distribución Perú S.A.A.,pcr,AAA
+127,Financiera Efectiva S.A.,pcr,p1
+128,Financiera Efectiva S.A.,pcr,p1
+148,Total Servicios Financieros Empresa de Créditos S.A. (Antes Total Servicios Financieros Edpyme S.A.),pcr,pAA
+149,Total Servicios Financieros Empresa de Créditos S.A. (Antes Total Servicios Financieros Edpyme S.A.),pcr,pAA
+150,Total Servicios Financieros Empresa de Créditos S.A. (Antes Total Servicios Financieros Edpyme S.A.),pcr,pAA
+151,Total Servicios Financieros Empresa de Créditos S.A. (Antes Total Servicios Financieros Edpyme S.A.),pcr,pAA-
+152,Los Portales S.A.,pcr,p2+
+153,Los Portales S.A.,pcr,p2+
+154,Los Portales S.A.,pcr,p2+
+155,Los Portales S.A.,pcr,p1-
+156,Luz del Sur S.A.A.,pcr,pAAA
+157,Luz del Sur S.A.A.,pcr,pAAA
+158,Luz del Sur S.A.A.,pcr,pAAA
+159,Luz del Sur S.A.A.,pcr,pAAA
+160,Luz del Sur S.A.A.,pcr,pAAA
+161,Luz del Sur S.A.A.,pcr,pAAA
+162,Luz del Sur S.A.A.,pcr,PAAA
+163,Luz del Sur S.A.A.,pcr,pAAA
+164,Luz del Sur S.A.A.,pcr,pAAA
+165,Luz del Sur S.A.A.,pcr,p1+
+166,Luz del Sur S.A.A.,pcr,p1+
+167,Luz del Sur S.A.A.,pcr,p1+
