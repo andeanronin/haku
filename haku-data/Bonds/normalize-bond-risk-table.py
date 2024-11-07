@@ -1,7 +1,7 @@
 """
 This script normalizes bond risk table to TIDY format using pandas melt() method.
-
-Saves data to CSV
+- Saves data to CSV
+- Uploads data to big query
 """
 
 import pandas as pd
@@ -18,7 +18,7 @@ client = bigquery.Client(credentials=credentials, project=credentials.project_id
 
 
 # Table to TIDY format
-path_bond_risk_table = ("./haku-data/Bonds/bonds_risk_sept_24_semistructured.csv")
+path_bond_risk_table = ("./haku-data/Bonds/bond_risk_sept24_untidy.csv")
 
 bond_risk_df = pd.read_csv(path_bond_risk_table)
 
@@ -37,7 +37,6 @@ tidy_df = tidy_df.dropna(subset=['risk_classification']).reset_index(drop=True)
 
 # SAVE TO CSV
 tidy_df.to_csv("./haku-data/Bonds/bonds_risk_sept24.csv", index=False)
-
 
 
 # UPLOAD TO BIG QUERY

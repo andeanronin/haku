@@ -9,6 +9,7 @@ import {
   Info,
   Globe,
   Building2,
+  ReceiptText,
 } from "lucide-react";
 
 function SideBar() {
@@ -49,6 +50,13 @@ function SideBar() {
           onClick={() => navigate("/fondos-de-inversion")}
         >
           Fondos de Inversion
+        </p>
+      </div>
+
+      <div className="sideBar-item">
+        <ReceiptText color="white" />
+        <p className="sidebar-text" onClick={() => navigate("/bonos-peruanos")}>
+          Bonds
         </p>
       </div>
 

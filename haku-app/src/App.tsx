@@ -56,6 +56,9 @@ const mergedAdminList: Set<AdminType> = new Set([
 console.log(mergedAdminList);
 const mergedAdminArray: AdminType[] = Array.from(mergedAdminList);
 
+// Bonos
+import BondTable from "./bonds/bondsTable.tsx";
+
 // Render App
 function App() {
   return (
@@ -64,6 +67,7 @@ function App() {
         <SideBar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
+          <Route path="bonos-peruanos" element={<BondTable />} />
           <Route
             path="fondos-mutuos-table"
             element={<FondosMutuosTable data={fundData} />}
