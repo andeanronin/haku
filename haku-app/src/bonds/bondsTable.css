@@ -1,4 +1,4 @@
-/* styles for bonos peruanos table */
+/* Styles for page */
 #bond-table-page-container {
   height: 100vh;
   padding-top: 50px;
@@ -15,7 +15,7 @@
   text-align: center;
 }
 
-/* table styles */
+/* Table styles */
 #bond-table-container {
   margin-left: 78px;
   height: 80vh;
@@ -26,4 +26,45 @@
 #emisor-column p {
   color: rgb(33, 42, 63);
   display: inline;
+}
+
+/* Currency Filter Styles */
+.bondsTable-currencyColumn {
+  position: relative;
+}
+
+.bondsTable-dropdownFilter {
+  position: absolute;
+  background-color: rgb(33, 42, 63);
+  width: 100%;
+  top: 100%;
+  transform: translateX(-18%);
+  display: none;
+}
+
+#bondsTable-sectorFilter {
+  width: 200%;
+  transform: translateX(-30%);
+}
+
+#bondsTable-valorFilter {
+  width: 350%;
+  transform: translateX(-30%);
+}
+
+.bondsTable-dropdownFilter div {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.bondsTable-dropdownFilter div:hover {
+  background-color: rgb(41, 49, 67);
+  cursor: pointer;
+}
+
+/* make dropdown appear when MONEDA is hovered */
+.bondsTable-currencyColumn:hover .bondsTable-dropdownFilter {
+  display: block;
 }
