@@ -56,7 +56,7 @@ function SideBar() {
       <div className="sideBar-item">
         <ReceiptText color="white" />
         <p className="sidebar-text" onClick={() => navigate("/bonos-peruanos")}>
-          Bonds
+          Bonos
         </p>
       </div>
 
