@@ -34,6 +34,12 @@ tidy_df = pd.melt(bond_risk_df,
 # Drop rows with missing values in 'risk_classification' if desired
 tidy_df = tidy_df.dropna(subset=['risk_classification']).reset_index(drop=True) 
 
+#  Add risk column
+tidy_df['risk'] = None
+tidy_df['risk'] = None  # Initialize with None
+tidy_df.loc[tidy_df['risk_classification'].str.contains('A|1', case=True, na=False), 'risk'] = 'low'
+tidy_df.loc[tidy_df['risk_classification'].str.contains('B|2', case=True, na=False), 'risk'] = 'medium low'
+
 
 # SAVE TO CSV
 tidy_df.to_csv("./haku-data/Bonds/bonds_risk_sept24.csv", index=False)
