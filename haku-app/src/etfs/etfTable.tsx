@@ -27,8 +27,16 @@ function EtfTable({ etfProfiles, etfMonthlyValues }: AllEtfData) {
     } else if (column === "Dividend-Yield") {
       return [...tickers].sort(
         (a, b) =>
-          Number(etfProfiles[b]["dividend_yield"]) -
-          Number(etfProfiles[a]["dividend_yield"])
+          Number(
+            etfProfiles[b]["dividend_yield"] === "n/a"
+              ? 0
+              : etfProfiles[b]["dividend_yield"]
+          ) -
+          Number(
+            etfProfiles[a]["dividend_yield"] === "n/a"
+              ? 0
+              : etfProfiles[a]["dividend_yield"]
+          )
       );
     } else if (column === "Assets") {
       return [...tickers].sort(
