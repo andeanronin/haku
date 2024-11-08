@@ -9,7 +9,8 @@ SELECT
   `bonds_peru.bonds_general_data`.monto_circulacion,
   `bonds_peru.bonds_general_data`.moneda,
   credit_rating_agency, 
-  risk_classification
+  risk_classification,
+  risk
 FROM `bonds_peru.bonds_general_data`
 JOIN `bonds_peru.bonds_risk`
 ON `bonds_peru.bonds_general_data`.bond_key = `bonds_peru.bonds_risk`.bond_key

@@ -16,6 +16,7 @@ interface Bond {
   moneda: string | null;
   credit_rating_agency: string;
   risk_classification: string;
+  risk: string;
 }
 
 type BondData = Bond[];
@@ -49,6 +50,28 @@ const uniqueSectoresList = [...uniqueSectoresSet];
 // Get list of Valores for Valores dropdown
 const valoresSet = new Set(bondData.map((bond) => bond.valor));
 const uniqueValoresLIst = [...valoresSet];
+
+// Risk Color
+const getRiskColor = (value: string | null) => {
+  if (value === null) {
+    return undefined;
+  } else if (value === "low") {
+    return "green";
+  } else if (value === "medium low") {
+    return "green-orange";
+  } else if (value === "Medium") {
+    return "orange";
+  } else if (value === "Medium High") {
+    return "orange-red";
+  } else {
+    return "red";
+  }
+};
+
+// Return Color
+const getColor = (value: number) => {
+  return value >= 0 ? "positive" : "negative";
+};
 
 // MAIN COMPONENT
 function BondTable() {
@@ -205,6 +228,7 @@ function BondTable() {
                 </th>
                 <th>Rating Agency</th>
                 <th>Rating Crediticio</th>
+                <th>Riesgo</th>
               </tr>
             </thead>
             <tbody>
@@ -217,13 +241,18 @@ function BondTable() {
                     <td>{bond["valor"]}</td>
                     <td>{formatDate(bond["fecha_colocacion"])}</td>
                     <td>{formatDate(bond["fecha_vencimiento"])}</td>
-                    <td>{(bond["tasa_interes"] * 100).toFixed(2)}%</td>
+                    <td className={getColor(bond["tasa_interes"])}>
+                      {(bond["tasa_interes"] * 100).toFixed(2)}%
+                    </td>
                     <td>
                       {formatLargeNumbers(String(bond["monto_circulacion"]))}
                     </td>
                     <td>{bond["moneda"]}</td>
                     <td>{bond["credit_rating_agency"]}</td>
                     <td>{bond["risk_classification"]}</td>
+                    <td className={getRiskColor(bond["risk"])}>
+                      {bond["risk"]}
+                    </td>
                   </tr>
                 );
               })}
