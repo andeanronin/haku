@@ -1,82 +1,82 @@
 [
-    {
-        "emisor":"Bosques Amaz\u00f3nicos S.A.C.",
-        "sector":"Diversas",
-        "Tipo":"Bonos Corporativos",
-        "Tasa de Interes %":9.66,
-        "Monto en Circulacion":2733000.0,
-        "Clasificacion de Riesgo":"pA+"
-    },
-    {
-        "emisor":"Bosques Amaz\u00f3nicos S.A.C.",
-        "sector":"Diversas",
-        "Tipo":"Bonos Corporativos",
-        "Tasa de Interes %":9.59,
-        "Monto en Circulacion":4267000.0,
-        "Clasificacion de Riesgo":"PA+"
-    },
-    {
-        "emisor":"Cosapi S.A.",
-        "sector":"Diversas",
-        "Tipo":"Bonos Corporativos",
-        "Tasa de Interes %":9.47,
-        "Monto en Circulacion":10024000.0,
-        "Clasificacion de Riesgo":"A-"
-    },
-    {
-        "emisor":"Administradora Jockey Plaza Shopping Center S.A.",
-        "sector":"Diversas",
-        "Tipo":"Bonos Corporativos",
-        "Tasa de Interes %":9.16,
-        "Monto en Circulacion":32000000.0,
-        "Clasificacion de Riesgo":"AA+"
-    },
-    {
-        "emisor":"Administradora Jockey Plaza Shopping Center S.A.",
-        "sector":"Diversas",
-        "Tipo":"Bonos Corporativos",
-        "Tasa de Interes %":9.16,
-        "Monto en Circulacion":32000000.0,
-        "Clasificacion de Riesgo":"AA+"
-    },
-    {
-        "emisor":"Corporaci\u00f3n Azucarera del Per\u00fa S.A.",
-        "sector":"Diversas",
-        "Tipo":"Bonos Corporativos",
-        "Tasa de Interes %":9.0,
-        "Monto en Circulacion":145000000.0,
-        "Clasificacion de Riesgo":"A+"
-    },
-    {
-        "emisor":"Corporaci\u00f3n Azucarera del Per\u00fa S.A.",
-        "sector":"Diversas",
-        "Tipo":"Bonos Corporativos",
-        "Tasa de Interes %":9.0,
-        "Monto en Circulacion":145000000.0,
-        "Clasificacion de Riesgo":"A"
-    },
-    {
-        "emisor":"Luz del Sur S.A.A.",
-        "sector":"Servicios P\u00fablicos",
-        "Tipo":"Bonos Corporativos",
-        "Tasa de Interes %":8.75,
-        "Monto en Circulacion":81175000.0,
-        "Clasificacion de Riesgo":"pAAA"
-    },
-    {
-        "emisor":"EuroCapital Servicios Financieros S.A.C.",
-        "sector":"Diversas",
-        "Tipo":"Instrumentos de Corto Plazo",
-        "Tasa de Interes %":8.57,
-        "Monto en Circulacion":2500000.0,
-        "Clasificacion de Riesgo":"CP-2"
-    },
-    {
-        "emisor":"Banco Pichincha",
-        "sector":"Bancos y Financieras",
-        "Tipo":"Bonos Subordinados",
-        "Tasa de Interes %":8.5,
-        "Monto en Circulacion":25000000.0,
-        "Clasificacion de Riesgo":"pAA-"
-    }
+  {
+    "emisor": "Bosques Amaz\u00f3nicos S.A.C.",
+    "sector": "Diversas",
+    "Tipo": "Bonos Corporativos",
+    "Tasa de Interes %": 9.66,
+    "Monto en Circulacion": 2733000.0,
+    "Clasificacion de Riesgo": "pA+"
+  },
+  {
+    "emisor": "Bosques Amaz\u00f3nicos S.A.C.",
+    "sector": "Diversas",
+    "Tipo": "Bonos Corporativos",
+    "Tasa de Interes %": 9.59,
+    "Monto en Circulacion": 4267000.0,
+    "Clasificacion de Riesgo": "PA+"
+  },
+  {
+    "emisor": "Cosapi S.A.",
+    "sector": "Diversas",
+    "Tipo": "Bonos Corporativos",
+    "Tasa de Interes %": 9.47,
+    "Monto en Circulacion": 10024000.0,
+    "Clasificacion de Riesgo": "A-"
+  },
+  {
+    "emisor": "Administradora Jockey Plaza Shopping Center S.A.",
+    "sector": "Diversas",
+    "Tipo": "Bonos Corporativos",
+    "Tasa de Interes %": 9.16,
+    "Monto en Circulacion": 32000000.0,
+    "Clasificacion de Riesgo": "AA+"
+  },
+  {
+    "emisor": "Administradora Jockey Plaza Shopping Center S.A.",
+    "sector": "Diversas",
+    "Tipo": "Bonos Corporativos",
+    "Tasa de Interes %": 9.16,
+    "Monto en Circulacion": 32000000.0,
+    "Clasificacion de Riesgo": "AA+"
+  },
+  {
+    "emisor": "Corporaci\u00f3n Azucarera del Per\u00fa S.A.",
+    "sector": "Diversas",
+    "Tipo": "Bonos Corporativos",
+    "Tasa de Interes %": 9.0,
+    "Monto en Circulacion": 145000000.0,
+    "Clasificacion de Riesgo": "A+"
+  },
+  {
+    "emisor": "Corporaci\u00f3n Azucarera del Per\u00fa S.A.",
+    "sector": "Diversas",
+    "Tipo": "Bonos Corporativos",
+    "Tasa de Interes %": 9.0,
+    "Monto en Circulacion": 145000000.0,
+    "Clasificacion de Riesgo": "A"
+  },
+  {
+    "emisor": "Luz del Sur S.A.A.",
+    "sector": "Servicios P\u00fablicos",
+    "Tipo": "Bonos Corporativos",
+    "Tasa de Interes %": 8.75,
+    "Monto en Circulacion": 81175000.0,
+    "Clasificacion de Riesgo": "pAAA"
+  },
+  {
+    "emisor": "EuroCapital Servicios Financieros S.A.C.",
+    "sector": "Diversas",
+    "Tipo": "Instrumentos de Corto Plazo",
+    "Tasa de Interes %": 8.57,
+    "Monto en Circulacion": 2500000.0,
+    "Clasificacion de Riesgo": "CP-2"
+  },
+  {
+    "emisor": "Banco Pichincha",
+    "sector": "Bancos y Financieras",
+    "Tipo": "Bonos Subordinados",
+    "Tasa de Interes %": 8.5,
+    "Monto en Circulacion": 25000000.0,
+    "Clasificacion de Riesgo": "pAA-"
+  }
 ]
