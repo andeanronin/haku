@@ -68,3 +68,25 @@
 .bondsTable-currencyColumn:hover .bondsTable-dropdownFilter {
   display: block;
 }
+
+/* adjustments for tablets */
+@media (max-width: 925px) {
+  #bond-table-container {
+    margin-left: 0px;
+    width: 100%;
+  }
+}
+
+/* adjustments for phones */
+@media screen and (max-width: 500px) {
+  #bond-table-container {
+    margin-left: 0px;
+    width: 100%;
+  }
+  .hide-for-phones {
+    display: none;
+  }
+  #bond-table-header-text {
+    font-size: 12px;
+  }
+}

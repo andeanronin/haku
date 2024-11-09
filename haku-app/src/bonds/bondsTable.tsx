@@ -134,7 +134,7 @@ function BondTable() {
       <div id="bond-table-page-container">
         <div id="bond-table-header">
           <h2>Bonos Peruanos</h2>
-          <p>
+          <p id="bond-table-header-text">
             Todos los bonos listados en la Bolsa de Valores de Lima, reportados
             por la SMV.
           </p>
@@ -163,13 +163,13 @@ function BondTable() {
           <table className="fondos-table">
             <thead>
               <tr>
-                <th>Bond Id</th>
+                <th className="hide-for-phones">Bond Id</th>
                 <th id="emisor-column">
                   <p>------------</p>
                   Emisor
                   <p>------------</p>
                 </th>
-                <th className="bondsTable-currencyColumn">
+                <th className="bondsTable-currencyColumn hide-for-phones">
                   {
                     <div
                       id="bondsTable-sectorFilter"
@@ -186,7 +186,7 @@ function BondTable() {
                   }
                   Sector
                 </th>
-                <th className="bondsTable-currencyColumn">
+                <th className="bondsTable-currencyColumn hide-for-phones">
                   {
                     <div
                       id="bondsTable-valorFilter"
@@ -203,8 +203,8 @@ function BondTable() {
                   }
                   Valor
                 </th>
-                <th>Fecha Colocacion</th>
-                <th>Fecha Vencimiento</th>
+                <th className="hide-for-phones">Fecha Colocacion</th>
+                <th className="hide-for-phones">Fecha Vencimiento</th>
                 <th
                   onClick={() => handleSortClick("interes")}
                   style={{ cursor: "pointer" }}
@@ -212,12 +212,13 @@ function BondTable() {
                   Tasa de Interes
                 </th>
                 <th
+                  className="hide-for-phones"
                   onClick={() => handleSortClick("circulacion")}
                   style={{ cursor: "pointer" }}
                 >
                   Monto en Circulacion
                 </th>
-                <th className="bondsTable-currencyColumn">
+                <th className="bondsTable-currencyColumn hide-for-phones">
                   {
                     <div className="bondsTable-dropdownFilter">
                       <div onClick={() => handleCurrencyClick("US$")}>$</div>
@@ -226,8 +227,8 @@ function BondTable() {
                   }
                   Moneda
                 </th>
-                <th>Rating Agency</th>
-                <th>Rating Crediticio</th>
+                <th className="hide-for-phones">Rating Agency</th>
+                <th className="hide-for-phones">Rating Crediticio</th>
                 <th>Riesgo</th>
               </tr>
             </thead>
@@ -235,21 +236,29 @@ function BondTable() {
               {bondDataTable.map((bond) => {
                 return (
                   <tr>
-                    <td>{bond["bond_key"]}</td>
+                    <td className="hide-for-phones">{bond["bond_key"]}</td>
                     <td>{bond["emisor"]}</td>
-                    <td>{bond["sector"]}</td>
-                    <td>{bond["valor"]}</td>
-                    <td>{formatDate(bond["fecha_colocacion"])}</td>
-                    <td>{formatDate(bond["fecha_vencimiento"])}</td>
+                    <td className="hide-for-phones">{bond["sector"]}</td>
+                    <td className="hide-for-phones">{bond["valor"]}</td>
+                    <td className="hide-for-phones">
+                      {formatDate(bond["fecha_colocacion"])}
+                    </td>
+                    <td className="hide-for-phones">
+                      {formatDate(bond["fecha_vencimiento"])}
+                    </td>
                     <td className={getColor(bond["tasa_interes"])}>
                       {(bond["tasa_interes"] * 100).toFixed(2)}%
                     </td>
-                    <td>
+                    <td className="hide-for-phones">
                       {formatLargeNumbers(String(bond["monto_circulacion"]))}
                     </td>
-                    <td>{bond["moneda"]}</td>
-                    <td>{bond["credit_rating_agency"]}</td>
-                    <td>{bond["risk_classification"]}</td>
+                    <td className="hide-for-phones">{bond["moneda"]}</td>
+                    <td className="hide-for-phones">
+                      {bond["credit_rating_agency"]}
+                    </td>
+                    <td className="hide-for-phones">
+                      {bond["risk_classification"]}
+                    </td>
                     <td className={getRiskColor(bond["risk"])}>
                       {bond["risk"]}
                     </td>

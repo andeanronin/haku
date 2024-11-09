@@ -10,6 +10,7 @@ import {
   Info,
   Globe,
   Building2,
+  ReceiptText,
 } from "lucide-react";
 
 interface SideBarProps {
@@ -76,6 +77,16 @@ function NavDropDown({ onClose }: SideBarProps) {
           onClick={() => navigate("/fondos-de-inversion")}
         >
           Fondos de Inversion
+        </p>
+      </div>
+
+      <div className="navBarDropdown-item">
+        <ReceiptText color="white" />
+        <p
+          className="navBarDropdown-text"
+          onClick={() => navigate("/bonos-peruanos")}
+        >
+          Bonos
         </p>
       </div>
 
