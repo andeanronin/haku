@@ -101,7 +101,7 @@ function LandingPage() {
             <h2>-</h2>
             <h2>ETFS</h2>
             <h2>-</h2>
-            <h2>Fondos de Inversion</h2>
+            <h2>Bonos</h2>
           </div>
         </div>
         <div
