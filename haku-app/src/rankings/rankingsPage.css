@@ -10,7 +10,13 @@
 }
 
 #rankingsPage-container h1 {
-  margin-bottom: 0px;
+  margin-bottom: 5px;
+}
+
+#rankingsPage-container p {
+  margin-bottom: 5px;
+  color: white;
+  margin-top: 0px;
 }
 
 .rankingsPage-tableSection h2 {

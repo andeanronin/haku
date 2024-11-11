@@ -1,4 +1,5 @@
 SELECT
+  `bonds_peru.bonds_general_data`.bond_key,
   `bonds_peru.bonds_general_data`.emisor,
   `bonds_peru.bonds_general_data`.sector,
   `bonds_peru.bonds_general_data`.valor as `Tipo`,

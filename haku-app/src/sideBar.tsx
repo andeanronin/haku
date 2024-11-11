@@ -10,6 +10,7 @@ import {
   Globe,
   Building2,
   ReceiptText,
+  Star,
 } from "lucide-react";
 
 function SideBar() {
@@ -64,6 +65,13 @@ function SideBar() {
         <Building2 color="white" />
         <p className="sidebar-text" onClick={() => navigate("/gestores")}>
           Gestores
+        </p>
+      </div>
+
+      <div className="sideBar-item">
+        <Star color="white" />
+        <p className="sidebar-text" onClick={() => navigate("/rankings")}>
+          Rankings
         </p>
       </div>
 

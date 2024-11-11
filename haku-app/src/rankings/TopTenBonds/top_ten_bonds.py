@@ -7,7 +7,7 @@ import time
 import pandas as pd
 from google.cloud import bigquery
 
-folder_path = "./haku-app/src/charts"
+folder_path = "./haku-app/src/rankings/TopTenBonds"
 
 # Big query credentials
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "bigquery-service-key.json"
@@ -32,7 +32,7 @@ if job.state == 'DONE':
     df = job.to_dataframe()
 
     # Save to JSON
-    df.to_json("./haku-app/src/charts/top_ten_bonds.json", orient="records", indent=4)
+    df.to_json("./haku-app/src/rankings/TopTenBonds/top_ten_bonds.json", orient="records", indent=4)
 
 else:
     print(job.result())
