@@ -59,6 +59,9 @@ const mergedAdminArray: AdminType[] = Array.from(mergedAdminList);
 // Bonos
 import BondTable from "./bonds/bondsTable.tsx";
 
+// Rankings Page
+import RankingsPage from "./rankings/rankingsPage.tsx";
+
 // Render App
 function App() {
   return (
@@ -110,6 +113,7 @@ function App() {
           })}
           <Route path="/fondos-de-inversion" element={<FondosInversion />} />
           <Route path="/About" element={<About />} />
+          <Route path="/Rankings" element={<RankingsPage />} />
           <Route
             path="/gestores"
             element={<GestoresPage adminList={mergedAdminArray} />}

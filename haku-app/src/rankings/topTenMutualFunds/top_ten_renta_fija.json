@@ -1,0 +1,92 @@
+[
+  {
+    "fund_id": 54,
+    "fondo_mutuo": "BBVA RENTA MED. PLAZO S/.",
+    "categoria": "Renta Fija",
+    "administradora": "CONTINENTAL FM",
+    "return": 0.1032,
+    "risk": "Low",
+    "year": 2023
+  },
+  {
+    "fund_id": 56,
+    "fondo_mutuo": "IF MEDIANO PLAZO SOLES",
+    "categoria": "Renta Fija",
+    "administradora": "INTERFONDO",
+    "return": 0.0926,
+    "risk": "Low",
+    "year": 2023
+  },
+  {
+    "fund_id": 55,
+    "fondo_mutuo": "CC CONSERV. MED. PLAZO S/.",
+    "categoria": "Renta Fija",
+    "administradora": "CREDIFONDO SAF",
+    "return": 0.0917,
+    "risk": "Low",
+    "year": 2023
+  },
+  {
+    "fund_id": 57,
+    "fondo_mutuo": "SURA RENTA SOLES",
+    "categoria": "Renta Fija",
+    "administradora": "FONDOS SURA SAF",
+    "return": 0.0786,
+    "risk": "Low",
+    "year": 2023
+  },
+  {
+    "fund_id": 67,
+    "fondo_mutuo": "DIVISO CONSERVADOR SOLES",
+    "categoria": "Renta Fija",
+    "administradora": "DIVISO FONDOS SAF S.A.",
+    "return": 0.077,
+    "risk": "Low",
+    "year": 2023
+  },
+  {
+    "fund_id": 63,
+    "fondo_mutuo": "BBVA RENTA CORTO PLAZO S/.",
+    "categoria": "Renta Fija",
+    "administradora": "CONTINENTAL FM",
+    "return": 0.0768,
+    "risk": "Low",
+    "year": 2023
+  },
+  {
+    "fund_id": 65,
+    "fondo_mutuo": "CRED. CONSER. CORTO PLAZO S/",
+    "categoria": "Renta Fija",
+    "administradora": "CREDIFONDO SAF",
+    "return": 0.0754,
+    "risk": "Low",
+    "year": 2023
+  },
+  {
+    "fund_id": 70,
+    "fondo_mutuo": "SURA ULTRA CASH SOLES",
+    "categoria": "Renta Fija",
+    "administradora": "FONDOS SURA SAF",
+    "return": 0.0732,
+    "risk": "Low",
+    "year": 2023
+  },
+  {
+    "fund_id": 66,
+    "fondo_mutuo": "CRED. CONSERVAD. LIQUIDEZ S/",
+    "categoria": "Renta Fija",
+    "administradora": "CREDIFONDO SAF",
+    "return": 0.0721,
+    "risk": "Low",
+    "year": 2023
+  },
+  {
+    "fund_id": 61,
+    "fondo_mutuo": "BBVA CASH SOLES",
+    "categoria": "Renta Fija",
+    "administradora": "CONTINENTAL FM",
+    "return": 0.0713,
+    "risk": "Low",
+    "year": 2023
+  }
+]

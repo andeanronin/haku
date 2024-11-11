@@ -1,0 +1,92 @@
+[
+    {
+        "fund_id":156,
+        "fondo_mutuo":"FdeF CC Acciones Innovacion",
+        "categoria":"Fondo de Fondos",
+        "administradora":"CREDIFONDO SAF",
+        "return":0.208,
+        "risk":"High",
+        "year":2024
+    },
+    {
+        "fund_id":213,
+        "fondo_mutuo":"SCOTIA FONDO DE F. ACC. US",
+        "categoria":"Fondo de Fondos",
+        "administradora":"SCOTIA FONDOS",
+        "return":0.1791,
+        "risk":"Medium High",
+        "year":2024
+    },
+    {
+        "fund_id":188,
+        "fondo_mutuo":"FF BBVA ACC GLOB MILLENIALS",
+        "categoria":"Fondo de Fondos",
+        "administradora":"CONTINENTAL FM",
+        "return":0.1628,
+        "risk":"Medium Low",
+        "year":2024
+    },
+    {
+        "fund_id":221,
+        "fondo_mutuo":"SURA ACC. NORTEAMERICANAS",
+        "categoria":"Fondo de Fondos",
+        "administradora":"FONDOS SURA SAF",
+        "return":0.1407,
+        "risk":"Medium",
+        "year":2024
+    },
+    {
+        "fund_id":146,
+        "fondo_mutuo":"CREDICORP ACCIONES EEUU",
+        "categoria":"Fondo de Fondos",
+        "administradora":"CREDIFONDO SAF",
+        "return":0.1267,
+        "risk":"Medium High",
+        "year":2024
+    },
+    {
+        "fund_id":159,
+        "fondo_mutuo":"FdeF IF Global Thematics",
+        "categoria":"Fondo de Fondos",
+        "administradora":"INTERFONDO",
+        "return":0.1245,
+        "risk":"Medium High",
+        "year":2024
+    },
+    {
+        "fund_id":175,
+        "fondo_mutuo":"FdF IF Inversi\u00f3n EEUU FMIV",
+        "categoria":"Fondo de Fondos",
+        "administradora":"INTERFONDO",
+        "return":0.1158,
+        "risk":"Medium",
+        "year":2024
+    },
+    {
+        "fund_id":220,
+        "fondo_mutuo":"SFdF Igualdad de Genero",
+        "categoria":"Fondo de Fondos",
+        "administradora":"SCOTIA FONDOS",
+        "return":0.114,
+        "risk":"Medium",
+        "year":2024
+    },
+    {
+        "fund_id":209,
+        "fondo_mutuo":"-PHI RV ESTRATEGIA GLOBAL SERIE B",
+        "categoria":"Fondo de Fondos",
+        "administradora":"PRUDENTIALSAF SAF",
+        "return":0.1131,
+        "risk":"Low",
+        "year":2024
+    },
+    {
+        "fund_id":208,
+        "fondo_mutuo":"-PHI RV ESTRATEGIA GLOBAL SERIE A",
+        "categoria":"Fondo de Fondos",
+        "administradora":"PRUDENTIALSAF SAF",
+        "return":0.1057,
+        "risk":"Low",
+        "year":2024
+    }
+]
