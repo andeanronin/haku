@@ -82,7 +82,14 @@
   #bond-table-container {
     margin-left: 0px;
     width: 100%;
+    overflow-x: hidden;
   }
+
+  #bond-table-container table {
+    width: 100%; /* Ensures the table takes full width */
+    table-layout: fixed; /* Fixes column widths to the table width */
+  }
+
   .hide-for-phones {
     display: none;
   }

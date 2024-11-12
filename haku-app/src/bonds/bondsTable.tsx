@@ -160,7 +160,7 @@ function BondTable() {
           </div>
         </div>
         <div id="bond-table-container">
-          <table className="fondos-table">
+          <table className="fondos-table bonds">
             <thead>
               <tr>
                 <th className="hide-for-phones">Bond Id</th>
@@ -229,7 +229,7 @@ function BondTable() {
                 </th>
                 <th className="hide-for-phones">Rating Agency</th>
                 <th className="hide-for-phones">Rating Crediticio</th>
-                <th>Riesgo</th>
+                <th className="hide-for-phones">Riesgo</th>
               </tr>
             </thead>
             <tbody>
@@ -259,7 +259,11 @@ function BondTable() {
                     <td className="hide-for-phones">
                       {bond["risk_classification"]}
                     </td>
-                    <td className={getRiskColor(bond["risk"])}>
+                    <td
+                      className={`${getRiskColor(
+                        bond["risk"]
+                      )} hide-for-phones`}
+                    >
                       {bond["risk"]}
                     </td>
                   </tr>
