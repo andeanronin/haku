@@ -90,6 +90,12 @@
     table-layout: fixed; /* Fixes column widths to the table width */
   }
 
+  #bond-table-container table th,
+  #bond-table-container table td {
+    font-size: 3vw;
+    white-space: normal;
+  }
+
   .hide-for-phones {
     display: none;
   }
