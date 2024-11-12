@@ -46,7 +46,7 @@ function TopTenMutualFunds({ fundData }: TopTenFunds) {
   return (
     <>
       <div id="topTenTable-container">
-        <table id="topTen-MutualFunds">
+        <table className="topTen-Table">
           <thead>
             <tr>
               <th>Ranking</th>

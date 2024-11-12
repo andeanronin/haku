@@ -160,15 +160,11 @@ function BondTable() {
           </div>
         </div>
         <div id="bond-table-container">
-          <table className="fondos-table bonds">
+          <table id="bondsTable">
             <thead>
               <tr>
                 <th className="hide-for-phones">Bond Id</th>
-                <th id="emisor-column">
-                  <p>------------</p>
-                  Emisor
-                  <p>------------</p>
-                </th>
+                <th>Emisor</th>
                 <th className="bondsTable-currencyColumn hide-for-phones">
                   {
                     <div

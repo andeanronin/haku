@@ -12,7 +12,7 @@ const getReturnColor = (value: number | null) => {
 function TopTenBonds() {
   return (
     <>
-      <table id="topTen-MutualFunds">
+      <table className="topTen-Table">
         <thead>
           <tr>
             <th>Ranking</th>

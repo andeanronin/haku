@@ -128,9 +128,9 @@ function LandingPage() {
             </button>
             <button
               className={landingStyles.exploreButton}
-              onClick={() => navigate("/fondos-de-inversion")}
+              onClick={() => navigate("/bonos-peruanos")}
             >
-              Fondos de Inversion
+              Bonos
             </button>
           </div>
         </div>

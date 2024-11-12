@@ -23,9 +23,57 @@
   overflow-y: auto;
 }
 
-#emisor-column p {
-  color: rgb(33, 42, 63);
-  display: inline;
+#bondsTable {
+  color: white;
+  margin-right: 25px;
+}
+
+#bondsTable th {
+  font-size: 1.2vw;
+  background-color: rgb(18, 20, 24);
+  padding: 10px 20px 10px 20px;
+  text-wrap: nowrap;
+  position: sticky;
+  top: 0;
+}
+
+#bondsTable th:hover {
+  background-color: rgb(36, 39, 46);
+}
+
+#bondsTable td {
+  font-size: 1vw;
+  padding: 10px;
+}
+
+#bondsTable tbody {
+  background-color: rgba(30, 36, 50);
+  text-align: center;
+}
+
+#bondsTable tbody tr:hover {
+  background-color: rgb(47, 53, 68);
+}
+
+/* Risk color styles */
+.green {
+  color: rgb(20, 172, 20);
+}
+
+.green-orange {
+  color: rgb(255, 191, 71);
+}
+
+.orange {
+  color: orange;
+}
+
+.orange-red {
+  color: orangered;
+}
+
+.red {
+  color: red;
 }
 
 /* Currency Filter Styles */
@@ -35,7 +83,7 @@
 
 .bondsTable-dropdownFilter {
   position: absolute;
-  background-color: rgb(33, 42, 63);
+  background-color: rgb(36, 39, 46);
   width: 100%;
   top: 100%;
   transform: translateX(-18%);
@@ -43,7 +91,7 @@
 }
 
 #bondsTable-sectorFilter {
-  width: 200%;
+  width: 250%;
   transform: translateX(-30%);
 }
 
@@ -57,6 +105,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px;
 }
 
 .bondsTable-dropdownFilter div:hover {
@@ -79,26 +128,32 @@
 
 /* adjustments for phones */
 @media screen and (max-width: 500px) {
+  #bond-table-header-text {
+    font-size: 12px;
+  }
+
   #bond-table-container {
-    margin-left: 0px;
-    width: 100%;
     overflow-x: hidden;
   }
 
-  #bond-table-container table {
+  #bondsTable {
     width: 100%; /* Ensures the table takes full width */
     table-layout: fixed; /* Fixes column widths to the table width */
   }
 
-  #bond-table-container table th,
-  #bond-table-container table td {
-    font-size: 2.5vw;
+  #bondsTable th {
+    font-size: 3.5vw;
+    text-wrap: wrap;
   }
 
+  #bondsTable td {
+    font-size: 3vw;
+    text-wrap: wrap;
+    padding: 5px;
+  }
+
+  /* columns to hide for pones */
   .hide-for-phones {
     display: none;
-  }
-  #bond-table-header-text {
-    font-size: 12px;
   }
 }
