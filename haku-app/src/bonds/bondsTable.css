@@ -92,8 +92,7 @@
 
   #bond-table-container table th,
   #bond-table-container table td {
-    font-size: 3vw;
-    white-space: normal;
+    font-size: 2.5vw;
   }
 
   .hide-for-phones {

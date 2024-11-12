@@ -15,8 +15,8 @@ function RankingsPage() {
       <div id="rankingsPage-container">
         <h1 style={{ color: "white" }}>Rankings</h1>
         <p>
-          Ranking mensualmente actualizado de los bonos, fondos mutuos y etfs
-          mas rentables del Peru.
+          Ranking mensual de los bonos, fondos mutuos y etfs mas rentables del
+          Peru.
         </p>
         <section className="rankingsPage-tableSection">
           <h2>Fondos Mutuos - Renta Fija 2023</h2>
