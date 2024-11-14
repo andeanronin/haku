@@ -3,7 +3,7 @@ import os
 print("Current working directory:", os.getcwd()) 
 
 # Read CSV
-fondos_mutuos_dataframe = pd.read_csv("haku-data/fondos-mutuos-table-3.csv")
+fondos_mutuos_dataframe = pd.read_csv("haku-data/Fondos-Mutuos/fondos-mutuos-table-3.csv")
 
 # Drop rows with NaN value for CAGR column
 fondos_mutuos_dataframe = fondos_mutuos_dataframe.dropna(subset=["CAGR"])
@@ -43,7 +43,7 @@ for item in fondos_list:
 # SERIALIZE DATA: csv & json
 fondos_mutuos_dataframe = pd.DataFrame(fondos_list)
 
-fondos_mutuos_dataframe.to_csv("haku-data/fondos-mutuos-table-4.csv" , index=False)
+fondos_mutuos_dataframe.to_csv("haku-data/Fondos-Mutuos/fondos-mutuos-table-4.csv" , index=False)
 
-fondos_mutuos_dataframe.to_json("haku-data/fondos-mutuos-data-4.json" , orient="records" , indent=4)
+fondos_mutuos_dataframe.to_json("haku-data/Fondos-Mutuos/fondos-mutuos-data-4.json" , orient="records" , indent=4)
 

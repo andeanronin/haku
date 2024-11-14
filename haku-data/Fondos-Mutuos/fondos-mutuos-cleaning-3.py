@@ -13,7 +13,7 @@ This script adds 5 datapoints to the fondos-mutuos dataset:
     - Risk Category (low - high)
 """
 
-file = open('haku-data/fondos-mutuos-data-2.json') 
+file = open('haku-data/Fondos-Mutuos/fondos-mutuos-data-2.json') 
 
 # Load json file to a python list object
 fondos_mutuos_list = json.load(file)  
@@ -220,11 +220,11 @@ if __name__ == "__main__":
     # Drop rows with a value of NaN for CAGR 
     
     # Save list of dicts to JSON file
-    with open("haku-data/fondos-mutuos-data-3.json", "w") as json_file:
+    with open("haku-data/Fondos-Mutuos/fondos-mutuos-data-3.json", "w") as json_file:
         json.dump(fondos_mutuos_list, json_file, indent = 4)
 
     # Save list of dicts to CSV table
-    with open('haku-data/fondos-mutuos-table-3.csv', 'w', newline='') as csv_file:
+    with open('haku-data/Fondos-Mutuos/fondos-mutuos-table-3.csv', 'w', newline='') as csv_file:
         writer = csv.DictWriter(csv_file, fieldnames=fondos_mutuos_list[0].keys())
         writer.writeheader()
         writer.writerows(fondos_mutuos_list)

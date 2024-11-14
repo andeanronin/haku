@@ -1,11 +1,20 @@
-// Gestor Page
+/* 
+  This component renders the funds (in Card view) of each Fund Administrator 
+  With this view, the user can see all of the fund under an Admin's management. 
+  The user can then navigate to each fund for further details.
+*/
+
 import Navbar from "../Navbar";
+import FooterComponent from "../footerComp";
 import "./gestorPage.css";
-import mutualFundData from "../mutualFunds/data/fondos-mutuos-data-4.json";
+
+// Import data
+import mutualFundData from "../mutualFunds/data/fondos-mutuos-data-oct24.json";
 import etfProfiles from "../etfs/data/etfs-profiles.json";
 import etfMonthlyValues from "../etfs/data/etfs-monthly-values-final.json";
+
+// Import Card components
 import EtfCard from "../etfs/etfCard";
-import FooterComponent from "../footerComp";
 import FondoMutuoCard from "../mutualFunds/fondoMutuoCard";
 import { GestorPageProps } from "../types/gestoresTypes";
 import { EtfProfiles, AllEtfMonthlyValues } from "../types/etfTypes.ts";

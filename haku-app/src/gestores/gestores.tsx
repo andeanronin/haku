@@ -1,3 +1,8 @@
+/* 
+This component renders a list of all the fund uniqueAdministrators
+The user can then click on the administrator of their liking and see a list of all the funds that they manage.
+This component receives its props from App.tsx
+*/
 import "./gestores.css";
 import Navbar from "../Navbar";
 import FooterComponent from "../footerComp";

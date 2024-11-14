@@ -1,11 +1,15 @@
-// Fondos Mutuos Table & Square View
-import { useState } from "react";
+// This component renders the Fondos Mutuos Page with Table & Square views
 import Navbar from "../Navbar";
-import "./fondosMutuos.css";
 import FooterComponent from "../footerComp";
+import "./fondosMutuos.css";
+
+// Import fondos mutuos table & list Components
 import FondosMutuosTable from "./fondosMutuosTable";
-import mutualFundData from "./data/fondos-mutuos-data-4.json"; // Imports Mutual Fund Data
 import FondosMutuosList from "./fondosMutuosSquares";
+
+// Imports Mutual Fund Data
+import mutualFundData from "./data/fondos-mutuos-data-oct24.json";
+import { useState } from "react";
 import { Rows4, LayoutGrid } from "lucide-react";
 
 function FondosMutuos() {

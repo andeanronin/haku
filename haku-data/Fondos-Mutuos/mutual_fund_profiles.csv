@@ -1,264 +1,264 @@
 tipo_fondo,fondo_mutuo,administradora,fec__inicio_operacion,moneda_cuota,valor_cuota,patrimonio_s__,participes_n,anos,categoria,fund_id,risk,logo
-Renta Variable,CREDICORP ACCIONES GLOBAL,CREDIFONDO SAF,25/03/2013,$,180.92,23652842.51,894.0,11,Renta Variable,1,Medium,/logosFondosMutuos/logoCredicorp.png
-Renta Variable,CREDICORP CAPITAL ACCIONES,CREDIFONDO SAF,17/01/2007,$,166.16,43751750.38,564.0,17,Renta Variable,2,High,/logosFondosMutuos/logoCredicorp.png
-Renta Variable,-Faro Global Innovation Instit. SERIE A,FARO CAPITAL SAFI,27/01/2020,$,93.67,,1.0,4,Renta Variable,3,High,/logosFondosMutuos/logoFaro.png
-Renta Variable,-Faro Global Innovation Instit. SERIE B,FARO CAPITAL SAFI,27/01/2020,$,126.75,,4.0,4,Renta Variable,4,Medium High,/logosFondosMutuos/logoFaro.png
-Renta Variable,-Faro Global Innovation Instit. SERIE C,FARO CAPITAL SAFI,27/01/2020,$,125.42,,25.0,4,Renta Variable,5,High,/logosFondosMutuos/logoFaro.png
-Renta Variable,-FARO RENTA VARIABLE GLOBAL SERIE A,FARO CAPITAL SAFI,29/05/2018,$,147.85,,3.0,6,Renta Variable,6,Medium High,/logosFondosMutuos/logoFaro.png
-Renta Variable,-FARO RENTA VARIABLE GLOBAL SERIE B,FARO CAPITAL SAFI,29/05/2018,$,145.26,,8.0,6,Renta Variable,7,Medium High,/logosFondosMutuos/logoFaro.png
-Renta Variable,-FARO RENTA VARIABLE GLOBAL SERIE C,FARO CAPITAL SAFI,29/05/2018,$,141.09,,44.0,6,Renta Variable,8,Medium High,/logosFondosMutuos/logoFaro.png
-Renta Variable,IF ACCIONES,INTERFONDO,19/01/2007,S/.,108.08,11369090.21,1260.0,17,Renta Variable,9,Medium High,/logosFondosMutuos/logoInterFondos.png
-Renta Variable,Promoinvest Fondo Selectivo,PROMOINVEST SAF,14/01/1999,$,3.19,5020514.18,465.0,25,Renta Variable,10,High,/logosFondosMutuos/logoPromoInvest.png
-Renta Variable,SCOTIA FONDO ACCIONES,SCOTIA FONDOS,04/02/2008,S/.,10.89,3608854.69,206.0,16,Renta Variable,11,Medium High,/logosFondosMutuos/logoScotia2.png
-Renta Variable,SURA ACCIONES,FONDOS SURA SAF,22/01/2007,S/.,15.86,16161926.13,670.0,17,Renta Variable,12,High,/logosFondosMutuos/logoSura.png
-Corto Plazo Soles,-Prudential Corto Plazo S/. SERIE A,PRUDENTIALSAF SAF,04/04/2024,S/.,10.49,,102.0,0,Renta Fija,13,,/logosFondosMutuos/logoPrudential.png
-Corto Plazo Soles,-Prudential Corto Plazo S/. SERIE B,PRUDENTIALSAF SAF,04/04/2024,S/.,10.39,,4.0,0,Renta Fija,14,,/logosFondosMutuos/logoPrudential.png
-Corto Plazo Dólares,-Andean Crown Cash Plus $ SERIE A,ANDEAN CROWN SAF S.A.C.,04/12/2024,$,10.15,,35.0,0,Renta Fija,15,,/logosFondosMutuos/logoAC.png
-Corto Plazo Dólares,-Andean Crown Cash Plus $ SERIE B,ANDEAN CROWN SAF S.A.C.,04/12/2024,$,10.16,,2.0,0,Renta Fija,16,,/logosFondosMutuos/logoAC.png
-Estructurado,BTG Rendimiento $ 1 FMIV,BTG PACTUAL PERU SAF,28/12/2023,$,104.58,1820826.31,17.0,1,Estructurado,17,Low,/logosFondosMutuos/logoBtg.png
-Estructurado,CC BARRERA CONDICIONAL XIII,CREDIFONDO SAF,15/06/2022,$,107.27,19894485.92,147.0,2,Estructurado,18,Low,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LI,CREDIFONDO SAF,23/01/2024,$,102.18,55661076.93,214.0,0,Estructurado,19,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LII,CREDIFONDO SAF,23/01/2024,$,103.64,88997312.26,273.0,0,Estructurado,20,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LIV,CREDIFONDO SAF,26/02/2024,$,101.85,61849690.55,189.0,0,Estructurado,21,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LIX,CREDIFONDO SAF,05/02/2024,$,100.98,135212406.55,364.0,0,Estructurado,22,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LV,CREDIFONDO SAF,26/02/2024,$,101.63,74719464.96,245.0,0,Estructurado,23,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LVI,CREDIFONDO SAF,04/02/2024,$,101.45,355881284.29,1130.0,0,Estructurado,24,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LVII,CREDIFONDO SAF,04/02/2024,$,101.36,66742367.48,224.0,0,Estructurado,25,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LVIII,CREDIFONDO SAF,04/02/2024,$,102.01,95406275.13,379.0,0,Estructurado,26,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LX,CREDIFONDO SAF,05/02/2024,$,100.96,30587685.33,115.0,0,Estructurado,27,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LXI,CREDIFONDO SAF,05/02/2024,$,101.29,66128304.0,207.0,0,Estructurado,28,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LXII,CREDIFONDO SAF,13/06/2024,$,100.66,129796442.5,390.0,0,Estructurado,29,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LXIII,CREDIFONDO SAF,13/06/2024,$,100.65,37038407.09,158.0,0,Estructurado,30,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO LXIV,CREDIFONDO SAF,13/06/2024,$,100.7,90101704.17,335.0,0,Estructurado,31,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO XL,CREDIFONDO SAF,09/07/2023,$,103.84,59736699.42,226.0,1,Estructurado,32,Low,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO XLIII,CREDIFONDO SAF,10/06/2023,$,103.89,49513048.95,176.0,1,Estructurado,33,Low,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO XLIX,CREDIFONDO SAF,27/12/2023,$,102.54,113085083.57,399.0,1,Estructurado,34,Low,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO XLVI,CREDIFONDO SAF,16/11/2023,$,103.15,158262440.38,523.0,1,Estructurado,35,Low,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO XLVIII,CREDIFONDO SAF,22/12/2023,$,102.49,54893114.88,210.0,1,Estructurado,36,Low,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO XXXII,CREDIFONDO SAF,29/05/2023,$,105.12,-0.03,1.0,1,Estructurado,37,,/logosFondosMutuos/logoCredicorp.png
-Estructurado,CC CUPON ESCALONADO XXXVI,CREDIFONDO SAF,17/08/2023,$,104.41,53988606.92,219.0,1,Estructurado,38,Low,/logosFondosMutuos/logoCredicorp.png
-Estructurado,IF 34 Custodia Dolares FMIV,INTERFONDO,26/06/2023,$,52.56,-34.12,356.0,1,Estructurado,39,,/logosFondosMutuos/logoInterFondos.png
-Estructurado,IF 35 Custodia Dólares FMIV,INTERFONDO,27/11/2023,$,51.67,71394925.06,395.0,1,Estructurado,40,Low,/logosFondosMutuos/logoInterFondos.png
-Estructurado,IF 36 Custodio Dólares FMIV,INTERFONDO,21/12/2023,$,51.39,59557710.3,320.0,1,Estructurado,41,Low,/logosFondosMutuos/logoInterFondos.png
-Estructurado,IF 37 Custodia Dólares FMIV,INTERFONDO,23/01/2024,$,51.05,49346705.56,382.0,0,Estructurado,42,,/logosFondosMutuos/logoInterFondos.png
-Estructurado,IF 38 Custodia Dólares,INTERFONDO,26/02/2024,$,50.66,55363036.82,336.0,0,Estructurado,43,,/logosFondosMutuos/logoInterFondos.png
-Estructurado,IF 39 Custodia Dólares,INTERFONDO,27/06/2024,$,50.14,70962943.98,418.0,0,Estructurado,44,,/logosFondosMutuos/logoInterFondos.png
-Estructurado,SF Inversiones Smart $ I,SCOTIA FONDOS,06/06/2024,$,100.6,92858016.84,301.0,0,Estructurado,45,,/logosFondosMutuos/logoScotia2.png
-Estructurado,SF Rendimiento Binario $ XI,SCOTIA FONDOS,09/01/2022,$,104.52,66885621.22,238.0,2,Estructurado,46,Low,/logosFondosMutuos/logoScotia2.png
-Renta Mixta Crecimiento Soles,CRED. CRECIMIENTO VCS,CREDIFONDO SAF,19/06/2008,S/.,161.29,28881277.77,543.0,16,Renta Mixta,47,Medium High,/logosFondosMutuos/logoCredicorp.png
-Renta Mixta Balanceado Dólares,CRED. EQUILIBRADO,CREDIFONDO SAF,03/09/2007,$,142.97,20440564.99,337.0,17,Renta Mixta,48,Medium,/logosFondosMutuos/logoCredicorp.png
-Renta Mixta Balanceado Dólares,IF MIXTO BALANCEADO,INTERFONDO,31/12/1995,$,67.19,14932309.87,638.0,29,Renta Mixta,49,Medium,/logosFondosMutuos/logoInterFondos.png
-Renta Mixta Balanceado Dólares,SCOTIA FONDO MIXTO BALANCEADO,SCOTIA FONDOS,17/04/2007,$,10.49,5167666.46,235.0,17,Renta Mixta,50,Medium,/logosFondosMutuos/logoScotia2.png
-Renta Mixta Moderado Soles,CRED. MODERADO VCS,CREDIFONDO SAF,16/06/2008,S/.,156.9,9813144.61,261.0,16,Renta Mixta,51,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Renta Mixta Moderado Soles,IF INVERSION FLEXIBLE,INTERFONDO,30/10/2007,S/.,156.11,10836845.71,326.0,17,Renta Mixta,52,Medium Low,/logosFondosMutuos/logoInterFondos.png
-Renta Mixta Moderado Dólares,CRED. MODERADO,CREDIFONDO SAF,14/09/2002,$,56.36,29547475.38,425.0,22,Renta Mixta,53,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Inst. Deuda Mediano Plazo S/,BBVA RENTA MED. PLAZO S/.,CONTINENTAL FM,17/10/1997,S/.,359.06,156199815.34,5501.0,27,Renta Fija,54,Low,/logosFondosMutuos/logoBbva.svg
-Inst. Deuda Mediano Plazo S/,CC CONSERV. MED. PLAZO S/.,CREDIFONDO SAF,03/09/2007,S/.,200.25,368903214.15,4704.0,17,Renta Fija,55,Low,/logosFondosMutuos/logoCredicorp.png
-Inst. Deuda Mediano Plazo S/,IF MEDIANO PLAZO SOLES,INTERFONDO,14/03/2002,S/.,210.69,51557376.94,3229.0,22,Renta Fija,56,Low,/logosFondosMutuos/logoInterFondos.png
-Inst. Deuda Mediano Plazo S/,SURA RENTA SOLES,FONDOS SURA SAF,19/05/2006,S/.,217.4,81386921.32,706.0,18,Renta Fija,57,Low,/logosFondosMutuos/logoSura.png
-Inst. Deuda Mediano Plazo $,BBVA RENTA MED. PLAZO $,CONTINENTAL FM,21/10/1997,$,200.86,177449055.5,2106.0,27,Renta Fija,58,Low,/logosFondosMutuos/logoBbva.svg
-Inst. Deuda Mediano Plazo $,CREDICORP CONSER. MED. PLA. $,CREDIFONDO SAF,26/03/1996,$,262.2,602541809.24,5984.0,28,Renta Fija,59,Low,/logosFondosMutuos/logoCredicorp.png
-Inst. Deuda Mediano Plazo $,IF MEDIANO PLAZO,INTERFONDO,09/01/1997,$,110.99,82708932.42,3915.0,27,Renta Fija,60,Low,/logosFondosMutuos/logoInterFondos.png
-Inst. Deuda Corto Plazo S/,BBVA CASH SOLES,CONTINENTAL FM,12/02/2008,S/.,159.73,2336045531.99,70321.0,16,Renta Fija,61,Low,/logosFondosMutuos/logoBbva.svg
-Inst. Deuda Corto Plazo S/,BBVA PERU SOLES,CONTINENTAL FM,23/03/2011,S/.,150.16,6870448.62,315.0,13,Renta Fija,62,Low,/logosFondosMutuos/logoBbva.svg
-Inst. Deuda Corto Plazo S/,BBVA RENTA CORTO PLAZO S/.,CONTINENTAL FM,27/12/2005,S/.,192.78,276014134.68,4905.0,19,Renta Fija,63,Low,/logosFondosMutuos/logoBbva.svg
-Inst. Deuda Corto Plazo S/,BBVA TESORERIA SOLES FMIV,CONTINENTAL FM,10/03/2018,S/.,123.18,201489307.58,381.0,6,Renta Fija,64,Low,/logosFondosMutuos/logoBbva.svg
-Inst. Deuda Corto Plazo S/,CRED. CONSER. CORTO PLAZO S/,CREDIFONDO SAF,02/10/2014,S/.,150.3,579456773.92,10438.0,10,Renta Fija,65,Low,/logosFondosMutuos/logoCredicorp.png
-Inst. Deuda Corto Plazo S/,CRED. CONSERVAD. LIQUIDEZ S/,CREDIFONDO SAF,04/06/2000,S/.,327.82,1882497470.86,30929.0,24,Renta Fija,66,Low,/logosFondosMutuos/logoCredicorp.png
-Inst. Deuda Corto Plazo S/,DIVISO CONSERVADOR SOLES,DIVISO FONDOS SAF S.A.,31/07/2013,S/.,146.28,9162875.23,200.0,11,Renta Fija,67,Low,/logosFondosMutuos/logoDiviso.png
-Inst. Deuda Corto Plazo S/,SF Liquidez S/.,SCOTIA FONDOS,30/01/2023,S/.,11.09,1054430709.68,12662.0,1,Renta Fija,68,Low,/logosFondosMutuos/logoScotia2.png
-Inst. Deuda Corto Plazo S/,SURA CORTO PLAZO SOLES,FONDOS SURA SAF,25/03/2009,S/.,185.23,104117637.7,730.0,15,Renta Fija,69,Low,/logosFondosMutuos/logoSura.png
-Inst. Deuda Corto Plazo S/,SURA ULTRA CASH SOLES,FONDOS SURA SAF,05/09/2012,S/.,159.48,1406112805.0,2694.0,12,Renta Fija,70,Low,/logosFondosMutuos/logoSura.png
-Inst. Deuda Corto Plazo $,BBVA CASH DOLARES,CONTINENTAL FM,12/02/2008,$,119.68,2959522214.1,19699.0,16,Renta Fija,71,Low,/logosFondosMutuos/logoBbva.svg
-Inst. Deuda Corto Plazo $,BBVA RENTA CORTO PLAZO $,CONTINENTAL FM,16/06/2000,$,174.98,648529608.96,2663.0,24,Renta Fija,72,Low,/logosFondosMutuos/logoBbva.svg
-Inst. Deuda Corto Plazo $,CRED. CONSER. CORTO PLAZO $,CREDIFONDO SAF,18/02/2014,$,122.39,1352590298.88,5345.0,10,Renta Fija,73,Low,/logosFondosMutuos/logoCredicorp.png
-Inst. Deuda Corto Plazo $,CRED. CONSERVADOR LIQUIDEZ $,CREDIFONDO SAF,05/06/1999,$,184.53,2986046639.47,14539.0,25,Renta Fija,74,Low,/logosFondosMutuos/logoCredicorp.png
-Inst. Deuda Corto Plazo $,DIVISO CONSERVADOR DOLARES,DIVISO FONDOS SAF S.A.,19/03/2015,$,111.26,3993197.7,89.0,9,Renta Fija,75,Low,/logosFondosMutuos/logoDiviso.png
-Inst. Deuda Corto Plazo $,-FARO CORTO PLAZO DOLARES SERIE A,FARO CAPITAL SAFI,08/09/2022,$,104.48,,1.0,2,Renta Fija,76,Low,/logosFondosMutuos/logoFaro.png
-Inst. Deuda Corto Plazo $,-FARO CORTO PLAZO DOLARES SERIE B,FARO CAPITAL SAFI,08/09/2022,$,108.25,,22.0,2,Renta Fija,77,Low,/logosFondosMutuos/logoFaro.png
-Inst. Deuda Corto Plazo $,SF LIQUIDEZ $,SCOTIA FONDOS,31/01/2023,$,10.72,2713326597.72,10060.0,1,Renta Fija,78,Low,/logosFondosMutuos/logoScotia2.png
-Inst. Deuda Corto Plazo $,SURA CORTO PLAZO DOLARES,FONDOS SURA SAF,31/08/2009,$,134.64,158920758.64,697.0,15,Renta Fija,79,Low,/logosFondosMutuos/logoSura.png
-Inst. Deuda Corto Plazo $,SURA ULTRA CASH DOLARES,FONDOS SURA SAF,19/07/2012,$,121.38,1106026102.76,2370.0,12,Renta Fija,80,Low,/logosFondosMutuos/logoSura.png
-Flexible,BLUM BONOS GLOBALES FM,BLUM SAF,25/03/2024,$,10.1,56543864.08,15.0,0,Flexible,81,,/logosFondosMutuos/logoBlum.png
-Flexible,-Blum Capital Global FM SERIE A,BLUM SAF,23/09/2022,$,12.8,9273273.88,3.0,2,Flexible,82,Low,/logosFondosMutuos/logoBlum.png
-Flexible,-Blum Capital Global FM SERIE B,BLUM SAF,23/09/2022,$,12.76,9273273.88,162.0,2,Flexible,83,Low,/logosFondosMutuos/logoBlum.png
-Flexible,-Blum Capital Global FM SERIE I,BLUM SAF,23/09/2022,$,12.85,9273273.88,1.0,2,Flexible,84,Low,/logosFondosMutuos/logoBlum.png
-Flexible,Blum Cash FM,BLUM SAF,08/11/2022,$,10.83,28684231.56,155.0,2,Flexible,85,Low,/logosFondosMutuos/logoBlum.png
-Flexible,Blum Cash S/ FM,BLUM SAF,12/12/2023,S/.,10.93,2962710.39,363.0,1,Flexible,86,Low,/logosFondosMutuos/logoBlum.png
-Flexible,BLUM MONEY MARKET $ FM,BLUM SAF,14/02/2023,$,10.71,30344010.98,14.0,1,Flexible,87,Low,/logosFondosMutuos/logoBlum.png
-Flexible,-Blum Renta Global FM SERIE A,BLUM SAF,16/03/2022,$,10.3,6299126.76,8.0,2,Flexible,88,Medium Low,/logosFondosMutuos/logoBlum.png
-Flexible,-Blum Renta Global FM SERIE B,BLUM SAF,16/03/2022,$,10.26,6299126.76,112.0,2,Flexible,89,Medium Low,/logosFondosMutuos/logoBlum.png
-Flexible,-Blum Renta Global FM SERIE I,BLUM SAF,16/03/2022,$,10.12,,1.0,2,Flexible,90,Medium Low,/logosFondosMutuos/logoBlum.png
-Flexible,CC DEUDA CORPORATIVA SOLES,CREDIFONDO SAF,31/07/2019,S/.,116.25,49666493.01,388.0,5,Flexible,91,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Flexible,CC FACTORING $,CREDIFONDO SAF,20/06/2023,$,107.49,347001866.78,847.0,1,Flexible,92,Low,/logosFondosMutuos/logoCredicorp.png
-Flexible,CC RENTA OPERATIVA I (FI),CREDIFONDO SAF,28/06/2019,$,131.37,146550231.82,535.0,5,Flexible,93,Low,/logosFondosMutuos/logoCredicorp.png
-Flexible,CORIL CASH CONSERVADOR S/,CORIL SAF,08/10/2022,S/.,1121.33,5336592.61,24.0,2,Flexible,94,Low,/logosFondosMutuos/logoCoril.png
-Flexible,CRED CAP FACTORING S/,CREDIFONDO SAF,12/07/2020,S/.,126.06,67014639.52,277.0,4,Flexible,95,Low,/logosFondosMutuos/logoCredicorp.png
-Flexible,-FARO DEUDA GLOBAL SERIE A,FARO CAPITAL SAFI,29/05/2018,$,102.32,,4.0,6,Flexible,96,Medium Low,/logosFondosMutuos/logoFaro.png
-Flexible,-FARO DEUDA GLOBAL SERIE B,FARO CAPITAL SAFI,29/05/2018,$,101.43,,8.0,6,Flexible,97,Medium Low,/logosFondosMutuos/logoFaro.png
-Flexible,-FARO DEUDA GLOBAL SERIE C,FARO CAPITAL SAFI,29/05/2018,$,100.26,,37.0,6,Flexible,98,Medium Low,/logosFondosMutuos/logoFaro.png
-Flexible,IF Futuro Seguro $,INTERFONDO,27/12/2021,$,48.73,8421311.21,120.0,3,Flexible,99,Medium Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,IF Futuro Seguro S/,INTERFONDO,27/12/2021,S/.,101.5,3569611.0,95.0,3,Flexible,100,Medium Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,IF INVERSION GLOBAL,INTERFONDO,26/01/2015,$,68.5,28609026.84,646.0,9,Flexible,101,Medium,/logosFondosMutuos/logoInterFondos.png
-Flexible,IF OPORTUNIDAD,INTERFONDO,12/06/2013,$,0.0,293054894.42,3848.0,11,Flexible,102,Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,-IF OPORTUNIDAD SERIE A,INTERFONDO,12/06/2013,$,58.55,,3749.0,11,Flexible,103,Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,-IF OPORTUNIDAD SERIE B,INTERFONDO,12/06/2013,$,58.92,,94.0,11,Flexible,104,Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,IF OPORTUNIDAD SOLES,INTERFONDO,16/11/2012,S/.,0.0,419861239.57,6606.0,12,Flexible,105,Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,-IF OPORTUNIDAD SOLES SERIE A,INTERFONDO,16/11/2012,S/.,144.59,,6493.0,12,Flexible,106,Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,-IF OPORTUNIDAD SOLES SERIE B,INTERFONDO,16/11/2012,S/.,145.24,,38.0,12,Flexible,107,Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,IF Portafolio Dinámico,INTERFONDO,28/12/2017,$,71.54,86104540.3,488.0,7,Flexible,108,Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,IF Portafolio Dinamico Soles,INTERFONDO,05/05/2021,S/.,0.0,428574973.53,3533.0,3,Flexible,109,Low,/logosFondosMutuos/logoInterFondos.png
-Flexible,-IF Portafolio Dinamico Soles SERIE A,INTERFONDO,05/05/2021,S/.,133.73,,3479.0,3,Flexible,110,,/logosFondosMutuos/logoInterFondos.png
-Flexible,-IF Portafolio Dinamico Soles SERIE B,INTERFONDO,05/05/2021,S/.,134.14,,54.0,3,Flexible,111,,/logosFondosMutuos/logoInterFondos.png
-Flexible,INDEPENDIENTE PMG,INDEPENDIENTE SAF,31/12/2020,$,107.58,52449627.44,955.0,4,Flexible,112,Medium Low,/logosFondosMutuos/logoIndependiente.png
-Flexible,SCOTIA DEPÓSITO DISPONIBLE S/.,SCOTIA FONDOS,16/08/2011,S/.,12.31,61404110.36,8312.0,13,Flexible,113,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SCOTIA FONDO CASH $,SCOTIA FONDOS,03/07/2001,$,16.17,66840621.79,2078.0,23,Flexible,114,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SCOTIA FONDO CASH S/.,SCOTIA FONDOS,21/06/2001,S/.,20.65,61040534.4,5515.0,23,Flexible,115,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SCOTIA FONDO PREMIUM $,SCOTIA FONDOS,07/02/1996,$,20.38,40478822.19,1768.0,28,Flexible,116,Medium Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SCOTIA FONDO PREMIUM S/.,SCOTIA FONDOS,17/04/2007,S/.,11.96,11720505.64,1757.0,17,Flexible,117,Medium Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Corto Plazo Plus $,SCOTIA FONDOS,12/01/2023,$,10.43,486410149.3,1118.0,1,Flexible,118,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Corto Plazo Plus S/,SCOTIA FONDOS,28/02/2024,S/.,10.21,52518855.77,336.0,0,Flexible,119,,/logosFondosMutuos/logoScotia2.png
-Flexible,SF INST DE RENTA $ IX,SCOTIA FONDOS,25/04/2023,$,1143.79,11393639.67,12.0,1,Flexible,120,Medium Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Inst. Renta $ VIII,SCOTIA FONDOS,13/12/2022,$,1124.99,65933649.14,39.0,2,Flexible,121,Medium,/logosFondosMutuos/logoScotia2.png
-Flexible,SF INSTI DE RENTA $ X,SCOTIA FONDOS,05/09/2023,$,1133.15,27403519.74,29.0,1,Flexible,122,Medium Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Insti Renta S/ 1Y II,SCOTIA FONDOS,28/05/2024,S/.,1009.17,72009791.65,12.0,0,Flexible,123,,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Institucional de Renta $ XI,SCOTIA FONDOS,09/05/2023,$,1056.79,28252593.7,37.0,1,Flexible,124,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Institucional Renta $ V,SCOTIA FONDOS,05/04/2022,$,1109.89,129050225.68,93.0,2,Flexible,125,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Institucional Renta $ VI,SCOTIA FONDOS,16/08/2022,$,1140.63,115563554.24,59.0,2,Flexible,126,Medium Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Institucional Renta $ VII,SCOTIA FONDOS,07/12/2022,$,1049.38,36491467.89,46.0,2,Flexible,127,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF INSTITUCIONAL RENTA SOL 1Y,SCOTIA FONDOS,17/08/2023,S/.,1082.81,85205213.02,10.0,1,Flexible,128,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Nota Estructurada VIII,SCOTIA FONDOS,05/10/2024,$,103.61,22535466.5,48.0,0,Flexible,129,,/logosFondosMutuos/logoScotia2.png
-Flexible,SF RENTA $ 1Y VI,SCOTIA FONDOS,13/07/2023,$,10.6,111005824.41,226.0,1,Flexible,130,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Renta $ 1Y VII,SCOTIA FONDOS,13/12/2023,$,10.37,257684238.36,481.0,1,Flexible,131,Low,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Renta $ 1Y VIII,SCOTIA FONDOS,04/03/2024,$,10.16,186694501.72,254.0,0,Flexible,132,,/logosFondosMutuos/logoScotia2.png
-Flexible,SF RENTA $ 6M XIX,SCOTIA FONDOS,02/02/2024,$,10.26,274616552.91,549.0,0,Flexible,133,,/logosFondosMutuos/logoScotia2.png
-Flexible,SF Renta $ 6M XX,SCOTIA FONDOS,04/03/2024,$,10.17,185898855.48,471.0,0,Flexible,134,,/logosFondosMutuos/logoScotia2.png
-Flexible,SF RENTA SOLES 6M V,SCOTIA FONDOS,19/06/2024,S/.,10.06,300219846.01,802.0,0,Flexible,135,,/logosFondosMutuos/logoScotia2.png
-Flexible,SFNotaEstructurada IV-F. Insti,SCOTIA FONDOS,01/04/2022,$,94.73,33859137.65,53.0,2,Flexible,136,Medium Low,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,-- SERIE A,INDEPENDIENTE SAF,06/11/2024,$,100.13,,30.0,0,Fondo de Fondos,137,,/logosFondosMutuos/logoIndependiente.png
-Fondo de Fondos,-- SERIE D,INDEPENDIENTE SAF,06/11/2024,$,100.13,,1.0,0,Fondo de Fondos,138,,/logosFondosMutuos/logoIndependiente.png
-Fondo de Fondos,CRED CAP. INVESTMENT GRADE,CREDIFONDO SAF,09/04/2018,$,114.66,156749435.46,884.0,6,Fondo de Fondos,139,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CRED CAP VISION I,CREDIFONDO SAF,02/08/2016,$,116.91,103351707.36,697.0,8,Fondo de Fondos,140,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CRED CAP VISION III,CREDIFONDO SAF,02/10/2016,$,152.44,40423385.44,721.0,8,Fondo de Fondos,141,Medium,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CRED. DEUDA GLOBAL,CREDIFONDO SAF,25/03/2013,$,111.23,19944546.16,596.0,11,Fondo de Fondos,142,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CRED. EQUILIBRADO VCS,CREDIFONDO SAF,16/06/2008,S/.,112.7,10237570.4,840.0,16,Fondo de Fondos,143,Medium,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CREDI. ACC. LATAM-PACIFICO,CREDIFONDO SAF,14/08/2012,$,52.5,9461290.73,185.0,12,Fondo de Fondos,144,Medium High,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CREDICORP ACCIONES ASIA,CREDIFONDO SAF,06/05/2017,$,123.37,28871338.28,470.0,7,Fondo de Fondos,145,Medium High,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CREDICORP ACCIONES EEUU,CREDIFONDO SAF,26/05/2017,$,228.06,166762599.17,2004.0,7,Fondo de Fondos,146,Medium High,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CREDICORP ACCIONES EUROPA,CREDIFONDO SAF,26/05/2017,$,172.41,55238012.25,898.0,7,Fondo de Fondos,147,Medium High,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,Credicorp Activos Preferentes,CREDIFONDO SAF,06/06/2018,$,117.23,64817785.58,444.0,6,Fondo de Fondos,148,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CREDICORP DEUDA FLOTANTE,CREDIFONDO SAF,03/02/2017,$,124.91,72568757.05,696.0,7,Fondo de Fondos,149,Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,CREDICORP DEUDA HIGH YIELD,CREDIFONDO SAF,03/02/2017,$,124.3,120179522.08,642.0,7,Fondo de Fondos,150,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FdeF BBVA Apreciacion Capital,CONTINENTAL FM,24/01/2014,$,136.89,40995515.82,319.0,10,Fondo de Fondos,151,Medium Low,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FdeF BBVA Generacion de Flujo,CONTINENTAL FM,03/01/2010,$,96.34,39803103.56,191.0,14,Fondo de Fondos,152,Medium,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FdeF BBVA Preservacion Capital,CONTINENTAL FM,23/02/2010,$,103.77,25476542.62,100.0,14,Fondo de Fondos,153,Medium Low,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,-FdeF BTG Renta Internacional SERIE A,BTG PACTUAL PERU SAF,16/10/2020,$,108.69,,13.0,4,Fondo de Fondos,154,Medium Low,/logosFondosMutuos/logoBtg.png
-Fondo de Fondos,-FdeF BTG Renta Internacional SERIE B,BTG PACTUAL PERU SAF,16/10/2020,$,110.52,,2.0,4,Fondo de Fondos,155,,/logosFondosMutuos/logoBtg.png
-Fondo de Fondos,FdeF CC Acciones Innovacion,CREDIFONDO SAF,26/04/2021,$,108.66,50878829.17,459.0,3,Fondo de Fondos,156,High,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FdeF CRED ACC SECTOR SEGURID,CREDIFONDO SAF,10/02/2018,$,146.19,36920901.19,499.0,6,Fondo de Fondos,157,Medium High,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FdeF Cred Renta Estrategica,CREDIFONDO SAF,13/02/2019,$,113.66,402980256.64,908.0,5,Fondo de Fondos,158,Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FdeF IF Global Thematics,INTERFONDO,26/03/2021,$,53.91,15067136.74,313.0,3,Fondo de Fondos,159,Medium High,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF BBVA Renta Fija Mcdo Emerg,CONTINENTAL FM,02/02/2024,$,104.21,43141412.3,182.0,0,Fondo de Fondos,160,,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FdF CC Acciones China,CREDIFONDO SAF,03/01/2021,$,49.87,5619706.85,114.0,3,Fondo de Fondos,161,Medium,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FdF CC Duración Objetivo Latam,CREDIFONDO SAF,05/10/2024,$,101.08,41986809.54,159.0,0,Fondo de Fondos,162,,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FDF CRED CAP VISION II,CREDIFONDO SAF,02/08/2016,$,139.23,160211985.52,1281.0,8,Fondo de Fondos,163,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FdF Cred. Tendencias Globales,CREDIFONDO SAF,19/10/2020,$,100.24,39246228.71,293.0,4,Fondo de Fondos,164,High,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FdF Credicorp Deuda Flexible,CREDIFONDO SAF,16/07/2020,$,98.16,54743913.91,160.0,4,Fondo de Fondos,165,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FdF Credicorp Impacto Sostenib,CREDIFONDO SAF,12/06/2021,$,85.33,9053768.45,146.0,3,Fondo de Fondos,166,Medium,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,-FdF ED ACC GLOB OPT SERIE B,EL DORADO SAF,29/01/2024,$,109.66,,9.0,0,Fondo de Fondos,167,,/logosFondosMutuos/logoDorado.png
-Fondo de Fondos,-FdF El Dorado Instr Deuda EEUU SERIE A,EL DORADO SAF,06/07/2022,$,118.15,,9.0,2,Fondo de Fondos,168,Low,/logosFondosMutuos/logoDorado.png
-Fondo de Fondos,-FdF El Dorado Instr Deuda EEUU SERIE B,EL DORADO SAF,06/07/2022,$,117.05,,8.0,2,Fondo de Fondos,169,Low,/logosFondosMutuos/logoDorado.png
-Fondo de Fondos,-FdF El Dorado Instr Deuda EEUU SERIE I,EL DORADO SAF,06/07/2022,$,118.46,,1.0,2,Fondo de Fondos,170,Low,/logosFondosMutuos/logoDorado.png
-Fondo de Fondos,FdF Faro Deuda Global,FARO CAPITAL SAFI,06/11/2020,$,97.19,6974287.2,76.0,4,Fondo de Fondos,171,Medium Low,/logosFondosMutuos/logoFaro.png
-Fondo de Fondos,FdF Faro Global Innovation,FARO CAPITAL SAFI,27/01/2020,$,125.53,6031392.52,104.0,4,Fondo de Fondos,172,High,/logosFondosMutuos/logoFaro.png
-Fondo de Fondos,FdF Faro Renta Variable Global,FARO CAPITAL SAFI,06/11/2020,$,147.0,18164541.04,131.0,4,Fondo de Fondos,173,Medium,/logosFondosMutuos/logoFaro.png
-Fondo de Fondos,FdF IF Enfoque Global,INTERFONDO,18/12/2019,$,49.09,15895319.81,221.0,5,Fondo de Fondos,174,Low,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF Inversión EEUU FMIV,INTERFONDO,12/01/2022,$,64.59,8766214.55,354.0,2,Fondo de Fondos,175,Medium,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF RealState Student Accom,INTERFONDO,27/09/2021,$,55.26,332265013.88,898.0,3,Fondo de Fondos,176,Low,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF XIX Rend Global 360,INTERFONDO,25/08/2023,$,52.36,66062411.3,353.0,1,Fondo de Fondos,177,Low,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF XVIII Rend Global 360,INTERFONDO,27/07/2023,$,52.53,92579006.6,416.0,1,Fondo de Fondos,178,Low,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF XX Rend Global 360,INTERFONDO,22/09/2023,$,52.14,60555635.26,370.0,1,Fondo de Fondos,179,Low,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF XXI Rend Global 360,INTERFONDO,26/10/2023,$,51.93,58847187.33,399.0,1,Fondo de Fondos,180,Low,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF XXIII Rend Global 360,INTERFONDO,02/08/2024,$,51.11,39838118.2,222.0,0,Fondo de Fondos,181,,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF XXIV Rend Global 360,INTERFONDO,25/04/2024,$,50.56,103229900.91,415.0,0,Fondo de Fondos,182,,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF XXV Rend Global 360,INTERFONDO,15/03/2024,$,50.77,34591895.73,251.0,0,Fondo de Fondos,183,,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF XXVI Rend Global 360,INTERFONDO,04/01/2024,$,50.7,64764253.84,334.0,0,Fondo de Fondos,184,,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF IF XXVIII Rend Global 360,INTERFONDO,06/04/2024,$,50.3,81750613.33,400.0,0,Fondo de Fondos,185,,/logosFondosMutuos/logoInterFondos.png
-Fondo de Fondos,FdF Sura Corto Plazo Global,FONDOS SURA SAF,15/11/2022,$,108.27,84753632.87,376.0,2,Fondo de Fondos,186,Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,FdF SURA RENTA DOLARES,FONDOS SURA SAF,14/06/2005,$,177.05,53654113.61,524.0,19,Fondo de Fondos,187,Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,FF BBVA ACC GLOB MILLENIALS,CONTINENTAL FM,16/01/2023,$,125.87,2759560.62,40.0,1,Fondo de Fondos,188,Medium Low,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA ACC TENDENC GLOB,CONTINENTAL FM,15/04/2010,$,118.28,41699460.91,353.0,14,Fondo de Fondos,189,High,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA ACCIONES GLOB RE,CONTINENTAL FM,08/10/2022,$,87.84,9541240.11,81.0,2,Fondo de Fondos,190,Medium Low,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA DIST EST GLOBAL,CONTINENTAL FM,05/09/2018,$,112.65,319069944.57,742.0,6,Fondo de Fondos,191,Medium Low,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA DIST HIGH YIELD EEUU,CONTINENTAL FM,07/07/2021,$,101.51,45801961.58,194.0,3,Fondo de Fondos,192,Medium Low,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA ESTRATE CONSERV $,CONTINENTAL FM,06/06/2002,$,168.33,19350291.63,110.0,22,Fondo de Fondos,193,Low,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA ESTRATE CONSERV S/,CONTINENTAL FM,21/04/1998,S/.,250.91,13878029.96,599.0,26,Fondo de Fondos,194,Medium Low,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA ESTRATE DINAMICO $,CONTINENTAL FM,10/06/2011,$,62.17,2815873.79,119.0,13,Fondo de Fondos,195,Medium,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA ESTRATE DINAMICO S/,CONTINENTAL FM,16/03/2007,S/.,114.86,17623299.12,1478.0,17,Fondo de Fondos,196,High,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA ESTRATE EQUILIBRA $,CONTINENTAL FM,18/03/2021,$,102.59,2466454.4,76.0,3,Fondo de Fondos,197,Medium Low,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF BBVA ESTRATE EQUILIBRA S/,CONTINENTAL FM,19/03/2007,S/.,136.41,13276790.67,2010.0,17,Fondo de Fondos,198,Medium,/logosFondosMutuos/logoBbva.svg
-Fondo de Fondos,FF CC LATAM INNOVACION,CREDIFONDO SAF,07/03/2023,$,89.49,2938832.51,405.0,1,Fondo de Fondos,199,Medium,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,FF CC RENTA GLOBAL INV GRADE,CREDIFONDO SAF,11/10/2022,$,109.02,64372503.74,358.0,2,Fondo de Fondos,200,Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,-FF Creci Inmobiliario EEUU SERIE A,EL DORADO SAF,01/04/2021,$,109.63,,186.0,3,Fondo de Fondos,201,Low,/logosFondosMutuos/logoDorado.png
-Fondo de Fondos,-FF Creci Inmobiliario EEUU SERIE B,EL DORADO SAF,01/04/2021,$,109.64,,54.0,3,Fondo de Fondos,202,Low,/logosFondosMutuos/logoDorado.png
-Fondo de Fondos,FONDO D FONDOS DEUDA LATAM,CREDIFONDO SAF,08/07/2012,$,132.15,99147351.12,571.0,12,Fondo de Fondos,203,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,Fondo de F. Cred. Cons. Global,CREDIFONDO SAF,14/12/2017,$,159.11,140270837.39,1052.0,7,Fondo de Fondos,204,Medium,/logosFondosMutuos/logoCredicorp.png
-Fondo de Fondos,Independiente Agresivo $,INDEPENDIENTE SAF,12/07/2021,$,112.71,23037223.29,1866.0,3,Fondo de Fondos,205,Medium,/logosFondosMutuos/logoIndependiente.png
-Fondo de Fondos,-PHI DEUDA INTERNACIONAL SERIE A,PRUDENTIALSAF SAF,22/05/2023,$,9.92,,14.0,1,Fondo de Fondos,206,Low,/logosFondosMutuos/logoPrudential.png
-Fondo de Fondos,-PHI DEUDA INTERNACIONAL SERIE B,PRUDENTIALSAF SAF,22/05/2023,$,10.03,,7.0,1,Fondo de Fondos,207,Low,/logosFondosMutuos/logoPrudential.png
-Fondo de Fondos,-PHI RV ESTRATEGIA GLOBAL SERIE A,PRUDENTIALSAF SAF,26/06/2023,$,11.96,,75.0,1,Fondo de Fondos,208,Low,/logosFondosMutuos/logoPrudential.png
-Fondo de Fondos,-PHI RV ESTRATEGIA GLOBAL SERIE B,PRUDENTIALSAF SAF,26/06/2023,$,12.13,,6.0,1,Fondo de Fondos,209,Low,/logosFondosMutuos/logoPrudential.png
-Fondo de Fondos,Scotia FdF CP Internacional,SCOTIA FONDOS,24/09/2021,$,10.7,2896979.42,34.0,3,Fondo de Fondos,210,Low,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,SCOTIA FF INSTITU RF GLOBAL,SCOTIA FONDOS,26/07/2023,$,1075.01,103574492.26,31.0,1,Fondo de Fondos,211,Low,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,Scotia Fondo de F. Acc. Europa,SCOTIA FONDOS,20/03/2018,$,11.83,32887421.51,207.0,6,Fondo de Fondos,212,Medium High,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,SCOTIA FONDO DE F. ACC. US,SCOTIA FONDOS,19/06/2014,$,24.76,118501749.41,608.0,10,Fondo de Fondos,213,Medium High,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,SCOTIA FONDO DE F. DEUDA HY,SCOTIA FONDOS,28/03/2018,$,10.92,45431210.52,176.0,6,Fondo de Fondos,214,Medium Low,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,Scotia Fondo de F. Deuda IG,SCOTIA FONDOS,05/04/2018,$,10.09,55822107.35,188.0,6,Fondo de Fondos,215,Medium Low,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,SFdF Acciones Emergentes,SCOTIA FONDOS,19/08/2014,$,4.33,22246761.41,226.0,10,Fondo de Fondos,216,Medium High,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,SFdF DISTRIBUTIVO HY,SCOTIA FONDOS,03/11/2020,$,979.48,5783674.62,23.0,4,Fondo de Fondos,217,Medium Low,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,SFdF Distributivo HY II,SCOTIA FONDOS,12/09/2020,$,795.14,84765869.1,208.0,4,Fondo de Fondos,218,Medium Low,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,SFdF DISTRIBUTIVO IG,SCOTIA FONDOS,03/11/2020,$,936.68,226009983.16,343.0,4,Fondo de Fondos,219,Medium Low,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,SFdF Igualdad de Genero,SCOTIA FONDOS,17/09/2021,$,10.36,7567654.36,76.0,3,Fondo de Fondos,220,Medium,/logosFondosMutuos/logoScotia2.png
-Fondo de Fondos,SURA ACC. NORTEAMERICANAS,FONDOS SURA SAF,21/02/2014,$,26.34,89678188.01,749.0,10,Fondo de Fondos,221,Medium,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,SURA ACCIONES GLOBALES,FONDOS SURA SAF,24/07/2018,$,14.79,42033760.3,463.0,6,Fondo de Fondos,222,Medium High,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,-SURA BONOS GLOBALES SERIE A,FONDOS SURA SAF,26/09/2017,$,103.9,,249.0,7,Fondo de Fondos,223,Medium Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,-SURA BONOS GLOBALES SERIE B,FONDOS SURA SAF,26/09/2017,$,84.86,,81.0,7,Fondo de Fondos,224,Medium Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,-SURA CAPITAL ESTRATEGICO I SERIE A,FONDOS SURA SAF,10/02/2013,S/.,140.35,,204.0,11,Fondo de Fondos,225,Medium Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,-SURA CAPITAL ESTRATEGICO I SERIE B,FONDOS SURA SAF,10/02/2013,S/.,144.03,,122.0,11,Fondo de Fondos,226,Medium Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,-SURA CAPITAL ESTRATEGICO II SERIE A,FONDOS SURA SAF,10/02/2013,S/.,142.54,,262.0,11,Fondo de Fondos,227,Medium Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,-SURA CAPITAL ESTRATEGICO II SERIE B,FONDOS SURA SAF,10/02/2013,S/.,145.87,,220.0,11,Fondo de Fondos,228,Medium Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,SURA DEUDA PRIV. GLOBAL,FONDOS SURA SAF,30/06/2022,$,10074.99,107998646.77,292.0,2,Fondo de Fondos,229,Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,Sura Real Estate Global Income,FONDOS SURA SAF,07/05/2018,$,11498.41,977081116.82,2297.0,6,Fondo de Fondos,230,Medium Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,-SURA SELECCION GLOBAL I SERIE A,FONDOS SURA SAF,09/08/2016,$,126.25,,277.0,8,Fondo de Fondos,231,Medium Low,/logosFondosMutuos/logoSura.png
-Fondo de Fondos,-SURA SELECCION GLOBAL I SERIE B,FONDOS SURA SAF,09/08/2016,$,128.61,,3.0,8,Fondo de Fondos,232,Medium Low,/logosFondosMutuos/logoSura.png
-Flexible Dólares,BDC DEUDA DIVERSIFICADA FMIV,BD CAPITAL SAF,16/03/2021,$,92.02,22072655.77,10.0,3,Flexible,233,Medium Low,/logosFondosMutuos/logoBD.png
-Flexible Dólares,SCOTIA DEPÓSITO DISPONIBLE $,SCOTIA FONDOS,17/08/2011,$,11.55,193362217.72,3341.0,13,Flexible,234,Low,/logosFondosMutuos/logoScotia2.png
-Flexible Dólares,SF INSTITUCIONAL DE RENTA $ II,SCOTIA FONDOS,25/09/2019,$,1033.02,32874524.13,16.0,5,Flexible,235,Medium Low,/logosFondosMutuos/logoScotia2.png
-Inst Deuda Duración Flexibl $,BBVA Distributivo $ FMIV,CONTINENTAL FM,20/12/2023,$,103.26,28618052.81,107.0,1,Renta Fija,236,Low,/logosFondosMutuos/logoBbva.svg
-Inst Deuda Duración Flexibl $,BBVA Super $ 10,CONTINENTAL FM,07/05/2023,$,106.11,59042325.39,186.0,1,Renta Fija,237,Low,/logosFondosMutuos/logoBbva.svg
-Inst Deuda Duración Flexibl $,BBVA SUPER $ 11,CONTINENTAL FM,09/01/2023,$,105.03,66064287.23,187.0,1,Renta Fija,238,Low,/logosFondosMutuos/logoBbva.svg
-Inst Deuda Duración Flexibl $,BBVA Super $ 12,CONTINENTAL FM,11/02/2023,$,104.08,71412176.96,207.0,1,Renta Fija,239,Low,/logosFondosMutuos/logoBbva.svg
-Inst Deuda Duración Flexibl $,BBVA SUPER DOLARES 13,CONTINENTAL FM,21/12/2023,$,102.87,48081050.11,137.0,1,Renta Fija,240,Low,/logosFondosMutuos/logoBbva.svg
-Inst Deuda Duración Flexibl $,BBVA SUPER DOLARES 14,CONTINENTAL FM,03/07/2024,$,102.27,123044865.66,320.0,0,Renta Fija,241,,/logosFondosMutuos/logoBbva.svg
-Inst Deuda Duración Flexibl $,CC RENTA DOLARES 3Y VI,CREDIFONDO SAF,19/12/2023,$,102.91,36578122.26,122.0,1,Renta Fija,242,Low,/logosFondosMutuos/logoCredicorp.png
-Inst Deuda Duración Flexibl $,CC RENTA DOLARES 3Y VII,CREDIFONDO SAF,17/06/2024,$,100.53,25952105.06,93.0,0,Renta Fija,243,,/logosFondosMutuos/logoCredicorp.png
-Inst Deuda Duración Flexibl $,CC RENTA DOLARES 4Y VI,CREDIFONDO SAF,08/11/2022,$,107.43,25067948.09,107.0,2,Renta Fija,244,Low,/logosFondosMutuos/logoCredicorp.png
-Inst Deuda Duración Flexibl $,CC RENTA OPTIM INST V,CREDIFONDO SAF,04/02/2024,$,101.21,53602494.02,25.0,0,Renta Fija,245,,/logosFondosMutuos/logoCredicorp.png
-Inst Deuda Duración Flexibl $,CC RENTA OPTIMIZAD DOLARES II,CREDIFONDO SAF,13/06/2023,$,0.0,,1.0,1,Renta Fija,246,,/logosFondosMutuos/logoCredicorp.png
-Inst Deuda Duración Flexibl $,CC RENTA OPTIMIZAD DOLARES IV,CREDIFONDO SAF,26/06/2023,$,105.18,26444668.86,116.0,1,Renta Fija,247,Low,/logosFondosMutuos/logoCredicorp.png
-Inst Deuda Duración Flexibl $,CC RENTA OPTIMIZAD DOLARES VI,CREDIFONDO SAF,25/07/2023,$,104.64,86188975.16,257.0,1,Renta Fija,248,Low,/logosFondosMutuos/logoCredicorp.png
-Inst Deuda Duración Flexibl $,CRED DEUDA CORP LATAM HY,CREDIFONDO SAF,24/01/2019,$,119.38,109069813.77,101.0,5,Renta Fija,249,Medium Low,/logosFondosMutuos/logoCredicorp.png
-Inst Deuda Duración Flexibl $,FdF IF XXVII Rend Global 321,INTERFONDO,17/05/2024,$,50.42,29052794.99,175.0,0,Renta Fija,250,,/logosFondosMutuos/logoInterFondos.png
-Inst Deuda Duración Flexibl $,IF Enfoque LATAM,INTERFONDO,09/07/2017,$,46.12,9154329.2,112.0,7,Renta Fija,251,Medium Low,/logosFondosMutuos/logoInterFondos.png
-Inst Deuda Duración Flexibl $,IF LIBRE DISPONIBILIDAD,INTERFONDO,07/07/2015,$,0.0,2486392757.64,20331.0,9,Renta Fija,252,Low,/logosFondosMutuos/logoInterFondos.png
-Inst Deuda Duración Flexibl $,SURA PLAZO DEFINIDO $ II,FONDOS SURA SAF,14/12/2023,$,103.01,21865136.51,128.0,1,Renta Fija,253,Low,/logosFondosMutuos/logoSura.png
-Inst Deuda Duración Flexibl S/,IF LIBRE DISPONIBILIDAD S/.,INTERFONDO,05/07/2015,S/.,0.0,1586762920.43,36555.0,9,Renta Fija,254,Low,/logosFondosMutuos/logoInterFondos.png
-Inst Deuda Duración Flexibl S/,-IF LIBRE DISPONIBILIDAD S/. SERIE A,INTERFONDO,05/07/2015,S/.,133.9,,36164.0,9,Renta Fija,255,Low,/logosFondosMutuos/logoInterFondos.png
-Inst Deuda Duración Flexibl S/,-IF LIBRE DISPONIBILIDAD S/. SERIE B,INTERFONDO,05/07/2015,S/.,134.57,,169.0,9,Renta Fija,256,Low,/logosFondosMutuos/logoInterFondos.png
-Inst Deuda Duración Flexibl S/,SURA DEUDA SOBER. DISTRIB. S/,FONDOS SURA SAF,26/04/2023,S/.,109.39,37470755.08,197.0,1,Renta Fija,257,Low,/logosFondosMutuos/logoSura.png
-Inst Deuda Duración Flexibl S/,SURA PLAZO DEFINIDO S/ III,FONDOS SURA SAF,26/09/2023,S/.,105.73,103315031.35,23.0,1,Renta Fija,258,Low,/logosFondosMutuos/logoSura.png
-Inst Deuda Duración Flexibl S/,Sura Plazo Definido S/ IV,FONDOS SURA SAF,17/05/2024,S/.,100.63,115219923.63,10.0,0,Renta Fija,259,,/logosFondosMutuos/logoSura.png
-Fondo Bursátil - ETF,VANECK EL DOORADO PERU ETF,EL DORADO SAF,03/11/2021,$,12.49,397579340.44,1.0,3,Fondo Bursátil - ETF,260,Medium High,/logosFondosMutuos/logoDorado.png
-Instrumento de Deuda,BBVA DISTRIBUTIVO $ II,CONTINENTAL FM,04/02/2024,$,101.41,28745976.09,82.0,0,Renta Fija,261,,/logosFondosMutuos/logoBbva.svg
-Instrumento de Deuda,BBVA SUPER DOLARES 15,CONTINENTAL FM,26/04/2024,$,101.55,107653253.78,364.0,0,Renta Fija,262,,/logosFondosMutuos/logoBbva.svg
-Instrumento de Deuda,BBVA SUPER DOLARES 16,CONTINENTAL FM,06/11/2024,$,100.86,105865877.53,328.0,0,Renta Fija,263,,/logosFondosMutuos/logoBbva.svg
+Renta Variable,CREDICORP ACCIONES GLOBAL,CREDIFONDO SAF,25/03/2013,$,186.38,24914774.44,938.0,11,Renta Variable,1,Medium,/logosFondosMutuos/logoCredicorp.png
+Renta Variable,CREDICORP CAPITAL ACCIONES,CREDIFONDO SAF,17/01/2007,$,171.49,44109977.34,617.0,17,Renta Variable,2,High,/logosFondosMutuos/logoCredicorp.png
+Renta Variable,-Faro Global Innovation Instit. SERIE A,FARO CAPITAL SAFI,27/01/2020,$,92.71,,1.0,4,Renta Variable,3,High,/logosFondosMutuos/logoFaro.png
+Renta Variable,-Faro Global Innovation Instit. SERIE B,FARO CAPITAL SAFI,27/01/2020,$,125.35,,4.0,4,Renta Variable,4,Medium High,/logosFondosMutuos/logoFaro.png
+Renta Variable,-Faro Global Innovation Instit. SERIE C,FARO CAPITAL SAFI,27/01/2020,$,123.93,,22.0,4,Renta Variable,5,High,/logosFondosMutuos/logoFaro.png
+Renta Variable,-FARO RENTA VARIABLE GLOBAL SERIE A,FARO CAPITAL SAFI,29/05/2018,$,152.56,,3.0,6,Renta Variable,6,Medium High,/logosFondosMutuos/logoFaro.png
+Renta Variable,-FARO RENTA VARIABLE GLOBAL SERIE B,FARO CAPITAL SAFI,29/05/2018,$,149.77,,8.0,6,Renta Variable,7,Medium High,/logosFondosMutuos/logoFaro.png
+Renta Variable,-FARO RENTA VARIABLE GLOBAL SERIE C,FARO CAPITAL SAFI,29/05/2018,$,145.22,,38.0,6,Renta Variable,8,Medium High,/logosFondosMutuos/logoFaro.png
+Renta Variable,IF ACCIONES,INTERFONDO,19/01/2007,S/.,109.5,10327463.73,1319.0,17,Renta Variable,9,Medium High,/logosFondosMutuos/logoInterFondos.png
+Renta Variable,Promoinvest Fondo Selectivo,PROMOINVEST SAF,14/01/1999,$,3.25,4637106.61,451.0,25,Renta Variable,10,High,/logosFondosMutuos/logoPromoInvest.png
+Renta Variable,SCOTIA FONDO ACCIONES,SCOTIA FONDOS,04/02/2008,S/.,11.16,3201976.0,182.0,16,Renta Variable,11,Medium High,/logosFondosMutuos/logoScotia2.png
+Renta Variable,SURA ACCIONES,FONDOS SURA SAF,22/01/2007,S/.,16.37,16872639.39,659.0,17,Renta Variable,12,High,/logosFondosMutuos/logoSura.png
+Corto Plazo Soles,-AC CASH PLUS S/ SERIE A,ANDEAN CROWN SAF S.A.C.,14/08/2024,S/.,10.26,,48.0,0,Renta Fija,13,,/logosFondosMutuos/logoAC.png
+Corto Plazo Soles,-Prudential Corto Plazo S/. SERIE A,PRUDENTIALSAF SAF,04/04/2024,S/.,10.66,,219.0,0,Renta Fija,14,,/logosFondosMutuos/logoPrudential.png
+Corto Plazo Soles,-Prudential Corto Plazo S/. SERIE B,PRUDENTIALSAF SAF,04/04/2024,S/.,10.56,,6.0,0,Renta Fija,15,,/logosFondosMutuos/logoPrudential.png
+Corto Plazo Dólares,-Andean Crown Cash Plus $ SERIE A,ANDEAN CROWN SAF S.A.C.,04/12/2024,$,10.33,,54.0,0,Renta Fija,16,,/logosFondosMutuos/logoAC.png
+Corto Plazo Dólares,-Andean Crown Cash Plus $ SERIE B,ANDEAN CROWN SAF S.A.C.,04/12/2024,$,10.34,,2.0,0,Renta Fija,17,,/logosFondosMutuos/logoAC.png
+Corto Plazo Dólares,-Prudential Corto Plazo $ SERIE A,PRUDENTIALSAF SAF,08/01/2024,$,10.57,,154.0,0,Renta Fija,18,,/logosFondosMutuos/logoPrudential.png
+Corto Plazo Dólares,-Prudential Corto Plazo $ SERIE B,PRUDENTIALSAF SAF,08/01/2024,$,10.46,,1.0,0,Renta Fija,19,,/logosFondosMutuos/logoPrudential.png
+Estructurado,CC BARRERA CONDICIONAL XIII,CREDIFONDO SAF,15/06/2022,$,105.2,19165318.17,147.0,2,Estructurado,20,Low,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LII,CREDIFONDO SAF,23/01/2024,$,106.7,90001199.64,273.0,0,Estructurado,21,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LV,CREDIFONDO SAF,26/02/2024,$,103.28,74583450.47,245.0,0,Estructurado,22,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LVIII,CREDIFONDO SAF,04/02/2024,$,103.01,94597654.71,378.0,0,Estructurado,23,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LX,CREDIFONDO SAF,05/02/2024,$,102.53,30513762.56,115.0,0,Estructurado,24,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXI,CREDIFONDO SAF,05/02/2024,$,102.52,65740102.58,206.0,0,Estructurado,25,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXIII,CREDIFONDO SAF,13/06/2024,$,102.18,36554030.22,158.0,0,Estructurado,26,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXIV,CREDIFONDO SAF,13/06/2024,$,102.46,90052132.77,335.0,0,Estructurado,27,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXIX,CREDIFONDO SAF,30/07/2024,$,101.2,41519925.31,175.0,0,Estructurado,28,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXVI,CREDIFONDO SAF,16/07/2024,$,101.51,51673280.89,154.0,0,Estructurado,29,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXVII,CREDIFONDO SAF,16/07/2024,$,101.71,70050885.42,274.0,0,Estructurado,30,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXVIII,CREDIFONDO SAF,30/07/2024,$,101.28,337320730.15,1086.0,0,Estructurado,31,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXX,CREDIFONDO SAF,30/07/2024,$,101.32,38127098.83,153.0,0,Estructurado,32,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXI,CREDIFONDO SAF,13/08/2024,$,101.08,134654894.7,511.0,0,Estructurado,33,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXII,CREDIFONDO SAF,13/08/2024,$,101.02,36547357.86,175.0,0,Estructurado,34,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXIII,CREDIFONDO SAF,13/08/2024,$,100.91,22987255.3,92.0,0,Estructurado,35,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXIV,CREDIFONDO SAF,29/08/2024,$,100.85,189839345.96,649.0,0,Estructurado,36,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC Cupon Escalonado LXXIX,CREDIFONDO SAF,10/03/2024,$,100.05,16398935.37,78.0,0,Estructurado,37,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXV,CREDIFONDO SAF,29/08/2024,$,100.76,30744790.12,112.0,0,Estructurado,38,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXVI,CREDIFONDO SAF,09/12/2024,$,100.47,18908272.96,89.0,0,Estructurado,39,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXVII,CREDIFONDO SAF,13/09/2024,$,100.61,136102713.86,369.0,0,Estructurado,40,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXVIII,CREDIFONDO SAF,13/09/2024,$,100.58,30597203.32,94.0,0,Estructurado,41,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXX,CREDIFONDO SAF,10/03/2024,$,100.45,166170146.86,565.0,0,Estructurado,42,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO LXXXI,CREDIFONDO SAF,10/03/2024,$,100.26,19778018.54,88.0,0,Estructurado,43,,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO XLIX,CREDIFONDO SAF,27/12/2023,$,104.37,112926930.11,398.0,1,Estructurado,44,Low,/logosFondosMutuos/logoCredicorp.png
+Estructurado,CC CUPON ESCALONADO XLVI,CREDIFONDO SAF,16/11/2023,$,104.89,157858318.33,522.0,1,Estructurado,45,Low,/logosFondosMutuos/logoCredicorp.png
+Estructurado,IF 35 Custodia Dólares FMIV,INTERFONDO,27/11/2023,$,52.62,71298721.09,394.0,1,Estructurado,46,Low,/logosFondosMutuos/logoInterFondos.png
+Estructurado,IF 36 Custodio Dólares FMIV,INTERFONDO,21/12/2023,$,52.35,59596393.39,320.0,1,Estructurado,47,Low,/logosFondosMutuos/logoInterFondos.png
+Estructurado,IF 37 Custodia Dólares FMIV,INTERFONDO,23/01/2024,$,51.95,49333870.54,382.0,0,Estructurado,48,,/logosFondosMutuos/logoInterFondos.png
+Estructurado,IF 38 Custodia Dólares FMIV,INTERFONDO,26/02/2024,$,51.57,55203634.59,334.0,0,Estructurado,49,,/logosFondosMutuos/logoInterFondos.png
+Estructurado,IF 39 Custodia Dólares FMIV,INTERFONDO,27/06/2024,$,51.17,71032090.37,418.0,0,Estructurado,50,,/logosFondosMutuos/logoInterFondos.png
+Estructurado,IF 41 Custodia Dólares FMIV,INTERFONDO,19/09/2024,$,50.34,44686575.51,244.0,0,Estructurado,51,,/logosFondosMutuos/logoInterFondos.png
+Estructurado,Prudential Renta Segura $ I,PRUDENTIALSAF SAF,25/08/2024,$,10.2,3517152.44,40.0,0,Estructurado,52,,/logosFondosMutuos/logoPrudential.png
+Estructurado,SF Inversiones Smart $ I,SCOTIA FONDOS,06/06/2024,$,102.33,92636183.15,300.0,0,Estructurado,53,,/logosFondosMutuos/logoScotia2.png
+Estructurado,SF Inversiones Smart $ II,SCOTIA FONDOS,17/10/2024,$,100.59,39344102.0,107.0,0,Estructurado,54,,/logosFondosMutuos/logoScotia2.png
+Renta Mixta Crecimiento Soles,CRED. CRECIMIENTO VCS,CREDIFONDO SAF,19/06/2008,S/.,162.92,28847087.22,556.0,16,Renta Mixta,55,Medium High,/logosFondosMutuos/logoCredicorp.png
+Renta Mixta Balanceado Dólares,CRED. EQUILIBRADO,CREDIFONDO SAF,03/09/2007,$,145.95,19625851.24,328.0,17,Renta Mixta,56,Medium,/logosFondosMutuos/logoCredicorp.png
+Renta Mixta Balanceado Dólares,IF MIXTO BALANCEADO,INTERFONDO,31/12/1995,$,68.7,14597338.74,639.0,29,Renta Mixta,57,Medium,/logosFondosMutuos/logoInterFondos.png
+Renta Mixta Balanceado Dólares,SCOTIA FONDO MIXTO BALANCEADO,SCOTIA FONDOS,17/04/2007,$,10.97,4363668.35,208.0,17,Renta Mixta,58,Medium,/logosFondosMutuos/logoScotia2.png
+Renta Mixta Moderado Soles,CRED. MODERADO VCS,CREDIFONDO SAF,16/06/2008,S/.,159.31,10077538.21,255.0,16,Renta Mixta,59,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Renta Mixta Moderado Soles,IF INVERSION FLEXIBLE,INTERFONDO,30/10/2007,S/.,159.92,20505413.42,408.0,17,Renta Mixta,60,Medium Low,/logosFondosMutuos/logoInterFondos.png
+Renta Mixta Moderado Dólares,CRED. MODERADO,CREDIFONDO SAF,14/09/2002,$,57.21,28666640.58,409.0,22,Renta Mixta,61,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Inst. Deuda Mediano Plazo S/,BBVA RENTA MED. PLAZO S/.,CONTINENTAL FM,17/10/1997,S/.,368.25,234067426.49,6566.0,27,Renta Fija,62,Low,/logosFondosMutuos/logoBbva.svg
+Inst. Deuda Mediano Plazo S/,CC CONSERV. MED. PLAZO S/.,CREDIFONDO SAF,03/09/2007,S/.,205.38,456511696.5,5262.0,17,Renta Fija,63,Low,/logosFondosMutuos/logoCredicorp.png
+Inst. Deuda Mediano Plazo S/,IF MEDIANO PLAZO SOLES,INTERFONDO,14/03/2002,S/.,215.46,64528043.5,3450.0,22,Renta Fija,64,Low,/logosFondosMutuos/logoInterFondos.png
+Inst. Deuda Mediano Plazo S/,SURA RENTA SOLES,FONDOS SURA SAF,19/05/2006,S/.,221.79,109091620.77,828.0,18,Renta Fija,65,Low,/logosFondosMutuos/logoSura.png
+Inst. Deuda Mediano Plazo $,BBVA RENTA MED. PLAZO $,CONTINENTAL FM,21/10/1997,$,205.85,288569228.94,2312.0,27,Renta Fija,66,Low,/logosFondosMutuos/logoBbva.svg
+Inst. Deuda Mediano Plazo $,CREDICORP CONSER. MED. PLA. $,CREDIFONDO SAF,26/03/1996,$,269.23,690801831.06,6141.0,28,Renta Fija,67,Low,/logosFondosMutuos/logoCredicorp.png
+Inst. Deuda Mediano Plazo $,IF MEDIANO PLAZO,INTERFONDO,09/01/1997,$,113.02,84657300.04,3915.0,27,Renta Fija,68,Low,/logosFondosMutuos/logoInterFondos.png
+Inst. Deuda Corto Plazo S/,BBVA CASH SOLES,CONTINENTAL FM,12/02/2008,S/.,162.43,2627556697.17,73771.0,16,Renta Fija,69,Low,/logosFondosMutuos/logoBbva.svg
+Inst. Deuda Corto Plazo S/,BBVA RENTA CORTO PLAZO S/.,CONTINENTAL FM,27/12/2005,S/.,196.55,407263099.55,5396.0,19,Renta Fija,70,Low,/logosFondosMutuos/logoBbva.svg
+Inst. Deuda Corto Plazo S/,BBVA TESORERIA SOLES FMIV,CONTINENTAL FM,10/03/2018,S/.,125.27,293390258.92,460.0,6,Renta Fija,71,Low,/logosFondosMutuos/logoBbva.svg
+Inst. Deuda Corto Plazo S/,CRED. CONSER. CORTO PLAZO S/,CREDIFONDO SAF,02/10/2014,S/.,153.37,809653839.22,10978.0,10,Renta Fija,72,Low,/logosFondosMutuos/logoCredicorp.png
+Inst. Deuda Corto Plazo S/,CRED. CONSERVAD. LIQUIDEZ S/,CREDIFONDO SAF,04/06/2000,S/.,333.61,2183626616.03,32793.0,24,Renta Fija,73,Low,/logosFondosMutuos/logoCredicorp.png
+Inst. Deuda Corto Plazo S/,DIVISO CONSERVADOR SOLES,DIVISO FONDOS SAF S.A.,31/07/2013,S/.,149.14,3773645.66,157.0,11,Renta Fija,74,Low,/logosFondosMutuos/logoDiviso.png
+Inst. Deuda Corto Plazo S/,SF Liquidez S/.,SCOTIA FONDOS,30/01/2023,S/.,11.27,1177083339.99,15097.0,1,Renta Fija,75,Low,/logosFondosMutuos/logoScotia2.png
+Inst. Deuda Corto Plazo S/,SURA CORTO PLAZO SOLES,FONDOS SURA SAF,25/03/2009,S/.,188.65,210884917.84,823.0,15,Renta Fija,76,Low,/logosFondosMutuos/logoSura.png
+Inst. Deuda Corto Plazo S/,SURA ULTRA CASH SOLES,FONDOS SURA SAF,05/09/2012,S/.,162.23,1695450597.76,2689.0,12,Renta Fija,77,Low,/logosFondosMutuos/logoSura.png
+Inst. Deuda Corto Plazo $,BBVA CASH DOLARES,CONTINENTAL FM,12/02/2008,$,121.61,3066297763.93,20795.0,16,Renta Fija,78,Low,/logosFondosMutuos/logoBbva.svg
+Inst. Deuda Corto Plazo $,BBVA RENTA CORTO PLAZO $,CONTINENTAL FM,16/06/2000,$,178.46,884648596.87,3146.0,24,Renta Fija,79,Low,/logosFondosMutuos/logoBbva.svg
+Inst. Deuda Corto Plazo $,CRED. CONSER. CORTO PLAZO $,CREDIFONDO SAF,18/02/2014,$,124.86,1585227263.42,5724.0,10,Renta Fija,80,Low,/logosFondosMutuos/logoCredicorp.png
+Inst. Deuda Corto Plazo $,CRED. CONSERVADOR LIQUIDEZ $,CREDIFONDO SAF,05/06/1999,$,187.6,3562317607.6,15706.0,25,Renta Fija,81,Low,/logosFondosMutuos/logoCredicorp.png
+Inst. Deuda Corto Plazo $,DIVISO CONSERVADOR DOLARES,DIVISO FONDOS SAF S.A.,19/03/2015,$,113.47,1890862.84,62.0,9,Renta Fija,82,Low,/logosFondosMutuos/logoDiviso.png
+Inst. Deuda Corto Plazo $,-FARO CORTO PLAZO DOLARES SERIE A,FARO CAPITAL SAFI,08/09/2022,$,106.0,,1.0,2,Renta Fija,83,Low,/logosFondosMutuos/logoFaro.png
+Inst. Deuda Corto Plazo $,-FARO CORTO PLAZO DOLARES SERIE B,FARO CAPITAL SAFI,08/09/2022,$,109.81,,24.0,2,Renta Fija,84,Low,/logosFondosMutuos/logoFaro.png
+Inst. Deuda Corto Plazo $,SF LIQUIDEZ $,SCOTIA FONDOS,31/01/2023,$,10.88,2910674084.43,11569.0,1,Renta Fija,85,Low,/logosFondosMutuos/logoScotia2.png
+Inst. Deuda Corto Plazo $,SURA CORTO PLAZO DOLARES,FONDOS SURA SAF,31/08/2009,$,136.83,232476023.76,821.0,15,Renta Fija,86,Low,/logosFondosMutuos/logoSura.png
+Inst. Deuda Corto Plazo $,SURA ULTRA CASH DOLARES,FONDOS SURA SAF,19/07/2012,$,123.32,1240348954.53,2352.0,12,Renta Fija,87,Low,/logosFondosMutuos/logoSura.png
+Flexible,BLUM BONOS GLOBALES FM,BLUM SAF,25/03/2024,$,10.51,78598682.24,18.0,0,Flexible,88,,/logosFondosMutuos/logoBlum.png
+Flexible,-Blum Capital Global FM SERIE A,BLUM SAF,23/09/2022,$,13.12,,3.0,2,Flexible,89,Low,/logosFondosMutuos/logoBlum.png
+Flexible,-Blum Capital Global FM SERIE B,BLUM SAF,23/09/2022,$,13.07,,781.0,2,Flexible,90,Low,/logosFondosMutuos/logoBlum.png
+Flexible,-Blum Capital Global FM SERIE I,BLUM SAF,23/09/2022,$,13.32,,1.0,2,Flexible,91,Low,/logosFondosMutuos/logoBlum.png
+Flexible,Blum Cash FM,BLUM SAF,08/11/2022,$,11.02,22521252.38,278.0,2,Flexible,92,Low,/logosFondosMutuos/logoBlum.png
+Flexible,Blum Cash S/ FM,BLUM SAF,12/12/2023,S/.,11.09,3763664.85,2299.0,1,Flexible,93,Low,/logosFondosMutuos/logoBlum.png
+Flexible,BLUM MONEY MARKET $ FM,BLUM SAF,14/02/2023,$,10.91,13270897.6,11.0,1,Flexible,94,Low,/logosFondosMutuos/logoBlum.png
+Flexible,-Blum Renta Global FM SERIE A,BLUM SAF,16/03/2022,$,10.67,,8.0,2,Flexible,95,Medium Low,/logosFondosMutuos/logoBlum.png
+Flexible,-Blum Renta Global FM SERIE B,BLUM SAF,16/03/2022,$,10.62,,324.0,2,Flexible,96,Medium Low,/logosFondosMutuos/logoBlum.png
+Flexible,-Blum Renta Global FM SERIE I,BLUM SAF,16/03/2022,$,10.12,,1.0,2,Flexible,97,Medium Low,/logosFondosMutuos/logoBlum.png
+Flexible,CC DEUDA CORPORATIVA SOLES,CREDIFONDO SAF,31/07/2019,S/.,120.81,71150763.11,609.0,5,Flexible,98,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Flexible,CC FACTORING $,CREDIFONDO SAF,20/06/2023,$,110.12,382389334.09,956.0,1,Flexible,99,Low,/logosFondosMutuos/logoCredicorp.png
+Flexible,CC RENTA OPERATIVA I (FI),CREDIFONDO SAF,28/06/2019,$,134.21,130831524.9,534.0,5,Flexible,100,Low,/logosFondosMutuos/logoCredicorp.png
+Flexible,CORIL CASH CONSERVADOR S/,CORIL SAF,08/10/2022,S/.,1144.61,5448111.12,21.0,2,Flexible,101,Low,/logosFondosMutuos/logoCoril.png
+Flexible,CRED CAP FACTORING S/,CREDIFONDO SAF,12/07/2020,S/.,129.26,80110588.11,321.0,4,Flexible,102,Low,/logosFondosMutuos/logoCredicorp.png
+Flexible,-FARO DEUDA GLOBAL SERIE A,FARO CAPITAL SAFI,29/05/2018,$,105.48,,4.0,6,Flexible,103,Medium Low,/logosFondosMutuos/logoFaro.png
+Flexible,-FARO DEUDA GLOBAL SERIE B,FARO CAPITAL SAFI,29/05/2018,$,104.52,,8.0,6,Flexible,104,Medium Low,/logosFondosMutuos/logoFaro.png
+Flexible,-FARO DEUDA GLOBAL SERIE C,FARO CAPITAL SAFI,29/05/2018,$,103.28,,34.0,6,Flexible,105,Medium Low,/logosFondosMutuos/logoFaro.png
+Flexible,IF Futuro Seguro $,INTERFONDO,27/12/2021,$,49.99,9523113.58,158.0,3,Flexible,106,Medium Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,IF Futuro Seguro S/,INTERFONDO,27/12/2021,S/.,104.05,8609830.07,219.0,3,Flexible,107,Medium Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,IF INVERSION GLOBAL,INTERFONDO,26/01/2015,$,70.16,27918189.84,663.0,9,Flexible,108,Medium,/logosFondosMutuos/logoInterFondos.png
+Flexible,IF OPORTUNIDAD,INTERFONDO,12/06/2013,$,0.0,387666861.53,4227.0,11,Flexible,109,Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,-IF OPORTUNIDAD SERIE A,INTERFONDO,12/06/2013,$,59.52,,3981.0,11,Flexible,110,Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,-IF OPORTUNIDAD SERIE B,INTERFONDO,12/06/2013,$,59.92,,92.0,11,Flexible,111,Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,IF OPORTUNIDAD SOLES,INTERFONDO,16/11/2012,S/.,0.0,676121701.96,8919.0,12,Flexible,112,Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,-IF OPORTUNIDAD SOLES SERIE A,INTERFONDO,16/11/2012,S/.,147.16,,8305.0,12,Flexible,113,Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,-IF OPORTUNIDAD SOLES SERIE B,INTERFONDO,16/11/2012,S/.,147.88,,41.0,12,Flexible,114,Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,IF Portafolio Dinámico,INTERFONDO,28/12/2017,$,72.57,82389288.69,489.0,7,Flexible,115,Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,IF Portafolio Dinamico Soles,INTERFONDO,05/05/2021,S/.,0.0,460151312.16,3544.0,3,Flexible,116,Low,/logosFondosMutuos/logoInterFondos.png
+Flexible,-IF Portafolio Dinamico Soles SERIE A,INTERFONDO,05/05/2021,S/.,135.99,,3479.0,3,Flexible,117,,/logosFondosMutuos/logoInterFondos.png
+Flexible,-IF Portafolio Dinamico Soles SERIE B,INTERFONDO,05/05/2021,S/.,136.61,,65.0,3,Flexible,118,,/logosFondosMutuos/logoInterFondos.png
+Flexible,INDEPENDIENTE PMG,INDEPENDIENTE SAF,31/12/2020,$,112.21,61271574.54,1325.0,4,Flexible,119,Medium Low,/logosFondosMutuos/logoIndependiente.png
+Flexible,SCOTIA DEPÓSITO DISPONIBLE S/.,SCOTIA FONDOS,16/08/2011,S/.,12.48,51066006.71,7899.0,13,Flexible,120,Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SCOTIA FONDO CASH $,SCOTIA FONDOS,03/07/2001,$,16.42,58972560.35,1927.0,23,Flexible,121,Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SCOTIA FONDO CASH S/.,SCOTIA FONDOS,21/06/2001,S/.,20.92,51208972.98,5254.0,23,Flexible,122,Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SCOTIA FONDO PREMIUM $,SCOTIA FONDOS,07/02/1996,$,20.66,35366604.66,1654.0,28,Flexible,123,Medium Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SCOTIA FONDO PREMIUM S/.,SCOTIA FONDOS,17/04/2007,S/.,12.03,11163716.07,1695.0,17,Flexible,124,Medium,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Corto Plazo Plus $,SCOTIA FONDOS,12/01/2023,$,10.62,1001003830.56,2418.0,1,Flexible,125,Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Corto Plazo Plus S/,SCOTIA FONDOS,28/02/2024,S/.,10.41,277968379.71,1826.0,0,Flexible,126,,/logosFondosMutuos/logoScotia2.png
+Flexible,SF INST DE RENTA $ IX,SCOTIA FONDOS,25/04/2023,$,1160.28,11353257.84,12.0,1,Flexible,127,Medium Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Inst. Renta $ VIII,SCOTIA FONDOS,13/12/2022,$,1120.41,64502376.96,39.0,2,Flexible,128,Medium,/logosFondosMutuos/logoScotia2.png
+Flexible,SF INST RENTA S/ 1Y III,SCOTIA FONDOS,21/08/2024,S/.,1012.11,58345258.2,11.0,0,Flexible,129,,/logosFondosMutuos/logoScotia2.png
+Flexible,SF INSTI DE RENTA $ X,SCOTIA FONDOS,05/09/2023,$,1147.95,27269837.36,29.0,1,Flexible,130,Medium Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Insti Renta S/ 1Y II,SCOTIA FONDOS,28/05/2024,S/.,1030.12,73504705.63,12.0,0,Flexible,131,,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Institucional de Renta $ XI,SCOTIA FONDOS,09/05/2023,$,1057.04,27759039.97,37.0,1,Flexible,132,Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Institucional Renta $ V,SCOTIA FONDOS,05/04/2022,$,1104.31,126128546.42,93.0,2,Flexible,133,Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Institucional Renta $ VI,SCOTIA FONDOS,16/08/2022,$,1135.53,113009295.02,59.0,2,Flexible,134,Medium Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Institucional Renta $ VII,SCOTIA FONDOS,07/12/2022,$,1039.47,35506762.94,46.0,2,Flexible,135,Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SF NOTA ESTRUCTURADA IX,SCOTIA FONDOS,26/09/2024,$,96.28,36484493.52,60.0,0,Flexible,136,,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Nota Estructurada VIII,SCOTIA FONDOS,05/10/2024,$,105.98,22641342.29,48.0,0,Flexible,137,,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Renta $ 1Y VII,SCOTIA FONDOS,13/12/2023,$,10.56,257540843.81,479.0,1,Flexible,138,Low,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Renta $ 1Y VIII,SCOTIA FONDOS,04/03/2024,$,10.35,186705873.11,254.0,0,Flexible,139,,/logosFondosMutuos/logoScotia2.png
+Flexible,SF Renta $ 6M XXI,SCOTIA FONDOS,08/07/2024,$,10.15,356668177.17,720.0,0,Flexible,140,,/logosFondosMutuos/logoScotia2.png
+Flexible,SF RENTA $ 6M XXII,SCOTIA FONDOS,10/09/2024,$,10.05,155940734.85,400.0,0,Flexible,141,,/logosFondosMutuos/logoScotia2.png
+Flexible,SF RENTA SOLES 6M V,SCOTIA FONDOS,19/06/2024,S/.,10.28,306430514.65,799.0,0,Flexible,142,,/logosFondosMutuos/logoScotia2.png
+Flexible,SFNotaEstructurada IV-F. Insti,SCOTIA FONDOS,01/04/2022,$,100.81,35396424.32,54.0,2,Flexible,143,Medium Low,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,-BLUM USA 500 FDF SERIE A,BLUM SAF,15/10/2024,$,9.81,,2.0,0,Fondo de Fondos,144,,/logosFondosMutuos/logoBlum.png
+Fondo de Fondos,-BLUM USA 500 FDF SERIE B,BLUM SAF,15/10/2024,$,9.8,,58.0,0,Fondo de Fondos,145,,/logosFondosMutuos/logoBlum.png
+Fondo de Fondos,CRED CAP. INVESTMENT GRADE,CREDIFONDO SAF,09/04/2018,$,117.58,166312751.72,919.0,6,Fondo de Fondos,146,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CRED CAP VISION I,CREDIFONDO SAF,02/08/2016,$,120.05,83328323.95,644.0,8,Fondo de Fondos,147,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CRED CAP VISION III,CREDIFONDO SAF,02/10/2016,$,156.93,35793880.45,698.0,8,Fondo de Fondos,148,Medium,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CRED. DEUDA GLOBAL,CREDIFONDO SAF,25/03/2013,$,114.32,21553983.23,675.0,11,Fondo de Fondos,149,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CRED. EQUILIBRADO VCS,CREDIFONDO SAF,16/06/2008,S/.,114.01,10043652.71,892.0,16,Fondo de Fondos,150,Medium,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CREDI. ACC. LATAM-PACIFICO,CREDIFONDO SAF,14/08/2012,$,51.48,9350850.61,235.0,12,Fondo de Fondos,151,Medium High,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CREDICORP ACCIONES ASIA,CREDIFONDO SAF,06/05/2017,$,127.55,28503783.91,490.0,7,Fondo de Fondos,152,Medium High,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CREDICORP ACCIONES EEUU,CREDIFONDO SAF,26/05/2017,$,235.9,181260166.21,2177.0,7,Fondo de Fondos,153,Medium High,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CREDICORP ACCIONES EUROPA,CREDIFONDO SAF,26/05/2017,$,162.12,50956886.26,849.0,7,Fondo de Fondos,154,Medium High,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,Credicorp Activos Preferentes,CREDIFONDO SAF,06/06/2018,$,121.59,79778512.84,504.0,6,Fondo de Fondos,155,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CREDICORP DEUDA FLOTANTE,CREDIFONDO SAF,03/02/2017,$,127.32,67396500.63,818.0,7,Fondo de Fondos,156,Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,CREDICORP DEUDA HIGH YIELD,CREDIFONDO SAF,03/02/2017,$,128.4,142865029.35,707.0,7,Fondo de Fondos,157,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FdeF BBVA Apreciacion Capital,CONTINENTAL FM,24/01/2014,$,140.52,34983000.15,308.0,10,Fondo de Fondos,158,Medium Low,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FdeF BBVA Generacion de Flujo,CONTINENTAL FM,03/01/2010,$,99.12,28011895.79,171.0,14,Fondo de Fondos,159,Medium,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FdeF BBVA Preservacion Capital,CONTINENTAL FM,23/02/2010,$,106.35,10296891.56,87.0,14,Fondo de Fondos,160,Medium Low,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,-FdeF BTG Renta Internacional SERIE A,BTG PACTUAL PERU SAF,16/10/2020,$,111.61,,12.0,4,Fondo de Fondos,161,Medium Low,/logosFondosMutuos/logoBtg.png
+Fondo de Fondos,-FdeF BTG Renta Internacional SERIE B,BTG PACTUAL PERU SAF,16/10/2020,$,110.52,,2.0,4,Fondo de Fondos,162,,/logosFondosMutuos/logoBtg.png
+Fondo de Fondos,FdeF CC Acciones Innovacion,CREDIFONDO SAF,26/04/2021,$,111.6,60235823.31,612.0,3,Fondo de Fondos,163,High,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FdeF CRED ACC SECTOR SEGURID,CREDIFONDO SAF,10/02/2018,$,152.14,35687355.27,467.0,6,Fondo de Fondos,164,High,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FdeF Cred Renta Estrategica,CREDIFONDO SAF,13/02/2019,$,116.31,466086261.42,1014.0,5,Fondo de Fondos,165,Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FdeF IF Global Thematics,INTERFONDO,26/03/2021,$,57.95,14572192.3,358.0,3,Fondo de Fondos,166,Medium High,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF BBVA CONSERV GLO $,CONTINENTAL FM,06/06/2002,$,172.17,17176045.56,113.0,22,Fondo de Fondos,167,Low,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FdF BBVA Renta Fija Mcdo Emerg,CONTINENTAL FM,02/02/2024,$,107.05,55313019.78,237.0,0,Fondo de Fondos,168,,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FdF CC Acciones China,CREDIFONDO SAF,03/01/2021,$,55.55,5220723.93,93.0,3,Fondo de Fondos,169,Medium High,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FdF CC Duración Objetivo Latam,CREDIFONDO SAF,05/10/2024,$,103.04,197386368.12,455.0,0,Fondo de Fondos,170,,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FDF CRED CAP VISION II,CREDIFONDO SAF,02/08/2016,$,143.29,144809656.76,1188.0,8,Fondo de Fondos,171,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FdF Cred. Tendencias Globales,CREDIFONDO SAF,19/10/2020,$,102.41,36861034.71,287.0,4,Fondo de Fondos,172,High,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FdF Credicorp Deuda Flexible,CREDIFONDO SAF,16/07/2020,$,100.76,60634717.01,174.0,4,Fondo de Fondos,173,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FdF Credicorp Impacto Sostenib,CREDIFONDO SAF,12/06/2021,$,88.98,8268398.75,132.0,3,Fondo de Fondos,174,Medium,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,-FdF ED ACC GLOB OPT SERIE B,EL DORADO SAF,29/01/2024,$,113.35,,9.0,0,Fondo de Fondos,175,,/logosFondosMutuos/logoDorado.png
+Fondo de Fondos,-FdF El Dorado Instr Deuda EEUU SERIE A,EL DORADO SAF,06/07/2022,$,122.41,,8.0,2,Fondo de Fondos,176,Low,/logosFondosMutuos/logoDorado.png
+Fondo de Fondos,-FdF El Dorado Instr Deuda EEUU SERIE B,EL DORADO SAF,06/07/2022,$,121.15,,7.0,2,Fondo de Fondos,177,Low,/logosFondosMutuos/logoDorado.png
+Fondo de Fondos,-FdF El Dorado Instr Deuda EEUU SERIE I,EL DORADO SAF,06/07/2022,$,122.78,,1.0,2,Fondo de Fondos,178,Low,/logosFondosMutuos/logoDorado.png
+Fondo de Fondos,FdF Faro Deuda Global,FARO CAPITAL SAFI,06/11/2020,$,100.02,7600938.04,73.0,4,Fondo de Fondos,179,Medium Low,/logosFondosMutuos/logoFaro.png
+Fondo de Fondos,FdF Faro Global Innovation,FARO CAPITAL SAFI,27/01/2020,$,123.89,4594297.07,92.0,4,Fondo de Fondos,180,High,/logosFondosMutuos/logoFaro.png
+Fondo de Fondos,FdF Faro Renta Variable Global,FARO CAPITAL SAFI,06/11/2020,$,151.19,16267034.54,119.0,4,Fondo de Fondos,181,Medium High,/logosFondosMutuos/logoFaro.png
+Fondo de Fondos,FdF IF Enfoque Global,INTERFONDO,18/12/2019,$,50.47,15203983.56,247.0,5,Fondo de Fondos,182,Low,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF Inversión EEUU FMIV,INTERFONDO,12/01/2022,$,67.07,14271365.03,486.0,2,Fondo de Fondos,183,Medium,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF RealState Student Accom,INTERFONDO,27/09/2021,$,55.79,342416262.31,895.0,3,Fondo de Fondos,184,Low,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF XXIII Rend Global 360,INTERFONDO,02/08/2024,$,51.98,39798738.64,222.0,0,Fondo de Fondos,185,,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF XXIV Rend Global 360,INTERFONDO,25/04/2024,$,51.41,102838107.92,413.0,0,Fondo de Fondos,186,,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF XXIX Rend Global 360,INTERFONDO,26/07/2024,$,50.79,74445007.66,397.0,0,Fondo de Fondos,187,,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF XXV Rend Global 360,INTERFONDO,15/03/2024,$,51.57,34491043.13,251.0,0,Fondo de Fondos,188,,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF XXVI Rend Global 360,INTERFONDO,04/01/2024,$,51.52,64655275.79,334.0,0,Fondo de Fondos,189,,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF XXVII Rend Global 321,INTERFONDO,17/05/2024,$,51.24,28799664.48,174.0,0,Fondo de Fondos,190,,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF XXVIII Rend Global 360,INTERFONDO,06/04/2024,$,51.12,81478999.99,399.0,0,Fondo de Fondos,191,,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF 30 Rend Global 332,INTERFONDO,23/08/2024,$,50.59,81655147.16,318.0,0,Fondo de Fondos,192,,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,FdF IF 31 Rend Global 360,INTERFONDO,21/10/2024,$,50.22,59644847.21,297.0,0,Fondo de Fondos,193,,/logosFondosMutuos/logoInterFondos.png
+Fondo de Fondos,-FDF IND RENTA FIJA FMIV SERIE A,INDEPENDIENTE SAF,06/11/2024,$,102.88,,344.0,0,Fondo de Fondos,194,,/logosFondosMutuos/logoIndependiente.png
+Fondo de Fondos,-FDF IND RENTA FIJA FMIV SERIE D,INDEPENDIENTE SAF,06/11/2024,$,102.88,,7.0,0,Fondo de Fondos,195,,/logosFondosMutuos/logoIndependiente.png
+Fondo de Fondos,FdF Sura Corto Plazo Global,FONDOS SURA SAF,15/11/2022,$,110.12,73173108.64,357.0,2,Fondo de Fondos,196,Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,FdF SURA RENTA DOLARES,FONDOS SURA SAF,14/06/2005,$,181.16,76202929.91,623.0,19,Fondo de Fondos,197,Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,FF BBVA ACC GLOB MILLENIALS,CONTINENTAL FM,16/01/2023,$,132.14,4537971.43,62.0,1,Fondo de Fondos,198,Medium Low,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF BBVA ACC TENDENC GLOB,CONTINENTAL FM,15/04/2010,$,120.15,36245008.52,361.0,14,Fondo de Fondos,199,High,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF BBVA ACCIONES GLOB RE,CONTINENTAL FM,08/10/2022,$,95.86,10793572.42,87.0,2,Fondo de Fondos,200,Medium Low,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF BBVA DIST EST GLOBAL,CONTINENTAL FM,05/09/2018,$,115.16,359653592.22,853.0,6,Fondo de Fondos,201,Medium Low,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF BBVA DIST HIGH YIELD EEUU,CONTINENTAL FM,07/07/2021,$,105.33,49154166.75,208.0,3,Fondo de Fondos,202,Medium Low,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF BBVA ESTRATE CONSERV S/,CONTINENTAL FM,21/04/1998,S/.,256.33,13286675.4,633.0,26,Fondo de Fondos,203,Medium Low,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF BBVA ESTRATE DINAMICO $,CONTINENTAL FM,10/06/2011,$,63.96,2167293.14,125.0,13,Fondo de Fondos,204,Medium,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF BBVA ESTRATE DINAMICO S/,CONTINENTAL FM,16/03/2007,S/.,118.18,18742287.61,1695.0,17,Fondo de Fondos,205,High,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF BBVA ESTRATE EQUILIBRA $,CONTINENTAL FM,18/03/2021,$,105.3,2711607.36,90.0,3,Fondo de Fondos,206,Medium Low,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF BBVA ESTRATE EQUILIBRA S/,CONTINENTAL FM,19/03/2007,S/.,139.62,14958456.95,2235.0,17,Fondo de Fondos,207,Medium,/logosFondosMutuos/logoBbva.svg
+Fondo de Fondos,FF CC LATAM INNOVACION,CREDIFONDO SAF,07/03/2023,$,91.45,2696305.5,350.0,1,Fondo de Fondos,208,Medium,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,FF CC RENTA GLOBAL INV GRADE,CREDIFONDO SAF,11/10/2022,$,112.02,106530464.0,524.0,2,Fondo de Fondos,209,Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,-FF Creci Inmobiliario EEUU SERIE A,EL DORADO SAF,01/04/2021,$,112.33,,185.0,3,Fondo de Fondos,210,Low,/logosFondosMutuos/logoDorado.png
+Fondo de Fondos,-FF Creci Inmobiliario EEUU SERIE B,EL DORADO SAF,01/04/2021,$,112.35,,54.0,3,Fondo de Fondos,211,Low,/logosFondosMutuos/logoDorado.png
+Fondo de Fondos,FONDO D FONDOS DEUDA LATAM,CREDIFONDO SAF,08/07/2012,$,137.78,116122758.5,649.0,12,Fondo de Fondos,212,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,Fondo de F. Cred. Cons. Global,CREDIFONDO SAF,14/12/2017,$,167.7,139692599.43,1054.0,7,Fondo de Fondos,213,Medium,/logosFondosMutuos/logoCredicorp.png
+Fondo de Fondos,Independiente Agresivo $,INDEPENDIENTE SAF,12/07/2021,$,118.09,46011998.31,3274.0,3,Fondo de Fondos,214,Medium,/logosFondosMutuos/logoIndependiente.png
+Fondo de Fondos,-PHI DEUDA INTERNACIONAL SERIE A,PRUDENTIALSAF SAF,22/05/2023,$,10.16,,43.0,1,Fondo de Fondos,215,Low,/logosFondosMutuos/logoPrudential.png
+Fondo de Fondos,-PHI DEUDA INTERNACIONAL SERIE B,PRUDENTIALSAF SAF,22/05/2023,$,10.28,,7.0,1,Fondo de Fondos,216,Low,/logosFondosMutuos/logoPrudential.png
+Fondo de Fondos,-PHI RV ESTRATEGIA GLOBAL SERIE A,PRUDENTIALSAF SAF,26/06/2023,$,12.37,,145.0,1,Fondo de Fondos,217,Low,/logosFondosMutuos/logoPrudential.png
+Fondo de Fondos,-PHI RV ESTRATEGIA GLOBAL SERIE B,PRUDENTIALSAF SAF,26/06/2023,$,12.57,,6.0,1,Fondo de Fondos,218,Medium Low,/logosFondosMutuos/logoPrudential.png
+Fondo de Fondos,SCOTIA FF INSTITU RF GLOBAL,SCOTIA FONDOS,26/07/2023,$,1102.03,114232417.75,34.0,1,Fondo de Fondos,219,Low,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,Scotia Fondo de F. Acc. Europa,SCOTIA FONDOS,20/03/2018,$,11.36,25827274.93,190.0,6,Fondo de Fondos,220,Medium High,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,SCOTIA FONDO DE F. ACC. US,SCOTIA FONDOS,19/06/2014,$,25.19,117138472.15,621.0,10,Fondo de Fondos,221,Medium High,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,SCOTIA FONDO DE F. DEUDA HY,SCOTIA FONDOS,28/03/2018,$,11.24,43960305.55,159.0,6,Fondo de Fondos,222,Medium Low,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,Scotia Fondo de F. Deuda IG,SCOTIA FONDOS,05/04/2018,$,10.3,82734148.37,235.0,6,Fondo de Fondos,223,Medium Low,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,SFdF Acciones Emergentes,SCOTIA FONDOS,19/08/2014,$,4.32,19416164.83,209.0,10,Fondo de Fondos,224,Medium High,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,SFdF Distributivo HY II,SCOTIA FONDOS,12/09/2020,$,819.07,76816086.42,190.0,4,Fondo de Fondos,225,Medium Low,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,SFdF DISTRIBUTIVO IG,SCOTIA FONDOS,03/11/2020,$,939.68,180810325.41,299.0,4,Fondo de Fondos,226,Medium Low,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,SFdF Igualdad de Genero,SCOTIA FONDOS,17/09/2021,$,10.91,5499805.88,58.0,3,Fondo de Fondos,227,Medium High,/logosFondosMutuos/logoScotia2.png
+Fondo de Fondos,SURA ACC. NORTEAMERICANAS,FONDOS SURA SAF,21/02/2014,$,27.66,98985453.57,818.0,10,Fondo de Fondos,228,Medium,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,SURA ACCIONES GLOBALES,FONDOS SURA SAF,24/07/2018,$,15.38,37674174.86,416.0,6,Fondo de Fondos,229,Medium High,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,-SURA BONOS GLOBALES SERIE A,FONDOS SURA SAF,26/09/2017,$,106.29,,264.0,7,Fondo de Fondos,230,Medium Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,-SURA BONOS GLOBALES SERIE B,FONDOS SURA SAF,26/09/2017,$,86.17,,69.0,7,Fondo de Fondos,231,Medium Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,-SURA CAPITAL ESTRATEGICO I SERIE A,FONDOS SURA SAF,10/02/2013,S/.,140.91,,185.0,11,Fondo de Fondos,232,Medium Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,-SURA CAPITAL ESTRATEGICO I SERIE B,FONDOS SURA SAF,10/02/2013,S/.,144.72,,121.0,11,Fondo de Fondos,233,Medium Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,-SURA CAPITAL ESTRATEGICO II SERIE A,FONDOS SURA SAF,10/02/2013,S/.,143.1,,247.0,11,Fondo de Fondos,234,Medium Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,-SURA CAPITAL ESTRATEGICO II SERIE B,FONDOS SURA SAF,10/02/2013,S/.,146.57,,211.0,11,Fondo de Fondos,235,Medium Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,SURA DEUDA PRIV. GLOBAL,FONDOS SURA SAF,30/06/2022,$,10089.71,102872989.15,285.0,2,Fondo de Fondos,236,Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,Sura Real Estate Global Income,FONDOS SURA SAF,07/05/2018,$,11149.65,729304265.74,1789.0,6,Fondo de Fondos,237,Medium Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,-SURA SELECCION GLOBAL I SERIE A,FONDOS SURA SAF,09/08/2016,$,129.69,,267.0,8,Fondo de Fondos,238,Medium Low,/logosFondosMutuos/logoSura.png
+Fondo de Fondos,-SURA SELECCION GLOBAL I SERIE B,FONDOS SURA SAF,09/08/2016,$,132.22,,2.0,8,Fondo de Fondos,239,Medium Low,/logosFondosMutuos/logoSura.png
+Flexible Dólares,BDC DEUDA DIVERSIFICADA FMIV,BD CAPITAL SAF,16/03/2021,$,94.51,22266855.58,10.0,3,Flexible,240,Medium Low,/logosFondosMutuos/logoBD.png
+Flexible Dólares,SCOTIA DEPÓSITO DISPONIBLE $,SCOTIA FONDOS,17/08/2011,$,11.7,162483824.11,3035.0,13,Flexible,241,Low,/logosFondosMutuos/logoScotia2.png
+Inst Deuda Duración Flexibl $,BBVA Distributivo $ FMIV,CONTINENTAL FM,20/12/2023,$,106.66,28745292.27,107.0,1,Renta Fija,242,Low,/logosFondosMutuos/logoBbva.svg
+Inst Deuda Duración Flexibl $,BBVA DISTRIBUTIVO $ II,CONTINENTAL FM,04/02/2024,$,104.33,28480238.92,82.0,0,Renta Fija,243,,/logosFondosMutuos/logoBbva.svg
+Inst Deuda Duración Flexibl $,BBVA SUPER $ 17,CONTINENTAL FM,30/07/2024,$,101.88,88111617.17,328.0,0,Renta Fija,244,,/logosFondosMutuos/logoBbva.svg
+Inst Deuda Duración Flexibl $,BBVA SUPER $ 18,CONTINENTAL FM,24/09/2024,$,101.01,26641820.02,86.0,0,Renta Fija,245,,/logosFondosMutuos/logoBbva.svg
+Inst Deuda Duración Flexibl $,BBVA SUPER DOLARES 13,CONTINENTAL FM,21/12/2023,$,104.8,48116699.11,137.0,1,Renta Fija,246,Low,/logosFondosMutuos/logoBbva.svg
+Inst Deuda Duración Flexibl $,BBVA SUPER DOLARES 14,CONTINENTAL FM,03/07/2024,$,103.91,122777869.79,320.0,0,Renta Fija,247,,/logosFondosMutuos/logoBbva.svg
+Inst Deuda Duración Flexibl $,BBVA SUPER DOLARES 15,CONTINENTAL FM,26/04/2024,$,103.22,107480767.67,364.0,0,Renta Fija,248,,/logosFondosMutuos/logoBbva.svg
+Inst Deuda Duración Flexibl $,BBVA SUPER DOLARES 16,CONTINENTAL FM,06/11/2024,$,102.5,105683248.72,328.0,0,Renta Fija,249,,/logosFondosMutuos/logoBbva.svg
+Inst Deuda Duración Flexibl $,CC RENTA DOLARES 2Y II,CREDIFONDO SAF,10/01/2024,$,100.08,23182020.78,109.0,0,Renta Fija,250,,/logosFondosMutuos/logoCredicorp.png
+Inst Deuda Duración Flexibl $,CC RENTA DOLARES 3Y VI,CREDIFONDO SAF,19/12/2023,$,105.2,36258902.86,122.0,1,Renta Fija,251,Low,/logosFondosMutuos/logoCredicorp.png
+Inst Deuda Duración Flexibl $,CC RENTA DOLARES 3Y VII,CREDIFONDO SAF,17/06/2024,$,103.35,24724854.9,94.0,0,Renta Fija,252,,/logosFondosMutuos/logoCredicorp.png
+Inst Deuda Duración Flexibl $,CC RENTA DOLARES 4Y VI,CREDIFONDO SAF,08/11/2022,$,110.19,24830849.71,106.0,2,Renta Fija,253,Low,/logosFondosMutuos/logoCredicorp.png
+Inst Deuda Duración Flexibl $,CRED DEUDA CORP LATAM HY,CREDIFONDO SAF,24/01/2019,$,124.61,113298554.01,108.0,5,Renta Fija,254,Medium Low,/logosFondosMutuos/logoCredicorp.png
+Inst Deuda Duración Flexibl $,IF Enfoque LATAM,INTERFONDO,09/07/2017,$,47.42,9709077.42,140.0,7,Renta Fija,255,Medium Low,/logosFondosMutuos/logoInterFondos.png
+Inst Deuda Duración Flexibl $,IF LIBRE DISPONIBILIDAD,INTERFONDO,07/07/2015,$,0.0,2832191711.96,22028.0,9,Renta Fija,256,Low,/logosFondosMutuos/logoInterFondos.png
+Inst Deuda Duración Flexibl $,SURA PLAZO DEFINIDO $ II,FONDOS SURA SAF,14/12/2023,$,104.88,21868163.05,128.0,1,Renta Fija,257,Low,/logosFondosMutuos/logoSura.png
+Inst Deuda Duración Flexibl S/,IF LIBRE DISPONIBILIDAD S/.,INTERFONDO,05/07/2015,S/.,0.0,1815119443.14,37890.0,9,Renta Fija,258,Low,/logosFondosMutuos/logoInterFondos.png
+Inst Deuda Duración Flexibl S/,-IF LIBRE DISPONIBILIDAD S/. SERIE A,INTERFONDO,05/07/2015,S/.,135.98,,36746.0,9,Renta Fija,259,Low,/logosFondosMutuos/logoInterFondos.png
+Inst Deuda Duración Flexibl S/,-IF LIBRE DISPONIBILIDAD S/. SERIE B,INTERFONDO,05/07/2015,S/.,136.75,,172.0,9,Renta Fija,260,Low,/logosFondosMutuos/logoInterFondos.png
+Inst Deuda Duración Flexibl S/,SURA DEUDA SOBER. DISTRIB. S/,FONDOS SURA SAF,26/04/2023,S/.,111.46,56018873.88,252.0,1,Renta Fija,261,Low,/logosFondosMutuos/logoSura.png
+Inst Deuda Duración Flexibl S/,Sura Plazo Definido S/ IV,FONDOS SURA SAF,17/05/2024,S/.,102.41,117249296.84,10.0,0,Renta Fija,262,,/logosFondosMutuos/logoSura.png
+Fondo Bursátil - ETF,VAN ECK EL DORADO PERU ETF,EL DORADO SAF,03/11/2021,$,12.42,389598933.9,1.0,3,Fondo Bursátil - ETF,263,Medium High,/logosFondosMutuos/logoDorado.png

@@ -1,13 +1,13 @@
 SELECT 
-    `MutualFunds.MutualFundProfiles`.fund_id,
+    `MutualFunds.MutualFundProfiles2`.fund_id,
     fondo_mutuo,
     categoria,
     administradora,
     return,
     risk,
     year
-FROM `MutualFunds.MutualFundProfiles`
-JOIN `MutualFunds.MutualFundsAnnualReturns` on `MutualFunds.MutualFundsAnnualReturns`.fund_id = `MutualFunds.MutualFundProfiles`.fund_id
-WHERE categoria = 'Fondo de Fondos' and year = 2024
+FROM `MutualFunds.MutualFundProfiles2`
+JOIN `MutualFunds.MutualFundsAnnualReturns2` on `MutualFunds.MutualFundsAnnualReturns2`.fund_id = `MutualFunds.MutualFundProfiles2`.fund_id
+WHERE categoria = 'Renta Variable' and year = 2024
 ORDER BY return desc 
 LIMIT 10

@@ -1,10 +1,18 @@
-import { useState, useEffect } from "react";
-import "./Navbar.css";
-import { useNavigate } from "react-router-dom";
-import fondosData from "./mutualFunds/data/fondos-mutuos-data-4.json";
+// This component renders the navigation bar where the user can search all of the mutual & etf funds in haku.
+
+// Import etf & mutual fund data to display
+import fondosMutuosData from "./mutualFunds/data/fondos-mutuos-data-oct24.json";
 import etfData from "./etfs/data/etfs-profiles.json";
+
+// Navbar dropdown that appears only for
 import NavDropDown from "./navDropDown.tsx";
+
+// Import styles
+import "./Navbar.css";
+
 import { MutualFundData } from "./types/mutualFundTypes";
+import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 
 interface ETFData {
   name: string;
@@ -26,7 +34,7 @@ function Navbar({ show = true }) {
   useEffect(() => {
     // if the user writes in the SearchBar, there IS a searchTerm
     if (searchTerm) {
-      const mutualFundResults = fondosData.filter((fund) =>
+      const mutualFundResults = fondosMutuosData.filter((fund) =>
         Object.values(fund).some((value) =>
           String(value).toLowerCase().includes(searchTerm.toLowerCase())
         )

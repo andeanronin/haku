@@ -4,7 +4,7 @@
     "fondo_mutuo": "SCOTIA FONDO ACCIONES",
     "categoria": "Renta Variable",
     "administradora": "SCOTIA FONDOS",
-    "return": 0.1232,
+    "return": 0.1512,
     "risk": "Medium High",
     "year": 2024
   },
@@ -13,7 +13,16 @@
     "fondo_mutuo": "CREDICORP CAPITAL ACCIONES",
     "categoria": "Renta Variable",
     "administradora": "CREDIFONDO SAF",
-    "return": 0.106,
+    "return": 0.1415,
+    "risk": "High",
+    "year": 2024
+  },
+  {
+    "fund_id": 12,
+    "fondo_mutuo": "SURA ACCIONES",
+    "categoria": "Renta Variable",
+    "administradora": "FONDOS SURA SAF",
+    "return": 0.1317,
     "risk": "High",
     "year": 2024
   },
@@ -22,17 +31,8 @@
     "fondo_mutuo": "CREDICORP ACCIONES GLOBAL",
     "categoria": "Renta Variable",
     "administradora": "CREDIFONDO SAF",
-    "return": 0.0967,
+    "return": 0.1297,
     "risk": "Medium",
-    "year": 2024
-  },
-  {
-    "fund_id": 12,
-    "fondo_mutuo": "SURA ACCIONES",
-    "categoria": "Renta Variable",
-    "administradora": "FONDOS SURA SAF",
-    "return": 0.0959,
-    "risk": "High",
     "year": 2024
   },
   {
@@ -40,7 +40,7 @@
     "fondo_mutuo": "-FARO RENTA VARIABLE GLOBAL SERIE A",
     "categoria": "Renta Variable",
     "administradora": "FARO CAPITAL SAFI",
-    "return": 0.0925,
+    "return": 0.1273,
     "risk": "Medium High",
     "year": 2024
   },
@@ -49,7 +49,7 @@
     "fondo_mutuo": "-FARO RENTA VARIABLE GLOBAL SERIE B",
     "categoria": "Renta Variable",
     "administradora": "FARO CAPITAL SAFI",
-    "return": 0.0912,
+    "return": 0.125,
     "risk": "Medium High",
     "year": 2024
   },
@@ -58,16 +58,7 @@
     "fondo_mutuo": "-FARO RENTA VARIABLE GLOBAL SERIE C",
     "categoria": "Renta Variable",
     "administradora": "FARO CAPITAL SAFI",
-    "return": 0.0886,
-    "risk": "Medium High",
-    "year": 2024
-  },
-  {
-    "fund_id": 9,
-    "fondo_mutuo": "IF ACCIONES",
-    "categoria": "Renta Variable",
-    "administradora": "INTERFONDO",
-    "return": 0.0767,
+    "return": 0.1205,
     "risk": "Medium High",
     "year": 2024
   },
@@ -76,8 +67,17 @@
     "fondo_mutuo": "Promoinvest Fondo Selectivo",
     "categoria": "Renta Variable",
     "administradora": "PROMOINVEST SAF",
-    "return": 0.0714,
+    "return": 0.0933,
     "risk": "High",
+    "year": 2024
+  },
+  {
+    "fund_id": 9,
+    "fondo_mutuo": "IF ACCIONES",
+    "categoria": "Renta Variable",
+    "administradora": "INTERFONDO",
+    "return": 0.0909,
+    "risk": "Medium High",
     "year": 2024
   },
   {
@@ -85,7 +85,7 @@
     "fondo_mutuo": "-Faro Global Innovation Instit. SERIE A",
     "categoria": "Renta Variable",
     "administradora": "FARO CAPITAL SAFI",
-    "return": 0.0684,
+    "return": 0.0574,
     "risk": "High",
     "year": 2024
   }

@@ -1,0 +1,92 @@
+[
+  {
+    "fund_id": 254,
+    "fondo_mutuo": "CRED DEUDA CORP LATAM HY",
+    "categoria": "Renta Fija",
+    "administradora": "CREDIFONDO SAF",
+    "return": 0.0949,
+    "risk": "Medium Low",
+    "year": 2024
+  },
+  {
+    "fund_id": 63,
+    "fondo_mutuo": "CC CONSERV. MED. PLAZO S/.",
+    "categoria": "Renta Fija",
+    "administradora": "CREDIFONDO SAF",
+    "return": 0.0616,
+    "risk": "Low",
+    "year": 2024
+  },
+  {
+    "fund_id": 242,
+    "fondo_mutuo": "BBVA Distributivo $ FMIV",
+    "categoria": "Renta Fija",
+    "administradora": "CONTINENTAL FM",
+    "return": 0.0576,
+    "risk": "Low",
+    "year": 2024
+  },
+  {
+    "fund_id": 64,
+    "fondo_mutuo": "IF MEDIANO PLAZO SOLES",
+    "categoria": "Renta Fija",
+    "administradora": "INTERFONDO",
+    "return": 0.0542,
+    "risk": "Low",
+    "year": 2024
+  },
+  {
+    "fund_id": 72,
+    "fondo_mutuo": "CRED. CONSER. CORTO PLAZO S/",
+    "categoria": "Renta Fija",
+    "administradora": "CREDIFONDO SAF",
+    "return": 0.0537,
+    "risk": "Low",
+    "year": 2024
+  },
+  {
+    "fund_id": 67,
+    "fondo_mutuo": "CREDICORP CONSER. MED. PLA. $",
+    "categoria": "Renta Fija",
+    "administradora": "CREDIFONDO SAF",
+    "return": 0.0537,
+    "risk": "Low",
+    "year": 2024
+  },
+  {
+    "fund_id": 76,
+    "fondo_mutuo": "SURA CORTO PLAZO SOLES",
+    "categoria": "Renta Fija",
+    "administradora": "FONDOS SURA SAF",
+    "return": 0.0525,
+    "risk": "Low",
+    "year": 2024
+  },
+  {
+    "fund_id": 65,
+    "fondo_mutuo": "SURA RENTA SOLES",
+    "categoria": "Renta Fija",
+    "administradora": "FONDOS SURA SAF",
+    "return": 0.052,
+    "risk": "Low",
+    "year": 2024
+  },
+  {
+    "fund_id": 62,
+    "fondo_mutuo": "BBVA RENTA MED. PLAZO S/.",
+    "categoria": "Renta Fija",
+    "administradora": "CONTINENTAL FM",
+    "return": 0.0498,
+    "risk": "Low",
+    "year": 2024
+  },
+  {
+    "fund_id": 70,
+    "fondo_mutuo": "BBVA RENTA CORTO PLAZO S/.",
+    "categoria": "Renta Fija",
+    "administradora": "CONTINENTAL FM",
+    "return": 0.0496,
+    "risk": "Low",
+    "year": 2024
+  }
+]

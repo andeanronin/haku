@@ -33,7 +33,7 @@ if job.state == 'DONE':
     df = job.to_dataframe()
 
     # Save to JSON
-    df.to_json("./haku-app/src/rankings/topTenMutualFunds/fondo_de_fondos.json", orient="records", indent=4)
+    df.to_json("./haku-app/src/rankings/topTenMutualFunds/renta_variable.json", orient="records", indent=4)
 
 else:
     print(job.result())

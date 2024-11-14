@@ -13,7 +13,7 @@ Output: fondos-mutuos-data-2 .csv & .json
 """
 
 # Read Dataset
-fondos_mutuos_dataframe = pd.read_csv("haku-data/fondos-mutuos-table.csv")
+fondos_mutuos_dataframe = pd.read_csv("haku-data/Fondos-Mutuos/fondos-mutuos-table-1.csv")
 
 # 1. Remove fund manager name from fund name column values 
 # 1.1 Get set de los gestores 
@@ -86,7 +86,7 @@ print(fondos_mutuos_dataframe.head())
 
 
 # 6. SERIALIZE DATA TO CSV & JSON 
-fondos_mutuos_dataframe.to_csv("haku-data/fondos-mutuos-table-2.csv" , index=False)
+fondos_mutuos_dataframe.to_csv("haku-data/Fondos-Mutuos/fondos-mutuos-table-2.csv" , index=False)
 
-fondos_mutuos_dataframe.to_json("haku-data/fondos-mutuos-data-2.json" , orient="records" , indent=4)
+fondos_mutuos_dataframe.to_json("haku-data/Fondos-Mutuos/fondos-mutuos-data-2.json" , orient="records" , indent=4)
 

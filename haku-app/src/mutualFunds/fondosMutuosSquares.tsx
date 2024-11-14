@@ -3,11 +3,13 @@ This component renders all of the mutual fund data in visually appealing boxes f
 The user can scroll this page to explore mutual funds. 
 */
 
-import fundData from "./data/fondos-mutuos-data-4.json";
 import "./fondosMutuosSquares.css";
-import { useState, useEffect, useMemo } from "react";
+// Import components
 import AdminPopup from "./adminPopup";
 import FondoMutuoCard from "./fondoMutuoCard";
+// Import data
+import fundData from "./data/fondos-mutuos-data-oct24.json";
+import { useState, useEffect, useMemo } from "react";
 
 function FundList() {
   const [data, setData] = useState(fundData);

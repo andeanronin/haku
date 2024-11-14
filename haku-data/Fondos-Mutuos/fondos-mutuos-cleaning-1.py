@@ -4,8 +4,8 @@ import os
 print("Current working directory:", os.getcwd())   # note: this script runs
 
 # PATH - READ csv data
-fondos_mutuos_24 = pd.read_csv('haku-data/smv-cuadros/fondos-mutuos-resumen-06-24.csv', skiprows=6, skipfooter=3, engine='python')
-fondos_mutuos_19 = pd.read_csv('haku-data/smv-cuadros/fondos-mutuos-resumen-01-19.csv', skiprows=6, skipfooter=3, engine='python')
+fondos_mutuos_24 = pd.read_csv('haku-data/Fondos-Mutuos/smv-cuadros/fondos-mutuos-10-24.csv', skiprows=6, skipfooter=3, engine='python')
+fondos_mutuos_19 = pd.read_csv('haku-data/Fondos-Mutuos/smv-cuadros/fondos-mutuos-resumen-01-19.csv', skiprows=6, skipfooter=3, engine='python')
 
 # Remove any trailing or leading whitespace in the column names.
 fondos_mutuos_19.columns = fondos_mutuos_19.columns.str.strip()
@@ -110,9 +110,8 @@ print(fondos_mutuos["Rentabilidad 2024"][24])
 
 
 # Save dataframe to a csv file.
-fondos_mutuos.to_csv('haku-data/fondos-mutuos-table.csv', index=False)
+fondos_mutuos.to_csv('haku-data/Fondos-Mutuos/fondos-mutuos-table-1.csv', index=False)
 
 # Save dataframe to JSON files 
-fondos_mutuos.to_json('haku-data/fondos-mutuos-consolidado.json', orient='columns', indent=4)
-fondos_mutuos.to_json('haku-data/fondos-mutuos-data.json', orient='records', indent=4)
-fondos_mutuos_whole.to_json('haku-data/fondos-mutuos-whole.json', orient='records', indent=4)
+fondos_mutuos.to_json('haku-data/Fondos-Mutuos/fondos-mutuos-data-1.json', orient='records', indent=4)
+#fondos_mutuos_whole.to_json('haku-data/fondos-mutuos-whole.json', orient='records', indent=4)

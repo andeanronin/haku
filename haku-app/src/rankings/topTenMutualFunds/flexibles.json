@@ -1,92 +1,92 @@
 [
     {
-        "fund_id":101,
+        "fund_id":108,
         "fondo_mutuo":"IF INVERSION GLOBAL",
         "categoria":"Flexible",
         "administradora":"INTERFONDO",
-        "return":0.0871,
+        "return":0.1134,
         "risk":"Medium",
         "year":2024
     },
     {
-        "fund_id":84,
-        "fondo_mutuo":"-Blum Capital Global FM SERIE I",
-        "categoria":"Flexible",
-        "administradora":"BLUM SAF",
-        "return":0.0749,
-        "risk":"Low",
-        "year":2024
-    },
-    {
-        "fund_id":82,
-        "fondo_mutuo":"-Blum Capital Global FM SERIE A",
-        "categoria":"Flexible",
-        "administradora":"BLUM SAF",
-        "return":0.0737,
-        "risk":"Low",
-        "year":2024
-    },
-    {
-        "fund_id":83,
-        "fondo_mutuo":"-Blum Capital Global FM SERIE B",
-        "categoria":"Flexible",
-        "administradora":"BLUM SAF",
-        "return":0.0726,
-        "risk":"Low",
-        "year":2024
-    },
-    {
-        "fund_id":233,
-        "fondo_mutuo":"BDC DEUDA DIVERSIFICADA FMIV",
-        "categoria":"Flexible",
-        "administradora":"BD CAPITAL SAF",
-        "return":0.0559,
-        "risk":"Medium Low",
-        "year":2024
-    },
-    {
-        "fund_id":91,
-        "fondo_mutuo":"CC DEUDA CORPORATIVA SOLES",
-        "categoria":"Flexible",
-        "administradora":"CREDIFONDO SAF",
-        "return":0.0463,
-        "risk":"Medium Low",
-        "year":2024
-    },
-    {
-        "fund_id":136,
+        "fund_id":143,
         "fondo_mutuo":"SFNotaEstructurada IV-F. Insti",
         "categoria":"Flexible",
         "administradora":"SCOTIA FONDOS",
-        "return":0.046,
+        "return":0.1132,
         "risk":"Medium Low",
         "year":2024
     },
     {
-        "fund_id":100,
-        "fondo_mutuo":"IF Futuro Seguro S\/",
+        "fund_id":89,
+        "fondo_mutuo":"-Blum Capital Global FM SERIE A",
         "categoria":"Flexible",
-        "administradora":"INTERFONDO",
-        "return":0.0456,
-        "risk":"Medium Low",
+        "administradora":"BLUM SAF",
+        "return":0.1005,
+        "risk":"Low",
         "year":2024
     },
     {
-        "fund_id":99,
-        "fondo_mutuo":"IF Futuro Seguro $",
+        "fund_id":90,
+        "fondo_mutuo":"-Blum Capital Global FM SERIE B",
         "categoria":"Flexible",
-        "administradora":"INTERFONDO",
-        "return":0.0456,
-        "risk":"Medium Low",
+        "administradora":"BLUM SAF",
+        "return":0.0987,
+        "risk":"Low",
         "year":2024
     },
     {
-        "fund_id":112,
+        "fund_id":119,
         "fondo_mutuo":"INDEPENDIENTE PMG",
         "categoria":"Flexible",
         "administradora":"INDEPENDIENTE SAF",
-        "return":0.0428,
+        "return":0.0878,
         "risk":"Medium Low",
+        "year":2024
+    },
+    {
+        "fund_id":98,
+        "fondo_mutuo":"CC DEUDA CORPORATIVA SOLES",
+        "categoria":"Flexible",
+        "administradora":"CREDIFONDO SAF",
+        "return":0.0874,
+        "risk":"Medium Low",
+        "year":2024
+    },
+    {
+        "fund_id":240,
+        "fondo_mutuo":"BDC DEUDA DIVERSIFICADA FMIV",
+        "categoria":"Flexible",
+        "administradora":"BD CAPITAL SAF",
+        "return":0.0844,
+        "risk":"Medium Low",
+        "year":2024
+    },
+    {
+        "fund_id":106,
+        "fondo_mutuo":"IF Futuro Seguro $",
+        "categoria":"Flexible",
+        "administradora":"INTERFONDO",
+        "return":0.0727,
+        "risk":"Medium Low",
+        "year":2024
+    },
+    {
+        "fund_id":107,
+        "fondo_mutuo":"IF Futuro Seguro S\/",
+        "categoria":"Flexible",
+        "administradora":"INTERFONDO",
+        "return":0.0718,
+        "risk":"Medium Low",
+        "year":2024
+    },
+    {
+        "fund_id":102,
+        "fondo_mutuo":"CRED CAP FACTORING S\/",
+        "categoria":"Flexible",
+        "administradora":"CREDIFONDO SAF",
+        "return":0.0656,
+        "risk":"Low",
         "year":2024
     }
 ]

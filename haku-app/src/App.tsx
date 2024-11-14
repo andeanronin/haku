@@ -7,7 +7,7 @@ import SideBar from "./sideBar.tsx";
 
 // Mutual Funds
 import FundPage from "./mutualFunds/fundPage.tsx";
-import fundData from "./mutualFunds/data/fondos-mutuos-data-4.json";
+import fundData from "./mutualFunds/data/fondos-mutuos-data-oct24.json";
 import FundList from "./mutualFunds/fondosMutuosSquares.tsx";
 import FondosMutuosTable from "./mutualFunds/fondosMutuosTable";
 import FondosMutuos from "./mutualFunds/fondosMutuos.tsx";
@@ -53,7 +53,6 @@ const mergedAdminList: Set<AdminType> = new Set([
   ...etfAdmins,
   ...mutualFundAdmins,
 ]);
-console.log(mergedAdminList);
 const mergedAdminArray: AdminType[] = Array.from(mergedAdminList);
 
 // Bonos
