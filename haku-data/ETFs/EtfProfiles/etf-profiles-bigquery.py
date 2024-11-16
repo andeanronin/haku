@@ -21,8 +21,8 @@ os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = 'bigquery-service-key.json'
 client = bigquery.Client()
 
 # Define your project and dataset
-PROJECT_ID = 'acquired-talent-433423-d4'  # Replace with your Google Cloud project ID
-DATASET_ID = 'etf_profiles'     # Replace with your dataset name
+PROJECT_ID = 'acquired-talent-433423-d4'  # Google Cloud project ID
+DATASET_ID = 'etf_profiles'     # Dataset in Big Query to upload to
 
 # Create dataset if it doesn't exist
 dataset_ref = f"{PROJECT_ID}.{DATASET_ID}"

@@ -1,0 +1,92 @@
+[
+    {
+        "ticker":"JDST",
+        "name":"Direxion Daily Junior Gold Miners Index Bear 2X Shares",
+        "gestor":"Direxion",
+        "total_dividends":0.5004,
+        "january_close":6.83,
+        "latest_close":26.66,
+        "yearly_return_percentage":290.34
+    },
+    {
+        "ticker":"YINN",
+        "name":"Direxion Daily FTSE China Bull 3X Shares",
+        "gestor":"Direxion",
+        "total_dividends":0.1983,
+        "january_close":15.1,
+        "latest_close":51.83,
+        "yearly_return_percentage":243.25
+    },
+    {
+        "ticker":"NUGT",
+        "name":"DIREXION DAILY GOLD MINERS INDEX BULL 2X SHARES",
+        "gestor":"Direxion",
+        "total_dividends":0.3838,
+        "january_close":27.85,
+        "latest_close":48.93,
+        "yearly_return_percentage":75.69
+    },
+    {
+        "ticker":"JNUG",
+        "name":"DIREXION DAILY JUNIOR GOLD MINERS INDEX BULL 2X SHARES",
+        "gestor":"Direxion",
+        "total_dividends":0.6992,
+        "january_close":26.7,
+        "latest_close":46.74,
+        "yearly_return_percentage":75.06
+    },
+    {
+        "ticker":"CQQQ",
+        "name":"INVESCO CHINA TECHNOLOGY ETF",
+        "gestor":"Invesco",
+        "total_dividends":0.0,
+        "january_close":28.59,
+        "latest_close":47.77,
+        "yearly_return_percentage":67.09
+    },
+    {
+        "ticker":"KWEB",
+        "name":"KRANESHARES CSI CHINA INTERNET ETF",
+        "gestor":"Kraneshares",
+        "total_dividends":0.0,
+        "january_close":23.34,
+        "latest_close":38.41,
+        "yearly_return_percentage":64.57
+    },
+    {
+        "ticker":"FXI",
+        "name":"ISHARES CHINA LARGE - CAP ETF",
+        "gestor":"BlackRock",
+        "total_dividends":0.0848,
+        "january_close":21.76,
+        "latest_close":35.71,
+        "yearly_return_percentage":64.11
+    },
+    {
+        "ticker":"MCHI",
+        "name":"ISHARES MSCI CHINA ETF",
+        "gestor":"BlackRock",
+        "total_dividends":0.1905,
+        "january_close":36.54,
+        "latest_close":57.0,
+        "yearly_return_percentage":55.99
+    },
+    {
+        "ticker":"KBA",
+        "name":"KraneShares Bosera MSCI China A 50 Connect Index ETF",
+        "gestor":"Kraneshares",
+        "total_dividends":0.0,
+        "january_close":19.17,
+        "latest_close":29.49,
+        "yearly_return_percentage":53.83
+    },
+    {
+        "ticker":"GXC",
+        "name":"SPDR S&P CHINA ETF",
+        "gestor":"StateStreet",
+        "total_dividends":0.6261,
+        "january_close":60.7,
+        "latest_close":91.99,
+        "yearly_return_percentage":51.55
+    }
+]

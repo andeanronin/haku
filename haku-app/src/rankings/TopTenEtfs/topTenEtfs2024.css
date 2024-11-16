@@ -1,0 +1,42 @@
+.topTen-Table {
+  background-color: rgba(30, 36, 50);
+  width: 100%;
+  border-radius: 10px;
+}
+
+.topTen-Table th {
+  padding: 10px;
+  background-color: rgb(18, 20, 24);
+  color: aliceblue;
+  font-size: 1.1rem;
+}
+
+.topTen-Table tr:hover {
+  background-color: rgb(46, 56, 78);
+}
+.topTen-Table td {
+  color: aliceblue;
+  padding: 10px;
+  font-size: 0.9rem;
+}
+
+/* Conditional colors of the text in the Risk column */
+.topTen-Table .green {
+  color: rgb(0, 195, 0);
+}
+
+.topTen-Table .green-orange {
+  color: rgb(255, 217, 0);
+}
+
+.topTen-Table .orange {
+  color: orange;
+}
+
+.topTen-Table .orange-red {
+  color: rgb(255, 89, 0);
+}
+
+.topTen-Table .red {
+  color: red;
+}
