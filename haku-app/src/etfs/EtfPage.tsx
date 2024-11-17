@@ -11,26 +11,26 @@ import React from "react";
 import { EtfPageProps } from "../types/etfTypes";
 import { EtfProfile } from "../types/etfTypes"; // Update with correct paths
 
+// Helper Function to format decimals in percent
+const toPercentage = (decimal: number) => {
+  const valueInPercent = (decimal * 100).toFixed(2);
+  return valueInPercent;
+};
+
+// Helper Function to format large values in billions or millions
+const formatLargeNumbers = (value: string) => {
+  if (value.length >= 10) {
+    const inBillions = value.slice(0, -9);
+    return `${inBillions} Billion`;
+  } else if (value.length >= 7) {
+    const inMillions = value.slice(0, -6);
+    return `${inMillions} Million`;
+  } else {
+    return value;
+  }
+};
+
 function EtfsFundPage({ etfData, etfMonthlyValues }: EtfPageProps) {
-  // Helper Function to format decimals in percent
-  const toPercentage = (decimal: number) => {
-    const valueInPercent = (decimal * 100).toFixed(2);
-    return valueInPercent;
-  };
-
-  // Helper function to format large values in billions or millions
-  const formatLargeNumbers = (value: string) => {
-    if (value.length >= 10) {
-      const inBillions = value.slice(0, -9);
-      return `${inBillions} Billion`;
-    } else if (value.length >= 7) {
-      const inMillions = value.slice(0, -6);
-      return `${inMillions} Million`;
-    } else {
-      return value;
-    }
-  };
-
   // Flatten the EtfProfile for CSV
   const flattenEtfProfile = (data: EtfProfile) => {
     return {
