@@ -8,14 +8,14 @@ function FooterComponent({ show = true }) {
       <p className="footerText">Desarrollado x Haku Latam</p>
       <div className="footerLinksContainer">
         <a className="footerLink" href="https://github.com/andeanronin">
-          GitHub
+          {" "}
+          <img src="gitHubLogo.svg" alt="Github Logo" />
         </a>
         <a className="footerLink" href="https://x.com/HakuLatam">
-          {" "}
-          Twitter
+          <img src="xLogo.svg" alt="X Logo"></img>
         </a>
         <a className="footerLink" href="mailto:hakudata01@gmail.com">
-          Contact
+          <img src="mailLogo.svg"></img>
         </a>
       </div>
     </footer>

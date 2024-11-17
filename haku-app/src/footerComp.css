@@ -49,11 +49,14 @@
   position: relative;
   color: white;
   text-decoration: none;
+  padding: 5px;
+  border-radius: 2px;
 }
 
 .footerLink:hover {
   color: #ffd700;
-  transform: translateY(-2px);
+  transform: translateY(-10px);
+  background-color: #ffd700;
 }
 
 @media (max-width: 500px) {
