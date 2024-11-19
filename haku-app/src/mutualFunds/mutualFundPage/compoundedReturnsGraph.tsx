@@ -159,9 +159,7 @@ function CompoundedReturnsGraph({ fundData }: { fundData: MutualFundData }) {
   // CHART HEIGHTS (both bar chart & line chart) FOR DIFFERENT SCREENS
   useEffect(() => {
     const handleResize = () => {
-      if (window.innerWidth <= 450) {
-        setChartHeight(250);
-      } else if (window.innerWidth <= 768) {
+      if (window.innerWidth <= 768) {
         setChartHeight(300);
       } else if (window.innerWidth <= 925) {
         setChartHeight(350);

@@ -12,7 +12,7 @@
   align-items: flex-start;
   font-family: Arial, sans-serif;
   margin-top: -10px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 /* H2 styles */
@@ -100,85 +100,54 @@
   -moz-appearance: textfield;
 }
 
-/* Media Queries for Tablets */
+/* TABLETS */
 @media screen and (max-width: 1100px) {
+  /* 2 adjustments bellow just make the text in the heading smaller */
   #compoundReturnsGraph-Heading h2 {
     font-size: 1.4rem;
     margin-bottom: 10px;
   }
-
   #compoundReturnsGraph-Heading .content-wrapper {
     font-size: 0.9rem;
   }
 }
 
+/* TABLETS 2 */
 @media screen and (max-width: 768px) {
-  #compoundReturnsGraph-Heading {
-    padding: 0px 0px 3px 0px;
-    width: 95%;
-  }
-
   #compoundReturnsGraph-Heading h2 {
     font-size: 1.3rem;
-    margin-bottom: 8px;
-    background-color: transparent;
+    margin-bottom: 5px;
   }
 }
 
-/* Media Queries Phones */
+/* Phones */
 @media (max-width: 600px) {
   .compoundReturnsGraph-container {
-    background-color: transparent;
+    background-color: transparent; /* remove the background of the container */
     padding: 0px;
+    margin-top: 15px;
   }
 
-  #compoundReturnsGraph-Heading h2 {
-    font-size: 1.3rem;
-    margin-bottom: 0px;
-    margin-top: 10px;
+  #compoundReturnsGraph-Heading {
+    margin-bottom: -25px; /* to reduce distance between chart heading & chart */
   }
 
   #compoundReturnsGraph-Heading .content-wrapper {
-    display: none;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 8px;
-    font-size: 0.9rem;
+    display: none; /* hide the investment simulation component */
   }
 }
 
-/* Media Queries SMALL Phones */
+/* SMALL Phones */
 @media (max-width: 450px) {
-  #compoundReturnsGraph-Heading {
-    padding: 15px 0px 3px 5px;
-    width: 95%;
-  }
-
-  #compoundReturnsGraph-Heading h2 {
-    font-size: 18px;
-    margin-bottom: 6px;
-  }
-
   #compoundReturnsGraph-Heading.content-wrapper {
     gap: 5px;
     font-size: 0.55rem;
   }
 }
 
-/* Media Queries VERY SMALL Phones */
+/* VERY SMALL Phones */
 @media (max-width: 370px) {
-  /* Compound Returns Graph */
   #compoundReturnsGraph-Heading h2 {
-    font-size: 16px;
-    margin-bottom: 4px;
-  }
-
-  #compoundReturnsGraph-Heading .content-wrapper {
-    gap: 5px;
-    font-size: 0.5rem;
-  }
-
-  #compoundReturnsGraph-investmentInput {
-    width: 80%;
+    font-size: 17px;
   }
 }
