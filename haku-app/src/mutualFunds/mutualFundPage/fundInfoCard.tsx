@@ -1,5 +1,5 @@
-import data from "./data.json";
 import "./fundInfoCard.css";
+import { MutualFundData } from "../../types/mutualFundTypes";
 
 // Helper function to format currency values
 const formatCurrency = (value: number | null, currency: string): string => {
@@ -51,7 +51,7 @@ const formatDate = (dateString: string): string => {
   });
 };
 
-function FundInfoCard() {
+function FundInfoCard({ data }: { data: MutualFundData }) {
   return (
     <table className="mutualFund-infoTable">
       <tbody>

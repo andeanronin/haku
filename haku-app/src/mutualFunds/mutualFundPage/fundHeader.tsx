@@ -1,5 +1,6 @@
-import data from "./data.json";
 import "./fundHeader.css";
+import { MutualFundData } from "../../types/mutualFundTypes";
+
 // Helper function to format currency values
 const formatCurrency = (value: number | null, currency: string): string => {
   if (value === null) return "N/A";
@@ -19,7 +20,7 @@ const getReturnColor = (value: number | null) => {
   } else return "red";
 };
 
-function FundHeader() {
+function FundHeader({ data }: { data: MutualFundData }) {
   return (
     <header className="mutualFund-Header">
       <img src={data["Logo"]} className="mutualFund-header__logo"></img>
@@ -39,7 +40,7 @@ function FundHeader() {
             : "N/A"}
         </h2>
         <h3 className={getReturnColor(data.CAGR)}>
-          {(data.CAGR * 100).toFixed(2)}%
+          {data.CAGR === null ? "N/A" : (data.CAGR * 100).toFixed(2)}%
         </h3>
       </div>
     </header>

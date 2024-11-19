@@ -95,11 +95,6 @@
   margin: 0;
 }
 
-/* Remove spinner buttons for Firefox */
-#compoundReturnsGraph-investmentInput[type="number"] {
-  -moz-appearance: textfield;
-}
-
 /* TABLETS */
 @media screen and (max-width: 1100px) {
   /* 2 adjustments bellow just make the text in the heading smaller */

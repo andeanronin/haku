@@ -5,7 +5,6 @@ import {
   AreaChart,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   Legend,
   ResponsiveContainer,
@@ -161,10 +160,8 @@ function CompoundedReturnsGraph({ fundData }: { fundData: MutualFundData }) {
     const handleResize = () => {
       if (window.innerWidth <= 768) {
         setChartHeight(300);
-      } else if (window.innerWidth <= 925) {
-        setChartHeight(350);
       } else {
-        setChartHeight(300);
+        setChartHeight(350);
       }
     };
 

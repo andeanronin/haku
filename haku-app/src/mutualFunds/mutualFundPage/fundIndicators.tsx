@@ -1,5 +1,5 @@
-import data from "./data.json";
 import "./fundIndicators.css";
+import { MutualFundData } from "../../types/mutualFundTypes";
 
 const getReturnColor = (value: number | null) => {
   if (value === null) {
@@ -36,13 +36,13 @@ const getRiskColor = (value: string | null) => {
   }
 };
 
-function MutualFundIndicators() {
+function MutualFundIndicators({ data }: { data: MutualFundData }) {
   return (
     <div id="MutualFundIndicators-Container">
       <div>
         <p>Retorno Historico</p>
         <h3 className={getReturnColor(data.CAGR)}>
-          {(data.CAGR * 100).toFixed(2)}%
+          {data.CAGR === null ? "N/A" : (data.CAGR * 100).toFixed(2)}%
         </h3>
       </div>
       <div id="MutualFundIndicators-PrecioAccion">
@@ -56,13 +56,17 @@ function MutualFundIndicators() {
       </div>
       <div>
         <p>Sharpe Ratio</p>
-        <h3 className={getReturnColor(data.CAGR)}>
-          {data["Sharpe Ratio"].toFixed(2)}
+        <h3 className={getReturnColor(data["Sharpe Ratio"])}>
+          {data["Sharpe Ratio"] === null
+            ? "N/A"
+            : data["Sharpe Ratio"].toFixed(2)}
         </h3>
       </div>
       <div>
         <p>Riesgo</p>
-        <h3 className={getRiskColor(data.Risk)}>{data.Risk}</h3>
+        <h3 className={getRiskColor(data.Risk)}>
+          {data.Risk === null ? "N/A" : data.Risk}
+        </h3>
       </div>
     </div>
   );

@@ -1,5 +1,5 @@
-import data from "./data.json";
 import "./yearlyReturnsTable.css";
+import { MutualFundData } from "../../types/mutualFundTypes";
 
 // Helper function to format percentage values
 const formatPercentage = (value: number | null): string => {
@@ -17,7 +17,7 @@ const getReturnColor = (value: number | null) => {
   } else return "red";
 };
 
-function YearlyReturnsTable() {
+function YearlyReturnsTable({ data }: { data: MutualFundData }) {
   return (
     <table className="mutualFunds-yearlyReturnsTable">
       <thead>
