@@ -7,6 +7,7 @@ import FundInfoCard from "./fundInfoCard";
 import FundHeader from "./fundHeader";
 import CompoundedReturnsGraph from "./compoundedReturnsGraph";
 import MutualFundIndicators from "./fundIndicators";
+import YearlyReturnGraph from "./yearlyReturnGraph";
 
 function FundPageProto() {
   return (
@@ -22,6 +23,7 @@ function FundPageProto() {
         </div>
         <MutualFundIndicators />
         <YearlyReturnsTable />
+        <YearlyReturnGraph fundData={data} />
       </div>
 
       <FooterComponent />

@@ -7,6 +7,16 @@ const formatPercentage = (value: number | null): string => {
   return `${(value * 100).toFixed(2)}%`;
 };
 
+// Helper function to format color of return data
+const getReturnColor = (value: number | null) => {
+  if (value === null) {
+    return "";
+  }
+  if (value >= 0) {
+    return "green";
+  } else return "red";
+};
+
 function YearlyReturnsTable() {
   return (
     <table className="mutualFunds-yearlyReturnsTable">
@@ -26,38 +36,38 @@ function YearlyReturnsTable() {
         </tr>
       </thead>
       <tbody>
-        <tr className="fund-yearly-returns__row">
-          <td>
+        <tr className="mutualFunds-yearlyReturnsTable__row">
+          <td className={getReturnColor(data[`Rentabilidad ${2014}`])}>
             {formatPercentage(data[`Rentabilidad ${2014}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2015}`])}>
             {formatPercentage(data[`Rentabilidad ${2015}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2016}`])}>
             {formatPercentage(data[`Rentabilidad ${2016}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2017}`])}>
             {formatPercentage(data[`Rentabilidad ${2017}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2018}`])}>
             {formatPercentage(data[`Rentabilidad ${2018}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2019}`])}>
             {formatPercentage(data[`Rentabilidad ${2019}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2020}`])}>
             {formatPercentage(data[`Rentabilidad ${2020}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2021}`])}>
             {formatPercentage(data[`Rentabilidad ${2021}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2022}`])}>
             {formatPercentage(data[`Rentabilidad ${2022}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2023}`])}>
             {formatPercentage(data[`Rentabilidad ${2023}`] as number | null)}
           </td>
-          <td>
+          <td className={getReturnColor(data[`Rentabilidad ${2024}`])}>
             {formatPercentage(data[`Rentabilidad ${2024}`] as number | null)}
           </td>
         </tr>

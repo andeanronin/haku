@@ -1,0 +1,9 @@
+#yearlyReturnGraph-container {
+  width: 98%;
+}
+
+@media screen and (max-width: 925px) {
+  #yearlyReturnGraph-container {
+    width: 100%;
+  }
+}

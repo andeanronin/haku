@@ -157,54 +157,6 @@ html {
   width: 100%;
 }
 
-/* Yearly Returns Table */
-.fund-performance {
-  background-color: RGB(30, 36, 50);
-  padding: 2.5rem;
-  border-radius: 12px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
-  margin-bottom: 2.5rem;
-  width: 95%;
-}
-
-.fund-performance__title {
-  margin-top: 0;
-  color: #4a69bd;
-  font-size: 1.8rem;
-  font-weight: 700;
-  margin-bottom: 1.5rem;
-}
-
-.fund-yearly-returns {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 8px;
-  font-family: "Roboto", sans-serif;
-}
-
-.fund-yearly-returns__header {
-  background-color: #2e437c;
-  color: white;
-  text-transform: uppercase;
-  font-weight: 600;
-}
-
-.fund-yearly-returns__cell {
-  padding: 1rem;
-  text-align: center;
-  color: white;
-}
-
-.fund-yearly-returns__row {
-  background-color: rgb(70, 78, 96);
-  transition: transform 0.2s ease;
-}
-
-.fund-yearly-returns__row:hover {
-  transform: scale(1.02);
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-
 /* Buy BUTTON CSS */
 .buyButtonContainer {
   display: flex;
@@ -283,23 +235,6 @@ html {
   .stat-item__value {
     font-size: 0.95rem;
   }
-
-  /* Retornos Anuales Table */
-  .fund-performance {
-    width: 90%;
-  }
-
-  .fund-performance__title {
-    font-size: 1.4rem;
-  }
-
-  .fund-yearly-returns {
-    font-size: 0.9rem;
-  }
-
-  .fund-yearly-returns__cell {
-    padding: 0.8rem;
-  }
 }
 
 /* Media Queries Small tablets */
@@ -376,23 +311,6 @@ html {
 
   .stat-item__value {
     font-size: 0.7rem;
-  }
-
-  /* Retornos Anuales Table */
-  .fund-performance {
-    width: 86%;
-  }
-
-  .fund-performance h2 {
-    margin-bottom: 6px;
-  }
-
-  .fund-yearly-returns {
-    font-size: 0.7rem;
-  }
-
-  .fund-yearly-returns__cell {
-    padding: 0.6rem;
   }
 }
 
@@ -487,24 +405,6 @@ html {
     font-size: 0.9rem;
     align-self: flex-start;
   }
-
-  /* Retornos Anuales Table */
-  .fund-performance {
-    width: 100%;
-    padding: 1.5rem;
-  }
-
-  .fund-performance h2 {
-    margin-bottom: 4px;
-  }
-
-  .fund-yearly-returns {
-    font-size: 0.6rem;
-  }
-
-  .fund-yearly-returns__cell {
-    padding: 0.5rem;
-  }
 }
 
 /* Media Queries SMALL Phones */
@@ -575,24 +475,6 @@ html {
   .fund-indicators .info-item__value {
     font-size: 0.85rem;
     align-self: flex-start;
-  }
-
-  /* Retornos Anuales Table */
-  .fund-performance {
-    padding: 1.5rem;
-  }
-
-  .fund-performance h2 {
-    font-size: 18px;
-    margin-bottom: 2px;
-  }
-
-  .fund-yearly-returns {
-    font-size: 0.6rem;
-  }
-
-  .fund-yearly-returns__cell {
-    padding: 0.5rem;
   }
 
   /* BUY BUTON */
@@ -668,19 +550,5 @@ html {
 
   .fund-indicators .info-item__value {
     font-size: 0.7rem;
-  }
-
-  /* Retornos Anuales Table */
-  .fund-performance h2 {
-    font-size: 15px;
-    margin-bottom: 0px;
-  }
-
-  .fund-yearly-returns {
-    font-size: 0.64rem;
-  }
-
-  .fund-yearly-returns__cell {
-    padding: 0.5rem;
   }
 }

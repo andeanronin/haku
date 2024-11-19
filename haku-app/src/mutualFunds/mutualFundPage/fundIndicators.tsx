@@ -10,6 +10,16 @@ const getReturnColor = (value: number | null) => {
   } else return "red";
 };
 
+// Helper function to format currency values
+const formatCurrency = (value: number | null, currency: string): string => {
+  if (value === null) return "N/A";
+  return new Intl.NumberFormat("en-US", {
+    style: "currency",
+    currency: currency === "$" ? "USD" : "PEN",
+    minimumFractionDigits: 0,
+  }).format(value);
+};
+
 const getRiskColor = (value: string | null) => {
   if (value === null) {
     return undefined;
@@ -33,6 +43,15 @@ function MutualFundIndicators() {
         <p>Retorno Historico</p>
         <h3 className={getReturnColor(data.CAGR)}>
           {(data.CAGR * 100).toFixed(2)}%
+        </h3>
+      </div>
+      <div id="MutualFundIndicators-PrecioAccion">
+        <p>Precio Acción</p>
+        <h3>
+          {" "}
+          {data["Valor Cuota"] !== null
+            ? formatCurrency(data["Valor Cuota"], data["Moneda Cuota"])
+            : "N/A"}
         </h3>
       </div>
       <div>

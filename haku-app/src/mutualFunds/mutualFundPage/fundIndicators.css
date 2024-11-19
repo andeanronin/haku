@@ -17,3 +17,18 @@
     margin: 20px 0px 20px 0px;
   }
 }
+
+@media screen and (max-width: 600px) {
+  #MutualFundIndicators-Container {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #MutualFundIndicators-Container {
+    font-size: 12px;
+  }
+  #MutualFundIndicators-PrecioAccion {
+    display: none;
+  }
+}

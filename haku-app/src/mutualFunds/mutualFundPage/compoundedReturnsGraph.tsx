@@ -146,7 +146,7 @@ function CompoundedReturnsGraph({ fundData }: { fundData: MutualFundData }) {
   // Event listener to handle wether  Y-axis and X-axis LABELS show or not depending on SCREEN width
   useEffect(() => {
     const handleResize = () => {
-      setShowYaxisLabelLineChart(window.innerWidth >= 768);
+      setShowYaxisLabelLineChart(window.innerWidth >= 600);
       setShowXaxisLabel(window.innerWidth >= 768); // hides X-axis Label on BOTH charts in screens smaller than 768
     };
 
@@ -160,8 +160,6 @@ function CompoundedReturnsGraph({ fundData }: { fundData: MutualFundData }) {
   useEffect(() => {
     const handleResize = () => {
       if (window.innerWidth <= 450) {
-        setChartHeight(180);
-      } else if (window.innerWidth <= 600) {
         setChartHeight(250);
       } else if (window.innerWidth <= 768) {
         setChartHeight(300);
@@ -182,11 +180,11 @@ function CompoundedReturnsGraph({ fundData }: { fundData: MutualFundData }) {
   useEffect(() => {
     const resizeLineChartMargin = () => {
       if (window.innerWidth <= 450) {
-        setLineChartMargin({ top: 10, right: 5, left: -35, bottom: -10 });
+        setLineChartMargin({ top: 10, right: 5, left: -20, bottom: -10 });
       } else if (window.innerWidth <= 768) {
-        setLineChartMargin({ top: 10, right: 5, left: -30, bottom: -5 });
+        setLineChartMargin({ top: 10, right: 5, left: -20, bottom: -5 });
       } else if (window.innerWidth <= 1100) {
-        setLineChartMargin({ top: 10, right: 5, left: -30, bottom: 0 });
+        setLineChartMargin({ top: 10, right: 5, left: -20, bottom: 0 });
       } else {
         setLineChartMargin({ top: 10, right: 15, left: -5, bottom: 0 });
       }
@@ -255,7 +253,8 @@ function CompoundedReturnsGraph({ fundData }: { fundData: MutualFundData }) {
             }
             tick={tickStyle}
           />
-          <YAxis />
+          {showYaxisLabelLineChart ? <YAxis /> : undefined}
+
           <Tooltip formatter={(value) => `$ ${Number(value).toFixed(2)}`} />
           <Legend
             verticalAlign="bottom"
