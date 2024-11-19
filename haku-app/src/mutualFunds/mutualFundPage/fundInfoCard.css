@@ -1,0 +1,26 @@
+/* info table */
+.mutualFund-infoTable {
+  background-color: rgba(30, 36, 50);
+  color: white;
+  border-radius: 10px;
+}
+
+.mutualFund-infoTable tr:hover {
+  background-color: rgb(46, 55, 75);
+}
+
+.mutualFund-infoTable td {
+  font-size: 0.9rem;
+  padding: 10px 20px 10px 20px;
+  margin: 0px;
+}
+
+.mutualFund-infoTable__datapoint {
+  color: #4a69bd;
+}
+
+@media screen and (max-width: 925px) {
+  .mutualFund-infoTable {
+    display: none;
+  }
+}

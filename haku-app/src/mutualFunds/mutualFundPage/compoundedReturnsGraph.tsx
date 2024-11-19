@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useMemo } from "react";
-import "./CompoundReturnChart.css";
+import "./compoundedReturnsGraph.css";
 import {
   Area,
   AreaChart,
@@ -11,7 +11,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import { MutualFundData } from "../types/mutualFundTypes";
+import { MutualFundData } from "../../types/mutualFundTypes";
 
 // The Data Format for Recharts anual return Graph
 type ChartData = {
@@ -50,45 +50,46 @@ const rechartsFormat = (
   }
 };
 
-function CompoundedReturnsChart({ fundData }: { fundData: MutualFundData }) {
-  // Helper Function to get Object with yearly compounded returns
-  const getCompoundReturns = (
-    fund: { [key: string]: any },
-    initialInvestment: number
-  ) => {
-    const keys = Object.keys(fund);
-    const rentabilidadKeys = keys
-      .filter((key) => key.startsWith("Rentabilidad"))
-      .sort();
+// Helper Function to get Object with yearly compounded returns
+const getCompoundReturns = (
+  fund: { [key: string]: any },
+  initialInvestment: number
+) => {
+  const keys = Object.keys(fund);
+  const rentabilidadKeys = keys
+    .filter((key) => key.startsWith("Rentabilidad"))
+    .sort();
 
-    let accumulatedValue = initialInvestment;
-    const compoundReturns: { [key: string]: number } = {};
+  let accumulatedValue = initialInvestment;
+  const compoundReturns: { [key: string]: number } = {};
 
-    // Find the first non-null rentabilidad year
-    const firstNonNullYear = rentabilidadKeys.find((key) => fund[key] !== null);
+  // Find the first non-null rentabilidad year
+  const firstNonNullYear = rentabilidadKeys.find((key) => fund[key] !== null);
 
-    if (firstNonNullYear) {
-      const firstYear = parseInt(firstNonNullYear.split(" ")[1]);
-      const initialInvestmentYear = `Rentabilidad ${firstYear - 1}`;
-      compoundReturns[initialInvestmentYear] = initialInvestment;
+  if (firstNonNullYear) {
+    const firstYear = parseInt(firstNonNullYear.split(" ")[1]);
+    const initialInvestmentYear = `Rentabilidad ${firstYear - 1}`;
+    compoundReturns[initialInvestmentYear] = initialInvestment;
 
-      rentabilidadKeys.forEach((key) => {
-        const year = parseInt(key.split(" ")[1]);
-        if (year >= firstYear && fund[key] !== null) {
-          accumulatedValue *= 1 + fund[key];
-          compoundReturns[key] = accumulatedValue;
-        }
-      });
-    }
+    rentabilidadKeys.forEach((key) => {
+      const year = parseInt(key.split(" ")[1]);
+      if (year >= firstYear && fund[key] !== null) {
+        accumulatedValue *= 1 + fund[key];
+        compoundReturns[key] = accumulatedValue;
+      }
+    });
+  }
 
-    return compoundReturns;
-  };
+  return compoundReturns;
+};
+
+function CompoundedReturnsGraph({ fundData }: { fundData: MutualFundData }) {
   // State Variables
   const [userInvestment, setUserInvestment] = useState<number>(100);
   const [compoundedReturns, setCompoundedReturns] = useState<CompoundReturns>(
     getCompoundReturns(fundData, userInvestment)
   );
-  const [chartHeight, setChartHeight] = useState(500); // use to set BOTH CHART'S heights depending on screen size
+  const [chartHeight, setChartHeight] = useState(400); // use to set BOTH CHART'S heights depending on screen size
   const [showYaxisLabelLineChart, setShowYaxisLabelLineChart] = useState(true);
   const [showXaxisLabel, setShowXaxisLabel] = useState(true);
   // State Variable to control Line Chart Margins for different screen sizes :
@@ -160,12 +161,14 @@ function CompoundedReturnsChart({ fundData }: { fundData: MutualFundData }) {
     const handleResize = () => {
       if (window.innerWidth <= 450) {
         setChartHeight(180);
-      } else if (window.innerWidth <= 768) {
+      } else if (window.innerWidth <= 600) {
         setChartHeight(250);
-      } else if (window.innerWidth <= 1100) {
+      } else if (window.innerWidth <= 768) {
+        setChartHeight(300);
+      } else if (window.innerWidth <= 925) {
         setChartHeight(350);
       } else {
-        setChartHeight(500);
+        setChartHeight(300);
       }
     };
 
@@ -175,15 +178,17 @@ function CompoundedReturnsChart({ fundData }: { fundData: MutualFundData }) {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  // RESIZING MARGINS for LINE CHART based on SCREEN WIDTH (adapts line chart for different screen sizes)
+  // RESIZING MARGINS for CHART based on SCREEN WIDTH (adapts line chart for different screen sizes)
   useEffect(() => {
     const resizeLineChartMargin = () => {
       if (window.innerWidth <= 450) {
         setLineChartMargin({ top: 10, right: 5, left: -35, bottom: -10 });
       } else if (window.innerWidth <= 768) {
         setLineChartMargin({ top: 10, right: 5, left: -30, bottom: -5 });
+      } else if (window.innerWidth <= 1100) {
+        setLineChartMargin({ top: 10, right: 5, left: -30, bottom: 0 });
       } else {
-        setLineChartMargin({ top: 10, right: 15, left: 10, bottom: 0 });
+        setLineChartMargin({ top: 10, right: 15, left: -5, bottom: 0 });
       }
     };
 
@@ -217,29 +222,30 @@ function CompoundedReturnsChart({ fundData }: { fundData: MutualFundData }) {
   }, []);
 
   return (
-    <section className="compound-returns">
-      <div id="retornoAcumulado-Graph-Heading">
+    <div className="compoundReturnsGraph-container">
+      <div id="compoundReturnsGraph-Heading">
         <h2>Retorno Acumulado</h2>
         <div className="content-wrapper">
           <label htmlFor="investment-input" style={{ color: "white" }}>
-            <span>Inversión:</span>
+            <span>Si invertiste:</span>
             <input
-              id="investment-input"
+              id="compoundReturnsGraph-investmentInput"
               type="number"
               value={userInvestment}
               onChange={handleInvestmentInputChange}
             />
           </label>
           <p>
-            <span>Valor Actual:</span>
-            {compoundedReturns["Rentabilidad 2024"].toFixed()} despues de{" "}
-            {fundData["Cumulative Return Period"]} años
+            <span>Tendrias:</span>
+            <span id="valor-inversion-final">
+              {compoundedReturns["Rentabilidad 2024"].toFixed()}
+            </span>{" "}
+            despues de {fundData["Cumulative Return Period"]} años
           </p>
         </div>
       </div>
       <ResponsiveContainer width="100%" height={chartHeight}>
         <AreaChart data={compoundedReturnsChartData} margin={lineChartMargin}>
-          <CartesianGrid strokeDasharray="3 3" />
           <XAxis
             dataKey="year"
             label={
@@ -249,22 +255,7 @@ function CompoundedReturnsChart({ fundData }: { fundData: MutualFundData }) {
             }
             tick={tickStyle}
           />
-          <YAxis
-            label={
-              showYaxisLabelLineChart
-                ? {
-                    value: "Valor de Inversion",
-                    angle: -90,
-                    position: "insideLeft",
-                    offset: 0,
-                  }
-                : undefined
-            }
-            domain={[0, yAxisMax]}
-            ticks={yAxisTicks}
-            tick={tickStyle}
-            tickFormatter={(value) => `${value.toFixed(0)}`}
-          />
+          <YAxis />
           <Tooltip formatter={(value) => `$ ${Number(value).toFixed(2)}`} />
           <Legend
             verticalAlign="bottom"
@@ -281,8 +272,8 @@ function CompoundedReturnsChart({ fundData }: { fundData: MutualFundData }) {
           />
         </AreaChart>
       </ResponsiveContainer>
-    </section>
+    </div>
   );
 }
 
-export default CompoundedReturnsChart;
+export default CompoundedReturnsGraph;

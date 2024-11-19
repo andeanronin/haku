@@ -1,0 +1,15 @@
+/* Fund Returns Table */
+.mutualFunds-yearlyReturnsTable {
+  background-color: rgba(30, 36, 50);
+  padding: 10px;
+  border-radius: 10px;
+  width: 93vw;
+}
+
+.mutualFunds-yearlyReturnsTable td {
+  padding: 10px;
+}
+
+.mutualFunds-yearlyReturnsTable__year {
+  color: white;
+}

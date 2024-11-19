@@ -1,0 +1,184 @@
+/* CONTAINER */
+.compoundReturnsGraph-container {
+  background-color: rgb(30, 36, 50);
+  padding: 2.5rem;
+  border-radius: 12px;
+}
+
+/* HEADING CONTAINER */
+#compoundReturnsGraph-Heading {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  font-family: Arial, sans-serif;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+/* H2 styles */
+#compoundReturnsGraph-Heading h2 {
+  color: #4a69bd;
+  font-size: 1.5em;
+  margin: 0 0 10px 0;
+  width: 100%;
+}
+
+/* Wrapper for label and p */
+#compoundReturnsGraph-Heading .content-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  gap: 30px;
+  margin-left: 0px;
+}
+
+#compoundReturnsGraph-Heading span {
+  margin-right: 10px;
+}
+
+#valor-inversion-final {
+  color: #4a69bd;
+  font-size: 1.17em;
+}
+
+/* Label styles */
+#compoundReturnsGraph-Heading label[for="investment-input"] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+/* Input styles */
+#compoundReturnsGraph-investmentInput {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+  padding: 8px 10px;
+  color: #4a69bd;
+  font-size: 1.17em;
+  transition: all 0.3s ease;
+  outline: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  width: 120px;
+  padding-bottom: 1px;
+  margin-top: -6px;
+}
+
+#compoundReturnsGraph-investmentInput:hover {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-bottom-color: rgba(255, 255, 255, 0.05);
+}
+
+#compoundReturnsGraph-investmentInput:focus {
+  background-color: rgba(22, 156, 239, 0.15);
+  border-bottom-color: rgb(22, 156, 239);
+  box-shadow: 0 4px 8px rgba(22, 156, 239, 0.2);
+}
+
+/* Paragraph styles */
+#compoundReturnsGraph-Heading p {
+  color: white;
+  font-size: 1em;
+  margin: 0;
+  flex-shrink: 0;
+  display: flex;
+  align-items: center;
+}
+
+/* Remove spinner buttons for WebKit browsers */
+#compoundReturnsGraph-investmentInput::-webkit-outer-spin-button,
+#compoundReturnsGraph-investmentInput::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Remove spinner buttons for Firefox */
+#compoundReturnsGraph-investmentInput[type="number"] {
+  -moz-appearance: textfield;
+}
+
+/* Media Queries for Tablets */
+@media screen and (max-width: 1100px) {
+  #compoundReturnsGraph-Heading h2 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+  }
+
+  #compoundReturnsGraph-Heading .content-wrapper {
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #compoundReturnsGraph-Heading {
+    padding: 0px 0px 3px 0px;
+    width: 95%;
+  }
+
+  #compoundReturnsGraph-Heading h2 {
+    font-size: 1.3rem;
+    margin-bottom: 8px;
+    background-color: transparent;
+  }
+}
+
+/* Media Queries Phones */
+@media (max-width: 600px) {
+  .compoundReturnsGraph-container {
+    background-color: transparent;
+    padding: 0px;
+  }
+
+  #compoundReturnsGraph-Heading h2 {
+    font-size: 1.3rem;
+    margin-bottom: 0px;
+    margin-top: 10px;
+  }
+
+  #compoundReturnsGraph-Heading .content-wrapper {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+    font-size: 0.9rem;
+  }
+}
+
+/* Media Queries SMALL Phones */
+@media (max-width: 450px) {
+  #compoundReturnsGraph-Heading {
+    padding: 15px 0px 3px 5px;
+    width: 95%;
+  }
+
+  #compoundReturnsGraph-Heading h2 {
+    font-size: 18px;
+    margin-bottom: 6px;
+  }
+
+  #compoundReturnsGraph-Heading.content-wrapper {
+    gap: 5px;
+    font-size: 0.55rem;
+  }
+}
+
+/* Media Queries VERY SMALL Phones */
+@media (max-width: 370px) {
+  /* Compound Returns Graph */
+  #compoundReturnsGraph-Heading h2 {
+    font-size: 16px;
+    margin-bottom: 4px;
+  }
+
+  #compoundReturnsGraph-Heading .content-wrapper {
+    gap: 5px;
+    font-size: 0.5rem;
+  }
+
+  #compoundReturnsGraph-investmentInput {
+    width: 80%;
+  }
+}

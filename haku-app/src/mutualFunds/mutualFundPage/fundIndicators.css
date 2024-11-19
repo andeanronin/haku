@@ -1,0 +1,19 @@
+#MutualFundIndicators-Container {
+  display: none;
+}
+
+#MutualFundIndicators-Container:first-child {
+  padding-left: 20px;
+}
+
+@media screen and (max-width: 925px) {
+  #MutualFundIndicators-Container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    border-top: solid 5px rgb(30, 36, 50);
+    border-bottom: solid 5px rgb(30, 36, 50);
+    margin: 20px 0px 20px 0px;
+  }
+}
