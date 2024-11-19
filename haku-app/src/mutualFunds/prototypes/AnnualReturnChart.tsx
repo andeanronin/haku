@@ -12,7 +12,7 @@ import {
   Cell,
 } from "recharts";
 
-import { MutualFundData } from "../types/mutualFundTypes";
+import { MutualFundData } from "../../types/mutualFundTypes";
 
 // The Data Format for Recharts anual return Graph
 type ChartData = {
