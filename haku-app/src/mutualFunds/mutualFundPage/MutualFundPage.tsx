@@ -1,7 +1,6 @@
 import FooterComponent from "../../footerComp";
 import Navbar from "../../Navbar";
 import "./fundPageProto.css";
-import data from "./data.json";
 import YearlyReturnsTable from "./yearlyReturnsTable";
 import FundInfoCard from "./fundInfoCard";
 import FundHeader from "./fundHeader";
@@ -9,8 +8,9 @@ import CompoundedReturnsGraph from "./compoundedReturnsGraph";
 import MutualFundIndicators from "./fundIndicators";
 import YearlyReturnGraph from "./yearlyReturnGraph";
 import DonwloadFundDataButton from "./downloadFundData";
+import { MutualFundData } from "../../types/mutualFundTypes";
 
-function FundPageProto() {
+function MutualFundPage({ data }: { data: MutualFundData }) {
   return (
     <>
       <Navbar />
@@ -33,4 +33,4 @@ function FundPageProto() {
   );
 }
 
-export default FundPageProto;
+export default MutualFundPage;

@@ -6,12 +6,11 @@ import About from "./About.tsx";
 import SideBar from "./sideBar.tsx";
 
 // Mutual Funds
-import FundPage from "./mutualFunds/fundPage.tsx";
 import fundData from "./mutualFunds/data/fondos-mutuos-data-oct24.json";
 import FundList from "./mutualFunds/fondosMutuosSquares.tsx";
 import FondosMutuosTable from "./mutualFunds/fondosMutuosTable";
 import FondosMutuos from "./mutualFunds/fondosMutuos.tsx";
-import FundPageProto from "./mutualFunds/mutualFundPage/fundPageProto.tsx";
+import MutualFundPage from "./mutualFunds/mutualFundPage/MutualFundPage.tsx";
 
 // Fondos Inversion
 import FondosInversion from "./fondosInversion/fondosInversion.tsx";
@@ -77,14 +76,13 @@ function App() {
           />
           <Route path="/fondos-mutuos-list" element={<FundList />} />
           <Route path="/fondos-mutuos" element={<FondosMutuos />} />
-          <Route path="mutualFundPrototype" element={<FundPageProto />} />
           {fundData.map((fund) => {
             const path = `/fund/${fund["Fund id"]}`;
             return (
               <Route
                 key={path}
                 path={path}
-                element={<FundPage fundData={fund} />}
+                element={<MutualFundPage data={fund} />}
               />
             );
           })}

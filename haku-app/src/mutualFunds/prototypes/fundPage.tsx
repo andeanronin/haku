@@ -2,11 +2,11 @@
 
 import "./FundPage.css";
 import Papa from "papaparse";
-import FooterComponent from "../footerComp";
-import Navbar from "../Navbar";
+import FooterComponent from "../../footerComp";
+import Navbar from "../../Navbar";
 import CompoundedReturnsChart from "./CompoundReturnChart";
 import AnnualReturnsChart from "./AnnualReturnChart";
-import { MutualFundData } from "../types/mutualFundTypes";
+import { MutualFundData } from "../../types/mutualFundTypes";
 
 // Helper function to format date strings
 const formatDate = (dateString: string): string => {
