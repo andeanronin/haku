@@ -86,7 +86,7 @@ function EtfsFundPage({ etfData, etfMonthlyValues }: EtfPageProps) {
         <div id="etfPage-Heading">
           <img
             src={`/logosGestoresEtfs/${etfData["logo"]}`}
-            className="fundPage-fund-header__logo"
+            className="etfPage-header__logo"
           ></img>
           <div>
             <h2>{etfData["name"]}</h2>

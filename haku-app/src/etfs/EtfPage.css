@@ -24,6 +24,13 @@
   margin-top: 0;
 }
 
+.etfPage-header__logo {
+  height: 10vh;
+  border: 1px solid gray;
+  border-radius: 150px;
+  margin-right: 10px;
+}
+
 /* FUND INDICATOR BOXES */
 
 #etfPage-heading-indicadores {
@@ -102,6 +109,10 @@
 }
 
 @media screen and (max-width: 1050px) {
+  .etfPage-header__logo {
+    height: 8vh;
+  }
+
   #etfPage-generalData {
     width: 90%;
   }
@@ -142,6 +153,9 @@
 }
 
 @media screen and (max-width: 700px) {
+  .etfPage-header__logo {
+    height: 8vh;
+  }
   /* Section with etf's general data */
   #etfPage-generalData {
     grid-template-columns: 1fr;
@@ -187,6 +201,9 @@
 }
 
 @media screen and (max-width: 500px) {
+  .etfPage-header__logo {
+    height: 7vh;
+  }
   #etfPage-generalData {
     gap: 0.8rem;
   }
