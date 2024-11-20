@@ -15,7 +15,7 @@ import { EtfPageProps } from "../../types/etfTypes";
 
 function EtfsFundPage({ etfData, etfMonthlyValues }: EtfPageProps) {
   return (
-    <>
+    <div id="etfPage-wrapper">
       <Navbar />
       <div id="etfPage-Container">
         <EtfPageHeading etfData={etfData} etfMonthlyValues={etfMonthlyValues} />
@@ -46,7 +46,7 @@ function EtfsFundPage({ etfData, etfMonthlyValues }: EtfPageProps) {
         />
       </div>
       <FooterComponent />
-    </>
+    </div>
   );
 }
 

@@ -68,10 +68,10 @@
   }
   #etfPage-Heading h3 {
     font-size: 16px;
-    margin-left: 5px;
   }
   #etfPage-Heading strong {
-    font-size: 10px;
+    font-size: 9px;
+    padding-right: 0.5rem;
   }
   .etfPage-header__logo {
     height: 9vh;
