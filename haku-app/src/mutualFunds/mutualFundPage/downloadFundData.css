@@ -1,0 +1,29 @@
+.downloadFundData-button {
+  background-color: #2e437c;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  height: 60px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 1.5em;
+  font-family: Menlo, monospace;
+  margin-top: 20px;
+}
+
+.downloadFundData-button:hover {
+  background-color: #394e8a;
+}
+
+@media screen and (max-width: 600px) {
+  .downloadFundData-button {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .downloadFundData-button {
+    font-size: 1em;
+    height: 50px;
+  }
+}

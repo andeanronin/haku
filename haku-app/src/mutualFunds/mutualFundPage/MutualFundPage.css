@@ -1,0 +1,52 @@
+.mutualFundPage-wrapper {
+  width: 100%;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+#fundPage-container {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+#fundPage-container-2 {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 1rem;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+@media screen and (max-width: 925px) {
+  #fundPage-container {
+    margin: 0px;
+    padding-right: 50px;
+    padding-left: 50px;
+    flex-direction: column;
+  }
+  /* necessary to overide display:grid from desktop view*/
+  #fundPage-container-2 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #fundPage-container {
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #fundPage-container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

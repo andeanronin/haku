@@ -1,6 +1,6 @@
 import FooterComponent from "../../footerComp";
 import Navbar from "../../Navbar";
-import "./fundPageProto.css";
+import "./MutualFundPage.css";
 import YearlyReturnsTable from "./yearlyReturnsTable";
 import FundInfoCard from "./fundInfoCard";
 import FundHeader from "./fundHeader";
@@ -12,7 +12,7 @@ import { MutualFundData } from "../../types/mutualFundTypes";
 
 function MutualFundPage({ data }: { data: MutualFundData }) {
   return (
-    <>
+    <div className="mutualFundPage-wrapper">
       <Navbar />
       <div id="fundPage-container">
         <FundHeader data={data} />
@@ -29,7 +29,7 @@ function MutualFundPage({ data }: { data: MutualFundData }) {
       </div>
 
       <FooterComponent />
-    </>
+    </div>
   );
 }
 

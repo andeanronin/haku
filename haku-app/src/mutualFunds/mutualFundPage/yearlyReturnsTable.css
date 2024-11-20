@@ -3,7 +3,7 @@
   background-color: rgba(30, 36, 50);
   padding: 10px;
   border-radius: 10px;
-  width: 98%;
+  width: 100%;
 }
 
 .mutualFunds-yearlyReturnsTable td {
@@ -19,9 +19,6 @@
 
 /* Media Screen Adjustments */
 @media screen and (max-width: 925px) {
-  .mutualFunds-yearlyReturnsTable {
-    width: 100%;
-  }
   .mutualFunds-yearlyReturnsTable td {
     padding: 5px;
     font-size: 14px;
@@ -36,12 +33,17 @@
 }
 
 @media screen and (max-width: 600px) {
+  .mutualFunds-yearlyReturnsTable {
+    display: none;
+  }
+  /*
   .mutualFunds-yearlyReturnsTable td {
     padding: 2px;
     font-size: 10px;
-  }
+  }*/
 }
 
+/*
 @media screen and (max-width: 450px) {
   .mutualFunds-yearlyReturnsTable {
     padding: 5px;
@@ -63,3 +65,4 @@
     font-size: 6px;
   }
 }
+*/

@@ -84,7 +84,7 @@
     margin-bottom: 0px;
   }
   .mutualFund-header__logo {
-    height: 8vh;
+    height: 7vh;
     margin-right: 8px;
   }
   .mutualFund-header__title {
@@ -100,5 +100,21 @@
 
   #mutualFund-Header-indicators h2:first-child {
     margin-right: 10px;
+  }
+}
+
+@media (max-width: 350px) {
+  .mutualFund-header__logo {
+    height: 6vh;
+  }
+  .mutualFund-header__title {
+    font-size: 0.6rem;
+  }
+  .mutualFund-header__type {
+    font-size: 0.45rem;
+  }
+  #mutualFund-Header-indicators h2,
+  #mutualFund-Header-indicators h3 {
+    font-size: 0.7rem;
   }
 }

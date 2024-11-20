@@ -1,5 +1,6 @@
 import Papa from "papaparse";
 import { MutualFundData } from "../../types/mutualFundTypes";
+import "./downloadFundData.css";
 
 function DonwloadFundDataButton({ fundData }: { fundData: MutualFundData }) {
   // Function to allow user to download data to csv
