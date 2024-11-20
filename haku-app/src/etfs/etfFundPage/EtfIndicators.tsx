@@ -10,7 +10,7 @@ const getReturnColor = (value: number | null) => {
   } else return "red";
 };
 
-// Apply color to risk categories
+/*
 const getRiskColor = (value: string | null) => {
   if (value === null) {
     return undefined;
@@ -25,7 +25,7 @@ const getRiskColor = (value: string | null) => {
   } else {
     return "red";
   }
-};
+};*/
 
 // Helper Function to format decimals in percent
 const toPercentage = (decimal: number) => {
