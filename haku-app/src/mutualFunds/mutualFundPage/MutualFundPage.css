@@ -22,6 +22,11 @@
   box-sizing: border-box;
 }
 
+#mutualFundPage-RetornosAnuales__heading {
+  color: white;
+  border-bottom: 4px solid rgba(30, 36, 50);
+}
+
 /* TABLETS */
 @media screen and (max-width: 925px) {
   #fundPage-container {

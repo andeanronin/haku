@@ -17,6 +17,7 @@
 
 .mutualFund-infoTable__datapoint {
   color: #4a69bd;
+  font-weight: bold;
 }
 
 @media screen and (max-width: 925px) {

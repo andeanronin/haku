@@ -9,13 +9,13 @@ function FooterComponent({ show = true }) {
       <div className="footerLinksContainer">
         <a className="footerLink" href="https://github.com/andeanronin">
           {" "}
-          <img src="gitHubLogo.svg" alt="Github Logo" />
+          <img src="gitHubLogo.svg" alt="Github" />
         </a>
         <a className="footerLink" href="https://x.com/HakuLatam">
-          <img src="xLogo.svg" alt="X Logo"></img>
+          <img src="xLogo.svg" alt="X/Twitter"></img>
         </a>
         <a className="footerLink" href="mailto:hakudata01@gmail.com">
-          <img src="mailLogo.svg"></img>
+          <img src="mailLogo.svg" alt="Mail"></img>
         </a>
       </div>
     </footer>

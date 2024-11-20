@@ -23,6 +23,7 @@ function MutualFundPage({ data }: { data: MutualFundData }) {
           <FundInfoCard data={data} />
         </div>
         <MutualFundIndicators data={data} />
+        <p id="mutualFundPage-RetornosAnuales__heading">Retornos Anuales</p>
         <YearlyReturnsTable data={data} />
         <YearlyReturnGraph fundData={data} />
         <DonwloadFundDataButton fundData={data} />

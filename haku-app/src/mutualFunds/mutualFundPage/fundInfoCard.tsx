@@ -51,6 +51,32 @@ const formatDate = (dateString: string): string => {
   });
 };
 
+// Conditionally applies CSS class (red/green) based on data point value
+const getReturnColor = (value: number | null) => {
+  if (value === null) {
+    return "";
+  }
+  if (value >= 0) {
+    return "green";
+  } else return "red";
+};
+
+// Apply color to risk categories
+const getRiskColor = (value: string | null) => {
+  if (value === null) {
+    return undefined;
+  } else if (value === "Low") {
+    return "green";
+  } else if (value === "Medium Low") {
+    return "green-orange";
+  } else if (value === "Medium") {
+    return "orange";
+  } else if (value === "Medium High") {
+    return "orange-red";
+  } else {
+    return "red";
+  }
+};
 function FundInfoCard({ data }: { data: MutualFundData }) {
   return (
     <table className="mutualFund-infoTable">
@@ -58,78 +84,96 @@ function FundInfoCard({ data }: { data: MutualFundData }) {
         <tr>
           <td>Gestor</td>
           <td className="mutualFund-infoTable__datapoint">
-            {data.Administradora}
+            <strong>{data.Administradora}</strong>
           </td>
         </tr>
         <tr>
           <td>Fecha de Inicio</td>
           <td className="mutualFund-infoTable__datapoint">
-            {formatDate(data["Fec. Inicio Operación"])}
+            <strong>{formatDate(data["Fec. Inicio Operación"])}</strong>
           </td>
         </tr>
         <tr>
           <td>Moneda</td>
           <td className="mutualFund-infoTable__datapoint">
-            {data["Moneda Cuota"]}
+            <strong>{data["Moneda Cuota"]}</strong>
           </td>
         </tr>
         <tr>
           <td>Valor Cuota Actual</td>
           <td className="mutualFund-infoTable__datapoint">
-            {data["Valor Cuota"] !== null
-              ? formatCurrency(data["Valor Cuota"], data["Moneda Cuota"])
-              : "N/A"}
+            <strong>
+              {data["Valor Cuota"] !== null
+                ? formatCurrency(data["Valor Cuota"], data["Moneda Cuota"])
+                : "N/A"}
+            </strong>
           </td>
         </tr>
         <tr>
           <td>AUM</td>
           <td className="mutualFund-infoTable__datapoint">
-            {data["Patrimonio S/."] === null
-              ? "N/A"
-              : formatCurrency(data["Patrimonio S/."], "PEN")}
+            <strong>
+              {data["Patrimonio S/."] === null
+                ? "N/A"
+                : formatCurrency(data["Patrimonio S/."], "PEN")}
+            </strong>
           </td>
         </tr>
         <tr>
           <td>Participes</td>
           <td className="mutualFund-infoTable__datapoint">
-            {data["Partícipes N"] === null ? "N/A" : data["Partícipes N"]}
+            <strong>
+              {data["Partícipes N"] === null ? "N/A" : data["Partícipes N"]}
+            </strong>
           </td>
         </tr>
         <tr>
           <td>Retorno Historico (CAGR)</td>
-          <td className="mutualFund-infoTable__datapoint">
-            {data.CAGR === null ? "N/A" : (data.CAGR * 100).toFixed(2)}%
+          <td
+            className={`mutualFund-infoTable__datapoint ${getReturnColor(
+              data.CAGR
+            )}`}
+          >
+            <strong>
+              {data.CAGR === null ? "N/A" : (data.CAGR * 100).toFixed(2)}%
+            </strong>
           </td>
         </tr>
         <tr>
           <td>Riesgo</td>
-          <td className="mutualFund-infoTable__datapoint">
+          <td className={getRiskColor(data.Risk)}>
             {data.Risk === null ? "N/A" : data.Risk}
           </td>
         </tr>
         <tr>
           <td>Sharpe Ratio</td>
-          <td className="mutualFund-infoTable__datapoint">
-            {data["Sharpe Ratio"] === null
-              ? "N/A"
-              : data["Sharpe Ratio"].toFixed(2)}
+          <td className={getReturnColor(data["Sharpe Ratio"])}>
+            <strong>
+              {data["Sharpe Ratio"] === null
+                ? "N/A"
+                : data["Sharpe Ratio"].toFixed(2)}
+            </strong>
           </td>
         </tr>
         <tr>
           <td>Retorno Acumulado</td>
-          <td className="mutualFund-infoTable__datapoint">
-            {data["Total Cumulative Return"] === null
-              ? "N/A"
-              : (data["Total Cumulative Return"] * 100).toFixed(2)}
-            %
+          <td className={getReturnColor(data["Total Cumulative Return"])}>
+            <strong>
+              {data["Total Cumulative Return"] === null
+                ? "N/A"
+                : (data["Total Cumulative Return"] * 100).toFixed(2)}
+              %
+            </strong>
           </td>
         </tr>
         <tr>
           <td>Cumulative Return Period</td>
           <td className="mutualFund-infoTable__datapoint">
-            {data["Cumulative Return Period"] === null
-              ? "N/A"
-              : `${data["Cumulative Return Period"]} años`}
+            <strong>
+              {data["Cumulative Return Period"] === null
+                ? "N/A"
+                : `${data["Cumulative Return Period"]} años`}
+            </strong>
           </td>
         </tr>
       </tbody>
