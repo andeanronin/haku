@@ -1,6 +1,6 @@
 // Top Holdings Table
 import "./etfTopHoldings.css";
-import { EtfProfile } from "../types/etfTypes";
+import { EtfProfile } from "../../types/etfTypes";
 
 function EtfTopHoldings({ data }: { data: EtfProfile }) {
   const fundHoldings = data["holdings"];

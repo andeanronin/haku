@@ -1,0 +1,69 @@
+/* Content Container */
+#etfPage-Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 70px;
+  padding-bottom: 50px;
+  padding-left: 80px;
+  padding-right: 40px;
+  box-sizing: border-box;
+}
+
+#etfPage-Container-2 {
+  width: 100%;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: 2fr 1fr;
+}
+
+/* FUND INDICATOR SECTION */
+#etfPage-heading-indicadores {
+  color: white;
+  margin-bottom: 0.8rem;
+}
+
+/* Asset & Sector Allocation Charts */
+.etfPage-allocationCharts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+/* TABLETS */
+@media screen and (max-width: 925px) {
+  #etfPage-Container {
+    padding-right: 50px;
+    padding-left: 50px;
+  }
+
+  #etfPage-Container-2 {
+    display: flex;
+    flex-direction: column;
+  }
+  /* asset & sector allocation charts */
+  .etfPage-allocationCharts {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* PHONES */
+@media screen and (max-width: 600px) {
+  #etfPage-Container {
+    padding-top: 80px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  #etfPage-Container {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+}

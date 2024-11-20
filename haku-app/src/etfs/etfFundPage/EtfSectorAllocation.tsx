@@ -1,6 +1,6 @@
 // Pie Chart of Etf Sector Allocations
 import "./EtfSectorAllocation.css";
-import { EtfProfile } from "../types/etfTypes";
+import { EtfProfile } from "../../types/etfTypes";
 
 import {
   ResponsiveContainer,
@@ -81,7 +81,7 @@ function EtfSectorAllocation({ data }: { data: EtfProfile }) {
   });
 
   return (
-    <div className="etfPage-chartContainer-sector">
+    <div id="etfPage-SectorChart-Container">
       <h2>Sector Exposure</h2>
       <div
         style={{

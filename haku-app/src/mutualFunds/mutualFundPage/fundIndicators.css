@@ -1,5 +1,6 @@
 #MutualFundIndicators-Container {
   display: none;
+  width: 100%;
 }
 
 #MutualFundIndicators-Container:first-child {

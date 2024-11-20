@@ -1,12 +1,11 @@
 // Historical Monthly Values
 import "./etfPriceChart.css";
-import { EtfMonthlyValues } from "../types/etfTypes";
+import { EtfMonthlyValues } from "../../types/etfTypes";
 import {
   AreaChart,
   Area,
   XAxis,
   YAxis,
-  CartesianGrid,
   Tooltip,
   ResponsiveContainer,
 } from "recharts";
@@ -18,6 +17,7 @@ interface DataPoint {
 }
 
 function EtfHistoricalValues({ data }: { data: EtfMonthlyValues }) {
+  // Adapt data for Recharts
   let monthlyData = data["Monthly Adjusted Time Series"];
   const chartData: DataPoint[] = Object.entries(monthlyData)
     .map(([date, values]) => ({
@@ -31,11 +31,10 @@ function EtfHistoricalValues({ data }: { data: EtfMonthlyValues }) {
 
   // Adapt chart size for smaller screen sizes
   const [chartHeight, setChartHeight] = useState(400);
-
   useEffect(() => {
     const resizeChart = () => {
       if (innerWidth <= 500) {
-        setChartHeight(220);
+        setChartHeight(280);
       } else if (innerWidth <= 700) {
         setChartHeight(300);
       } else {
@@ -48,6 +47,20 @@ function EtfHistoricalValues({ data }: { data: EtfMonthlyValues }) {
     resizeChart();
   });
 
+  // Hide Y-axis Label for Screens smaller than 600px
+  const [showYaxisLabel, setShowYaxisLabel] = useState(true);
+  // Event listener to handle wether  Y-axis and X-axis LABELS show or not depending on SCREEN width
+  useEffect(() => {
+    const handleResize = () => {
+      setShowYaxisLabel(window.innerWidth >= 600);
+    };
+
+    window.addEventListener("resize", handleResize);
+    handleResize(); // Call once to set initial state
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+
   return (
     <div id="etfPriceChart-container">
       <h2>Valor Cuota Historico</h2>
@@ -56,9 +69,8 @@ function EtfHistoricalValues({ data }: { data: EtfMonthlyValues }) {
           data={chartData}
           margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
         >
-          <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="date" />
-          <YAxis />
+          {showYaxisLabel ? <YAxis /> : undefined}
           <Tooltip />
           <Area
             type="monotone"

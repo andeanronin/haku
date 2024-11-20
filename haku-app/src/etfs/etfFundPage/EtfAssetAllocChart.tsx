@@ -2,7 +2,7 @@
 import "./EtfAssetAllocChart.css";
 import { useEffect, useMemo } from "react";
 import { useState } from "react";
-import { EtfProfile } from "../types/etfTypes";
+import { EtfProfile } from "../../types/etfTypes";
 import {
   PieChart,
   Pie,
@@ -65,7 +65,7 @@ function EtfAssetAllocationChart({ data }: { data: EtfProfile }) {
 
   // Create Pie Chart
   return (
-    <div className="etfPage-chartContainer">
+    <div id="etfPage-AssetChart-Container">
       <h2>Asset Allocation</h2>
       <div
         style={{

@@ -1,7 +1,7 @@
 /*  */
 #etfPriceChart-container {
   background-color: rgba(30, 36, 50);
-  width: 80%;
+  width: 100%;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
@@ -15,11 +15,24 @@
 
 @media screen and (max-width: 1050px) {
   #etfPriceChart-container {
-    width: 90%;
+    width: 100%;
   }
 }
 
 @media screen and (max-width: 700px) {
+  #etfPriceChart-container h2 {
+    font-size: 18px;
+  }
+
+  #etfPriceChart-container p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  #etfPriceChart-container {
+    background-color: transparent;
+  }
   #etfPriceChart-container h2 {
     font-size: 18px;
   }

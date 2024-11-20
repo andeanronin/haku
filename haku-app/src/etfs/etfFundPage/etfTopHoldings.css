@@ -3,7 +3,7 @@
 #etfTopHoldings-container {
   background-color: rgba(30, 36, 50);
   color: white;
-  width: 80%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -38,9 +38,6 @@
 }
 
 @media screen and (max-width: 1050px) {
-  #etfTopHoldings-container {
-    width: 90%;
-  }
   #etfTopHoldings-container h2 {
     font-size: 20px;
   }
