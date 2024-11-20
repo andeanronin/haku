@@ -22,6 +22,7 @@
   box-sizing: border-box;
 }
 
+/* TABLETS */
 @media screen and (max-width: 925px) {
   #fundPage-container {
     margin: 0px;
@@ -36,6 +37,7 @@
   }
 }
 
+/* PHONES */
 @media screen and (max-width: 600px) {
   #fundPage-container {
     padding-top: 80px;

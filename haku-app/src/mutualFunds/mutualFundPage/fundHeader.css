@@ -7,6 +7,10 @@
   margin-bottom: 20px;
 }
 
+#mutualFund-Header-Content {
+  display: flex;
+}
+
 .mutualFund-header__logo {
   height: 9vh;
   border: 1px solid gray;
@@ -14,6 +18,7 @@
   margin-right: 10px;
 }
 
+/* fund title and type */
 .mutualFund-header__title {
   margin-top: 0.5rem;
   margin-bottom: 0px;
@@ -63,15 +68,24 @@
 }
 
 @media (max-width: 600px) {
+  #mutualFund-Header-Content {
+    flex-direction: column;
+  }
+
   .mutualFund-header__title {
-    font-size: 0.9rem;
+    font-size: 1rem;
+    margin-top: 0.1rem;
   }
   .mutualFund-header__type {
-    font-size: 0.6rem;
+    font-size: 0.7rem;
+  }
+  #mutualFund-Header-indicators {
+    margin-left: 0px;
   }
   #mutualFund-Header-indicators h2,
   #mutualFund-Header-indicators h3 {
     font-size: 0.9rem;
+    margin-top: 0px;
   }
 
   #mutualFund-Header-indicators h2:first-child {
@@ -83,35 +97,29 @@
   .mutualFund-Header {
     margin-bottom: 0px;
   }
-  .mutualFund-header__logo {
-    height: 7vh;
-    margin-right: 8px;
-  }
+
   .mutualFund-header__title {
-    font-size: 0.7rem;
+    font-size: 0.9rem;
   }
   .mutualFund-header__type {
-    font-size: 0.5rem;
+    font-size: 0.6rem;
   }
+
   #mutualFund-Header-indicators h2,
   #mutualFund-Header-indicators h3 {
     font-size: 0.8rem;
-  }
-
-  #mutualFund-Header-indicators h2:first-child {
-    margin-right: 10px;
   }
 }
 
 @media (max-width: 350px) {
   .mutualFund-header__logo {
-    height: 6vh;
+    height: 8vh;
   }
   .mutualFund-header__title {
-    font-size: 0.6rem;
+    font-size: 0.8rem;
   }
   .mutualFund-header__type {
-    font-size: 0.45rem;
+    font-size: 0.55rem;
   }
   #mutualFund-Header-indicators h2,
   #mutualFund-Header-indicators h3 {

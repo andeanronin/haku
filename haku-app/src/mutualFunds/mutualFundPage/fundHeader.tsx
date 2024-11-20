@@ -24,24 +24,26 @@ function FundHeader({ data }: { data: MutualFundData }) {
   return (
     <header className="mutualFund-Header">
       <img src={data["Logo"]} className="mutualFund-header__logo"></img>
-      <div>
-        <h1 className="mutualFund-header__title">{data["Fondo Mutuo"]}</h1>
-        <p className="mutualFund-header__type">
-          Tipo de Fondo: {data["Tipo Fondo"]}{" "}
-          {data["Tipo Fondo"] === data["Categoria"]
-            ? ""
-            : ` - ${data["Categoria"]}`}
-        </p>
-      </div>
-      <div id="mutualFund-Header-indicators">
-        <h2>
-          {data["Valor Cuota"] !== null
-            ? formatCurrency(data["Valor Cuota"], data["Moneda Cuota"])
-            : "N/A"}
-        </h2>
-        <h3 className={getReturnColor(data.CAGR)}>
-          {data.CAGR === null ? "N/A" : (data.CAGR * 100).toFixed(2)}%
-        </h3>
+      <div id="mutualFund-Header-Content">
+        <div>
+          <h1 className="mutualFund-header__title">{data["Fondo Mutuo"]}</h1>
+          <p className="mutualFund-header__type">
+            Tipo de Fondo: {data["Tipo Fondo"]}{" "}
+            {data["Tipo Fondo"] === data["Categoria"]
+              ? ""
+              : ` - ${data["Categoria"]}`}
+          </p>
+        </div>
+        <div id="mutualFund-Header-indicators">
+          <h2>
+            {data["Valor Cuota"] !== null
+              ? formatCurrency(data["Valor Cuota"], data["Moneda Cuota"])
+              : "N/A"}
+          </h2>
+          <h3 className={getReturnColor(data.CAGR)}>
+            {data.CAGR === null ? "N/A" : (data.CAGR * 100).toFixed(2)}%
+          </h3>
+        </div>
       </div>
     </header>
   );
