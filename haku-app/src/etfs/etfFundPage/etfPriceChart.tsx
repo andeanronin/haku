@@ -38,7 +38,7 @@ function EtfHistoricalValues({ data }: { data: EtfMonthlyValues }) {
       } else if (innerWidth <= 700) {
         setChartHeight(300);
       } else {
-        setChartHeight(400);
+        setChartHeight(350);
       }
     };
 
@@ -67,7 +67,7 @@ function EtfHistoricalValues({ data }: { data: EtfMonthlyValues }) {
       <ResponsiveContainer width="100%" height={chartHeight}>
         <AreaChart
           data={chartData}
-          margin={{ top: 10, right: 30, left: 0, bottom: 0 }}
+          margin={{ top: 10, right: 30, left: 0, bottom: -5 }}
         >
           <XAxis dataKey="date" />
           {showYaxisLabel ? <YAxis /> : undefined}

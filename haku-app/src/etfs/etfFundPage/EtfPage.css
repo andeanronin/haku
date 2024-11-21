@@ -19,7 +19,8 @@
   width: 100%;
   display: grid;
   gap: 1rem;
-  grid-template-columns: 2fr 1fr;
+  grid-template-columns: 2.5fr 1fr;
+  height: 100%;
 }
 
 /* FUND INDICATOR SECTION */

@@ -1,0 +1,27 @@
+/* info table */
+.etfPage-infoTable {
+  background-color: rgba(30, 36, 50);
+  color: white;
+  border-radius: 10px;
+}
+
+.etfPage-infoTable tr:hover {
+  background-color: rgb(46, 55, 75);
+}
+
+.etfPage-infoTable td {
+  font-size: 0.9rem;
+  padding: 10px 20px 10px 20px;
+  margin: 0px;
+}
+
+.etfPage-infoTable__datapoint {
+  color: #4a69bd;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 925px) {
+  .etfPage-infoTable {
+    display: none;
+  }
+}

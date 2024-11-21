@@ -1,4 +1,5 @@
 import { EtfPageProps } from "../../types/etfTypes";
+import "./EtfIndicators.css";
 
 // Conditionally applies CSS class (red/green) based on data point value
 const getReturnColor = (value: number | null) => {
@@ -48,17 +49,17 @@ const formatLargeNumbers = (value: string) => {
 
 function EtfIndicators({ etfData, etfMonthlyValues }: EtfPageProps) {
   return (
-    <table className="mutualFund-infoTable">
+    <table className="etfPage-infoTable">
       <tbody>
         <tr>
           <td>AUM</td>
-          <td className="mutualFund-infoTable__datapoint">
+          <td className="etfPage-infoTable__datapoint">
             <strong>${formatLargeNumbers(etfData["net_assets"])}</strong>
           </td>
         </tr>
         <tr>
           <td>Net Expense Ratio</td>
-          <td className="mutualFund-infoTable__datapoint">
+          <td className="etfPage-infoTable__datapoint">
             <strong>
               {toPercentage(Number(etfData["net_expense_ratio"]))}%
             </strong>
@@ -66,19 +67,19 @@ function EtfIndicators({ etfData, etfMonthlyValues }: EtfPageProps) {
         </tr>
         <tr>
           <td>Fecha de Inicio</td>
-          <td className="mutualFund-infoTable__datapoint">
+          <td className="etfPage-infoTable__datapoint">
             <strong>{etfData.inception_date}</strong>
           </td>
         </tr>
         <tr>
           <td>Portfolio Turnover</td>
-          <td className="mutualFund-infoTable__datapoint">
+          <td className="etfPage-infoTable__datapoint">
             <strong>{toPercentage(Number(etfData.portfolio_turnover))}%</strong>
           </td>
         </tr>
         <tr>
           <td>Dividend Yield</td>
-          <td className="mutualFund-infoTable__datapoint">
+          <td className="etfPage-infoTable__datapoint">
             <strong>{toPercentage(Number(etfData["dividend_yield"]))}%</strong>
           </td>
         </tr>
@@ -96,7 +97,7 @@ function EtfIndicators({ etfData, etfMonthlyValues }: EtfPageProps) {
         </tr>
         <tr>
           <td>Riesgo (Standard Dev)</td>
-          <td className="mutualFund-infoTable__datapoint">
+          <td className="etfPage-infoTable__datapoint">
             <strong>
               {etfMonthlyValues["Meta Data"]["6. Stdev of Returns"]?.toFixed(2)}
             </strong>
@@ -104,7 +105,11 @@ function EtfIndicators({ etfData, etfMonthlyValues }: EtfPageProps) {
         </tr>
         <tr>
           <td>Sharpe Ratio</td>
-          <td className={`mutualFund-infoTable__datapoint`}>
+          <td
+            className={`mutualFund-infoTable__datapoint ${getReturnColor(
+              etfMonthlyValues["Meta Data"]["7. Sharpe Ratio"]
+            )}`}
+          >
             <strong>
               {etfMonthlyValues["Meta Data"]["7. Sharpe Ratio"]?.toFixed(3)}
             </strong>

@@ -2,14 +2,13 @@
 #etfPriceChart-container {
   background-color: rgba(30, 36, 50);
   width: 100%;
+  height: 100%;
+  padding-top: 5px;
+  padding-bottom: 0px;
   border-radius: 12px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-bottom: 2rem;
-}
-
-#etfPriceChart-container {
   color: #4a69bd;
 }
 
