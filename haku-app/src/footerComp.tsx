@@ -7,7 +7,7 @@ function FooterComponent({ show = true }) {
     <footer className="footer">
       <p className="footerText">Desarrollado x Haku Latam</p>
       <div className="footerLinksContainer">
-        <a className="footerLink" href="https://github.com/andeanronin">
+        <a className="footerLink" href="https://github.com/andeanronin/haku">
           {" "}
           <img src="gitHubLogo.svg" alt="Github" />
         </a>
